@@ -15,6 +15,7 @@ interface BlogPost {
   metaTitle: string | null;
   metaDescription: string | null;
   publishedAt: Date | null;
+  status: string;
   author: {
     name: string;
     email: string;
@@ -37,6 +38,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
       metaTitle: blogPosts.metaTitle,
       metaDescription: blogPosts.metaDescription,
       publishedAt: blogPosts.publishedAt,
+      status: blogPosts.status,
       author: adminUsers,
       category: blogCategories,
     })
@@ -46,7 +48,13 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
     .where(eq(blogPosts.slug, slug))
     .limit(1);
 
-  return posts[0] as BlogPost || null;
+  const post = posts[0] as BlogPost;
+  
+  if (!post || post.status !== 'published') {
+    return null;
+  }
+
+  return post;
 }
 
 export async function generateMetadata({

@@ -63,16 +63,28 @@ Preferred communication style: Simple, everyday language.
 
 ### Data Storage
 
+**Database**: PostgreSQL (Neon-backed via Replit)
+- Drizzle ORM for type-safe database queries
+- PostgreSQL database for blog content and admin authentication
+- Database migrations managed via `npm run db:push`
+- Environment variables for database connection (DATABASE_URL, etc.)
+
+**Database Schema**:
+- `admin_users`: Secure admin authentication with bcrypt-hashed passwords
+- `blog_posts`: WordPress-like blog posts with rich content, SEO metadata, and status management
+- `blog_categories`: Post categorization system
+- `blog_tags`: Tagging system for posts
+- `post_tags`: Many-to-many relationship between posts and tags
+
 **Client-Side Storage**:
-- LocalStorage for optional user data persistence
+- LocalStorage for calculator data persistence (optional)
 - Storage quota management system (`StorageManager` class)
 - 5MB storage limit with automatic cleanup mechanisms
-- No server-side database or persistent storage
 - Storage error handling with user notifications
 
 **Storage Strategy**:
 - All calculator inputs are ephemeral by default
-- Optional blog/admin features using localStorage
+- Blog content stored in PostgreSQL database
 - Storage usage monitoring and quota exceeded events
 - Emergency cleanup procedures when approaching limits
 
@@ -89,6 +101,54 @@ Preferred communication style: Simple, everyday language.
 - Associated educational article with title and HTML content
 - Calculator configuration with fields and calculation function
 - Results display configuration
+
+**Blog Management System** (Added November 8, 2025):
+- WordPress-style blog CMS with admin panel
+- Secure authentication with bcrypt password hashing
+- Rich text editor (React Quill) for content creation
+- Complete SEO features (meta title, description, keywords)
+- Category and tag organization
+- Draft/Published status management
+- Featured images and excerpts
+- Public-facing blog pages at `/blog`
+- Admin panel at `/admin` with dashboard, post management, categories, and tags
+
+**Blog Features**:
+- Create, edit, delete blog posts
+- Rich WYSIWYG editor with formatting, images, links, and tables
+- Auto-generated slugs from titles
+- Author attribution
+- Publication date tracking
+- View counts
+- Category-based organization
+- Tag-based filtering
+- SEO-optimized with custom meta tags
+- Responsive design matching site theme
+
+**Admin Panel Access**:
+- Login page: `/admin/login`
+- Dashboard: `/admin/dashboard`
+- Posts management: `/admin/blog/posts`
+- Categories: `/admin/blog/categories`
+- Tags: `/admin/blog/tags`
+- Session-based authentication with HMAC-signed secure cookies
+
+**Security Implementation**:
+- Bcrypt password hashing (10 rounds) for admin credentials
+- HMAC-SHA256 signed session cookies to prevent forgery
+- Session secret management:
+  * Uses SESSION_SECRET environment variable if provided
+  * Throws error in production if SESSION_SECRET not set
+  * Derives secure secret from DATABASE_URL in development
+- All admin API endpoints protected with authentication
+- Draft posts are not accessible via public routes
+- includeUnpublished parameter requires authentication
+- HttpOnly, SameSite, and Secure cookies in production
+
+**Production Deployment Requirements**:
+- Set SESSION_SECRET environment variable with a strong random secret (recommended: 64+ characters)
+- Ensure DATABASE_URL is configured correctly
+- Admin credentials seeded via `npm run db:seed` script
 
 ### Visualization & Reporting
 

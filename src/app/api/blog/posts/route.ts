@@ -10,6 +10,17 @@ export async function GET(request: NextRequest) {
     const status = searchParams.get('status');
     const includeUnpublished = searchParams.get('includeUnpublished') === 'true';
 
+    if (includeUnpublished) {
+      try {
+        await requireAuth();
+      } catch {
+        return NextResponse.json(
+          { error: 'Unauthorized' },
+          { status: 401 }
+        );
+      }
+    }
+
     let query = db
       .select({
         post: blogPosts,

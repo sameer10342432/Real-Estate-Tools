@@ -9,6 +9,7 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    await requireAuth();
     const { id } = await params;
     const [post] = await db.select().from(blogPosts).where(eq(blogPosts.id, parseInt(id))).limit(1);
 

@@ -3,11 +3,48 @@ import { cookies } from 'next/headers';
 import { db } from '../../server/storage';
 import { adminUsers } from '../../shared/schema';
 import { eq } from 'drizzle-orm';
+import crypto from 'crypto';
 
 export interface AdminUser {
   id: number;
   email: string;
   name: string;
+}
+
+function getSessionSecret(): string {
+  if (process.env.SESSION_SECRET) {
+    return process.env.SESSION_SECRET;
+  }
+  
+  if (process.env.NODE_ENV === 'production') {
+    throw new Error('SESSION_SECRET environment variable must be set in production');
+  }
+  
+  if (!process.env.DATABASE_URL) {
+    throw new Error('DATABASE_URL or SESSION_SECRET environment variable must be set');
+  }
+  
+  const hash = crypto.createHash('sha256');
+  hash.update(process.env.DATABASE_URL);
+  hash.update('session-secret-salt-v1');
+  const derivedSecret = hash.digest('hex');
+  
+  console.warn('WARNING: Using derived session secret from DATABASE_URL. Set SESSION_SECRET environment variable for production.');
+  
+  return derivedSecret;
+}
+
+const SESSION_SECRET = getSessionSecret();
+
+function signData(data: string): string {
+  const hmac = crypto.createHmac('sha256', SESSION_SECRET);
+  hmac.update(data);
+  return hmac.digest('hex');
+}
+
+function verifySignature(data: string, signature: string): boolean {
+  const expectedSignature = signData(data);
+  return crypto.timingSafeEqual(Buffer.from(signature), Buffer.from(expectedSignature));
 }
 
 export async function verifyPassword(password: string, hashedPassword: string): Promise<boolean> {
@@ -22,8 +59,10 @@ export async function createSession(userId: number, email: string, name: string)
   const cookieStore = await cookies();
   const sessionData = JSON.stringify({ userId, email, name });
   const encodedSession = Buffer.from(sessionData).toString('base64');
+  const signature = signData(encodedSession);
+  const signedSession = `${encodedSession}.${signature}`;
   
-  cookieStore.set('admin_session', encodedSession, {
+  cookieStore.set('admin_session', signedSession, {
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
     sameSite: 'lax',
@@ -41,7 +80,18 @@ export async function getSession(): Promise<AdminUser | null> {
       return null;
     }
 
-    const sessionData = Buffer.from(session.value, 'base64').toString('utf-8');
+    const parts = session.value.split('.');
+    if (parts.length !== 2) {
+      return null;
+    }
+
+    const [encodedSession, signature] = parts;
+    
+    if (!verifySignature(encodedSession, signature)) {
+      return null;
+    }
+
+    const sessionData = Buffer.from(encodedSession, 'base64').toString('utf-8');
     const user = JSON.parse(sessionData) as AdminUser;
     
     const dbUser = await db.select().from(adminUsers).where(eq(adminUsers.id, user.id)).limit(1);
