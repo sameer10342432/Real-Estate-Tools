@@ -9,6 +9,7 @@ export const headerContent = {
     { href: '/dashboard', label: 'Dashboard' },
     { href: '/favorites', label: 'Favorites' },
     { href: '/blog', label: 'Blog' },
+    { href: '/admin/dashboard', label: 'Admin' },
     { href: '/contact', label: 'Contact' },
   ],
 };
