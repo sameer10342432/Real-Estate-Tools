@@ -3,12 +3,8 @@
 import { useEffect, useState } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import AdminLayout from '@/components/admin/AdminLayout';
-import dynamic from 'next/dynamic';
-
-const RichTextEditor = dynamic(() => import('@/components/admin/RichTextEditor'), {
-  ssr: false,
-  loading: () => <div className="h-[400px] bg-gray-100 rounded animate-pulse"></div>,
-});
+import BlockEditor, { ContentBlock } from '@/components/admin/BlockEditor';
+import { blocksToHTML, htmlToBlocks } from '@/lib/blockUtils';
 
 interface Category {
   id: number;
@@ -44,6 +40,8 @@ export default function EditBlogPostPage() {
     tags: [] as number[],
   });
 
+  const [contentBlocks, setContentBlocks] = useState<ContentBlock[]>([]);
+
   useEffect(() => {
     loadData();
   }, [postId]);
@@ -76,6 +74,8 @@ export default function EditBlogPostPage() {
           categoryId: postData.post.categoryId?.toString() || '',
           tags: postData.post.tags?.map((t: any) => t.id) || [],
         });
+        
+        setContentBlocks(htmlToBlocks(postData.post.content || ''));
       }
 
       setCategories(categoriesData.categories || []);
@@ -92,11 +92,14 @@ export default function EditBlogPostPage() {
     setSaving(true);
 
     try {
+      const htmlContent = blocksToHTML(contentBlocks);
+      
       const response = await fetch(`/api/blog/posts/${postId}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...formData,
+          content: htmlContent,
           categoryId: formData.categoryId ? parseInt(formData.categoryId) : null,
         }),
       });
@@ -183,13 +186,12 @@ export default function EditBlogPostPage() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Content *
+                <label className="block text-sm font-medium text-gray-700 mb-4">
+                  Content * <span className="text-xs text-gray-500">(Add headings, paragraphs, and images)</span>
                 </label>
-                <RichTextEditor
-                  value={formData.content}
-                  onChange={(value) => setFormData({ ...formData, content: value })}
-                  placeholder="Write your blog post content here..."
+                <BlockEditor
+                  value={contentBlocks}
+                  onChange={setContentBlocks}
                 />
               </div>
 
