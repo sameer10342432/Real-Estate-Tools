@@ -62,7 +62,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   }
 
   const navItems = [
-    { href: '/admin/dashboard', label: 'Dashboard', icon: '📊' },
+    { href: '/admin/dashboard', label: 'CMS Panel', icon: '📊' },
     { href: '/admin/blog/posts', label: 'Blog Posts', icon: '📝' },
     { href: '/admin/blog/categories', label: 'Categories', icon: '📁' },
     { href: '/admin/blog/tags', label: 'Tags', icon: '🏷️' },
@@ -75,7 +75,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <Link href="/admin/dashboard" className="text-xl font-bold text-blue-600">
-                Property Tools Admin
+                Property Tools CMS
               </Link>
             </div>
 

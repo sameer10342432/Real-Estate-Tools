@@ -67,7 +67,7 @@ export default function AdminDashboard() {
     <AdminLayout>
       <div className="max-w-7xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Dashboard</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">CMS Panel</h1>
           <p className="text-gray-600">Welcome to your blog management system</p>
         </div>
 

@@ -57,7 +57,7 @@ export async function hashPassword(password: string): Promise<string> {
 
 export async function createSession(userId: number, email: string, name: string) {
   const cookieStore = await cookies();
-  const sessionData = JSON.stringify({ userId, email, name });
+  const sessionData = JSON.stringify({ id: userId, email, name });
   const encodedSession = Buffer.from(sessionData).toString('base64');
   const signature = signData(encodedSession);
   const signedSession = `${encodedSession}.${signature}`;
