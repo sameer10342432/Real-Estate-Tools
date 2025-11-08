@@ -23,7 +23,11 @@ export const CAPITAL_GAIN_TAX_CALCULATOR_CONTENT: CalculatorContent = {
   `,
 },
   calculator: {
-    results: [],
+    results: [
+      { label: 'Capital Gain', isCurrency: true },
+      { label: 'Applicable Tax Rate (%)', isCurrency: false },
+      { label: 'Estimated Tax', isCurrency: true },
+    ],
     fields: [
       {
         name: 'purchasePrice',
@@ -84,7 +88,7 @@ export const CAPITAL_GAIN_TAX_CALCULATOR_CONTENT: CalculatorContent = {
 
       return [
         { label: 'Capital Gain', value: capitalGain, isCurrency: true },
-        { label: 'Applicable Tax Rate', value: taxRate * 100, isPercentage: true },
+        { label: 'Applicable Tax Rate (%)', value: taxRate * 100, isCurrency: false },
         { label: 'Estimated Tax', value: taxAmount, isCurrency: true },
       ];
     },

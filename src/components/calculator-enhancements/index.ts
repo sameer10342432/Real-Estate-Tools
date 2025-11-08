@@ -7,5 +7,6 @@ export { NotesPanel } from './NotesPanel';
 export { ComparisonMatrix } from './ComparisonMatrix';
 export { FavoriteButton } from './FavoriteButton';
 export { WhatIfAnalysis } from './WhatIfAnalysis';
+export { EnhancementDock } from './EnhancementDock';
 export { AdvancedCharts } from './AdvancedCharts';
 export { ResultsVisualization } from './ResultsVisualization';
