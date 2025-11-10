@@ -1,0 +1,120 @@
+1,FHA Loan Calculator
+2,VA Loan Calculator
+3,USDA Loan Calculator
+4,Jumbo Loan Calculator
+5,FHA 203k Loan Calculator
+6,VA Loan Funding Fee Calculator
+7,FHA MIP Calculator
+8,PMI (Private Mortgage Insurance) Calculator
+9,PMI Removal Calculator
+10,FHA vs. Conventional Loan Analyzer
+11,VA vs. Conventional Loan Comparison
+12,USDA Loan Eligibility Checker
+13,FHA Loan Limit Finder
+14,VA Loan Entitlement Calculator
+15,Debt-to-Income (DTI) Ratio Calculator
+16,Loan-to-Value (LTV) Calculator
+17,Mortgage Pre-Approval Calculator
+18,Mortgage Rate by Credit Score Estimator
+19,Credit Score Improvement Simulator (for Mortgage)
+20,DTI Calculator for FHA Loans
+21,DTI Calculator for VA Loans
+22,DTI Calculator for Conventional Loans
+23,Front-End DTI Calculator
+24,Back-End DTI Calculator
+25,Rapid Rescore ROI Calculator
+26,Points vs. No-Points Mortgage Calculator
+27,Mortgage Discount Points Calculator
+28,Rate-and-Term Refinance Calculator
+29,Cash-Out Refinance Calculator
+30,HELOC vs. Cash-Out Refinance
+31,Net Proceeds from Home Sale Calculator
+32,Seller's Net Sheet
+33,Home Staging ROI Calculator
+34,Curb Appeal ROI Calculator
+35,FSBO (For Sale By Owner) vs. Agent Savings Calculator
+36,iBuyer vs. Traditional Sale Calculator
+37,Best Time to Sell Analyzer
+38,Home Appraisal Value Calculator
+39,Seller Closing Cost Estimator
+40,Real Estate Agent Commission Split Calculator
+41,House Hacking Calculator
+42,"Live for Free" (House Hack) Calculator
+43,Duplex House Hacking Analyzer
+44,Triplex House Hacking Analyzer
+45,Quadplex House Hacking Analyzer
+46,Airbnb Income Estimator
+47,VRBO Income Calculator
+48,Short-Term Rental (STR) Occupancy Rate Calculator
+49,STR vs. Long-Term Rental (LTR) Profitability Analyzer
+50,Airbnb Arbitrage Calculator
+51,Airbnb Host Fee Calculator
+52,Multi-Family Property Calculator (5+ units)
+53,Commercial Property ROI Calculator
+54,Self-Storage Facility ROI Calculator
+55,Mobile Home Park Investment Calculator
+56,ADU (Accessory Dwelling Unit) ROI Calculator
+57,Cost to Build ADU Estimator
+58,Seller Financing Calculator
+59,"Subject-To" Deal Analyzer
+60,Lease-Option (Rent-to-Own) Calculator
+61,Raw Land Investment Calculator
+62,New Construction Budget Calculator
+63,Cost to Build a House Estimator
+64,Land Development Cost Calculator
+65,Homestead Exemption Calculator (by State)
+66,MACRS Depreciation Calculator (Real Estate)
+67,Property Tax Appeal Analyzer
+68,State-Specific Real Estate Transfer Tax Calculator
+69,Opportunity Zone (OZ) Investment Benefit Calculator
+70,Eviction Cost & Timeline Estimator (by State)
+71,Real Estate Professional (REPs) Status Tax Benefit Calculator
+72,Cost Segregation Benefit Calculator
+73,LLC vs. Sole Proprietorship (Real Estate) Analyzer
+74,FEMA Flood Zone Checker (by Address)
+75,Crime Rate by Address Analyzer
+76,School Rating by Address
+77,Local Rent Control Law Finder (by City/State)
+78,Property History Analyzer (Sales/Price)
+79,US ZIP Code Demographics Analyzer
+80,Proximity to Amenities Calculator
+81,Local Property Tax Rate Finder (by County)
+82,Natural Disaster Risk Score (by Address)
+83,Environmental Hazard Checker
+84,Title Insurance Cost Estimator
+85,Home Appraisal Fee Estimator
+86,Survey Cost Estimator
+87,Legal Fee Estimator (Real Estate)
+88,AI Property Listing Description Generator
+89,AI Real Estate Blog Post Idea Generator
+90,AI Renovation Idea Generator (by Photo)
+91,AI Negotiation Offer Letter Generator
+92,AI Zillow Listing Summary Tool
+93,AI "Ask a US Realtor" Bot
+94,AI Investment Location Suggester
+95,AI Market Trend Forecaster
+96,California Property Tax Calculator (Prop 13)
+97,Texas Property Tax Calculator
+98,Florida Homestead Exemption Calculator
+99,New York Mansion Tax Calculator
+100,California Transfer Tax Calculator
+101,Texas Transfer Tax Calculator
+102,Florida Transfer Tax (Doc Stamps) Calculator
+103,New York Transfer Tax Calculator
+104,Pennsylvania Transfer Tax Calculator
+105,Illinois Transfer Tax Calculator
+106,Ohio Transfer Tax Calculator
+107,Georgia Transfer Tax Calculator
+108,North Carolina Transfer Tax Calculator
+109,Michigan Transfer Tax Calculator
+110,New Jersey Transfer Tax Calculator
+111,Virginia Transfer Tax Calculator
+112,Washington Transfer Tax Calculator
+113,Massachusetts Transfer Tax Calculator
+114,Arizona Transfer Tax Calculator
+115,Tennessee Transfer Tax Calculator
+116,Indiana Transfer Tax Calculator
+117,Missouri Transfer Tax Calculator
+118,Maryland Transfer Tax Calculator
+119,Wisconsin Transfer Tax Calculator
+120,Colorado Transfer Tax Calculator
