@@ -5,7 +5,7 @@ export const HOUSE_HACKING_CALCULATOR_CONTENT: CalculatorContent = {
   description: 'See how much you can save by house hacking. Calculate your net monthly housing cost.',
   icon: 'Icon',
   slug: 'house-hacking-calculator',
-  category: 'Financial',
+  category: 'Rental & Income',
   article: {
     title: 'What is House Hacking?',
     content: `

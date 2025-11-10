@@ -454,7 +454,7 @@ export const allTools: Tool[] = [
     path: '/tools/property-comparison'
   },
 
-  // Rental & Income (9 tools)
+  // Rental & Income (19 tools)
   {
     name: 'Rental Price Estimator',
     description: 'Estimate optimal rental prices for your property',
@@ -517,6 +517,76 @@ export const allTools: Tool[] = [
     category: 'Rental & Income',
     icon: '🆚',
     path: '/tools/rent-vs-buy-calculator'
+  },
+  {
+    name: 'House Hacking Calculator',
+    description: 'Calculate net housing costs by house hacking - live in one unit, rent the others',
+    category: 'Rental & Income',
+    icon: '🏘️',
+    path: '/tools/house-hacking-calculator'
+  },
+  {
+    name: 'Live for Free Calculator',
+    description: 'Calculate how to eliminate housing costs by renting out extra space in your home',
+    category: 'Rental & Income',
+    icon: '🆓',
+    path: '/tools/live-for-free-calculator'
+  },
+  {
+    name: 'Duplex House Hacking Analyzer',
+    description: 'Analyze duplex house hacking - live in one unit, rent the other for reduced costs',
+    category: 'Rental & Income',
+    icon: '🏘️',
+    path: '/tools/duplex-house-hacking-analyzer'
+  },
+  {
+    name: 'Triplex House Hacking Analyzer',
+    description: 'Analyze triplex opportunities - maximize cash flow with 3-unit house hacking',
+    category: 'Rental & Income',
+    icon: '🏘️',
+    path: '/tools/triplex-house-hacking-analyzer'
+  },
+  {
+    name: 'Quadplex House Hacking Analyzer',
+    description: 'Analyze fourplex deals - maximum rental income from 4-unit house hacking',
+    category: 'Rental & Income',
+    icon: '🏘️',
+    path: '/tools/quadplex-house-hacking-analyzer'
+  },
+  {
+    name: 'Airbnb Income Estimator',
+    description: 'Estimate monthly and annual Airbnb rental income with occupancy and fees',
+    category: 'Rental & Income',
+    icon: '🏠',
+    path: '/tools/airbnb-income-estimator'
+  },
+  {
+    name: 'VRBO Income Calculator',
+    description: 'Calculate VRBO vacation rental income with commission and subscription fees',
+    category: 'Rental & Income',
+    icon: '🏖️',
+    path: '/tools/vrbo-income-calculator'
+  },
+  {
+    name: 'STR Occupancy Rate Calculator',
+    description: 'Calculate short-term rental occupancy rates and optimize booking performance',
+    category: 'Rental & Income',
+    icon: '📊',
+    path: '/tools/str-occupancy-rate-calculator'
+  },
+  {
+    name: 'STR vs LTR Profitability Analyzer',
+    description: 'Compare short-term rental vs. long-term rental profitability and ROI',
+    category: 'Rental & Income',
+    icon: '⚖️',
+    path: '/tools/str-vs-ltr-profitability-analyzer'
+  },
+  {
+    name: 'Airbnb Arbitrage Calculator',
+    description: 'Calculate Airbnb arbitrage profits from subletting long-term rentals as STRs',
+    category: 'Rental & Income',
+    icon: '💼',
+    path: '/tools/airbnb-arbitrage-calculator'
   },
 
   // Market Analysis (6 tools)
