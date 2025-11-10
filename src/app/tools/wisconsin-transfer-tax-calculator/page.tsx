@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Wisconsin Transfer Tax Calculator',
+    description: 'Calculate Wisconsin state transfer fee (0.3%) for Milwaukee, Madison, and all WI counties. Free online tool for real estate professionals, investors, and hom...',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { WISCONSIN_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/wisconsin-transfer-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

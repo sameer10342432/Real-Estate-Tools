@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Ohio Transfer Tax Calculator',
+    description: 'Calculate Ohio county conveyance fees by county. Ohio has no state transfer tax - only county fees. Free online tool for real estate professionals, investors...',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { OHIO_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/ohio-transfer-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

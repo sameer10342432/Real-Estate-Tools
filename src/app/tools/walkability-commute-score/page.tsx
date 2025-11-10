@@ -53,6 +53,14 @@ interface Amenity {
   rating: number
 }
 
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Walkability & Commute Score Calculator',
+    description: 'Evaluate walkability and commute options. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
+
 export default function WalkabilityCommuteScore() {
   // Location Input
   const [address, setAddress] = useState<string>('123 Collins Street, Melbourne VIC 3000')

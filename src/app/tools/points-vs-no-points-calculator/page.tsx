@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -179,6 +180,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Points vs. No-Points Mortgage Calculator',
+    description: 'Compare paying mortgage points upfront vs taking zero-points loan. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function PointsVsNoPointsCalculatorPage() {
   return (

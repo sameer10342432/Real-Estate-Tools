@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Payback Period Calculator',
+    description: 'Determine how long it will take to recover your initial investment. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
 'use client';
 
 import { useState } from 'react';
+import type { Metadata } from 'next';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';

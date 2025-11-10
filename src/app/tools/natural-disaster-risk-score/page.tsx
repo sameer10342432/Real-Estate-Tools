@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -50,6 +51,14 @@ interface DisasterRiskCalculation {
     percentageImpact: number;
   };
   recommendations: string[];
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Natural Disaster Risk Score (by Address) Calculator',
+    description: 'Assess comprehensive natural disaster risks for any property including flood zones, earthquake risk, wildfire hazard, hurricane exposure, and tornado probabi...',
+  };
 }
 
 export default function NaturalDisasterRiskScore() {

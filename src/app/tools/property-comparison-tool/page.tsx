@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import type { Metadata } from 'next';
 import Footer from '@/components/footer/Footer';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -36,6 +37,14 @@ interface ComparisonMetrics {
   capRate: number;
   cashOnCashReturn: number;
   totalReturn: number;
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Property Comparison Tool',
+    description: 'Compare multiple properties side by side. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
 }
 
 export default function PropertyComparisonTool() {

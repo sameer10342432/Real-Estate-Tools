@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -26,6 +27,14 @@ interface CashOnCashAnalysis {
   totalROI: number
   paybackPeriod: number
   leverageRatio: number
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Cash-on-Cash Return Calculator',
+    description: 'Calculate cash-on-cash returns for leveraged investments. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
 }
 
 export default function CashOnCashReturnCalculator() {

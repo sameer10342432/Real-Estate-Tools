@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import type { Metadata } from 'next';
 import Footer from '@/components/footer/Footer';
 
 
@@ -43,6 +44,14 @@ const initialProperty: Property = {
   commute: '',
   notes: ''
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Property Comparison Calculator',
+    description: 'Advanced property comparison with detailed metrics. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
 
 export default function PropertyComparisonPage() {
   const [properties, setProperties] = useState<Property[]>([

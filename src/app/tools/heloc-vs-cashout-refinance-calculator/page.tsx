@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -274,6 +275,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'HELOC vs. Cash-Out Refinance Calculator',
+    description: 'Compare HELOC and cash-out refinance side-by-side to determine best option. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function HELOCvsCashOutRefinanceCalculatorPage() {
   return (

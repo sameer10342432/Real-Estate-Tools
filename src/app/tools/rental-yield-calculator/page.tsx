@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import type { Metadata } from 'next';
 
 interface RentalYieldInputs {
   propertyValue: string;
@@ -34,6 +35,14 @@ interface RentalYieldResults {
   totalCashInvested: number;
   annualMortgagePayments: number;
   cashFlow: number;
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Rental Yield Calculator',
+    description: 'Calculate gross and net rental yields. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
 }
 
 export default function RentalYieldCalculatorPage() {

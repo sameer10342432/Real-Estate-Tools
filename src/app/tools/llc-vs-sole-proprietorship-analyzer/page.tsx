@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'LLC vs. Sole Proprietorship (Real Estate) Analyzer',
+    description: 'Compare LLC and Sole Proprietorship structures for real estate investing - analyze tax implications, liability protection, and administrative costs',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { LLC_VS_SOLE_PROP_ANALYZER_CONTENT } from '@/content/tools/llc-vs-sole-proprietorship-analyzer';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

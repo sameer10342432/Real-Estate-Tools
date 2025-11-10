@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -102,6 +103,14 @@ interface InsuranceQuote {
   }
   discounts: string[]
   rating: number
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Property Insurance Calculator',
+    description: 'Calculate property insurance costs and coverage. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
 }
 
 export default function PropertyInsuranceCalculatorPage() {

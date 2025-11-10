@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'MACRS Depreciation Calculator',
+    description: 'Calculate Modified Accelerated Cost Recovery System depreciation for rental property. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { MACRS_DEPRECIATION_CALCULATOR_CONTENT } from '@/content/tools/macrs-depreciation-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

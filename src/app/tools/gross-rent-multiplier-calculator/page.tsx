@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Gross Rent Multiplier Calculator',
+    description: 'Calculate GRM for quick property valuation. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { GROSS_RENT_MULTIPLIER_CALCULATOR_CONTENT } from '@/content/tools/gross-rent-multiplier-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

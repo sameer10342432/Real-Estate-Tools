@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -51,6 +52,14 @@ const stateTaxData = {
   'Alabama': { avgRate: 0.40, medianHome: 180000 },
   'Hawaii': { avgRate: 0.28, medianHome: 720000 },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Local Property Tax Rate Finder (by County)',
+    description: 'Find and compare local property tax rates by county across the United States. Research county, city, and school district tax rates before buying property',
+  };
+}
 
 export default function LocalPropertyTaxFinder() {
   const [state, setState] = useState<string>('');

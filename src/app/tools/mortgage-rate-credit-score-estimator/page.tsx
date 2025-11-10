@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -102,6 +103,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Mortgage Rate by Credit Score Estimator',
+    description: 'Estimate mortgage interest rates based on your credit score. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function RateCreditScorePage() {
   return (

@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { Building2 } from 'lucide-react';
 
@@ -85,6 +86,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'VA vs. Conventional Loan Comparison Calculator',
+    description: 'Compare VA and Conventional loans side-by-side to find the best mortgage option. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function VAvsConventionalPage() {
   return (

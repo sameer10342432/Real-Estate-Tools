@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Cost to Build a House Estimator',
+    description: 'Estimate home construction costs by quality level, size, and regional factors. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { COST_TO_BUILD_HOUSE_ESTIMATOR_CONTENT } from '@/content/tools/cost-to-build-house-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

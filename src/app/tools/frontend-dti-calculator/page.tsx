@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -127,6 +128,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Front-End DTI Calculator',
+    description: 'Calculate front-end debt-to-income ratio (housing ratio) - target 28% or lower. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function FrontEndDTICalculatorPage() {
   return (

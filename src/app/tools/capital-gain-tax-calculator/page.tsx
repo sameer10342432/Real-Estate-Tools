@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Capital Gain Tax Calculator',
+    description: 'Calculate the capital gain tax on your property investment. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { CAPITAL_GAIN_TAX_CALCULATOR_CONTENT } from '@/content/tools/capital-gain-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

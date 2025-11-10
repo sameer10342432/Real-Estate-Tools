@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -87,6 +88,14 @@ interface MovingEstimate {
 }
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8', '#82CA9D', '#FFC658', '#FF7C7C']
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Moving Cost Estimator',
+    description: 'Estimate costs for relocating to a new property. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
 
 export default function MovingCostEstimator() {
   const [moveDetails, setMoveDetails] = useState<MoveDetails>({

@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -47,6 +48,14 @@ interface MarketData {
   buyerDemand: string
   sellerActivity: string
   marketTrend: string
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Real Estate Market Analysis Tool',
+    description: 'Comprehensive market analysis and reporting. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
 }
 
 export default function RealEstateMarketAnalysisTool() {

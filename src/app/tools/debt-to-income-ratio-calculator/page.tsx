@@ -1,6 +1,15 @@
 
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Debt to Income Ratio Calculator',
+    description: 'Calculate your debt-to-income ratio for loan qualification. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { DEBT_TO_INCOME_RATIO_CALCULATOR_CONTENT } from '@/content/tools/debt-to-income-ratio-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

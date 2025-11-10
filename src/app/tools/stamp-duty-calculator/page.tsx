@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
 import { Input } from '@/components/ui/input'
@@ -137,6 +138,14 @@ const stampDutyRates: StampDutyRates = {
       { min: 0, max: 650000, rate: 0, description: 'Concessions available for first home buyers' }
     ]
   }
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Stamp Duty Calculator',
+    description: 'Calculate stamp duty and transfer taxes. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
 }
 
 export default function StampDutyCalculator() {

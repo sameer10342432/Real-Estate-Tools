@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Georgia Transfer Tax Calculator',
+    description: 'Calculate Georgia state transfer tax (0.1%) and intangible recording tax (0.3%) for mortgages. Free online tool for real estate professionals, investors, and...',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { GEORGIA_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/georgia-transfer-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

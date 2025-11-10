@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react';
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -10,6 +11,14 @@ import { YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, P
 import { TrendingUp, TrendingDown, DollarSign, Home, Target, AlertCircle, CheckCircle } from 'lucide-react';
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8']
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Property Equity Calculator',
+    description: 'Track and analyze your property equity over time. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
 
 export default function PropertyEquityCalculator() {
   const [currentValue, setCurrentValue] = useState(500000)

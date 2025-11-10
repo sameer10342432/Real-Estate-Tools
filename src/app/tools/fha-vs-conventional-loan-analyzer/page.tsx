@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'FHA vs Conventional Analyzer',
+    description: 'Compare FHA and conventional loans side-by-side to find best option. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { FHA_VS_CONVENTIONAL_ANALYZER_CONTENT } from '@/content/tools/fha-vs-conventional-loan-analyzer';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

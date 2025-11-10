@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Seller Closing Cost Estimator',
+    description: 'Estimate all closing costs you\'ll pay as a seller, including agent commissions, title fees, and transfer taxes. Free online tool for real estate professional...',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { SELLER_CLOSING_COST_ESTIMATOR_CONTENT } from '@/content/tools/seller-closing-cost-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

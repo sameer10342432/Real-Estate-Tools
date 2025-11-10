@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -94,6 +95,14 @@ const defaultChecklist: Omit<ChecklistItem, 'id' | 'status' | 'notes'>[] = [
   { category: 'Safety', item: 'Security System', description: 'Test alarm system if present', priority: 'low' },
   { category: 'Safety', item: 'Garage Door', description: 'Test safety features and operation', priority: 'medium' }
 ]
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Home Inspection Checklist Calculator',
+    description: 'Comprehensive home inspection checklist and guide. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
 
 export default function HomeInspectionChecklist() {
   const [inspectionData, setInspectionData] = useState<InspectionData>({

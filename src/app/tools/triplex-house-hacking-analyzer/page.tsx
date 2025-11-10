@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Triplex House Hacking Analyzer',
+    description: 'Analyze triplex opportunities - maximize cash flow with 3-unit house hacking. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { TRIPLEX_HOUSE_HACKING_ANALYZER_CONTENT } from '@/content/tools/triplex-house-hacking-analyzer';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

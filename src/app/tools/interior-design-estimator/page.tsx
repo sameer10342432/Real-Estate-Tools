@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import type { Metadata } from 'next';
 import {
   Card,
   CardContent,
@@ -98,6 +99,14 @@ interface CostBreakdown {
   wallTreatment: number;
   accessories: number;
   customItems: number;
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Interior Design Estimator',
+    description: 'Estimate interior design and furnishing costs. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
 }
 
 export default function InteriorDesignEstimator() {

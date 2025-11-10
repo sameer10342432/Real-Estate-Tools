@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -33,6 +34,14 @@ interface LegalFeeCalculation {
     highEnd: number;
   };
   recommendations: string[];
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Legal Fee Estimator (Real Estate)',
+    description: 'Estimate real estate attorney fees for property transactions including purchase, sale, refinance, contract review, and title work Make informed property decisions with accurate calculations.',
+  };
 }
 
 export default function LegalFeeEstimator() {

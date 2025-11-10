@@ -1,6 +1,15 @@
 
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Discounted Cash Flow Calculator',
+    description: 'Calculate property value using DCF analysis. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
+
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { DCF_CALCULATOR_CONTENT } from '@/content/tools/discounted-cash-flow-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

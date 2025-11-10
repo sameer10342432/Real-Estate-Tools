@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -32,6 +33,14 @@ interface SurveyCostCalculation {
     rushAvailable: boolean;
   };
   recommendations: string[];
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Survey Cost Estimator',
+    description: 'Estimate property survey costs based on lot size, terrain, survey type (boundary, ALTA, topographic), and access difficulty Make informed property decisions with accurate calculations.',
+  };
 }
 
 export default function SurveyCostEstimator() {

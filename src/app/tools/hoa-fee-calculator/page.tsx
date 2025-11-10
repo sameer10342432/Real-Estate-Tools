@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'HOA Fee Calculator',
+    description: 'Calculate and analyze HOA fees and assessments. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { HOA_FEE_CALCULATOR_CONTENT } from '@/content/tools/hoa-fee-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

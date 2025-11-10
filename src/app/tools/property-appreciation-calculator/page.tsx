@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Property Appreciation Calculator',
+    description: 'Calculate historical and projected property appreciation. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { PROPERTY_APPRECIATION_CALCULATOR_CONTENT } from '@/content/tools/property-appreciation-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

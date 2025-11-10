@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -43,6 +44,14 @@ interface AppraisalEstimate {
     additional: number;
   };
   recommendations: string[];
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Home Appraisal Fee Estimator',
+    description: 'Estimate home appraisal costs based on property type, size, location, and loan program (FHA, VA, conventional, jumbo). Free online tool for real estate profe...',
+  };
 }
 
 export default function HomeAppraisalFeeEstimator() {

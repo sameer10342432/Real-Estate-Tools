@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'School Rating by Address Calculator',
+    description: 'Check school quality ratings and rankings for any address to assess family appeal and property value impact. Free online tool for real estate professionals, ...',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { SCHOOL_RATING_ANALYZER_CONTENT } from '@/content/tools/school-rating-analyzer';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

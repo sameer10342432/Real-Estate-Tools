@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -27,6 +28,14 @@ interface PropertyTaxCalculation {
     stateAverage: number;
     nationalAverage: number;
     percentageOfIncome: number;
+  };
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Property Tax Estimator',
+    description: 'Estimate annual property taxes for any location. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
   };
 }
 

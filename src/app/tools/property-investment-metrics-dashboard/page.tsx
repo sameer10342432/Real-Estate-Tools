@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -58,6 +59,14 @@ interface PropertyMetrics {
   pricePerSquareFoot: number
   rentPerSquareFoot: number
   operatingEfficiency: number
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Property Investment Metrics Dashboard Calculator',
+    description: 'Comprehensive dashboard for investment property metrics. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
 }
 
 export default function PropertyInvestmentMetricsDashboard() {

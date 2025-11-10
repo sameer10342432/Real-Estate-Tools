@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Property History Analyzer (Sales/Price)',
+    description: 'Analyze property sales history, price trends, and transaction patterns to identify opportunities and assess appreciation potential',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { PROPERTY_HISTORY_ANALYZER_CONTENT } from '@/content/tools/property-history-analyzer';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

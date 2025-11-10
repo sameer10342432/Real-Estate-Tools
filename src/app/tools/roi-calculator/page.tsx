@@ -1,3 +1,11 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'ROI Calculator',
+    description: 'Calculate return on investment for property purchases. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

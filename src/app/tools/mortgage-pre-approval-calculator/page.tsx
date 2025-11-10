@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -89,6 +90,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Mortgage Pre-Approval Calculator',
+    description: 'Estimate your pre-approval amount based on income, debts, and credit. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function PreApprovalPage() {
   return (

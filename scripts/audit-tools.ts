@@ -136,11 +136,17 @@ function auditTools(): void {
     
     let matchedTool: Tool | undefined;
     
-    for (const [key, tool] of existingToolsMap.entries()) {
-      const similarity = calculateSimilarity(normalized, key);
-      if (similarity > 0.8) {
-        matchedTool = tool;
-        break;
+    // First, try exact slug/path match (most reliable)
+    matchedTool = existingTools.find(tool => tool.path === `/tools/${slug}`);
+    
+    // If no slug match, try fuzzy name matching
+    if (!matchedTool) {
+      for (const [key, tool] of existingToolsMap.entries()) {
+        const similarity = calculateSimilarity(normalized, key);
+        if (similarity > 0.8) {
+          matchedTool = tool;
+          break;
+        }
       }
     }
     
@@ -255,8 +261,13 @@ function auditTools(): void {
 }
 
 function calculateSimilarity(str1: string, str2: string): number {
-  const longer = str1.length > str2.length ? str1 : str2;
-  const shorter = str1.length > str2.length ? str2 : str1;
+  const s1 = str1.replace(/\s+/g, '').toLowerCase();
+  const s2 = str2.replace(/\s+/g, '').toLowerCase();
+  
+  if (s1.includes(s2) || s2.includes(s1)) return 0.95;
+  
+  const longer = s1.length > s2.length ? s1 : s2;
+  const shorter = s1.length > s2.length ? s2 : s1;
   
   if (longer.length === 0) return 1.0;
   

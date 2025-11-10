@@ -2,6 +2,7 @@
 "use client";
 
 import { useState, useMemo } from 'react';
+import type { Metadata } from 'next';
 import dynamic from 'next/dynamic';
 import Filters from './components/Filters';
 import SchoolList from './components/SchoolList';
@@ -34,6 +35,14 @@ interface School {
     languages: string[];
     lat: number;
     lng: number;
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'School District Finder',
+    description: 'Find and compare school districts for property locations. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
 }
 
 export default function SchoolDistrictFinder() {

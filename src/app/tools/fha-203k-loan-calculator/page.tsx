@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'FHA 203k Loan Calculator',
+    description: 'Calculate FHA renovation loan combining purchase and rehab costs. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { FHA_203K_LOAN_CALCULATOR_CONTENT } from '@/content/tools/fha-203k-loan-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

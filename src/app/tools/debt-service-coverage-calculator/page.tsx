@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -34,6 +35,14 @@ interface DSCRResults {
     portfolio: number
     commercial: number
   }
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Debt Service Coverage Calculator',
+    description: 'Calculate debt service coverage ratios for commercial properties. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
 }
 
 export default function DebtServiceCoverageCalculator() {

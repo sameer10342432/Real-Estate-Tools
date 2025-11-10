@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -71,6 +72,14 @@ interface CalculationResults {
     expertise: 'beginner' | 'intermediate' | 'expert'
     scalability: 'low' | 'medium' | 'high'
   }
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Property Management Calculator',
+    description: 'Calculate property management costs and fees. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
 }
 
 export default function PropertyManagementCalculator() {

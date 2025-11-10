@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Loan Amortization Calculator',
+    description: 'Calculate loan amortization schedules. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { LOAN_AMORTIZATION_CALCULATOR_CONTENT } from '@/content/tools/loan-amortization-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

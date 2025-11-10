@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Hard Money Loan Calculator',
+    description: 'Calculate hard money loan terms and costs. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { HARD_MONEY_LOAN_CALCULATOR_CONTENT } from '@/content/tools/hard-money-loan-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

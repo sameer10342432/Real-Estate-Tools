@@ -1,6 +1,7 @@
 'use client';
 
 import { Tab, TabList, TabGroup, TabPanels, TabPanel } from "@tremor/react";
+import type { Metadata } from 'next';
 import { useState } from 'react';
 import PortfolioOverview from "./components/PortfolioOverview";
 import AnalyticsTab from "./components/AnalyticsTab";
@@ -9,6 +10,14 @@ import CashFlowTab from "./components/CashFlowTab";
 import Guide from "./components/Guide";
 import { initialProperties } from './data';
 import { Property } from "./components/types";
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Real Estate Portfolio Tracker Calculator',
+    description: 'Track and manage your entire real estate portfolio. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
 
 export default function RealEstatePortfolioTracker() {
   const [selectedIndex, setSelectedIndex] = useState(0);

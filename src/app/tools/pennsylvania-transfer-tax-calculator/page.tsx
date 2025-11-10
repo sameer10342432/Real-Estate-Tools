@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Pennsylvania Transfer Tax Calculator',
+    description: 'Calculate Pennsylvania state (1%) and local (1%) transfer tax including Philadelphia and Pittsburgh special rates. Free online tool for real estate professio...',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { PENNSYLVANIA_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/pennsylvania-transfer-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

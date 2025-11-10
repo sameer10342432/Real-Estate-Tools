@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -98,6 +99,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Credit Score Improvement Simulator (for Mortgage) Calculator',
+    description: 'Simulate credit score improvements and see how different actions impact your mortgage. Free online tool for real estate professionals, investors, and homebuy...',
+  };
+}
 
 export default function CreditImprovementPage() {
   return (

@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Property Flipping ROI Calculator',
+    description: 'Calculate the ROI and net profit of your property flipping projects. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
 'use client'
 import { useState } from 'react'
+import type { Metadata } from 'next';
 import { NextPage } from 'next'
 import Head from 'next/head'
 import { zodResolver } from '@hookform/resolvers/zod'

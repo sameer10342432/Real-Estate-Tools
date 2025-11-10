@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -30,6 +31,14 @@ interface LoanSummary {
   totalInterest: number
   totalCost: number
   payoffDate: string
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Amortization Schedule Calculator',
+    description: 'Generate detailed loan amortization schedules. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
 }
 
 export default function AmortizationScheduleCalculator() {

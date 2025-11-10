@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -165,6 +166,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Rapid Rescore ROI Calculator',
+    description: 'Calculate ROI on rapid credit rescoring - see if boosting score saves money. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function RapidRescoreROICalculatorPage() {
   return (

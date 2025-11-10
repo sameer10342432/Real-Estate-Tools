@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Real Estate Agent Commission Split Calculator',
+    description: 'Calculate commission splits between listing and buyer\'s agents, brokerages, and team members. Free online tool for real estate professionals, investors, and ...',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { REAL_ESTATE_AGENT_COMMISSION_SPLIT_CALCULATOR_CONTENT } from '@/content/tools/real-estate-agent-commission-split-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

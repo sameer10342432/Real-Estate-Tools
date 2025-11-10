@@ -35,6 +35,14 @@ interface CrimeData {
   trend: 'increasing' | 'decreasing' | 'stable'
 }
 
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Neighborhood Safety Score Calculator',
+    description: 'Analyze neighborhood safety and crime statistics. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
+
 export default function NeighborhoodSafetyScore() {
   // Location Input
   const [address, setAddress] = useState<string>('123 Collins Street, Melbourne VIC 3000')

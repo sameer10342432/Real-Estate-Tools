@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -82,6 +83,14 @@ interface InvestmentSummary {
     moderate: YearlyProjection[]
     optimistic: YearlyProjection[]
   }
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Investment Growth Simulator Calculator',
+    description: 'Simulate long-term investment growth scenarios. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
 }
 
 export default function InvestmentGrowthSimulator() {

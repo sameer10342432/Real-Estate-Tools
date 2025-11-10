@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -67,6 +68,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'USDA Loan Eligibility Checker',
+    description: 'Check your eligibility for USDA rural development home loans. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function USDAEligibilityPage() {
   return (

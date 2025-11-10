@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -167,6 +168,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Back-End DTI Calculator',
+    description: 'Calculate back-end debt-to-income ratio (total debt ratio) - target 43% or lower. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function BackEndDTICalculatorPage() {
   return (

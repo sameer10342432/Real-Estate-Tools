@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'USDA Loan Calculator',
+    description: 'Calculate USDA rural loan payments with 100% financing. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { USDA_LOAN_CALCULATOR_CONTENT } from '@/content/tools/usda-loan-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

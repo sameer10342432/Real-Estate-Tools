@@ -8,6 +8,7 @@ import {
   TabPanels,
 } from '@tremor/react';
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import type { Metadata } from 'next';
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -20,6 +21,14 @@ import {
   Zap,
 } from "lucide-react";
 import { useState } from "react";
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Market Trend Analyzer',
+    description: 'Analyze local real estate market trends and data. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
 
 export default function MarketTrendAnalyzer() {
   const [activeTab, setActiveTab] = useState("analyzer");

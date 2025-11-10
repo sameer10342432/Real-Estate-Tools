@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -113,6 +114,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'DTI Calculator for VA Loans',
+    description: 'Calculate debt-to-income ratio for VA loans with flexible 41% DTI allowance. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function VADTICalculatorPage() {
   return (

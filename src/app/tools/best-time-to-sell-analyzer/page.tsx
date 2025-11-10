@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Best Time to Sell Analyzer',
+    description: 'Analyze market conditions and personal factors to determine the optimal time to sell your home. Free online tool for real estate professionals, investors, an...',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { BEST_TIME_TO_SELL_ANALYZER_CONTENT } from '@/content/tools/best-time-to-sell-analyzer';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

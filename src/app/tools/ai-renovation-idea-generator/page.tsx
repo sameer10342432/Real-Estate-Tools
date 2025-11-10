@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -24,6 +25,14 @@ interface RenovationIdea {
   diyFriendly: boolean;
   impactAreas: string[];
   recommendations: string[];
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'AI Renovation Idea Generator (by Photo)',
+    description: 'Get AI-powered renovation ideas and design suggestions based on room type, style preferences, and budget constraints. Free online tool for real estate profes...',
+  };
 }
 
 export default function AIRenovationIdeaGenerator() {

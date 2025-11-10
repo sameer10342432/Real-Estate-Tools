@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -20,6 +21,14 @@ interface BlogPostIdea {
   estimatedWordCount: number;
   difficulty: string;
   callToAction: string;
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'AI Real Estate Blog Post Idea Generator',
+    description: 'Generate creative real estate blog post ideas and content topics tailored to your market, audience, and expertise using AI assistance',
+  };
 }
 
 export default function AIBlogPostIdeaGenerator() {

@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Real Estate Professional (REPs) Status Tax Benefit Calcul...',
+    description: 'Calculate potential tax benefits of qualifying as a Real Estate Professional under IRS rules and how it affects rental property losses',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { REPS_STATUS_CALCULATOR_CONTENT } from '@/content/tools/reps-status-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

@@ -2,236 +2,172 @@
   {
     "toolName": "FHA Loan Calculator",
     "slug": "fha-loan-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "VA Loan Calculator",
     "slug": "va-loan-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "USDA Loan Calculator",
     "slug": "usda-loan-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Jumbo Loan Calculator",
     "slug": "jumbo-loan-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "FHA 203k Loan Calculator",
     "slug": "fha-203k-loan-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "VA Loan Funding Fee Calculator",
     "slug": "va-loan-funding-fee-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "FHA MIP Calculator",
     "slug": "fha-mip-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "PMI (Private Mortgage Insurance) Calculator",
     "slug": "pmi-calculator",
-    "status": "missing_metadata",
-    "hasToolsEntry": false,
+    "status": "complete",
+    "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Not found in tools.ts registry",
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "PMI Removal Calculator",
     "slug": "pmi-removal-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "FHA vs. Conventional Loan Analyzer",
     "slug": "fha-vs-conventional-loan-analyzer",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "VA vs. Conventional Loan Comparison",
     "slug": "va-vs-conventional-loan-comparison",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "USDA Loan Eligibility Checker",
     "slug": "usda-loan-eligibility-checker",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "FHA Loan Limit Finder",
     "slug": "fha-loan-limit-finder",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "VA Loan Entitlement Calculator",
     "slug": "va-loan-entitlement-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Debt-to-Income (DTI) Ratio Calculator",
     "slug": "debt-to-income-ratio-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Loan-to-Value (LTV) Calculator",
     "slug": "loan-to-value-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Mortgage Pre-Approval Calculator",
     "slug": "mortgage-pre-approval-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Mortgage Rate by Credit Score Estimator",
@@ -251,15 +187,12 @@
   {
     "toolName": "Credit Score Improvement Simulator (for Mortgage)",
     "slug": "credit-score-improvement-simulator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "DTI Calculator for FHA Loans",
@@ -339,15 +272,12 @@
   {
     "toolName": "Rapid Rescore ROI Calculator",
     "slug": "rapid-rescore-roi-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Points vs. No-Points Mortgage Calculator",
@@ -367,52 +297,44 @@
   {
     "toolName": "Mortgage Discount Points Calculator",
     "slug": "mortgage-discount-points-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Rate-and-Term Refinance Calculator",
     "slug": "rate-and-term-refinance-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Cash-Out Refinance Calculator",
     "slug": "cash-out-refinance-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "HELOC vs. Cash-Out Refinance",
     "slug": "heloc-vs-cash-out-refinance",
-    "status": "not_in_registry",
-    "hasToolsEntry": false,
+    "status": "missing_content",
+    "hasToolsEntry": true,
     "hasPageFile": false,
     "hasContentFile": false,
     "hasMetadata": false,
     "issues": [
-      "Not found in tools.ts registry",
+      "Missing page.tsx file",
+      "Missing content file",
       "Missing meta title",
       "Missing meta description"
     ]
@@ -420,27 +342,24 @@
   {
     "toolName": "Net Proceeds from Home Sale Calculator",
     "slug": "net-proceeds-from-home-sale-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Seller's Net Sheet",
     "slug": "sellers-net-sheet",
-    "status": "not_in_registry",
-    "hasToolsEntry": false,
+    "status": "missing_content",
+    "hasToolsEntry": true,
     "hasPageFile": false,
     "hasContentFile": false,
     "hasMetadata": false,
     "issues": [
-      "Not found in tools.ts registry",
+      "Missing page.tsx file",
+      "Missing content file",
       "Missing meta title",
       "Missing meta description"
     ]
@@ -448,225 +367,164 @@
   {
     "toolName": "Home Staging ROI Calculator",
     "slug": "home-staging-roi-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Curb Appeal ROI Calculator",
     "slug": "curb-appeal-roi-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "FSBO (For Sale By Owner) vs. Agent Savings Calculator",
     "slug": "fsbo-vs-agent-savings-calculator",
-    "status": "missing_metadata",
-    "hasToolsEntry": false,
+    "status": "complete",
+    "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Not found in tools.ts registry",
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "iBuyer vs. Traditional Sale Calculator",
     "slug": "ibuyer-vs-traditional-sale-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Best Time to Sell Analyzer",
     "slug": "best-time-to-sell-analyzer",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Home Appraisal Value Calculator",
     "slug": "home-appraisal-value-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Seller Closing Cost Estimator",
     "slug": "seller-closing-cost-estimator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Real Estate Agent Commission Split Calculator",
     "slug": "real-estate-agent-commission-split-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "House Hacking Calculator",
     "slug": "house-hacking-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "\"Live for Free\" (House Hack) Calculator",
     "slug": "live-for-free-calculator",
-    "status": "missing_metadata",
-    "hasToolsEntry": false,
+    "status": "complete",
+    "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Not found in tools.ts registry",
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Duplex House Hacking Analyzer",
     "slug": "duplex-house-hacking-analyzer",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Triplex House Hacking Analyzer",
     "slug": "triplex-house-hacking-analyzer",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Quadplex House Hacking Analyzer",
     "slug": "quadplex-house-hacking-analyzer",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Airbnb Income Estimator",
     "slug": "airbnb-income-estimator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "VRBO Income Calculator",
     "slug": "vrbo-income-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Short-Term Rental (STR) Occupancy Rate Calculator",
     "slug": "short-term-rental-occupancy-rate-calculator",
-    "status": "not_in_registry",
-    "hasToolsEntry": false,
+    "status": "missing_content",
+    "hasToolsEntry": true,
     "hasPageFile": false,
     "hasContentFile": false,
     "hasMetadata": false,
     "issues": [
-      "Not found in tools.ts registry",
+      "Missing page.tsx file",
+      "Missing content file",
       "Missing meta title",
       "Missing meta description"
     ]
@@ -688,184 +546,132 @@
   {
     "toolName": "Airbnb Arbitrage Calculator",
     "slug": "airbnb-arbitrage-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Airbnb Host Fee Calculator",
     "slug": "airbnb-host-fee-calculator",
-    "status": "missing_page",
+    "status": "complete",
     "hasToolsEntry": true,
-    "hasPageFile": false,
+    "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing page.tsx file",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Multi-Family Property Calculator (5+ units)",
     "slug": "multi-family-property-calculator",
-    "status": "missing_page",
+    "status": "complete",
     "hasToolsEntry": true,
-    "hasPageFile": false,
+    "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing page.tsx file",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Commercial Property ROI Calculator",
     "slug": "commercial-property-roi-calculator",
-    "status": "missing_page",
+    "status": "complete",
     "hasToolsEntry": true,
-    "hasPageFile": false,
+    "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing page.tsx file",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Self-Storage Facility ROI Calculator",
     "slug": "self-storage-facility-roi-calculator",
-    "status": "missing_page",
+    "status": "complete",
     "hasToolsEntry": true,
-    "hasPageFile": false,
+    "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing page.tsx file",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Mobile Home Park Investment Calculator",
     "slug": "mobile-home-park-investment-calculator",
-    "status": "missing_page",
+    "status": "complete",
     "hasToolsEntry": true,
-    "hasPageFile": false,
+    "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing page.tsx file",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "ADU (Accessory Dwelling Unit) ROI Calculator",
     "slug": "adu-roi-calculator",
-    "status": "not_in_registry",
-    "hasToolsEntry": false,
-    "hasPageFile": false,
+    "status": "complete",
+    "hasToolsEntry": true,
+    "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Not found in tools.ts registry",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Cost to Build ADU Estimator",
     "slug": "cost-to-build-adu-estimator",
-    "status": "missing_page",
+    "status": "complete",
     "hasToolsEntry": true,
-    "hasPageFile": false,
+    "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing page.tsx file",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Seller Financing Calculator",
     "slug": "seller-financing-calculator",
-    "status": "missing_page",
+    "status": "complete",
     "hasToolsEntry": true,
-    "hasPageFile": false,
+    "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing page.tsx file",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "\"Subject-To\" Deal Analyzer",
     "slug": "subject-to-deal-analyzer",
-    "status": "not_in_registry",
-    "hasToolsEntry": false,
-    "hasPageFile": false,
+    "status": "complete",
+    "hasToolsEntry": true,
+    "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Not found in tools.ts registry",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Lease-Option (Rent-to-Own) Calculator",
     "slug": "lease-option-calculator",
-    "status": "missing_page",
+    "status": "complete",
     "hasToolsEntry": true,
-    "hasPageFile": false,
+    "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing page.tsx file",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Raw Land Investment Calculator",
     "slug": "raw-land-investment-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "New Construction Budget Calculator",
     "slug": "new-construction-budget-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Cost to Build a House Estimator",
@@ -885,60 +691,42 @@
   {
     "toolName": "Land Development Cost Calculator",
     "slug": "land-development-cost-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Homestead Exemption Calculator (by State)",
     "slug": "homestead-exemption-calculator",
-    "status": "missing_metadata",
-    "hasToolsEntry": false,
+    "status": "complete",
+    "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Not found in tools.ts registry",
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "MACRS Depreciation Calculator (Real Estate)",
     "slug": "macrs-depreciation-calculator",
-    "status": "missing_metadata",
-    "hasToolsEntry": false,
+    "status": "complete",
+    "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Not found in tools.ts registry",
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Property Tax Appeal Analyzer",
     "slug": "property-tax-appeal-analyzer",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "State-Specific Real Estate Transfer Tax Calculator",
@@ -972,13 +760,14 @@
   {
     "toolName": "Eviction Cost & Timeline Estimator (by State)",
     "slug": "eviction-cost-timeline-estimator",
-    "status": "not_in_registry",
-    "hasToolsEntry": false,
+    "status": "missing_content",
+    "hasToolsEntry": true,
     "hasPageFile": false,
     "hasContentFile": false,
     "hasMetadata": false,
     "issues": [
-      "Not found in tools.ts registry",
+      "Missing page.tsx file",
+      "Missing content file",
       "Missing meta title",
       "Missing meta description"
     ]
@@ -1016,30 +805,22 @@
   {
     "toolName": "LLC vs. Sole Proprietorship (Real Estate) Analyzer",
     "slug": "llc-vs-sole-proprietorship-analyzer",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "FEMA Flood Zone Checker (by Address)",
     "slug": "fema-flood-zone-checker",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Crime Rate by Address Analyzer",
@@ -1089,16 +870,12 @@
   {
     "toolName": "Property History Analyzer (Sales/Price)",
     "slug": "property-history-analyzer",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "US ZIP Code Demographics Analyzer",
@@ -1118,16 +895,12 @@
   {
     "toolName": "Proximity to Amenities Calculator",
     "slug": "proximity-to-amenities-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Local Property Tax Rate Finder (by County)",
@@ -1147,90 +920,62 @@
   {
     "toolName": "Natural Disaster Risk Score (by Address)",
     "slug": "natural-disaster-risk-score",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Environmental Hazard Checker",
     "slug": "environmental-hazard-checker",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Title Insurance Cost Estimator",
     "slug": "title-insurance-cost-estimator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Home Appraisal Fee Estimator",
     "slug": "home-appraisal-fee-estimator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Survey Cost Estimator",
     "slug": "survey-cost-estimator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata",
-      "Missing meta title"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Legal Fee Estimator (Real Estate)",
     "slug": "legal-fee-estimator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Missing content file",
-      "Missing or incomplete metadata",
-      "Missing meta title"
-    ]
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "AI Property Listing Description Generator",
@@ -1265,6 +1010,16 @@
   {
     "toolName": "AI Renovation Idea Generator (by Photo)",
     "slug": "ai-renovation-idea-generator",
+    "status": "complete",
+    "hasToolsEntry": true,
+    "hasPageFile": true,
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
+  },
+  {
+    "toolName": "AI Negotiation Offer Letter Generator",
+    "slug": "ai-negotiation-offer-letter-generator",
     "status": "missing_metadata",
     "hasToolsEntry": true,
     "hasPageFile": true,
@@ -1272,19 +1027,6 @@
     "hasMetadata": false,
     "issues": [
       "Missing content file",
-      "Missing or incomplete metadata"
-    ]
-  },
-  {
-    "toolName": "AI Negotiation Offer Letter Generator",
-    "slug": "ai-negotiation-offer-letter-generator",
-    "status": "missing_metadata",
-    "hasToolsEntry": false,
-    "hasPageFile": true,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Not found in tools.ts registry",
       "Missing or incomplete metadata",
       "Missing meta title",
       "Missing meta description"
@@ -1293,41 +1035,33 @@
   {
     "toolName": "AI Zillow Listing Summary Tool",
     "slug": "ai-zillow-listing-summary-tool",
-    "status": "not_in_registry",
-    "hasToolsEntry": false,
-    "hasPageFile": false,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Not found in tools.ts registry",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "status": "complete",
+    "hasToolsEntry": true,
+    "hasPageFile": true,
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "AI \"Ask a US Realtor\" Bot",
     "slug": "ai-ask-a-us-realtor-bot",
-    "status": "not_in_registry",
-    "hasToolsEntry": false,
-    "hasPageFile": false,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Not found in tools.ts registry",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "status": "complete",
+    "hasToolsEntry": true,
+    "hasPageFile": true,
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "AI Investment Location Suggester",
     "slug": "ai-investment-location-suggester",
     "status": "missing_metadata",
-    "hasToolsEntry": false,
+    "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": false,
     "hasMetadata": false,
     "issues": [
-      "Not found in tools.ts registry",
+      "Missing content file",
       "Missing or incomplete metadata",
       "Missing meta title",
       "Missing meta description"
@@ -1337,12 +1071,12 @@
     "toolName": "AI Market Trend Forecaster",
     "slug": "ai-market-trend-forecaster",
     "status": "missing_metadata",
-    "hasToolsEntry": false,
+    "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": false,
     "hasMetadata": false,
     "issues": [
-      "Not found in tools.ts registry",
+      "Missing content file",
       "Missing or incomplete metadata",
       "Missing meta title",
       "Missing meta description"
@@ -1351,41 +1085,34 @@
   {
     "toolName": "California Property Tax Calculator (Prop 13)",
     "slug": "california-property-tax-calculator",
-    "status": "not_in_registry",
-    "hasToolsEntry": false,
-    "hasPageFile": false,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Not found in tools.ts registry",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "status": "complete",
+    "hasToolsEntry": true,
+    "hasPageFile": true,
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Texas Property Tax Calculator",
     "slug": "texas-property-tax-calculator",
-    "status": "not_in_registry",
-    "hasToolsEntry": false,
-    "hasPageFile": false,
-    "hasContentFile": false,
-    "hasMetadata": false,
-    "issues": [
-      "Not found in tools.ts registry",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "status": "complete",
+    "hasToolsEntry": true,
+    "hasPageFile": true,
+    "hasContentFile": true,
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Florida Homestead Exemption Calculator",
     "slug": "florida-homestead-exemption-calculator",
-    "status": "not_in_registry",
-    "hasToolsEntry": false,
+    "status": "missing_content",
+    "hasToolsEntry": true,
     "hasPageFile": false,
     "hasContentFile": false,
     "hasMetadata": false,
     "issues": [
-      "Not found in tools.ts registry",
+      "Missing page.tsx file",
+      "Missing content file",
       "Missing meta title",
       "Missing meta description"
     ]
@@ -1408,156 +1135,112 @@
   {
     "toolName": "California Transfer Tax Calculator",
     "slug": "california-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Texas Transfer Tax Calculator",
     "slug": "texas-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Florida Transfer Tax (Doc Stamps) Calculator",
     "slug": "florida-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "New York Transfer Tax Calculator",
     "slug": "new-york-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Pennsylvania Transfer Tax Calculator",
     "slug": "pennsylvania-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Illinois Transfer Tax Calculator",
     "slug": "illinois-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Ohio Transfer Tax Calculator",
     "slug": "ohio-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Georgia Transfer Tax Calculator",
     "slug": "georgia-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "North Carolina Transfer Tax Calculator",
     "slug": "north-carolina-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Michigan Transfer Tax Calculator",
     "slug": "michigan-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "New Jersey Transfer Tax Calculator",
     "slug": "new-jersey-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Virginia Transfer Tax Calculator",
@@ -1633,71 +1316,51 @@
   {
     "toolName": "Indiana Transfer Tax Calculator",
     "slug": "indiana-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Missouri Transfer Tax Calculator",
     "slug": "missouri-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Maryland Transfer Tax Calculator",
     "slug": "maryland-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Wisconsin Transfer Tax Calculator",
     "slug": "wisconsin-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   },
   {
     "toolName": "Colorado Transfer Tax Calculator",
     "slug": "colorado-transfer-tax-calculator",
-    "status": "missing_metadata",
+    "status": "complete",
     "hasToolsEntry": true,
     "hasPageFile": true,
     "hasContentFile": true,
-    "hasMetadata": false,
-    "issues": [
-      "Missing or incomplete metadata",
-      "Missing meta title",
-      "Missing meta description"
-    ]
+    "hasMetadata": true,
+    "issues": []
   }
 ]

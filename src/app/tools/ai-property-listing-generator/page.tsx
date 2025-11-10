@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import type { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -20,6 +21,14 @@ interface GeneratedListing {
   keywords: string[];
   tone: string;
   wordCount: number;
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'AI Property Listing Description Generator',
+    description: 'Generate professional, compelling property listing descriptions with AI assistance. Create engaging MLS listings that highlight features and attract buyers',
+  };
 }
 
 export default function AIPropertyListingGenerator() {

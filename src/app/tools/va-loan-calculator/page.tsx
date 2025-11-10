@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'VA Loan Calculator',
+    description: 'Calculate VA loan payments with zero down for veterans and military. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { VA_LOAN_CALCULATOR_CONTENT } from '@/content/tools/va-loan-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

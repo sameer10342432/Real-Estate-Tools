@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -209,6 +210,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Mortgage Discount Points Calculator',
+    description: 'Calculate mortgage discount points cost, rate reduction, and breakeven period. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function MortgageDiscountPointsCalculatorPage() {
   return (

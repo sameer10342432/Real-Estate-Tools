@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from "react";
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -32,6 +33,14 @@ interface Property {
 }
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8', '#82CA9D']
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Investment Property Comparison Tool',
+    description: 'Advanced comparison tool for multiple investment properties. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function InvestmentPropertyComparisonTool() {
   const [properties, setProperties] = useState<Property[]>([])

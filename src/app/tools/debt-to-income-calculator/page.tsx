@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -78,6 +79,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Debt-to-Income (DTI) Ratio Calculator',
+    description: 'Calculate your DTI ratio to determine mortgage eligibility. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function DTICalculatorPage() {
   return (

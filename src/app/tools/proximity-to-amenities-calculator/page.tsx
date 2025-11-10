@@ -1,6 +1,15 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Proximity to Amenities Calculator',
+    description: 'Evaluate property location score based on proximity to key amenities including transit, schools, shopping, parks, and employment centers',
+  };
+}
+
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { PROXIMITY_TO_AMENITIES_CALCULATOR_CONTENT } from '@/content/tools/proximity-to-amenities-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

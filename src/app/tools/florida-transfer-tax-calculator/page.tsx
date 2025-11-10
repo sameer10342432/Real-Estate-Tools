@@ -1,5 +1,14 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Florida Transfer Tax (Doc Stamps) Calculator',
+    description: 'Calculate Florida documentary stamp tax, intangible tax, and recording fees including Miami-Dade special rates. Free online tool for real estate professional...',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { FLORIDA_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/florida-transfer-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

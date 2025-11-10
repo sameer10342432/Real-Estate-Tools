@@ -1,7 +1,16 @@
 
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Internal Rate of Return Calculator',
+    description: 'Calculate IRR for investment properties. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
+
+
 "use client";
 
 import React, { useState } from 'react';
+import type { Metadata } from 'next';
 import { useForm, useFieldArray, SubmitHandler } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';

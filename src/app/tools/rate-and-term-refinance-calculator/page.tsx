@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
+import type { Metadata } from 'next';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
 const CONTENT = {
@@ -213,6 +214,14 @@ const CONTENT = {
     },
   },
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Rate-and-Term Refinance Calculator',
+    description: 'Calculate refinance savings, breakeven period, and monthly payment reduction. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
 
 export default function RateAndTermRefinanceCalculatorPage() {
   return (

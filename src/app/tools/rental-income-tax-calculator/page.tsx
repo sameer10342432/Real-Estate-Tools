@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useCallback, useEffect } from 'react'
+import type { Metadata } from 'next';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -37,6 +38,14 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
     </text>
   );
 };
+
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Rental Income Tax Calculator',
+    description: 'Calculate taxes on rental income and deductions. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
+  };
+}
 
 export default function RentalIncomeTaxCalculator() {
   const [grossRentalIncome, setGrossRentalIncome] = useState<string>('36000')

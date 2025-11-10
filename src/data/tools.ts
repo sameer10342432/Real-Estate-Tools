@@ -1260,7 +1260,7 @@ export const allTools: Tool[] = [
     path: '/tools/legal-fee-estimator'
   },
 
-  // Additional Tools - AI-Powered Tools (3 tools)
+  // Additional Tools - AI-Powered Tools (7 tools)
   {
     name: 'AI Property Listing Description Generator',
     description: 'Generate professional, compelling property listing descriptions with AI assistance. Create engaging MLS listings that highlight features and attract buyers',
@@ -1281,6 +1281,34 @@ export const allTools: Tool[] = [
     category: 'Additional Tools',
     icon: '🎨',
     path: '/tools/ai-renovation-idea-generator'
+  },
+  {
+    name: 'AI Zillow Listing Summary Tool',
+    description: 'Automatically summarize Zillow property listings with key highlights, pros, cons, and investment potential using AI analysis',
+    category: 'Additional Tools',
+    icon: '🏘️',
+    path: '/tools/ai-zillow-listing-summary-tool'
+  },
+  {
+    name: 'AI "Ask a US Realtor" Bot',
+    description: 'Get instant answers to real estate questions from an AI-powered realtor bot trained on US real estate laws, practices, and market insights',
+    category: 'Additional Tools',
+    icon: '🤖',
+    path: '/tools/ai-ask-a-us-realtor-bot'
+  },
+  {
+    name: 'California Property Tax Calculator (Prop 13)',
+    description: 'Calculate California property taxes under Proposition 13 with 1% base rate plus local assessments and annual 2% increase cap',
+    category: 'Financial Planning',
+    icon: '🏖️',
+    path: '/tools/california-property-tax-calculator'
+  },
+  {
+    name: 'Texas Property Tax Calculator',
+    description: 'Calculate Texas property taxes with no state income tax but variable county and school district rates. Includes homestead exemptions',
+    category: 'Financial Planning',
+    icon: '⭐',
+    path: '/tools/texas-property-tax-calculator'
   }
 ];
 

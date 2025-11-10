@@ -1,3 +1,11 @@
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Mortgage Calculator',
+    description: 'Calculate monthly mortgage payments, interest, and amortization schedules. Free online tool for real estate professionals, investors, and homebuyers.',
+  };
+}
+
 'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { MORTGAGE_CALCULATOR_CONTENT } from '@/content/tools/mortgage-calculator';
