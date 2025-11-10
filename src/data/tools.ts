@@ -737,6 +737,78 @@ export const allTools: Tool[] = [
     category: 'Additional Tools',
     icon: '🔍',
     path: '/tools/home-inspection-checklist'
+  },
+
+  // Seller Tools (10 tools)
+  {
+    name: 'Net Proceeds from Home Sale Calculator',
+    description: 'Calculate your net proceeds from selling your home after all costs, commissions, and fees',
+    category: 'Seller Tools',
+    icon: '💰',
+    path: '/tools/net-proceeds-from-home-sale-calculator'
+  },
+  {
+    name: "Seller's Net Sheet",
+    description: 'Generate a comprehensive breakdown of all costs associated with selling your property',
+    category: 'Seller Tools',
+    icon: '📋',
+    path: '/tools/sellers-net-sheet-calculator'
+  },
+  {
+    name: 'Home Staging ROI Calculator',
+    description: 'Calculate the return on investment for home staging to determine if professional staging is worth the cost',
+    category: 'Seller Tools',
+    icon: '🛋️',
+    path: '/tools/home-staging-roi-calculator'
+  },
+  {
+    name: 'Curb Appeal ROI Calculator',
+    description: 'Calculate the return on investment for exterior home improvements to boost curb appeal and sale price',
+    category: 'Seller Tools',
+    icon: '🌳',
+    path: '/tools/curb-appeal-roi-calculator'
+  },
+  {
+    name: 'FSBO vs Agent Savings Calculator',
+    description: 'Compare the costs and benefits of selling your home yourself (For Sale By Owner) versus using a real estate agent',
+    category: 'Seller Tools',
+    icon: '🏷️',
+    path: '/tools/fsbo-vs-agent-savings-calculator'
+  },
+  {
+    name: 'iBuyer vs Traditional Sale Calculator',
+    description: 'Compare instant cash offers from iBuyers (Opendoor, Offerpad, Zillow) versus traditional home sales through an agent',
+    category: 'Seller Tools',
+    icon: '⚡',
+    path: '/tools/ibuyer-vs-traditional-sale-calculator'
+  },
+  {
+    name: 'Best Time to Sell Analyzer',
+    description: 'Analyze market conditions and personal factors to determine the optimal time to sell your home',
+    category: 'Seller Tools',
+    icon: '📅',
+    path: '/tools/best-time-to-sell-analyzer'
+  },
+  {
+    name: 'Home Appraisal Value Calculator',
+    description: 'Estimate your home\'s market value using multiple appraisal methods including comparable sales and square footage',
+    category: 'Seller Tools',
+    icon: '🏘️',
+    path: '/tools/home-appraisal-value-calculator'
+  },
+  {
+    name: 'Seller Closing Cost Estimator',
+    description: 'Estimate all closing costs you\'ll pay as a seller, including agent commissions, title fees, and transfer taxes',
+    category: 'Seller Tools',
+    icon: '💵',
+    path: '/tools/seller-closing-cost-estimator'
+  },
+  {
+    name: 'Real Estate Agent Commission Split Calculator',
+    description: 'Calculate commission splits between listing and buyer\'s agents, brokerages, and team members',
+    category: 'Seller Tools',
+    icon: '🤝',
+    path: '/tools/real-estate-agent-commission-split-calculator'
   }
 ];
 
@@ -750,6 +822,7 @@ export const categories = [
   'Financial Planning',
   'Risk Assessment',
   'Advanced Analytics',
+  'Seller Tools',
   'Additional Tools'
 ];
 
