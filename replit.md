@@ -1,6 +1,21 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application offering 162 interactive calculators and educational content for real estate professionals, investors, and homebuyers. The platform covers mortgage analysis, investment evaluation, tax calculations, seller tools, land development, opportunity zones, market analysis, closing costs, and AI-powered content. It features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's ambition is to be a leading resource in real estate analytics and decision-making.
+Property Tools is a comprehensive Next.js web application offering 172 interactive calculators and educational content for real estate professionals, investors, and homebuyers. The platform covers mortgage analysis, investment evaluation, tax calculations, seller tools, land development, opportunity zones, market analysis, closing costs, and AI-powered content. It features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's ambition is to be a leading resource in real estate analytics and decision-making.
+
+## Recent Additions (November 12, 2025)
+Added 10 new advanced real estate finance calculators to the Investment Analysis category:
+1. **Preferred Equity vs. Common Equity Analyzer** - Compares preferred and common equity investment structures
+2. **Mezzanine Debt Calculator** - Analyzes mezzanine financing for commercial deals
+3. **Real Estate Note Investing ROI Calculator** - Calculates returns on mortgage note investments
+4. **Performing vs. Non-Performing Note Analyzer** - Compares different note investment types
+5. **Discounted Note (Mortgage) Calculator** - Analyzes discounted note purchases
+6. **Seller Financing Amortization Schedule** - Creates amortization schedules for owner financing
+7. **Wraparound Mortgage Profit Calculator** - Calculates wraparound mortgage profitability
+8. **Subject-To Deal Cash Flow Analyzer** - Analyzes subject-to real estate deals
+9. **Lease Option (Rent-to-Own) Investor ROI Calculator** - Calculates lease option returns
+10. **Master Lease Agreement (MLA) Calculator** - Analyzes master lease profitability
+
+Each calculator includes comprehensive 2000+ word educational articles, detailed SEO metadata, and robust calculation logic.
 
 # User Preferences
 
