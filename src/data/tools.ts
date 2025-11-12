@@ -696,6 +696,76 @@ export const allTools: Tool[] = [
     icon: '💼',
     path: '/tools/real-estate-fund-fee-calculator'
   },
+  {
+    name: 'Land Banking ROI Calculator',
+    description: 'Calculate returns on land banking investments including appreciation, holding costs, and exit strategies for raw land speculation',
+    category: 'Investment Analysis',
+    icon: '🏞️',
+    path: '/tools/land-banking-roi-calculator'
+  },
+  {
+    name: 'Land Subdivision Cost Estimator',
+    description: 'Estimate total costs and profitability for subdividing raw land into individual lots including infrastructure, permitting, and development expenses',
+    category: 'Investment Analysis',
+    icon: '🗺️',
+    path: '/tools/land-subdivision-cost-estimator'
+  },
+  {
+    name: 'Zoning Variance Feasibility Checker',
+    description: 'Analyze the feasibility and financial impact of pursuing zoning variances for real estate development projects including costs, timeline, and approval probability',
+    category: 'Investment Analysis',
+    icon: '📋',
+    path: '/tools/zoning-variance-feasibility-checker'
+  },
+  {
+    name: 'Highest and Best Use Analyzer (Land)',
+    description: 'Determine the most profitable use for raw land by comparing residential, commercial, industrial, and agricultural development scenarios',
+    category: 'Investment Analysis',
+    icon: '🎯',
+    path: '/tools/highest-and-best-use-analyzer'
+  },
+  {
+    name: 'Cost to Clear Land Estimator',
+    description: 'Estimate land clearing costs including tree removal, brush clearing, grading, and debris disposal for development projects',
+    category: 'Investment Analysis',
+    icon: '🌳',
+    path: '/tools/cost-to-clear-land-estimator'
+  },
+  {
+    name: 'Timber Land Investment Calculator',
+    description: 'Calculate returns on timberland investments including timber growth, harvest revenue, land appreciation, and recreational income',
+    category: 'Investment Analysis',
+    icon: '🌲',
+    path: '/tools/timber-land-investment-calculator'
+  },
+  {
+    name: 'Farm/Agricultural Land ROI Calculator',
+    description: 'Calculate returns on farmland investments including crop income, land appreciation, government payments, and tax benefits',
+    category: 'Investment Analysis',
+    icon: '🚜',
+    path: '/tools/farm-agricultural-land-roi-calculator'
+  },
+  {
+    name: 'Water Rights Value Estimator',
+    description: 'Estimate the value of water rights for agricultural, commercial, or municipal use based on acre-feet, priority date, and market conditions',
+    category: 'Investment Analysis',
+    icon: '💧',
+    path: '/tools/water-rights-value-estimator'
+  },
+  {
+    name: 'Mineral Rights Value Estimator',
+    description: 'Estimate the value of mineral rights including oil, gas, coal, and other subsurface resources based on reserves, production, and royalty rates',
+    category: 'Investment Analysis',
+    icon: '⛏️',
+    path: '/tools/mineral-rights-value-estimator'
+  },
+  {
+    name: 'Student Housing Investment Calculator',
+    description: 'Calculate returns on student housing investments including rental income, occupancy rates, turnover costs, and cash flow for properties near universities',
+    category: 'Investment Analysis',
+    icon: '🎓',
+    path: '/tools/student-housing-investment-calculator'
+  },
 
   // Property Valuation (6 tools)
   {
