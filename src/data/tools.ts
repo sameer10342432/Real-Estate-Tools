@@ -1132,6 +1132,76 @@ export const allTools: Tool[] = [
     icon: '⛰️',
     path: '/tools/colorado-transfer-tax-calculator'
   },
+  {
+    name: 'Minnesota Transfer Tax Calculator',
+    description: 'Calculate Minnesota deed tax (0.33-0.34%), recording fees, well disclosure, and agricultural conservation fees for Hennepin, Ramsey, and all MN counties',
+    category: 'Seller Tools',
+    icon: '🏒',
+    path: '/tools/minnesota-transfer-tax-calculator'
+  },
+  {
+    name: 'South Carolina Transfer Tax Calculator',
+    description: 'Calculate South Carolina deed recording fee ($1.85 per $500), state and county portions, and total transfer costs for all SC counties',
+    category: 'Seller Tools',
+    icon: '🏝️',
+    path: '/tools/south-carolina-transfer-tax-calculator'
+  },
+  {
+    name: 'Alabama Transfer Tax Calculator',
+    description: 'Calculate Alabama deed tax ($0.50/$500) and mortgage recording tax ($0.15/$100). Learn who pays and actual closing costs in AL',
+    category: 'Seller Tools',
+    icon: '🏈',
+    path: '/tools/alabama-transfer-tax-calculator'
+  },
+  {
+    name: 'Louisiana Transfer Tax Calculator',
+    description: 'Calculate Louisiana parish recording fees. No state transfer tax except Orleans Parish $325 flat fee. Learn LA closing costs by parish',
+    category: 'Seller Tools',
+    icon: '⚜️',
+    path: '/tools/louisiana-transfer-tax-calculator'
+  },
+  {
+    name: 'Kentucky Transfer Tax Calculator',
+    description: 'Calculate Kentucky deed tax ($0.50 per $500 = 0.1%). No mortgage tax. Statewide uniform rate for all KY counties',
+    category: 'Seller Tools',
+    icon: '🐴',
+    path: '/tools/kentucky-transfer-tax-calculator'
+  },
+  {
+    name: 'Oregon Transfer Tax Calculator',
+    description: 'Calculate Oregon real estate costs. No state transfer tax (prohibited by law) except Washington County (0.1%). Learn OR closing costs',
+    category: 'Seller Tools',
+    icon: '🌲',
+    path: '/tools/oregon-transfer-tax-calculator'
+  },
+  {
+    name: 'Oklahoma Transfer Tax Calculator',
+    description: 'Calculate Oklahoma documentary stamp tax ($0.75 per $500 = 0.15%) and recording fees for Tulsa, OKC, and all OK counties',
+    category: 'Seller Tools',
+    icon: '🌾',
+    path: '/tools/oklahoma-transfer-tax-calculator'
+  },
+  {
+    name: 'Connecticut Transfer Tax Calculator',
+    description: 'Calculate Connecticut tiered conveyance tax (0.75%-2.25%) plus municipal tax (0.25%-0.5%). Includes all CT cities and targeted investment communities',
+    category: 'Seller Tools',
+    icon: '⚓',
+    path: '/tools/connecticut-transfer-tax-calculator'
+  },
+  {
+    name: 'Utah Transfer Tax Calculator',
+    description: 'Calculate Utah real estate costs. No state transfer tax - one of 13 states with $0. Learn actual UT closing costs and seller expenses',
+    category: 'Seller Tools',
+    icon: '⛰️',
+    path: '/tools/utah-transfer-tax-calculator'
+  },
+  {
+    name: 'Iowa Transfer Tax Calculator',
+    description: 'Calculate Iowa transfer tax ($0.80 per $500 with first $500 exempt) and recording fees for Des Moines, Cedar Rapids, and all IA counties',
+    category: 'Seller Tools',
+    icon: '🌽',
+    path: '/tools/iowa-transfer-tax-calculator'
+  },
   
   // Tax Strategy & Entity Planning (3 tools)
   {
