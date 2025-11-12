@@ -942,7 +942,7 @@ export const allTools: Tool[] = [
     path: '/tools/home-inspection-checklist'
   },
 
-  // Seller Tools (21 tools)
+  // Seller Tools (31 tools)
   {
     name: 'Net Proceeds from Home Sale Calculator',
     description: 'Calculate your net proceeds from selling your home after all costs, commissions, and fees',
@@ -1201,6 +1201,76 @@ export const allTools: Tool[] = [
     category: 'Seller Tools',
     icon: '🌽',
     path: '/tools/iowa-transfer-tax-calculator'
+  },
+  {
+    name: 'Nevada Transfer Tax Calculator',
+    description: 'Calculate Nevada real estate transfer tax and county surcharges for Clark, Washoe, and all NV counties',
+    category: 'Seller Tools',
+    icon: '🎰',
+    path: '/tools/nevada-transfer-tax-calculator'
+  },
+  {
+    name: 'Arkansas Transfer Tax Calculator',
+    description: 'Calculate Arkansas documentary stamp tax ($3.30 per $1,000) and recording fees for real estate transactions',
+    category: 'Seller Tools',
+    icon: '🏞️',
+    path: '/tools/arkansas-transfer-tax-calculator'
+  },
+  {
+    name: 'Mississippi Transfer Tax Calculator',
+    description: 'Calculate Mississippi real estate transfer costs. Mississippi has no state transfer tax - learn actual closing costs and recording fees',
+    category: 'Seller Tools',
+    icon: '🎺',
+    path: '/tools/mississippi-transfer-tax-calculator'
+  },
+  {
+    name: 'Kansas Transfer Tax Calculator',
+    description: 'Calculate Kansas real estate costs. No state transfer tax since 2019 - only county recording fees. Learn actual KS closing costs',
+    category: 'Seller Tools',
+    icon: '🌻',
+    path: '/tools/kansas-transfer-tax-calculator'
+  },
+  {
+    name: 'New Mexico Transfer Tax Calculator',
+    description: 'Calculate New Mexico real estate costs. No state transfer tax - only county recording fees. Learn actual NM closing costs',
+    category: 'Seller Tools',
+    icon: '🌵',
+    path: '/tools/new-mexico-transfer-tax-calculator'
+  },
+  {
+    name: 'Nebraska Transfer Tax Calculator',
+    description: 'Calculate Nebraska documentary stamp tax ($2.25-$2.32 per $1,000) effective through 2025. Free calculator for NE real estate transfer costs',
+    category: 'Seller Tools',
+    icon: '🌽',
+    path: '/tools/nebraska-transfer-tax-calculator'
+  },
+  {
+    name: 'West Virginia Transfer Tax Calculator',
+    description: 'Calculate West Virginia transfer tax ($1.10 per $500 state + county add-ons). Includes Berkeley, Harrison, Marion county rates',
+    category: 'Seller Tools',
+    icon: '⛰️',
+    path: '/tools/west-virginia-transfer-tax-calculator'
+  },
+  {
+    name: 'Idaho Transfer Tax Calculator',
+    description: 'Calculate Idaho real estate costs. No state transfer tax - only county recording fees ($15-$30). Learn actual ID closing costs',
+    category: 'Seller Tools',
+    icon: '🥔',
+    path: '/tools/idaho-transfer-tax-calculator'
+  },
+  {
+    name: 'Hawaii Transfer Tax Calculator',
+    description: 'Calculate Hawaii conveyance tax with tiered rates ($0.10-$1.25 per $100) and owner-occupant exemptions. Free HI real estate transfer cost calculator',
+    category: 'Seller Tools',
+    icon: '🌺',
+    path: '/tools/hawaii-transfer-tax-calculator'
+  },
+  {
+    name: 'New Hampshire Transfer Tax Calculator',
+    description: 'Calculate New Hampshire transfer tax ($0.75 per $100 each for buyer and seller = 1.5% total). Free NH real estate transfer cost calculator',
+    category: 'Seller Tools',
+    icon: '🍁',
+    path: '/tools/new-hampshire-transfer-tax-calculator'
   },
   
   // Tax Strategy & Entity Planning (3 tools)
