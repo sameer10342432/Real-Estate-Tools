@@ -942,7 +942,7 @@ export const allTools: Tool[] = [
     path: '/tools/home-inspection-checklist'
   },
 
-  // Seller Tools (31 tools)
+  // Seller Tools (41 tools)
   {
     name: 'Net Proceeds from Home Sale Calculator',
     description: 'Calculate your net proceeds from selling your home after all costs, commissions, and fees',
@@ -1271,6 +1271,76 @@ export const allTools: Tool[] = [
     category: 'Seller Tools',
     icon: '🍁',
     path: '/tools/new-hampshire-transfer-tax-calculator'
+  },
+  {
+    name: 'Maine Transfer Tax Calculator',
+    description: 'Calculate Maine real estate transfer tax with progressive rates ($2.20-$6.00 per $500) effective November 2025 for properties over $1 million',
+    category: 'Seller Tools',
+    icon: '🦞',
+    path: '/tools/maine-transfer-tax-calculator'
+  },
+  {
+    name: 'Rhode Island Transfer Tax Calculator',
+    description: 'Calculate Rhode Island documentary stamps (conveyance tax) with 63% rate increase to $3.75 per $500 effective October 2025',
+    category: 'Seller Tools',
+    icon: '⚓',
+    path: '/tools/rhode-island-transfer-tax-calculator'
+  },
+  {
+    name: 'Montana Transfer Tax Calculator',
+    description: 'Montana has NO real estate transfer tax. Calculate recording fees ($8/page) and learn about Realty Transfer Certificate requirements',
+    category: 'Seller Tools',
+    icon: '🏔️',
+    path: '/tools/montana-transfer-tax-calculator'
+  },
+  {
+    name: 'Delaware Transfer Tax Calculator',
+    description: 'Calculate Delaware 4% realty transfer tax (highest in US) with first-time homebuyer exemption on first $400K',
+    category: 'Seller Tools',
+    icon: '🏖️',
+    path: '/tools/delaware-transfer-tax-calculator'
+  },
+  {
+    name: 'South Dakota Transfer Tax Calculator',
+    description: 'Calculate South Dakota real estate deed stamps at $0.50 per $500 (0.1% rate). One of lowest transfer taxes in US',
+    category: 'Seller Tools',
+    icon: '🦌',
+    path: '/tools/south-dakota-transfer-tax-calculator'
+  },
+  {
+    name: 'North Dakota Transfer Tax Calculator',
+    description: 'North Dakota has NO real estate transfer tax or deed tax. Calculate recording fees only (~$50)',
+    category: 'Seller Tools',
+    icon: '🌾',
+    path: '/tools/north-dakota-transfer-tax-calculator'
+  },
+  {
+    name: 'Alaska Transfer Tax Calculator',
+    description: 'Alaska has NO state transfer tax and no local transfer taxes. Calculate recording fees only',
+    category: 'Seller Tools',
+    icon: '🐻',
+    path: '/tools/alaska-transfer-tax-calculator'
+  },
+  {
+    name: 'Vermont Transfer Tax Calculator',
+    description: 'Calculate Vermont property transfer tax with complex tiered rates (0.5-3.62%) - principal residence vs second home/vacation property',
+    category: 'Seller Tools',
+    icon: '🍁',
+    path: '/tools/vermont-transfer-tax-calculator'
+  },
+  {
+    name: 'Wyoming Transfer Tax Calculator',
+    description: 'Wyoming has NO real estate transfer tax or documentary stamp tax. Calculate recording fees only',
+    category: 'Seller Tools',
+    icon: '🦬',
+    path: '/tools/wyoming-transfer-tax-calculator'
+  },
+  {
+    name: 'FHA Monthly Payment Calculator',
+    description: 'Calculate total FHA monthly payment including principal, interest, MIP (mortgage insurance premium), property tax, and homeowners insurance',
+    category: 'Basic Calculators',
+    icon: '🏦',
+    path: '/tools/fha-monthly-payment-calculator'
   },
   
   // Tax Strategy & Entity Planning (3 tools)
