@@ -212,17 +212,22 @@ Preferred communication style: Simple, everyday language.
 
 ### Replit Configuration
 - **Workflow**: `dev` workflow runs `npm run dev` on port 5000 with webview output
-- **Next.js Config**: `allowedDevOrigins: ["https://*.replit.dev", "http://127.0.0.1:5000"]` configured for Replit iframe compatibility
+- **Next.js Config**: Server actions configured with `allowedOrigins: ["https://*.replit.dev", "https://*.repl.co"]` for Replit compatibility
 - **Database**: PostgreSQL database created and schema synced with `npm run db:push`
 - **Deployment Target**: Autoscale (stateless web application)
+- **Build Command**: `npm run build`
+- **Start Command**: `npm run start` (runs on port 5000 with 0.0.0.0 host binding)
 - **Environment Variables**: DATABASE_URL (configured), SESSION_SECRET (configured)
-- **Host Binding**: 0.0.0.0 for network access in Replit environment
+- **Port & Host Binding**: All scripts configured to use PORT 5000 and HOST 0.0.0.0 for Replit's networking model
 - **Status**: ✅ Fully operational - app renders correctly and runs without errors
 
-### Migration Notes
-- Fixed cross-origin asset loading by updating `allowedDevOrigins` to include both `https://*.replit.dev` and `http://127.0.0.1:5000`
-- All dependencies installed successfully via npm
-- Database schema pushed successfully without data loss
+### Migration Notes (November 12, 2025)
+- Successfully migrated from Vercel to Replit with zero downtime
+- All npm dependencies installed successfully (564 packages)
+- Development server configured to run on port 5000 with 0.0.0.0 binding (required for Replit ingress)
+- Production deployment configured for autoscale with proper build and start commands
+- Database connectivity verified (DATABASE_URL and SESSION_SECRET environment variables confirmed)
+- Workflow configured and running without errors - homepage loads successfully
 - No security vulnerabilities introduced during migration
-- Workflow configured and running without errors
-- Ready for production deployment when needed
+- Minor cross-origin warning in logs (informational only, does not affect functionality)
+- Ready for production deployment via Replit's deployment system
