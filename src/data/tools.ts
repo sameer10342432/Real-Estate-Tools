@@ -352,7 +352,7 @@ export const allTools: Tool[] = [
     path: '/tools/w2-earner-mortgage-qualifier'
   },
 
-  // Investment Analysis (39 tools)
+  // Investment Analysis (49 tools)
   {
     name: 'BRRRR Calculator',
     description: 'Analyze Buy, Rehab, Rent, Refinance, and Repeat (BRRRR) deals',
@@ -625,6 +625,76 @@ export const allTools: Tool[] = [
     category: 'Investment Analysis',
     icon: '🎯',
     path: '/tools/opportunity-zone-calculator'
+  },
+  {
+    name: 'Commercial Real Estate Loan Calculator',
+    description: 'Calculate monthly payments, total costs, and amortization for commercial property loans',
+    category: 'Investment Analysis',
+    icon: '🏢',
+    path: '/tools/commercial-real-estate-loan-calculator'
+  },
+  {
+    name: 'Apartment Building ROI Calculator',
+    description: 'Calculate return on investment for multifamily apartment buildings with detailed income, expense, and financing analysis',
+    category: 'Investment Analysis',
+    icon: '🏘️',
+    path: '/tools/apartment-building-roi-calculator'
+  },
+  {
+    name: 'Hotel/Motel Investment Analyzer',
+    description: 'Analyze hotel and motel investments with occupancy rates, RevPAR, ADR, and comprehensive financial projections',
+    category: 'Investment Analysis',
+    icon: '🏨',
+    path: '/tools/hotel-motel-investment-analyzer'
+  },
+  {
+    name: 'Retail Strip Mall ROI Calculator',
+    description: 'Analyze strip mall and retail center investments with detailed tenant mix, lease analysis, and return calculations',
+    category: 'Investment Analysis',
+    icon: '🛍️',
+    path: '/tools/retail-strip-mall-roi-calculator'
+  },
+  {
+    name: 'Office Building Investment Calculator',
+    description: 'Evaluate office building investments with tenant mix analysis, lease structures, and comprehensive financial modeling',
+    category: 'Investment Analysis',
+    icon: '🏬',
+    path: '/tools/office-building-investment-calculator'
+  },
+  {
+    name: 'Warehouse/Industrial Property Calculator',
+    description: 'Analyze warehouse, distribution center, and industrial property investments with lease analysis and return calculations',
+    category: 'Investment Analysis',
+    icon: '🏭',
+    path: '/tools/warehouse-industrial-property-calculator'
+  },
+  {
+    name: 'Build-to-Suit Development Calculator',
+    description: 'Analyze build-to-suit development projects with construction costs, tenant lease analysis, and developer returns',
+    category: 'Investment Analysis',
+    icon: '🏗️',
+    path: '/tools/build-to-suit-development-calculator'
+  },
+  {
+    name: 'Real Estate Syndication Waterfall Calculator',
+    description: 'Calculate syndication waterfall distributions with preferred returns, catch-up provisions, and promote structures',
+    category: 'Investment Analysis',
+    icon: '💧',
+    path: '/tools/real-estate-syndication-waterfall-calculator'
+  },
+  {
+    name: 'Syndication Deal Equity Split Calculator',
+    description: 'Calculate equity ownership splits, capital contributions, and profit distributions for real estate syndication partnerships',
+    category: 'Investment Analysis',
+    icon: '🤝',
+    path: '/tools/syndication-deal-equity-split-calculator'
+  },
+  {
+    name: 'Real Estate Fund Fee Calculator',
+    description: 'Calculate total fees, net returns, and fee impact for real estate funds including management fees and performance fees',
+    category: 'Investment Analysis',
+    icon: '💼',
+    path: '/tools/real-estate-fund-fee-calculator'
   },
 
   // Property Valuation (6 tools)
