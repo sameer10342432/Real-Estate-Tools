@@ -7,7 +7,7 @@ export interface Tool {
 }
 
 export const allTools: Tool[] = [
-  // Basic Calculators (18 tools)
+  // Basic Calculators (42 tools)
   {
     name: 'Mortgage Calculator',
     description: 'Calculate monthly mortgage payments, interest, and amortization schedules',
@@ -224,6 +224,76 @@ export const allTools: Tool[] = [
     category: 'Basic Calculators',
     icon: '📊',
     path: '/tools/back-end-dti-calculator'
+  },
+  {
+    name: 'VA Monthly Payment Calculator',
+    description: 'Calculate monthly VA loan payments with funding fee, taxes, and insurance',
+    category: 'Basic Calculators',
+    icon: '🎖️',
+    path: '/tools/va-monthly-payment-calculator'
+  },
+  {
+    name: 'USDA Monthly Payment Calculator',
+    description: 'Calculate monthly USDA loan payments with 100% financing and guarantee fees',
+    category: 'Basic Calculators',
+    icon: '🌾',
+    path: '/tools/usda-monthly-payment-calculator'
+  },
+  {
+    name: 'Jumbo Loan Monthly Payment Calculator',
+    description: 'Calculate monthly payments for jumbo loans above conforming limits',
+    category: 'Basic Calculators',
+    icon: '🏰',
+    path: '/tools/jumbo-loan-monthly-payment-calculator'
+  },
+  {
+    name: 'FHA MIP vs. Conventional PMI Calculator',
+    description: 'Compare FHA mortgage insurance vs conventional PMI costs side-by-side',
+    category: 'Basic Calculators',
+    icon: '⚖️',
+    path: '/tools/fha-mip-vs-conventional-pmi-calculator'
+  },
+  {
+    name: 'Conforming Loan Limit Checker',
+    description: 'Check 2024 conforming loan limits by county ($766,550 to $1,149,825)',
+    category: 'Basic Calculators',
+    icon: '📊',
+    path: '/tools/conforming-loan-limit-checker'
+  },
+  {
+    name: 'FHA Loan Down Payment Assistance Calculator',
+    description: 'Calculate available down payment assistance programs and grants for FHA loans',
+    category: 'Basic Calculators',
+    icon: '💰',
+    path: '/tools/fha-loan-down-payment-assistance-calculator'
+  },
+  {
+    name: 'VA Loan Certificate of Eligibility (COE) Checker',
+    description: 'Check VA loan eligibility requirements and how to get your COE',
+    category: 'Basic Calculators',
+    icon: '✅',
+    path: '/tools/va-loan-coe-checker'
+  },
+  {
+    name: 'Remaining VA Loan Entitlement Calculator',
+    description: 'Calculate remaining VA entitlement and maximum purchase price for second home',
+    category: 'Basic Calculators',
+    icon: '🎖️',
+    path: '/tools/remaining-va-loan-entitlement-calculator'
+  },
+  {
+    name: 'Seller Concessions Calculator (FHA)',
+    description: 'Calculate FHA seller concessions up to 6% of sales price for closing costs',
+    category: 'Basic Calculators',
+    icon: '💵',
+    path: '/tools/seller-concessions-calculator-fha'
+  },
+  {
+    name: 'Seller Concessions Calculator (VA)',
+    description: 'Calculate VA seller concessions up to 4% of sales price to reduce costs',
+    category: 'Basic Calculators',
+    icon: '💳',
+    path: '/tools/seller-concessions-calculator-va'
   },
 
   // Investment Analysis (39 tools)
