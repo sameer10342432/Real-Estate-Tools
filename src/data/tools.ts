@@ -2053,6 +2053,76 @@ export const allTools: Tool[] = [
     path: '/tools/ai-seller-lead-scoring-tool'
   },
   {
+    name: 'AI Buyer Lead Scoring Tool',
+    description: 'Score and prioritize buyer leads using AI analysis of budget, motivation, timeline, and readiness. Focus your efforts on the most qualified prospects',
+    category: 'Additional Tools',
+    icon: '🎯',
+    path: '/tools/ai-buyer-lead-scoring-tool'
+  },
+  {
+    name: 'AI Real Estate Ad Copy Generator (Google Ads)',
+    description: 'Generate high-converting Google Ads copy for real estate listings. Create compelling headlines, descriptions, and CTAs optimized for search campaigns',
+    category: 'Additional Tools',
+    icon: '🔍',
+    path: '/tools/ai-google-ads-copy-generator'
+  },
+  {
+    name: 'AI Real Estate Ad Copy (Facebook Ads)',
+    description: 'Create engaging Facebook and Instagram ad copy for property listings. Generate scroll-stopping headlines and persuasive ad text that drives leads',
+    category: 'Additional Tools',
+    icon: '📱',
+    path: '/tools/ai-facebook-ads-copy-generator'
+  },
+  {
+    name: 'AI Property Valuation (AVM) Model',
+    description: 'Estimate property values using AI-powered automated valuation model (AVM). Analyze comparable sales, market trends, and property features for accurate pricing',
+    category: 'Additional Tools',
+    icon: '🏠',
+    path: '/tools/ai-property-valuation-avm'
+  },
+  {
+    name: 'AI Renovation ROI Predictor',
+    description: 'Predict return on investment for home renovations using AI analysis. Evaluate which improvements add the most value based on market data and trends',
+    category: 'Additional Tools',
+    icon: '🔨',
+    path: '/tools/ai-renovation-roi-predictor'
+  },
+  {
+    name: 'AI Home Price Appreciation Forecaster',
+    description: 'Forecast future home price appreciation using AI-powered market analysis. Predict property value growth over 1, 5, and 10-year periods',
+    category: 'Additional Tools',
+    icon: '📈',
+    path: '/tools/ai-home-price-appreciation-forecaster'
+  },
+  {
+    name: 'AI Neighborhood Gentrification Predictor',
+    description: 'Identify neighborhoods showing early signs of gentrification using AI analysis of demographics, development, and economic indicators',
+    category: 'Additional Tools',
+    icon: '🏘️',
+    path: '/tools/ai-neighborhood-gentrification-predictor'
+  },
+  {
+    name: 'AI "Next Hot Neighborhood" Finder',
+    description: 'Discover emerging real estate markets before they peak. AI analyzes trends, development, and indicators to find the next hot neighborhoods for investment',
+    category: 'Additional Tools',
+    icon: '🔥',
+    path: '/tools/ai-next-hot-neighborhood-finder'
+  },
+  {
+    name: 'AI Comp (Comparable) Selection Tool',
+    description: 'Automatically select the best comparable properties for accurate valuations using AI analysis of location, features, and market conditions',
+    category: 'Additional Tools',
+    icon: '🏘️',
+    path: '/tools/ai-comp-selection-tool'
+  },
+  {
+    name: 'AI CMA (Comparative Market Analysis) Report Generator',
+    description: 'Generate comprehensive CMA reports instantly using AI. Analyze market trends, comparable sales, and pricing strategies for professional presentations',
+    category: 'Additional Tools',
+    icon: '📊',
+    path: '/tools/ai-cma-report-generator'
+  },
+  {
     name: 'California Property Tax Calculator (Prop 13)',
     description: 'Calculate California property taxes under Proposition 13 with 1% base rate plus local assessments and annual 2% increase cap',
     category: 'Financial Planning',
