@@ -2123,6 +2123,76 @@ export const allTools: Tool[] = [
     path: '/tools/ai-cma-report-generator'
   },
   {
+    name: 'AI Investment Risk Score Calculator',
+    description: 'Analyze investment property risks using AI to calculate comprehensive risk scores. Evaluate market, property, financial, and location factors for informed decisions',
+    category: 'Additional Tools',
+    icon: '⚠️',
+    path: '/tools/ai-investment-risk-score-calculator'
+  },
+  {
+    name: 'AI Property Description Keyword Analyzer',
+    description: 'Optimize property listings with AI keyword analysis. Identify high-value keywords, improve SEO strength, and create compelling descriptions that attract buyers',
+    category: 'Additional Tools',
+    icon: '🔤',
+    path: '/tools/ai-property-description-keyword-analyzer'
+  },
+  {
+    name: 'AI Listing Photo Quality Analyzer',
+    description: 'Evaluate real estate listing photos using AI. Get detailed scores for composition, lighting, staging, and coverage with actionable improvement recommendations',
+    category: 'Additional Tools',
+    icon: '📸',
+    path: '/tools/ai-listing-photo-quality-analyzer'
+  },
+  {
+    name: 'AI Virtual Staging Idea Generator',
+    description: 'Generate professional virtual staging ideas using AI. Get furniture placement, color palettes, and design concepts tailored to your target buyers',
+    category: 'Additional Tools',
+    icon: '🛋️',
+    path: '/tools/ai-virtual-staging-idea-generator'
+  },
+  {
+    name: 'AI Curb Appeal Suggestion Tool',
+    description: 'Boost property curb appeal with AI-powered suggestions. Get landscaping ideas, paint colors, lighting tips, and cost-effective improvements',
+    category: 'Additional Tools',
+    icon: '🏡',
+    path: '/tools/ai-curb-appeal-suggestion-tool'
+  },
+  {
+    name: 'AI Interior Design Style Suggester',
+    description: 'Discover perfect interior design styles using AI analysis. Get personalized recommendations with furniture, colors, and decor for any room',
+    category: 'Additional Tools',
+    icon: '🎨',
+    path: '/tools/ai-interior-design-style-suggester'
+  },
+  {
+    name: 'AI Floor Plan Generator',
+    description: 'Create optimized floor plan concepts with AI. Generate detailed layouts, room dimensions, and flow descriptions for any property type',
+    category: 'Additional Tools',
+    icon: '📐',
+    path: '/tools/ai-floor-plan-generator'
+  },
+  {
+    name: 'AI Renovation Cost Estimator (from Description)',
+    description: 'Estimate renovation costs instantly using AI. Get detailed breakdowns, labor and material costs, timelines, and budget ranges for any project',
+    category: 'Additional Tools',
+    icon: '💰',
+    path: '/tools/ai-renovation-cost-estimator-from-description'
+  },
+  {
+    name: 'AI Home Inspection Report Summarizer',
+    description: 'Simplify complex inspection reports with AI. Get clear summaries of critical issues, repair costs, safety hazards, and negotiation points',
+    category: 'Additional Tools',
+    icon: '🔍',
+    path: '/tools/ai-home-inspection-report-summarizer'
+  },
+  {
+    name: 'AI Legal Document (Lease) Summarizer',
+    description: 'Understand legal documents instantly using AI. Get plain-language summaries of leases and contracts with key terms, obligations, and red flags highlighted',
+    category: 'Additional Tools',
+    icon: '📋',
+    path: '/tools/ai-legal-document-lease-summarizer'
+  },
+  {
     name: 'California Property Tax Calculator (Prop 13)',
     description: 'Calculate California property taxes under Proposition 13 with 1% base rate plus local assessments and annual 2% increase cap',
     category: 'Financial Planning',

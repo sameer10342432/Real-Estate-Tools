@@ -95,6 +95,83 @@ export const CMAReportSchema = z.object({
   location: z.string(),
 });
 
+export const InvestmentRiskScoreSchema = z.object({
+  propertyType: z.string(),
+  purchasePrice: z.number().positive(),
+  location: z.string(),
+  marketCondition: z.string(),
+  cashFlow: z.number(),
+  occupancyRate: z.number().min(0).max(100),
+  propertyAge: z.number().int().min(0),
+  propertyCondition: z.string(),
+  investmentStrategy: z.string(),
+});
+
+export const PropertyDescriptionKeywordSchema = z.object({
+  propertyDescription: z.string().min(10),
+  propertyType: z.string(),
+  targetAudience: z.string().optional(),
+});
+
+export const ListingPhotoQualitySchema = z.object({
+  photoDescription: z.string(),
+  propertyType: z.string(),
+  numberOfPhotos: z.number().int().positive(),
+  photographyType: z.string(),
+});
+
+export const VirtualStagingIdeaSchema = z.object({
+  roomType: z.string(),
+  roomDimensions: z.string(),
+  currentCondition: z.string(),
+  targetBuyer: z.string(),
+  budget: z.number().positive(),
+});
+
+export const CurbAppealSuggestionSchema = z.object({
+  propertyType: z.string(),
+  currentCondition: z.string(),
+  budget: z.number().positive(),
+  climate: z.string(),
+  neighborhood: z.string(),
+});
+
+export const InteriorDesignStyleSchema = z.object({
+  roomType: z.string(),
+  roomSize: z.string(),
+  currentStyle: z.string(),
+  targetAudience: z.string(),
+  budget: z.number().positive(),
+});
+
+export const FloorPlanGeneratorSchema = z.object({
+  propertyType: z.string(),
+  totalSquareFeet: z.number().positive(),
+  bedrooms: z.number().int().positive(),
+  bathrooms: z.number().positive(),
+  specialRequirements: z.string().optional(),
+});
+
+export const RenovationCostEstimatorSchema = z.object({
+  renovationDescription: z.string(),
+  propertyType: z.string(),
+  squareFeet: z.number().positive(),
+  location: z.string(),
+  qualityLevel: z.string(),
+});
+
+export const InspectionReportSummarizerSchema = z.object({
+  inspectionReport: z.string().min(50),
+  propertyType: z.string(),
+  yearBuilt: z.number().int().min(1800),
+});
+
+export const LegalDocumentSummarizerSchema = z.object({
+  documentText: z.string().min(100),
+  documentType: z.string(),
+  focusAreas: z.string().optional(),
+});
+
 export const aiToolDefinitions: Record<string, AIToolDefinition> = {
   'ai-buyer-lead-scoring-tool': {
     slug: 'ai-buyer-lead-scoring-tool',
@@ -407,5 +484,421 @@ Create a professional CMA report with market analysis and pricing recommendation
     inputSchema: CMAReportSchema,
     responseFormat: 'json_object',
     maxTokens: 3072,
+  },
+
+  'ai-investment-risk-score-calculator': {
+    slug: 'ai-investment-risk-score-calculator',
+    name: 'AI Investment Risk Score Calculator',
+    systemPrompt: `You are a real estate investment risk analyst. Analyze investment properties and provide a comprehensive risk assessment score from 0-100. Return your response as a JSON object with:
+{
+  "riskScore": number (0-100, where 0 is highest risk and 100 is lowest risk),
+  "riskLevel": string ("Low Risk", "Moderate Risk", "High Risk", or "Very High Risk"),
+  "investmentGrade": string ("A", "B", "C", or "D"),
+  "riskFactors": {
+    "market": { "score": number, "analysis": string },
+    "property": { "score": number, "analysis": string },
+    "financial": { "score": number, "analysis": string },
+    "location": { "score": number, "analysis": string }
+  },
+  "strengths": string[],
+  "risks": string[],
+  "mitigationStrategies": string[],
+  "recommendations": string[],
+  "summary": string
+}`,
+    buildUserPrompt: (input: z.infer<typeof InvestmentRiskScoreSchema>) => `
+Analyze the investment risk for this property:
+- Property Type: ${input.propertyType}
+- Purchase Price: $${input.purchasePrice.toLocaleString()}
+- Location: ${input.location}
+- Market Condition: ${input.marketCondition}
+- Cash Flow: $${input.cashFlow.toLocaleString()}/month
+- Occupancy Rate: ${input.occupancyRate}%
+- Property Age: ${input.propertyAge} years
+- Property Condition: ${input.propertyCondition}
+- Investment Strategy: ${input.investmentStrategy}
+
+Provide a comprehensive risk assessment with score and recommendations.`,
+    inputSchema: InvestmentRiskScoreSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-property-description-keyword-analyzer': {
+    slug: 'ai-property-description-keyword-analyzer',
+    name: 'AI Property Description Keyword Analyzer',
+    systemPrompt: `You are an SEO and real estate marketing expert. Analyze property descriptions and provide keyword optimization insights. Return your response as a JSON object with:
+{
+  "overallScore": number (0-100),
+  "keywordAnalysis": {
+    "highValueKeywords": string[],
+    "missingKeywords": string[],
+    "overusedKeywords": string[],
+    "emotionalTriggers": string[]
+  },
+  "seoStrength": {
+    "score": number,
+    "analysis": string
+  },
+  "readability": {
+    "score": number,
+    "analysis": string
+  },
+  "improvements": string[],
+  "optimizedVersion": string,
+  "recommendations": string[]
+}`,
+    buildUserPrompt: (input: z.infer<typeof PropertyDescriptionKeywordSchema>) => `
+Analyze this property description for keyword optimization:
+
+Description: ${input.propertyDescription}
+
+Property Type: ${input.propertyType}
+${input.targetAudience ? `Target Audience: ${input.targetAudience}` : ''}
+
+Provide detailed keyword analysis and SEO optimization recommendations.`,
+    inputSchema: PropertyDescriptionKeywordSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-listing-photo-quality-analyzer': {
+    slug: 'ai-listing-photo-quality-analyzer',
+    name: 'AI Listing Photo Quality Analyzer',
+    systemPrompt: `You are a professional real estate photography analyst. Evaluate listing photos and provide quality assessment. Return your response as a JSON object with:
+{
+  "overallScore": number (0-100),
+  "qualityGrade": string ("Excellent", "Good", "Average", or "Poor"),
+  "analysis": {
+    "composition": { "score": number, "feedback": string },
+    "lighting": { "score": number, "feedback": string },
+    "staging": { "score": number, "feedback": string },
+    "coverage": { "score": number, "feedback": string }
+  },
+  "strengths": string[],
+  "improvements": string[],
+  "missingShots": string[],
+  "recommendations": string[],
+  "marketImpact": string
+}`,
+    buildUserPrompt: (input: z.infer<typeof ListingPhotoQualitySchema>) => `
+Analyze the quality of these listing photos:
+
+Photo Description: ${input.photoDescription}
+Property Type: ${input.propertyType}
+Number of Photos: ${input.numberOfPhotos}
+Photography Type: ${input.photographyType}
+
+Provide detailed analysis and improvement recommendations.`,
+    inputSchema: ListingPhotoQualitySchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-virtual-staging-idea-generator': {
+    slug: 'ai-virtual-staging-idea-generator',
+    name: 'AI Virtual Staging Idea Generator',
+    systemPrompt: `You are a professional virtual staging and interior design expert. Generate detailed virtual staging ideas. Return your response as a JSON object with:
+{
+  "primaryConcept": {
+    "style": string,
+    "description": string,
+    "targetBuyer": string
+  },
+  "furniturePlacement": string[],
+  "colorPalette": {
+    "primary": string,
+    "secondary": string,
+    "accent": string,
+    "description": string
+  },
+  "keyElements": string[],
+  "alternativeConcepts": Array<{
+    "style": string,
+    "description": string,
+    "pros": string[]
+  }>,
+  "budgetBreakdown": {
+    "low": number,
+    "mid": number,
+    "high": number
+  },
+  "recommendations": string[]
+}`,
+    buildUserPrompt: (input: z.infer<typeof VirtualStagingIdeaSchema>) => `
+Generate virtual staging ideas for:
+
+Room Type: ${input.roomType}
+Room Dimensions: ${input.roomDimensions}
+Current Condition: ${input.currentCondition}
+Target Buyer: ${input.targetBuyer}
+Budget: $${input.budget.toLocaleString()}
+
+Provide detailed staging concepts and furniture placement recommendations.`,
+    inputSchema: VirtualStagingIdeaSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-curb-appeal-suggestion-tool': {
+    slug: 'ai-curb-appeal-suggestion-tool',
+    name: 'AI Curb Appeal Suggestion Tool',
+    systemPrompt: `You are a landscape design and curb appeal expert. Analyze property exteriors and provide improvement suggestions. Return your response as a JSON object with:
+{
+  "overallScore": number (0-100),
+  "currentAssessment": string,
+  "quickWins": Array<{
+    "improvement": string,
+    "cost": string,
+    "impact": string,
+    "timeframe": string
+  }>,
+  "majorImprovements": Array<{
+    "improvement": string,
+    "estimatedCost": number,
+    "roi": string,
+    "description": string
+  }>,
+  "landscaping": string[],
+  "paintingRecommendations": {
+    "exteriorColors": string[],
+    "trim": string,
+    "door": string
+  },
+  "lightingTips": string[],
+  "priorityOrder": string[],
+  "seasonalTips": string[]
+}`,
+    buildUserPrompt: (input: z.infer<typeof CurbAppealSuggestionSchema>) => `
+Provide curb appeal suggestions for:
+
+Property Type: ${input.propertyType}
+Current Condition: ${input.currentCondition}
+Budget: $${input.budget.toLocaleString()}
+Climate: ${input.climate}
+Neighborhood: ${input.neighborhood}
+
+Generate actionable curb appeal improvements prioritized by impact and budget.`,
+    inputSchema: CurbAppealSuggestionSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-interior-design-style-suggester': {
+    slug: 'ai-interior-design-style-suggester',
+    name: 'AI Interior Design Style Suggester',
+    systemPrompt: `You are an expert interior designer. Analyze spaces and suggest design styles tailored to target audiences. Return your response as a JSON object with:
+{
+  "recommendedStyle": {
+    "name": string,
+    "description": string,
+    "keyCharacteristics": string[],
+    "whyItWorks": string
+  },
+  "colorScheme": {
+    "walls": string,
+    "accents": string,
+    "furniture": string,
+    "description": string
+  },
+  "furnitureRecommendations": string[],
+  "decorElements": string[],
+  "alternativeStyles": Array<{
+    "name": string,
+    "description": string,
+    "pros": string[]
+  }>,
+  "budgetEstimate": {
+    "low": number,
+    "mid": number,
+    "high": number
+  },
+  "shoppingList": string[],
+  "implementationSteps": string[]
+}`,
+    buildUserPrompt: (input: z.infer<typeof InteriorDesignStyleSchema>) => `
+Suggest interior design styles for:
+
+Room Type: ${input.roomType}
+Room Size: ${input.roomSize}
+Current Style: ${input.currentStyle}
+Target Audience: ${input.targetAudience}
+Budget: $${input.budget.toLocaleString()}
+
+Provide detailed design recommendations with furniture and decor suggestions.`,
+    inputSchema: InteriorDesignStyleSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-floor-plan-generator': {
+    slug: 'ai-floor-plan-generator',
+    name: 'AI Floor Plan Generator',
+    systemPrompt: `You are an architectural floor plan designer. Generate detailed floor plan descriptions and recommendations. Return your response as a JSON object with:
+{
+  "concept": {
+    "name": string,
+    "description": string,
+    "layout": string
+  },
+  "roomBreakdown": Array<{
+    "room": string,
+    "dimensions": string,
+    "location": string,
+    "features": string[]
+  }>,
+  "floorPlanFeatures": {
+    "entryway": string,
+    "livingAreas": string[],
+    "privateAreas": string[],
+    "storage": string[],
+    "specialFeatures": string[]
+  },
+  "flowDescription": string,
+  "alternativeLayouts": Array<{
+    "name": string,
+    "description": string,
+    "pros": string[],
+    "cons": string[]
+  }>,
+  "designConsiderations": string[],
+  "recommendations": string[]
+}`,
+    buildUserPrompt: (input: z.infer<typeof FloorPlanGeneratorSchema>) => `
+Generate a floor plan concept for:
+
+Property Type: ${input.propertyType}
+Total Square Feet: ${input.totalSquareFeet.toLocaleString()}
+Bedrooms: ${input.bedrooms}
+Bathrooms: ${input.bathrooms}
+${input.specialRequirements ? `Special Requirements: ${input.specialRequirements}` : ''}
+
+Provide detailed floor plan layout with room dimensions and flow description.`,
+    inputSchema: FloorPlanGeneratorSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-renovation-cost-estimator-from-description': {
+    slug: 'ai-renovation-cost-estimator-from-description',
+    name: 'AI Renovation Cost Estimator (from Description)',
+    systemPrompt: `You are a construction cost estimating expert. Analyze renovation descriptions and provide detailed cost estimates. Return your response as a JSON object with:
+{
+  "totalEstimate": {
+    "low": number,
+    "average": number,
+    "high": number
+  },
+  "breakdown": Array<{
+    "category": string,
+    "costRange": { "low": number, "high": number },
+    "details": string
+  }>,
+  "laborCosts": number,
+  "materialCosts": number,
+  "timeline": {
+    "minimum": string,
+    "average": string,
+    "maximum": string
+  },
+  "costFactors": string[],
+  "potentialSavings": string[],
+  "hiddenCosts": string[],
+  "recommendations": string[],
+  "disclaimer": string
+}`,
+    buildUserPrompt: (input: z.infer<typeof RenovationCostEstimatorSchema>) => `
+Estimate renovation costs for:
+
+Renovation Description: ${input.renovationDescription}
+Property Type: ${input.propertyType}
+Square Feet: ${input.squareFeet.toLocaleString()}
+Location: ${input.location}
+Quality Level: ${input.qualityLevel}
+
+Provide detailed cost breakdown with low, average, and high estimates.`,
+    inputSchema: RenovationCostEstimatorSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-home-inspection-report-summarizer': {
+    slug: 'ai-home-inspection-report-summarizer',
+    name: 'AI Home Inspection Report Summarizer',
+    systemPrompt: `You are a home inspection expert. Summarize detailed inspection reports into actionable insights. Return your response as a JSON object with:
+{
+  "executiveSummary": string,
+  "overallCondition": string ("Excellent", "Good", "Fair", or "Poor"),
+  "criticalIssues": Array<{
+    "issue": string,
+    "severity": string,
+    "location": string,
+    "estimatedCost": string,
+    "urgency": string
+  }>,
+  "moderateIssues": string[],
+  "minorIssues": string[],
+  "safetyHazards": string[],
+  "maintenanceRecommendations": string[],
+  "estimatedRepairCosts": {
+    "critical": number,
+    "moderate": number,
+    "total": number
+  },
+  "negotiationPoints": string[],
+  "recommendations": string[]
+}`,
+    buildUserPrompt: (input: z.infer<typeof InspectionReportSummarizerSchema>) => `
+Summarize this home inspection report:
+
+Report: ${input.inspectionReport}
+
+Property Type: ${input.propertyType}
+Year Built: ${input.yearBuilt}
+
+Provide a clear summary with critical issues, costs, and negotiation points.`,
+    inputSchema: InspectionReportSummarizerSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-legal-document-lease-summarizer': {
+    slug: 'ai-legal-document-lease-summarizer',
+    name: 'AI Legal Document (Lease) Summarizer',
+    systemPrompt: `You are a real estate attorney and legal document analyst. Summarize legal documents into plain language with key points highlighted. Return your response as a JSON object with:
+{
+  "documentSummary": string,
+  "keyTerms": Array<{
+    "term": string,
+    "definition": string,
+    "importance": string
+  }>,
+  "importantDates": Array<{
+    "date": string,
+    "description": string
+  }>,
+  "financialObligations": string[],
+  "restrictionsAndRules": string[],
+  "rightsAndResponsibilities": {
+    "landlord": string[],
+    "tenant": string[]
+  },
+  "redFlags": string[],
+  "favorableTerms": string[],
+  "negotiableItems": string[],
+  "recommendations": string[],
+  "legalDisclaimer": string
+}`,
+    buildUserPrompt: (input: z.infer<typeof LegalDocumentSummarizerSchema>) => `
+Summarize this legal document:
+
+Document Text: ${input.documentText}
+Document Type: ${input.documentType}
+${input.focusAreas ? `Focus Areas: ${input.focusAreas}` : ''}
+
+Provide a clear summary in plain language with key terms, obligations, and potential concerns highlighted.`,
+    inputSchema: LegalDocumentSummarizerSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
   },
 };
