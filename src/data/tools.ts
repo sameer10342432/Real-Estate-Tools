@@ -1946,7 +1946,7 @@ export const allTools: Tool[] = [
     path: '/tools/legal-fee-estimator'
   },
 
-  // Additional Tools - AI-Powered Tools (7 tools)
+  // Additional Tools - AI-Powered Tools (15 tools)
   {
     name: 'AI Property Listing Description Generator',
     description: 'Generate professional, compelling property listing descriptions with AI assistance. Create engaging MLS listings that highlight features and attract buyers',
@@ -1981,6 +1981,76 @@ export const allTools: Tool[] = [
     category: 'Additional Tools',
     icon: '🤖',
     path: '/tools/ai-ask-a-us-realtor-bot'
+  },
+  {
+    name: 'AI Blog Post (Home Selling Guide)',
+    description: 'Generate comprehensive, SEO-optimized blog posts about home selling topics with AI assistance. Create engaging content for your real estate blog in seconds',
+    category: 'Additional Tools',
+    icon: '📝',
+    path: '/tools/ai-blog-post-home-selling-guide'
+  },
+  {
+    name: 'AI Zillow Agent Profile Bio Generator',
+    description: 'Create compelling, professional bio content for your Zillow agent profile that attracts clients and showcases your expertise',
+    category: 'Additional Tools',
+    icon: '👤',
+    path: '/tools/ai-zillow-agent-profile-bio-generator'
+  },
+  {
+    name: 'AI Realtor.com Profile Bio Generator',
+    description: 'Generate professional, engaging bio content for your Realtor.com agent profile that builds trust and attracts quality leads',
+    category: 'Additional Tools',
+    icon: '🏘️',
+    path: '/tools/ai-realtor-com-profile-bio-generator'
+  },
+  {
+    name: 'AI Real Estate Website \'About Me\' Page Generator',
+    description: 'Generate compelling \'About Me\' page content for your real estate website that builds trust, showcases personality, and converts visitors into clients',
+    category: 'Additional Tools',
+    icon: '👋',
+    path: '/tools/ai-real-estate-website-about-me-page-generator'
+  },
+  {
+    name: 'AI Property Feature to Buyer Benefit Converter',
+    description: 'Transform bland property features into compelling buyer benefits that connect emotionally and drive offers. Convert "3 bedrooms" into lifestyle advantages',
+    category: 'Additional Tools',
+    icon: '✨',
+    path: '/tools/ai-property-feature-to-buyer-benefit-converter'
+  },
+  {
+    name: 'AI Negative Home Feature Spinner',
+    description: 'Reframe potential property negatives into positive selling points. Turn "small" into "cozy" and "fixer-upper" into "opportunity" professionally and ethically',
+    category: 'Additional Tools',
+    icon: '🔄',
+    path: '/tools/ai-negative-home-feature-spinner'
+  },
+  {
+    name: 'AI Offer Rejection Letter Generator (Polite)',
+    description: 'Generate professional, polite offer rejection letters that maintain relationships and keep doors open for future negotiations',
+    category: 'Additional Tools',
+    icon: '📋',
+    path: '/tools/ai-offer-rejection-letter-generator'
+  },
+  {
+    name: 'AI Counter-Offer Letter Generator',
+    description: 'Create professional counter-offer letters that clearly communicate seller terms, maintain negotiation leverage, and move toward successful agreements',
+    category: 'Additional Tools',
+    icon: '🤝',
+    path: '/tools/ai-counter-offer-letter-generator'
+  },
+  {
+    name: 'AI Buyer Persona Generator (for Marketing)',
+    description: 'Create detailed buyer personas for targeted real estate marketing. Understand your ideal clients\' demographics, motivations, pain points, and preferences',
+    category: 'Additional Tools',
+    icon: '👥',
+    path: '/tools/ai-buyer-persona-generator'
+  },
+  {
+    name: 'AI Seller Lead Scoring Tool',
+    description: 'Automatically score and prioritize seller leads based on motivation, timeline, property value, and readiness to list. Focus on leads most likely to convert',
+    category: 'Additional Tools',
+    icon: '📊',
+    path: '/tools/ai-seller-lead-scoring-tool'
   },
   {
     name: 'California Property Tax Calculator (Prop 13)',
