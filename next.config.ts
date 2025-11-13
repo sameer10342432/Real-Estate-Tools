@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
       allowedOrigins: ["https://*.replit.dev", "https://*.repl.co"],
     },
   },
+  allowedDevOrigins: ["https://*.replit.dev", "https://*.repl.co"],
 };
 
 export default nextConfig;
