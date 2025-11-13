@@ -825,7 +825,7 @@ export const allTools: Tool[] = [
     path: '/tools/air-rights-value-estimator'
   },
 
-  // Rental & Income (25 tools)
+  // Rental & Income (35 tools)
   {
     name: 'Rental Price Estimator',
     description: 'Estimate optimal rental prices for your property',
@@ -1070,6 +1070,76 @@ export const allTools: Tool[] = [
     category: 'Rental & Income',
     icon: '📈',
     path: '/tools/lease-renewal-increase-calculator'
+  },
+  {
+    name: 'Tenant Lifetime Value (TLV) Calculator',
+    description: 'Calculate the long-term financial value of a tenant to maximize retention and revenue',
+    category: 'Rental & Income',
+    icon: '💎',
+    path: '/tools/tenant-lifetime-value-calculator'
+  },
+  {
+    name: 'Utility Bill-Back (RUBS) Calculator',
+    description: 'Calculate fair utility cost allocation per unit using the Ratio Utility Billing System',
+    category: 'Rental & Income',
+    icon: '💡',
+    path: '/tools/utility-bill-back-calculator'
+  },
+  {
+    name: 'Landlord Tax Deduction Finder',
+    description: 'Identify all eligible tax deductions for rental property owners and calculate potential savings',
+    category: 'Rental & Income',
+    icon: '💰',
+    path: '/tools/landlord-tax-deduction-finder'
+  },
+  {
+    name: 'Eviction Notice Generator (by State)',
+    description: 'Generate state-specific eviction notices with proper legal language and required timelines',
+    category: 'Rental & Income',
+    icon: '📋',
+    path: '/tools/eviction-notice-generator'
+  },
+  {
+    name: 'Lease Agreement Clause Generator',
+    description: 'Generate professional lease clauses covering rent, security deposits, maintenance, and more',
+    category: 'Rental & Income',
+    icon: '📝',
+    path: '/tools/lease-agreement-clause-generator'
+  },
+  {
+    name: 'Co-signer vs. Guarantor Requirement Tool',
+    description: 'Determine whether to require a co-signer or guarantor based on tenant qualifications and risk factors',
+    category: 'Rental & Income',
+    icon: '🤝',
+    path: '/tools/cosigner-vs-guarantor-tool'
+  },
+  {
+    name: 'Rental Property Partnership Agreement Tool',
+    description: 'Generate partnership agreements for co-investing in rental properties with proper ownership structure',
+    category: 'Rental & Income',
+    icon: '🤝',
+    path: '/tools/rental-property-partnership-agreement-tool'
+  },
+  {
+    name: 'Subletting Agreement Generator',
+    description: 'Create legal subletting agreements with proper terms, rent, and landlord approval requirements',
+    category: 'Rental & Income',
+    icon: '📄',
+    path: '/tools/subletting-agreement-generator'
+  },
+  {
+    name: 'Roommate Rent Split Calculator',
+    description: 'Calculate fair rent splits for roommates based on room size, bathrooms, and other factors',
+    category: 'Rental & Income',
+    icon: '🏠',
+    path: '/tools/roommate-rent-split-calculator'
+  },
+  {
+    name: 'Tenant Welcome Letter Generator',
+    description: 'Generate professional welcome letters for new tenants with important property information and contacts',
+    category: 'Rental & Income',
+    icon: '✉️',
+    path: '/tools/tenant-welcome-letter-generator'
   },
 
   // Market Analysis (6 tools)
