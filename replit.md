@@ -1,8 +1,21 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application offering 182 interactive calculators and educational content for real estate professionals, investors, and homebuyers. The platform covers mortgage analysis, investment evaluation, tax calculations, seller tools, land development, opportunity zones, market analysis, closing costs, and AI-powered content. It features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's ambition is to be a leading resource in real estate analytics and decision-making.
+Property Tools is a comprehensive Next.js web application offering 191 interactive calculators and educational content for real estate professionals, investors, and homebuyers. The platform covers mortgage analysis, investment evaluation, tax calculations, seller tools, land development, opportunity zones, market analysis, closing costs, estate planning, and AI-powered content. It features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's ambition is to be a leading resource in real estate analytics and decision-making.
 
 ## Recent Changes (November 14, 2025)
+
+**Added 9 New Estate Planning & Financial Comparison Calculators:**
+1. **Legacy/Estate Planning (Real Estate) Calculator** - Calculate estate taxes, inheritance distribution, and plan for wealth transfer
+2. **Gifting Property Tax Calculator** - Analyze tax implications of gifting property to family members
+3. **Inherited Property Options Analyzer (Sell vs. Rent vs. Keep)** - Compare options for inherited real estate
+4. **Trust vs. LLC for Property Ownership** - Compare holding structures for real estate investments
+5. **College Savings (529) vs. Rental Property** - Evaluate education funding strategies
+6. **Paying Off Mortgage vs. Investing Calculator** - Determine optimal use of extra funds
+7. **Bi-Weekly vs. Monthly Mortgage (Impact on Net Worth)** - Compare payment schedules and long-term wealth impact
+8. **Tax-Equivalent Yield (Real Estate vs. Bonds)** - Compare after-tax returns across asset classes
+9. **Moving to a Lower Cost of Living (LCOL) Area Savings Calculator** - Analyze financial benefits of geographic arbitrage
+
+Each calculator includes comprehensive educational articles (2000+ words), detailed SEO metadata with proper titles and descriptions, robust calculation logic with multiple input fields and result metrics, and integration into the centralized tools system. Total calculator count increased from 182 to 191.
 
 **Added 10 New Homebuyer & Financial Planning Calculators:**
 1. **Home Inspection Repair Credit Calculator** - Calculate repair credits and negotiate concessions based on inspection findings
@@ -69,10 +82,10 @@ Preferred communication style: Simple, everyday language.
 
 ## Content Management
 - **Blog System**: Admin panel with a block-based rich text editor for articles, supporting headings, paragraphs, images, draft/publish workflow, and SEO metadata.
-- **Calculator Content**: Centralized tools data system in `src/data/tools.ts` serving as the single source of truth for all 162 calculators across 11 categories. Each calculator has a defined content object including title, description, icon, category, slug, article, and calculation logic. This includes specialized tools for commercial real estate, state-specific transfer taxes, location intelligence, and AI-powered content generation.
+- **Calculator Content**: Centralized tools data system in `src/content/tools/` serving as the single source of truth for all 191 calculators across multiple categories. Each calculator has a defined content object including title, description, icon, category, slug, article, and calculation logic. This includes specialized tools for commercial real estate, state-specific transfer taxes, location intelligence, estate planning, and AI-powered content generation.
 
 ## Core Features
-- **Calculator System**: Modular architecture supporting 182 professional tools. Features include what-if analysis, real-time updates, search/filter, and responsive UI. Supports text-based results for qualitative assessments.
+- **Calculator System**: Modular architecture supporting 191 professional tools. Features include what-if analysis, real-time updates, search/filter, and responsive UI. Supports text-based results for qualitative assessments.
 - **Enhancement Features**: Scenario Manager for comparing calculations, export utilities (CSV, JSON, PDF), shareable links, smart insights, calculation history, notes, favorites, and goals tracking.
 - **Client Storage**: Custom `StorageManager` for localStorage with quota management (5MB limit) and usage monitoring.
 
