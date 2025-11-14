@@ -1,8 +1,22 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application offering 400 interactive calculators and educational content for real estate professionals, investors, and homebuyers. The platform covers mortgage analysis, investment evaluation, tax calculations, seller tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, and AI-powered content. It features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's ambition is to be a leading resource in real estate analytics and decision-making.
+Property Tools is a comprehensive Next.js web application offering 410 interactive calculators and educational content for real estate professionals, investors, and homebuyers. The platform covers mortgage analysis, investment evaluation, tax calculations, seller tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, and AI-powered content. It features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's ambition is to be a leading resource in real estate analytics and decision-making.
 
 ## Recent Changes (November 14, 2025)
+
+**Added 10 New High-Density & Specialized Rental Property Calculators:**
+1. **"Bunk Bed" Investment Calculator (High-Density Rentals)** - Analyze high-density rental investments with bunk bed configurations to maximize rental income per square foot
+2. **Co-Living Space ROI Calculator** - Calculate return on investment for co-living properties with private bedrooms and shared common areas
+3. **Furnished vs. Unfurnished Rental ROI** - Compare returns between furnished and unfurnished rentals to maximize income
+4. **Corporate Housing Rental Calculator** - Analyze profitability of corporate housing rentals for business travelers
+5. **Travel Nurse Housing Investment Analyzer** - Evaluate rental investments targeting travel nurses on temporary assignments
+6. **Military (PCS) Move Rent vs. Buy Calculator** - Help military families decide whether to rent or buy during PCS moves
+7. **BAH (Basic Allowance for Housing) vs. Mortgage** - Compare military BAH against mortgage payments to determine affordability
+8. **VA Loan Assumption Benefit Calculator** - Calculate financial benefits of assuming an existing VA loan versus new mortgage
+9. **Downsizing Savings Calculator (Retirement)** - Calculate benefits of downsizing in retirement to reduce expenses and free up equity
+10. **Upsizing Affordability Calculator** - Determine if you can afford to upsize to a larger home and calculate financial impact
+
+Each calculator includes comprehensive educational articles (2000+ words), detailed SEO metadata with proper titles and descriptions, robust calculation logic with multiple input fields and result metrics, and integration into the centralized tools system. Total calculator count increased from 400 to 410, with Investment Analysis category expanding to 92 tools and Basic Calculators category receiving 5 new specialized tools.
 
 **Added 10 New Lifestyle & Housing Calculators:**
 1. **Commute Cost vs. Housing Cost Trade-off Calculator** - Compare true costs of living closer to work vs. longer commute with cheaper housing
@@ -96,10 +110,10 @@ Preferred communication style: Simple, everyday language.
 
 ## Content Management
 - **Blog System**: Admin panel with a block-based rich text editor for articles, supporting headings, paragraphs, images, draft/publish workflow, and SEO metadata.
-- **Calculator Content**: Centralized tools data system in `src/content/tools/` serving as the single source of truth for all 191 calculators across multiple categories. Each calculator has a defined content object including title, description, icon, category, slug, article, and calculation logic. This includes specialized tools for commercial real estate, state-specific transfer taxes, location intelligence, estate planning, and AI-powered content generation.
+- **Calculator Content**: Centralized tools data system in `src/content/tools/` serving as the single source of truth for all 410 calculators across multiple categories. Each calculator has a defined content object including title, description, icon, category, slug, article, and calculation logic. This includes specialized tools for commercial real estate, state-specific transfer taxes, location intelligence, estate planning, and AI-powered content generation.
 
 ## Core Features
-- **Calculator System**: Modular architecture supporting 191 professional tools. Features include what-if analysis, real-time updates, search/filter, and responsive UI. Supports text-based results for qualitative assessments.
+- **Calculator System**: Modular architecture supporting 410 professional tools. Features include what-if analysis, real-time updates, search/filter, and responsive UI. Supports text-based results for qualitative assessments.
 - **Enhancement Features**: Scenario Manager for comparing calculations, export utilities (CSV, JSON, PDF), shareable links, smart insights, calculation history, notes, favorites, and goals tracking.
 - **Client Storage**: Custom `StorageManager` for localStorage with quota management (5MB limit) and usage monitoring.
 
