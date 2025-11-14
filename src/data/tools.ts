@@ -352,13 +352,20 @@ export const allTools: Tool[] = [
     path: '/tools/w2-earner-mortgage-qualifier'
   },
 
-  // Investment Analysis (49 tools)
+  // Investment Analysis (50 tools)
   {
     name: 'BRRRR Calculator',
     description: 'Analyze Buy, Rehab, Rent, Refinance, and Repeat (BRRRR) deals',
     category: 'Investment Analysis',
     icon: '🔄',
     path: '/tools/brrrr-calculator'
+  },
+  {
+    name: 'AI "What If" Scenario Planner (Investment)',
+    description: 'Model and compare multiple investment scenarios with AI-powered projections, risk analysis, and recommendations',
+    category: 'Investment Analysis',
+    icon: '🎯',
+    path: '/tools/ai-what-if-scenario-planner'
   },
   {
     name: 'Fix and Flip Calculator',
@@ -1381,7 +1388,7 @@ export const allTools: Tool[] = [
     path: '/tools/cost-to-build-house-estimator'
   },
 
-  // Additional Tools (2 tools)
+  // Additional Tools (7 tools)
   {
     name: 'Interior Design Estimator',
     description: 'Estimate interior design and furnishing costs',
@@ -1396,14 +1403,77 @@ export const allTools: Tool[] = [
     icon: '🔍',
     path: '/tools/home-inspection-checklist'
   },
+  {
+    name: 'AI HOA Document Analyzer (Red Flag Finder)',
+    description: 'Analyze HOA documents, CC&Rs, bylaws, and financials to identify red flags, restrictions, fees, and potential issues before buying',
+    category: 'Additional Tools',
+    icon: '📋',
+    path: '/tools/ai-hoa-document-analyzer'
+  },
+  {
+    name: 'AI Zoning Code Lookup & Interpreter',
+    description: 'Instantly look up and understand zoning codes, permitted uses, restrictions, and development regulations for any property address',
+    category: 'Additional Tools',
+    icon: '📍',
+    path: '/tools/ai-zoning-code-lookup'
+  },
+  {
+    name: 'AI Mortgage Underwriting Risk Analyzer',
+    description: 'Analyze your mortgage application risk factors, predict approval likelihood, and identify issues before applying',
+    category: 'Additional Tools',
+    icon: '🔍',
+    path: '/tools/ai-mortgage-underwriting-risk-analyzer'
+  },
+  {
+    name: 'AI Real Estate Acronym Buster',
+    description: 'Instantly decode real estate acronyms, jargon, and industry terms with AI-powered explanations and context',
+    category: 'Additional Tools',
+    icon: '🔤',
+    path: '/tools/ai-real-estate-acronym-buster'
+  },
 
-  // Seller Tools (41 tools)
+  // Seller Tools (46 tools)
   {
     name: 'Net Proceeds from Home Sale Calculator',
     description: 'Calculate your net proceeds from selling your home after all costs, commissions, and fees',
     category: 'Seller Tools',
     icon: '💰',
     path: '/tools/net-proceeds-from-home-sale-calculator'
+  },
+  {
+    name: 'Kitchen Renovation ROI Calculator',
+    description: 'Calculate return on investment for kitchen remodeling projects including minor updates, major remodels, and upscale renovations',
+    category: 'Seller Tools',
+    icon: '🍳',
+    path: '/tools/kitchen-renovation-roi-calculator'
+  },
+  {
+    name: 'Bathroom Renovation ROI Calculator',
+    description: 'Calculate return on investment for bathroom remodeling projects including powder rooms, full baths, and master bathroom renovations',
+    category: 'Seller Tools',
+    icon: '🛁',
+    path: '/tools/bathroom-renovation-roi-calculator'
+  },
+  {
+    name: 'Basement Finishing ROI Calculator',
+    description: 'Calculate return on investment for finishing your basement including bedrooms, bathrooms, rec rooms, and rental units',
+    category: 'Seller Tools',
+    icon: '🏚️',
+    path: '/tools/basement-finishing-roi-calculator'
+  },
+  {
+    name: 'Deck/Patio Addition ROI Calculator',
+    description: 'Calculate return on investment for deck and patio additions including wood decks, composite decks, concrete patios, and pavers',
+    category: 'Seller Tools',
+    icon: '🏞️',
+    path: '/tools/deck-patio-addition-roi-calculator'
+  },
+  {
+    name: 'Swimming Pool Installation ROI Calculator',
+    description: 'Calculate return on investment for swimming pool installations including in-ground, above-ground, and luxury pool projects',
+    category: 'Seller Tools',
+    icon: '🏊',
+    path: '/tools/swimming-pool-installation-roi-calculator'
   },
   {
     name: "Seller's Net Sheet",
