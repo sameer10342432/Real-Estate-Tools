@@ -1432,7 +1432,7 @@ export const allTools: Tool[] = [
     path: '/tools/ai-real-estate-acronym-buster'
   },
 
-  // Seller Tools (46 tools)
+  // Seller Tools (55 tools)
   {
     name: 'Net Proceeds from Home Sale Calculator',
     description: 'Calculate your net proceeds from selling your home after all costs, commissions, and fees',
@@ -1859,6 +1859,69 @@ export const allTools: Tool[] = [
     category: 'Seller Tools',
     icon: '🦬',
     path: '/tools/wyoming-transfer-tax-calculator'
+  },
+  {
+    name: 'Contractor Bid Comparison Tool',
+    description: 'Compare multiple contractor bids side-by-side with detailed breakdowns, payment schedules, and total cost analysis',
+    category: 'Seller Tools',
+    icon: '📋',
+    path: '/tools/contractor-bid-comparison-tool'
+  },
+  {
+    name: 'Construction Loan Interest Calculator',
+    description: 'Calculate interest costs for construction loans with draw schedules, interest-only payments, and conversion to permanent mortgage',
+    category: 'Basic Calculators',
+    icon: '🏗️',
+    path: '/tools/construction-loan-interest-calculator'
+  },
+  {
+    name: 'Materials vs. Labor Cost Breakdown Calculator',
+    description: 'Break down renovation costs between materials and labor to understand pricing, compare contractor bids, and identify DIY savings opportunities',
+    category: 'Seller Tools',
+    icon: '⚡',
+    path: '/tools/materials-vs-labor-cost-breakdown-calculator'
+  },
+  {
+    name: 'Renovation Project Timeline Generator',
+    description: 'Create realistic renovation timelines with detailed phase schedules, permit times, and buffer periods for delays',
+    category: 'Seller Tools',
+    icon: '📅',
+    path: '/tools/renovation-project-timeline-generator'
+  },
+  {
+    name: 'Renovation Overrun (Contingency) Budget Calculator',
+    description: 'Calculate appropriate contingency reserves for your renovation project based on scope, complexity, and risk factors',
+    category: 'Seller Tools',
+    icon: '💰',
+    path: '/tools/renovation-overrun-contingency-budget-calculator'
+  },
+  {
+    name: 'Sweat Equity Calculator',
+    description: 'Calculate the dollar value of your DIY labor on renovation projects and potential savings vs. hiring professionals',
+    category: 'Seller Tools',
+    icon: '💪',
+    path: '/tools/sweat-equity-calculator'
+  },
+  {
+    name: 'Energy Efficient Upgrade Rebate Finder',
+    description: 'Find available rebates, tax credits, and incentives for energy-efficient home improvements including solar, HVAC, windows, and insulation',
+    category: 'Seller Tools',
+    icon: '⚡',
+    path: '/tools/energy-efficient-upgrade-rebate-finder'
+  },
+  {
+    name: 'Aging in Place Renovation Cost Estimator',
+    description: 'Calculate costs for home modifications to support aging in place - accessibility upgrades, safety features, and universal design improvements',
+    category: 'Seller Tools',
+    icon: '🏠',
+    path: '/tools/aging-in-place-renovation-cost-estimator'
+  },
+  {
+    name: 'Foundation Repair Cost Estimator',
+    description: 'Calculate costs for foundation repair including cracks, settling, bowing walls, and structural reinforcement solutions',
+    category: 'Seller Tools',
+    icon: '🏗️',
+    path: '/tools/foundation-repair-cost-estimator'
   },
   {
     name: 'FHA Monthly Payment Calculator',
