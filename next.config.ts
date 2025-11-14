@@ -1,12 +1,18 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  allowedDevOrigins: [
+    "*.replit.dev",
+    "*.repl.co",
+  ],
   experimental: {
     serverActions: {
-      allowedOrigins: ["https://*.replit.dev", "https://*.repl.co"],
+      allowedOrigins: [
+        "*.replit.dev",
+        "*.repl.co",
+      ],
     },
   },
-  allowedDevOrigins: ["https://*.replit.dev", "https://*.repl.co"],
 };
 
 export default nextConfig;
