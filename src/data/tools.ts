@@ -4013,6 +4013,76 @@ export const allTools: Tool[] = [
     category: 'Legal & Compliance',
     icon: '🔄',
     path: '/tools/seasoning-requirement-checker'
+  },
+  {
+    name: 'Short Sale vs. Foreclosure Calculator',
+    description: 'Compare the financial and credit impact of short sale versus foreclosure',
+    category: 'Legal & Compliance',
+    icon: '🏚️',
+    path: '/tools/short-sale-vs-foreclosure-calculator'
+  },
+  {
+    name: 'Probate (Real Estate) Process Estimator',
+    description: 'Estimate timeline, costs, and steps for probate real estate transactions',
+    category: 'Legal & Compliance',
+    icon: '⚖️',
+    path: '/tools/probate-real-estate-process-estimator'
+  },
+  {
+    name: 'Intestate (No Will) Succession Calculator',
+    description: 'Calculate how assets are distributed when someone dies without a will',
+    category: 'Legal & Compliance',
+    icon: '👨‍👩‍👧‍👦',
+    path: '/tools/intestate-no-will-succession-calculator'
+  },
+  {
+    name: 'Land Trust (Privacy) Setup Cost',
+    description: 'Calculate costs to establish a land trust for property privacy and asset protection',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🏞️',
+    path: '/tools/land-trust-privacy-setup-cost'
+  },
+  {
+    name: 'Series LLC vs. Traditional LLC (for Investors)',
+    description: 'Compare costs and benefits of Series LLC versus multiple traditional LLCs for real estate portfolios',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🏢',
+    path: '/tools/series-llc-vs-traditional-llc-calculator'
+  },
+  {
+    name: 'Days on Market (DOM) Analyzer (by ZIP Code)',
+    description: 'Analyze property days on market trends and pricing strategy by ZIP code',
+    category: 'Market Analysis',
+    icon: '📅',
+    path: '/tools/days-on-market-dom-analyzer'
+  },
+  {
+    name: 'Sale-to-List Price Ratio Calculator',
+    description: 'Calculate the sale-to-list price ratio to analyze market strength and pricing accuracy',
+    category: 'Market Analysis',
+    icon: '📊',
+    path: '/tools/sale-to-list-price-ratio-calculator'
+  },
+  {
+    name: 'Absorption Rate Calculator (Real Estate)',
+    description: 'Calculate market absorption rate to determine how quickly properties are selling',
+    category: 'Market Analysis',
+    icon: '📈',
+    path: '/tools/absorption-rate-calculator'
+  },
+  {
+    name: 'Months of Supply (Inventory) Calculator',
+    description: 'Calculate real estate inventory levels and months of supply to gauge market strength',
+    category: 'Market Analysis',
+    icon: '📦',
+    path: '/tools/months-of-supply-inventory-calculator'
+  },
+  {
+    name: 'Housing Affordability Index (Local)',
+    description: 'Calculate local housing affordability index to compare income vs. home prices',
+    category: 'Market Analysis',
+    icon: '🏘️',
+    path: '/tools/housing-affordability-index-local'
   }
 ];
 
