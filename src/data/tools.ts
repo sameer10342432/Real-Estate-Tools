@@ -2468,6 +2468,76 @@ export const allTools: Tool[] = [
     path: '/tools/ai-legal-document-lease-summarizer'
   },
   {
+    name: 'What if Prices Drop (LTV) Calculator',
+    description: 'Calculate how falling home prices affect your loan-to-value ratio, equity, and potential underwater mortgage risk',
+    category: 'Additional Tools',
+    icon: '📉',
+    path: '/tools/what-if-prices-drop-ltv-tool'
+  },
+  {
+    name: 'Mortgage Application Document Checklist',
+    description: 'Complete checklist of all documents needed for mortgage application - tailored by loan type, employment status, and property type',
+    category: 'Additional Tools',
+    icon: '📋',
+    path: '/tools/mortgage-application-document-checklist'
+  },
+  {
+    name: 'Real Estate Glossary & Jargon Buster',
+    description: 'Comprehensive dictionary of 500+ real estate terms, definitions, and jargon explained in plain English for buyers, sellers, and investors',
+    category: 'Additional Tools',
+    icon: '📖',
+    path: '/tools/real-estate-glossary-jargon-buster'
+  },
+  {
+    name: 'Acronym Buster (REIT, FHA, VA, PITI...)',
+    description: 'Decode 200+ real estate acronyms instantly - from REIT to FHA, VA, PITI, HOA, and everything in between',
+    category: 'Additional Tools',
+    icon: '🔤',
+    path: '/tools/acronym-buster-reit-fha-va-piti'
+  },
+  {
+    name: 'What Style is My House? (AI Photo Tool)',
+    description: 'Upload a photo and let AI identify your home\'s architectural style - from Victorian to Mid-Century Modern, Colonial to Contemporary',
+    category: 'Additional Tools',
+    icon: '🏛️',
+    path: '/tools/what-style-is-my-house-ai-photo-tool'
+  },
+  {
+    name: 'Feng Shui (Home) Calculator',
+    description: 'Analyze your home\'s feng shui energy flow using the Bagua map, determine your Kua number, and get personalized recommendations for harmony and prosperity',
+    category: 'Additional Tools',
+    icon: '☯️',
+    path: '/tools/feng-shui-home-calculator'
+  },
+  {
+    name: 'Color Palette Generator (Interior Design)',
+    description: 'Generate professional interior design color palettes based on room type, style, mood, and lighting - get paint codes and coordinating recommendations',
+    category: 'Additional Tools',
+    icon: '🎨',
+    path: '/tools/color-palette-generator-interior-design'
+  },
+  {
+    name: 'Which Renovation Adds Most Value? Quiz',
+    description: 'Find out which home improvements deliver the best ROI based on your home type, location, budget, and market - from kitchen remodels to landscaping',
+    category: 'Additional Tools',
+    icon: '🔨',
+    path: '/tools/which-renovation-adds-most-value-quiz'
+  },
+  {
+    name: 'Am I Ready to Buy a House? Quiz',
+    description: 'Comprehensive readiness assessment covering finances, credit, savings, debt, job stability, and emotional preparedness for homeownership',
+    category: 'Additional Tools',
+    icon: '🏠',
+    path: '/tools/am-i-ready-to-buy-house-quiz'
+  },
+  {
+    name: 'Am I Ready to Sell My House? Quiz',
+    description: 'Comprehensive assessment covering market conditions, home equity, relocation plans, financial readiness, and optimal timing to sell your property',
+    category: 'Additional Tools',
+    icon: '🏡',
+    path: '/tools/am-i-ready-to-sell-house-quiz'
+  },
+  {
     name: 'California Property Tax Calculator (Prop 13)',
     description: 'Calculate California property taxes under Proposition 13 with 1% base rate plus local assessments and annual 2% increase cap',
     category: 'Financial Planning',
