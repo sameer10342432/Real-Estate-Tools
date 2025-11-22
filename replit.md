@@ -1,6 +1,23 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application providing 607 interactive calculators and educational content for real estate professionals, investors, and homebuyers. It covers a wide array of real estate facets including mortgage analysis, investment evaluation, tax calculations, seller tools, agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific tools, sustainability tools, legal & compliance tools, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project aims to be a leading resource in real estate analytics and decision-making, with a business vision to empower informed real estate decisions and capture a significant market share in property tech.
+Property Tools is a comprehensive Next.js web application providing 597 interactive calculators and educational content for real estate professionals, investors, and homebuyers. It covers a wide array of real estate facets including mortgage analysis, investment evaluation, tax calculations, seller tools, agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific tools, sustainability tools, legal & compliance tools, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project aims to be a leading resource in real estate analytics and decision-making, with a business vision to empower informed real estate decisions and capture a significant market share in property tech.
+
+# Recent Changes
+
+**November 22, 2025** (Latest): Added 10 new location-based and market analysis calculators (total platform count: 597):
+- **Market Analysis Tools (7):**
+  - Price-to-Rent Ratio Calculator - Compare buying vs renting with financial analysis and market signals
+  - Gentrification Indicator Tool - Analyze neighborhood trends and predict property appreciation potential
+  - Best City For Analyzer - Find best cities for tech jobs, families, artists, and specific professions
+  - Commute Time vs Affordability Map - Analyze trade-offs between housing costs and commute time
+  - School District vs Property Value - Calculate how school quality affects property values
+  - Median Income vs Median Home Price - Analyze housing affordability with price-to-income ratios
+  - Population Growth vs Construction - Identify supply-demand imbalances in housing markets
+- **Lifestyle Planning Tools (2 - New Category):**
+  - Best Place to Live Quiz - Find ideal city based on climate, cost, jobs, and lifestyle preferences
+  - Best Place to Retire Calculator - Discover best retirement cities with tax and healthcare analysis
+- **Financial Planning (1):**
+  - Where Can I Afford to Live Map - Calculate affordable US cities based on income and budget
 
 # Recent Changes
 
