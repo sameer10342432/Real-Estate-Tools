@@ -1,10 +1,25 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application providing 597 interactive calculators and educational content for real estate professionals, investors, and homebuyers. It covers a wide array of real estate facets including mortgage analysis, investment evaluation, tax calculations, seller tools, agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific tools, sustainability tools, legal & compliance tools, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project aims to be a leading resource in real estate analytics and decision-making, with a business vision to empower informed real estate decisions and capture a significant market share in property tech.
+Property Tools is a comprehensive Next.js web application providing 607 interactive calculators and educational content for real estate professionals, investors, and homebuyers. It covers a wide array of real estate facets including mortgage analysis, investment evaluation, tax calculations, seller tools, agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific tools, sustainability tools, legal & compliance tools, construction & development tools, mortgage & financing tools, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project aims to be a leading resource in real estate analytics and decision-making, with a business vision to empower informed real estate decisions and capture a significant market share in property tech.
 
 # Recent Changes
 
-**November 22, 2025** (Latest): Added 10 new location-based and market analysis calculators (total platform count: 597):
+**November 22, 2025** (Latest Session): Added 10 new property analysis tools focused on market trends, construction costs, and financing (total platform count: 607):
+- **Market Analysis Tools (5):**
+  - Job Growth (by MSA) Analyzer - Analyze job growth trends by Metropolitan Statistical Area to identify strong real estate markets
+  - Hottest ZIP Codes (US) Finder - Identify ZIP codes with rapid price appreciation and high demand across the United States
+  - Cooling Markets (Price Drop) Finder - Find cooling real estate markets with price drops and increasing inventory for investment opportunities
+  - Foreclosure Rate (by County) - Track and analyze foreclosure rates by county to identify distressed property opportunities and market risk
+  - New Construction Permit Tracker - Track new construction permits to identify growing markets and development opportunities
+- **Construction & Development Tools (3 - New Category):**
+  - Building Cost Index (Local) - Calculate local construction cost index to estimate building expenses and compare markets
+  - Lumber Price Impact on Home Cost - Calculate how lumber price fluctuations impact new home construction costs and project budgets
+  - Concrete Price Impact on Home Cost - Calculate how concrete price changes affect foundation and construction costs for residential projects
+- **Mortgage & Financing Tools (2 - New Category):**
+  - Interest Rate vs Home Price Simulator - Simulate how interest rate changes affect home prices and affordability in real-time
+  - What if Rates Drop (Refinance) Tool - Calculate potential savings and break-even timeline if mortgage rates drop and you refinance
+
+**November 22, 2025** (Earlier): Added 10 new location-based and market analysis calculators (total platform count: 597):
 - **Market Analysis Tools (7):**
   - Price-to-Rent Ratio Calculator - Compare buying vs renting with financial analysis and market signals
   - Gentrification Indicator Tool - Analyze neighborhood trends and predict property appreciation potential
