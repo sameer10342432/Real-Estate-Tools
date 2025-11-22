@@ -4153,6 +4153,76 @@ export const allTools: Tool[] = [
     category: 'Market Analysis',
     icon: '🏗️',
     path: '/tools/population-growth-vs-construction'
+  },
+  {
+    name: 'Job Growth (by MSA) Analyzer',
+    description: 'Analyze job growth trends by Metropolitan Statistical Area to identify strong real estate markets',
+    category: 'Market Analysis',
+    icon: '💼',
+    path: '/tools/job-growth-msa-analyzer'
+  },
+  {
+    name: 'Hottest ZIP Codes (US) Finder',
+    description: 'Identify the hottest ZIP codes with rapid price appreciation and high demand across the United States',
+    category: 'Market Analysis',
+    icon: '🔥',
+    path: '/tools/hottest-zip-codes-finder'
+  },
+  {
+    name: 'Cooling Markets (Price Drop) Finder',
+    description: 'Identify cooling real estate markets with price drops and increasing inventory for potential opportunities',
+    category: 'Market Analysis',
+    icon: '❄️',
+    path: '/tools/cooling-markets-finder'
+  },
+  {
+    name: 'Foreclosure Rate (by County)',
+    description: 'Track and analyze foreclosure rates by county to identify distressed property opportunities and market risk',
+    category: 'Market Analysis',
+    icon: '🏚️',
+    path: '/tools/foreclosure-rate-calculator'
+  },
+  {
+    name: 'New Construction Permit Tracker',
+    description: 'Track new construction permits to identify growing markets and development opportunities',
+    category: 'Market Analysis',
+    icon: '🏗️',
+    path: '/tools/new-construction-permit-tracker'
+  },
+  {
+    name: 'Building Cost Index (Local)',
+    description: 'Calculate local construction cost index to estimate building expenses and compare markets',
+    category: 'Construction & Development',
+    icon: '💰',
+    path: '/tools/building-cost-index-calculator'
+  },
+  {
+    name: 'Lumber Price Impact on Home Cost',
+    description: 'Calculate how lumber price fluctuations impact new home construction costs and project budgets',
+    category: 'Construction & Development',
+    icon: '🪵',
+    path: '/tools/lumber-price-impact-calculator'
+  },
+  {
+    name: 'Concrete Price Impact on Home Cost',
+    description: 'Calculate how concrete price changes affect foundation and construction costs for residential projects',
+    category: 'Construction & Development',
+    icon: '🏗️',
+    path: '/tools/concrete-price-impact-calculator'
+  },
+  {
+    name: 'Interest Rate vs Home Price Simulator',
+    description: 'Simulate how interest rate changes affect home prices and affordability in real-time',
+    category: 'Market Analysis',
+    icon: '📊',
+    path: '/tools/interest-rate-home-price-simulator'
+  },
+  {
+    name: 'What if Rates Drop (Refinance) Tool',
+    description: 'Calculate potential savings and break-even timeline if mortgage rates drop and you refinance',
+    category: 'Mortgage & Financing',
+    icon: '💸',
+    path: '/tools/refinance-rate-drop-calculator'
   }
 ];
 
@@ -4181,7 +4251,9 @@ export const categories = [
   'Energy Efficiency',
   'Water Conservation',
   'Green & Sustainable',
-  'Legal & Compliance'
+  'Legal & Compliance',
+  'Construction & Development',
+  'Mortgage & Financing'
 ];
 
 export const getToolsByCategory = (category: string): Tool[] => {
