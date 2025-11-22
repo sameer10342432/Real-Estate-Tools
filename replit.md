@@ -1,10 +1,25 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application providing 557 interactive calculators and educational content for real estate professionals, investors, and homebuyers. It covers a wide array of real estate facets including mortgage analysis, investment evaluation, tax calculations, seller tools, agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific tools, sustainability tools, legal & compliance tools, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project aims to be a leading resource in real estate analytics and decision-making, with a business vision to empower informed real estate decisions and capture a significant market share in property tech.
+Property Tools is a comprehensive Next.js web application providing 607 interactive calculators and educational content for real estate professionals, investors, and homebuyers. It covers a wide array of real estate facets including mortgage analysis, investment evaluation, tax calculations, seller tools, agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific tools, sustainability tools, legal & compliance tools, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project aims to be a leading resource in real estate analytics and decision-making, with a business vision to empower informed real estate decisions and capture a significant market share in property tech.
 
 # Recent Changes
 
-**November 22, 2025** (Latest): Added 10 new specialized real estate tools across Green & Sustainable and Legal & Compliance categories (total platform count: 557):
+**November 22, 2025** (Latest Session): Added 10 new specialized calculators focused on foreclosure alternatives, probate/succession, privacy structures, and market analysis metrics (total platform count: 607):
+- **Legal & Compliance Tools (3):**
+  - Short Sale vs. Foreclosure Calculator - Compare financial and credit impact of short sale versus foreclosure
+  - Probate (Real Estate) Process Estimator - Estimate timeline, costs, and steps for probate real estate transactions
+  - Intestate (No Will) Succession Calculator - Calculate how assets are distributed when someone dies without a will
+- **Tax Strategy & Entity Planning (2):**
+  - Land Trust (Privacy) Setup Cost - Calculate costs to establish a land trust for property privacy and asset protection
+  - Series LLC vs. Traditional LLC (for Investors) - Compare costs and benefits of Series LLC versus multiple traditional LLCs for real estate portfolios
+- **Market Analysis Tools (5):**
+  - Days on Market (DOM) Analyzer (by ZIP Code) - Analyze property days on market trends and pricing strategy by ZIP code
+  - Sale-to-List Price Ratio Calculator - Calculate the sale-to-list price ratio to analyze market strength and pricing accuracy
+  - Absorption Rate Calculator (Real Estate) - Calculate market absorption rate to determine how quickly properties are selling
+  - Months of Supply (Inventory) Calculator - Calculate real estate inventory levels and months of supply to gauge market strength
+  - Housing Affordability Index (Local) - Calculate local housing affordability index to compare income vs. home prices
+
+**November 22, 2025** (Earlier): Added 10 new specialized real estate tools across Green & Sustainable and Legal & Compliance categories (total platform count: 557):
 - **Green & Sustainable Tools (5):**
   - Home Air Quality (IAQ) Improvement ROI Calculator - Calculate ROI for improving indoor air quality with air purifiers, HVAC upgrades, and ventilation
   - Radon Mitigation System Cost Calculator - Estimate cost of radon mitigation systems with health benefits and home value impact
@@ -62,10 +77,10 @@ Preferred communication style: Simple, everyday language.
 
 ## Content Management
 - **Blog System**: Admin panel includes a block-based rich text editor for articles, supporting multimedia, draft/publish workflow, and SEO metadata.
-- **Calculator Content**: Centralized data system (`src/content/tools/`) acts as a single source of truth for all 557 calculators across various categories, including specialized tools for commercial real estate, state-specific taxes, location intelligence, estate planning, agent tools (E&O insurance, MLS fees, marketing ROI, lead generation, CRM ROI, cost per lead, commission calculators), sustainability tools (energy efficiency, green building, walkability, transit-oriented development, indoor air quality, water conservation), legal & compliance tools (contract review, title search, easements, property lines), and AI-powered content. Each calculator entry includes title, description, icon, category, slug, article, and calculation logic.
+- **Calculator Content**: Centralized data system (`src/content/tools/`) acts as a single source of truth for all 607 calculators across various categories, including specialized tools for commercial real estate, state-specific taxes, location intelligence, estate planning, agent tools (E&O insurance, MLS fees, marketing ROI, lead generation, CRM ROI, cost per lead, commission calculators), sustainability tools (energy efficiency, green building, walkability, transit-oriented development, indoor air quality, water conservation), legal & compliance tools (contract review, title search, easements, property lines, foreclosure alternatives, probate/succession planning), tax strategy & entity planning (land trusts, Series LLC structures), market analysis tools (days on market, absorption rates, affordability indices), and AI-powered content. Each calculator entry includes title, description, icon, category, slug, article, and calculation logic.
 
 ## Core Features
-- **Calculator System**: Modular architecture supporting 557 professional tools with features like what-if analysis, real-time updates, search/filter, and responsive UI. Supports text-based results for qualitative assessments.
+- **Calculator System**: Modular architecture supporting 607 professional tools with features like what-if analysis, real-time updates, search/filter, and responsive UI. Supports text-based results for qualitative assessments.
 - **Enhancement Features**: Scenario Manager for comparisons, export utilities (CSV, JSON, PDF), shareable links, smart insights, calculation history, notes, favorites, and goals tracking.
 - **Client Storage**: Custom `StorageManager` handles localStorage with quota management (5MB limit) and usage monitoring.
 
