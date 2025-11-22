@@ -1,15 +1,6 @@
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Hottest ZIP Codes (US) Finder',
-    description: 'Identify the hottest ZIP codes with rapid price appreciation and high demand across the United States. Free online tool for real estate professionals and investors.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
-import type { Metadata } from 'next';
 import { HOTTEST_ZIP_CODES_FINDER_CONTENT } from '@/content/tools/hottest-zip-codes-finder';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

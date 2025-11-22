@@ -1,15 +1,6 @@
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Job Growth (by MSA) Analyzer',
-    description: 'Analyze job growth trends by Metropolitan Statistical Area to identify strong real estate markets. Free online tool for real estate professionals, investors, and homebuyers.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
-import type { Metadata } from 'next';
 import { JOB_GROWTH_MSA_ANALYZER_CONTENT } from '@/content/tools/job-growth-msa-analyzer';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

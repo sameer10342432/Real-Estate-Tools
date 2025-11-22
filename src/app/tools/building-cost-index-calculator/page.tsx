@@ -1,15 +1,6 @@
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Building Cost Index (Local)',
-    description: 'Calculate local construction cost index to estimate building expenses and compare markets. Free online tool for real estate developers and investors.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
-import type { Metadata } from 'next';
 import { BUILDING_COST_INDEX_CALCULATOR_CONTENT } from '@/content/tools/building-cost-index-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

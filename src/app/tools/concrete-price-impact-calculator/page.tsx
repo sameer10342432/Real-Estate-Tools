@@ -1,15 +1,6 @@
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Concrete Price Impact on Home Cost',
-    description: 'Calculate how concrete price changes affect foundation and construction costs for residential projects. Free online tool for builders and contractors.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
-import type { Metadata } from 'next';
 import { CONCRETE_PRICE_IMPACT_CALCULATOR_CONTENT } from '@/content/tools/concrete-price-impact-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

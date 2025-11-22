@@ -1,15 +1,6 @@
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Cooling Markets (Price Drop) Finder',
-    description: 'Identify cooling real estate markets with price drops and increasing inventory for potential opportunities. Free online tool for smart real estate investors.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
-import type { Metadata } from 'next';
 import { COOLING_MARKETS_FINDER_CONTENT } from '@/content/tools/cooling-markets-finder';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
