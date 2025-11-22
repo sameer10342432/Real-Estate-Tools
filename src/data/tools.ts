@@ -4083,6 +4083,76 @@ export const allTools: Tool[] = [
     category: 'Market Analysis',
     icon: '🏘️',
     path: '/tools/housing-affordability-index-local'
+  },
+  {
+    name: 'Price-to-Rent Ratio Calculator',
+    description: 'Calculate price-to-rent ratio to determine if buying or renting is more financially beneficial',
+    category: 'Market Analysis',
+    icon: '🏠',
+    path: '/tools/price-to-rent-ratio-calculator'
+  },
+  {
+    name: 'Gentrification Indicator Tool',
+    description: 'Analyze neighborhood gentrification trends and predict property value appreciation potential',
+    category: 'Market Analysis',
+    icon: '📊',
+    path: '/tools/gentrification-indicator'
+  },
+  {
+    name: 'Best Place to Live Quiz',
+    description: 'Find your ideal city based on climate, cost of living, job market, and lifestyle preferences',
+    category: 'Lifestyle Planning',
+    icon: '🗺️',
+    path: '/tools/best-place-to-live-quiz'
+  },
+  {
+    name: 'Best Place to Retire Calculator',
+    description: 'Find the best retirement cities based on cost of living, healthcare, climate, and taxes',
+    category: 'Lifestyle Planning',
+    icon: '🏖️',
+    path: '/tools/best-place-to-retire-calculator'
+  },
+  {
+    name: 'Best City For Analyzer',
+    description: 'Find the best US cities for specific professions, industries, or lifestyles',
+    category: 'Market Analysis',
+    icon: '🌆',
+    path: '/tools/best-city-for-analyzer'
+  },
+  {
+    name: 'Where Can I Afford to Live Map',
+    description: 'Calculate which US cities you can afford based on your income and housing budget',
+    category: 'Financial Planning',
+    icon: '🗺️',
+    path: '/tools/where-can-i-afford-to-live-map'
+  },
+  {
+    name: 'Commute Time vs Affordability Map',
+    description: 'Analyze the trade-off between housing affordability and commute time',
+    category: 'Market Analysis',
+    icon: '🚗',
+    path: '/tools/commute-time-vs-affordability-map'
+  },
+  {
+    name: 'School District vs Property Value',
+    description: 'Analyze how school quality affects property values and calculate the premium',
+    category: 'Market Analysis',
+    icon: '🎓',
+    path: '/tools/school-district-vs-property-value'
+  },
+  {
+    name: 'Median Income vs Median Home Price',
+    description: 'Analyze housing affordability by comparing median income to median home prices',
+    category: 'Market Analysis',
+    icon: '📈',
+    path: '/tools/median-income-vs-median-home-price'
+  },
+  {
+    name: 'Population Growth vs Construction',
+    description: 'Analyze market dynamics by comparing population growth to new housing construction',
+    category: 'Market Analysis',
+    icon: '🏗️',
+    path: '/tools/population-growth-vs-construction'
   }
 ];
 
@@ -4102,6 +4172,7 @@ export const categories = [
   'Additional Tools',
   'Home Improvement',
   'Lifestyle & Housing',
+  'Lifestyle Planning',
   'State-Specific Tools',
   'First-Time Homebuyer Tools',
   'Buyer Tools',
