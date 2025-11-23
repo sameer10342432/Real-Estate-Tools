@@ -4293,6 +4293,78 @@ export const allTools: Tool[] = [
     category: 'Mortgage & Financing',
     icon: '💸',
     path: '/tools/refinance-rate-drop-calculator'
+  },
+
+  // New Additional Tools - Lifestyle & Investment Quizzes and Comparisons
+  {
+    name: 'Am I Ready to Be a Landlord? Quiz',
+    description: 'Assess if you\'re financially and emotionally prepared for landlord responsibilities. Evaluate your capital, risk tolerance, time commitment, and property management readiness',
+    category: 'Additional Tools',
+    icon: '🏘️',
+    path: '/tools/am-i-ready-to-be-a-landlord-quiz'
+  },
+  {
+    name: 'Am I a Fix-and-Flipper? Quiz',
+    description: 'Discover if house flipping is right for you. Assess your capital, construction knowledge, risk tolerance, time availability, and market expertise for successful flips',
+    category: 'Additional Tools',
+    icon: '🔨',
+    path: '/tools/am-i-a-fix-and-flipper-quiz'
+  },
+  {
+    name: 'What\'s My Investor Profile? Quiz',
+    description: 'Identify your real estate investor profile based on risk tolerance, capital, experience, goals, and time horizon. Get personalized investment strategy recommendations',
+    category: 'Additional Tools',
+    icon: '📊',
+    path: '/tools/whats-my-investor-profile-quiz'
+  },
+  {
+    name: 'Celebrity Home Price Guesser',
+    description: 'Test your knowledge of celebrity real estate! Guess the prices of famous mansions, estates, and luxury homes owned by celebrities. Fun property valuation game',
+    category: 'Additional Tools',
+    icon: '🌟',
+    path: '/tools/celebrity-home-price-guesser'
+  },
+  {
+    name: 'How Much is This Famous House?',
+    description: 'Test your real estate knowledge! Guess the value of famous houses from movies, TV shows, and history. Learn about iconic properties and their market values',
+    category: 'Additional Tools',
+    icon: '🎬',
+    path: '/tools/famous-house-price-quiz'
+  },
+  {
+    name: 'Dream Home Budget Generator',
+    description: 'Generate a personalized budget for your dream home based on income, savings, lifestyle preferences, and financial goals. Plan your ideal home purchase realistically',
+    category: 'Additional Tools',
+    icon: '💭',
+    path: '/tools/dream-home-budget-generator'
+  },
+  {
+    name: 'Tiny Home vs Single-Family Home Cost Calculator',
+    description: 'Compare the total costs of tiny home living vs traditional single-family homes. Analyze purchase price, utilities, maintenance, insurance, and lifestyle trade-offs',
+    category: 'Additional Tools',
+    icon: '🏡',
+    path: '/tools/tiny-home-vs-sfh-cost-calculator'
+  },
+  {
+    name: 'Van Life vs Renting Cost Calculator',
+    description: 'Compare the total costs of van life vs traditional renting. Analyze vehicle costs, gas, insurance, gym memberships, rent, utilities, and lifestyle factors',
+    category: 'Additional Tools',
+    icon: '🚐',
+    path: '/tools/van-life-vs-renting-cost'
+  },
+  {
+    name: 'Houseboat vs Condo Cost Calculator',
+    description: 'Compare the costs of houseboat living vs condo ownership. Analyze purchase price, moorage fees, maintenance, utilities, insurance, and unique considerations',
+    category: 'Additional Tools',
+    icon: '⚓',
+    path: '/tools/houseboat-vs-condo-cost'
+  },
+  {
+    name: 'Shipping Container Home Cost Estimator',
+    description: 'Estimate the total cost to build a shipping container home. Calculate container purchase, modifications, foundation, utilities, permits, and finishing costs',
+    category: 'Additional Tools',
+    icon: '📦',
+    path: '/tools/shipping-container-home-cost-estimator'
   }
 ];
 
