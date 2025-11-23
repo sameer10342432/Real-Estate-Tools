@@ -4435,6 +4435,76 @@ export const allTools: Tool[] = [
     category: 'Rental & Income',
     icon: '🏬',
     path: '/tools/property-manager-commercial-fee-calculator'
+  },
+  {
+    name: 'CAM Fee Calculator',
+    description: 'Calculate Common Area Maintenance fees for commercial leases. Accurately estimate CAM charges, tenant share, and annual operating expenses',
+    category: 'Commercial Real Estate',
+    icon: '🏢',
+    path: '/tools/cam-fee-calculator'
+  },
+  {
+    name: 'Loss Factor Calculator',
+    description: 'Calculate loss factor for commercial leases. Determine the difference between rentable and usable square footage in office and retail spaces',
+    category: 'Commercial Real Estate',
+    icon: '📏',
+    path: '/tools/loss-factor-calculator'
+  },
+  {
+    name: 'Rentable vs Usable Square Footage Calculator',
+    description: 'Compare rentable and usable square footage in commercial leases. Calculate load factor, efficiency ratio, and true cost per usable square foot',
+    category: 'Commercial Real Estate',
+    icon: '📐',
+    path: '/tools/rentable-vs-usable-sqft-calculator'
+  },
+  {
+    name: 'Parking Ratio Calculator',
+    description: 'Calculate parking ratios for commercial properties. Determine adequate parking spaces per 1,000 square feet for office, retail, and industrial buildings',
+    category: 'Commercial Real Estate',
+    icon: '🅿️',
+    path: '/tools/parking-ratio-calculator'
+  },
+  {
+    name: 'Tenant Improvement (TI) Allowance Calculator',
+    description: 'Calculate tenant improvement allowances for commercial leases. Estimate buildout costs, TI contributions, and out-of-pocket expenses for office space',
+    category: 'Commercial Real Estate',
+    icon: '🔨',
+    path: '/tools/ti-allowance-calculator'
+  },
+  {
+    name: 'Percentage Rent Calculator',
+    description: 'Calculate percentage rent for retail leases. Determine breakpoint, overage rent, and total rent based on gross sales performance',
+    category: 'Commercial Real Estate',
+    icon: '💵',
+    path: '/tools/percentage-rent-calculator'
+  },
+  {
+    name: 'Net Effective Rent Calculator',
+    description: 'Calculate net effective rent for commercial leases. Factor in free rent, TI allowances, and concessions to determine true lease value',
+    category: 'Commercial Real Estate',
+    icon: '📊',
+    path: '/tools/net-effective-rent-calculator'
+  },
+  {
+    name: 'EBITDA Calculator',
+    description: 'Calculate EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) for real estate investments. Analyze property operating performance',
+    category: 'Commercial Real Estate',
+    icon: '📈',
+    path: '/tools/ebitda-calculator'
+  },
+  {
+    name: 'NOI Calculator',
+    description: 'Calculate Net Operating Income for real estate properties. Determine property profitability, cap rate, and cash flow before debt service',
+    category: 'Commercial Real Estate',
+    icon: '💹',
+    path: '/tools/noi-calculator'
+  },
+  {
+    name: 'IRR Calculator',
+    description: 'Calculate Internal Rate of Return for real estate investments. Analyze investment performance, compare opportunities, and measure returns',
+    category: 'Commercial Real Estate',
+    icon: '📊',
+    path: '/tools/irr-calculator'
   }
 ];
 
@@ -4442,6 +4512,7 @@ export const categories = [
   'All Tools',
   'Basic Calculators',
   'Investment Analysis',
+  'Commercial Real Estate',
   'Property Valuation',
   'Rental & Income',
   'Market Analysis',

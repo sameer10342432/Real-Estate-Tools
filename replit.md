@@ -1,8 +1,20 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application offering 627 interactive calculators and extensive educational content for real estate professionals, investors, and homebuyers. It covers a broad spectrum of real estate domains, including mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant share of the property technology market.
+Property Tools is a comprehensive Next.js web application offering 637 interactive calculators and extensive educational content for real estate professionals, investors, and homebuyers. It covers a broad spectrum of real estate domains, including mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant share of the property technology market.
 
 # Recent Changes
+
+## November 23, 2025 - Added 10 Commercial Real Estate Calculators
+- **CAM Fee Calculator**: Calculate Common Area Maintenance fees for commercial leases with pro-rata share calculations.
+- **Loss Factor Calculator**: Determine the difference between rentable and usable square footage in commercial properties.
+- **Rentable vs Usable Square Footage Calculator**: Compare load factors and calculate true cost per usable square foot.
+- **Parking Ratio Calculator**: Calculate parking requirements for commercial properties (spaces per 1,000 SF).
+- **Tenant Improvement (TI) Allowance Calculator**: Estimate buildout costs and TI contributions for commercial leases.
+- **Percentage Rent Calculator**: Calculate retail lease percentage rent with breakpoint and overage calculations.
+- **Net Effective Rent Calculator**: Determine true lease value factoring in concessions and free rent periods.
+- **EBITDA Calculator**: Analyze property operating performance with comprehensive EBITDA calculations.
+- **NOI Calculator**: Enhanced Net Operating Income calculator with detailed expense breakdowns.
+- **IRR Calculator**: Calculate Internal Rate of Return for real estate investment analysis.
 
 ## November 23, 2025 - Added 10 Professional Service Tools
 - **iBuyer Offer Estimator**: Estimates what iBuyers like Opendoor and Offerpad might offer for your home, comparing instant cash offers vs traditional sale prices.
@@ -36,10 +48,10 @@ Preferred communication style: Simple, everyday language.
 
 ## Content Management
 - **Blog System**: Admin panel with a block-based rich text editor, supporting multimedia, draft/publish workflow, and SEO metadata.
-- **Calculator Content**: Centralized data system (`src/content/tools/`) serves as a single source of truth for all 627 calculators across various categories, including specialized tools for commercial real estate, state-specific taxes, location intelligence, estate planning, agent tools, sustainability, legal & compliance, tax strategy & entity planning, market analysis, and AI-powered content. Each entry includes title, description, icon, category, slug, article, and calculation logic.
+- **Calculator Content**: Centralized data system (`src/content/tools/`) serves as a single source of truth for all 637 calculators across various categories, including specialized tools for commercial real estate, state-specific taxes, location intelligence, estate planning, agent tools, sustainability, legal & compliance, tax strategy & entity planning, market analysis, and AI-powered content. Each entry includes title, description, icon, category, slug, article, and calculation logic.
 
 ## Core Features
-- **Calculator System**: Modular architecture supporting 627 professional tools with features like what-if analysis, real-time updates, search/filter, and responsive UI, including text-based qualitative assessments.
+- **Calculator System**: Modular architecture supporting 637 professional tools with features like what-if analysis, real-time updates, search/filter, and responsive UI, including text-based qualitative assessments.
 - **Enhancement Features**: Scenario Manager for comparisons, export utilities (CSV, JSON, PDF), shareable links, smart insights, calculation history, notes, favorites, and goals tracking.
 - **Client Storage**: Custom `StorageManager` handles localStorage with quota management (5MB limit) and usage monitoring.
 

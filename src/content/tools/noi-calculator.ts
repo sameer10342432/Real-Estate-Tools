@@ -1,92 +1,217 @@
-
 import { CalculatorContent } from '@/types';
 
-const NOI_CALCULATOR_CONTENT: CalculatorContent = {
-  title: 'Net Operating Income (NOI) Calculator',
-  description: 'Calculate the Net Operating Income (NOI) of your property.',
-  icon: 'calculator',
-  category: 'Real Estate',
+export const NOI_CALCULATOR_CONTENT: CalculatorContent = {
+  title: 'NOI (Net Operating Income) Calculator',
+  description: 'Calculate Net Operating Income for real estate properties. Determine property profitability, cap rate, and cash flow before debt service.',
   slug: 'noi-calculator',
+  icon: '💹',
+  category: 'Commercial Real Estate',
   calculator: {
     fields: [
       {
-        name: 'grossPotentialIncome',
-        label: 'Gross Potential Income',
+        name: 'grossPotentialRent',
+        label: 'Gross Potential Rent (Annual) ($)',
         type: 'number',
-        defaultValue: '120000',
+        defaultValue: 1200000,
       },
       {
-        name: 'vacancy',
-        label: 'Vacancy (Percentage)',
+        name: 'otherIncome',
+        label: 'Other Income (Annual) ($)',
         type: 'number',
-        defaultValue: '5',
+        defaultValue: 80000,
       },
       {
-        name: 'operatingExpenses',
-        label: 'Operating Expenses',
+        name: 'vacancyRate',
+        label: 'Vacancy & Credit Loss Rate (%)',
         type: 'number',
-        defaultValue: '45000',
+        defaultValue: 7,
+      },
+      {
+        name: 'propertyTaxes',
+        label: 'Property Taxes ($)',
+        type: 'number',
+        defaultValue: 150000,
+      },
+      {
+        name: 'insurance',
+        label: 'Insurance ($)',
+        type: 'number',
+        defaultValue: 40000,
+      },
+      {
+        name: 'propertyManagement',
+        label: 'Property Management ($)',
+        type: 'number',
+        defaultValue: 50000,
+      },
+      {
+        name: 'repairsMaintenance',
+        label: 'Repairs & Maintenance ($)',
+        type: 'number',
+        defaultValue: 100000,
+      },
+      {
+        name: 'utilities',
+        label: 'Utilities ($)',
+        type: 'number',
+        defaultValue: 70000,
+      },
+      {
+        name: 'otherExpenses',
+        label: 'Other Operating Expenses ($)',
+        type: 'number',
+        defaultValue: 90000,
       },
     ],
     results: [
-      {
-        label: 'Gross Operating Income',
-        isCurrency: true,
-      },
-      {
-        label: 'Net Operating Income (NOI)',
-        isCurrency: true,
-      },
+      { label: 'Gross Potential Income', isCurrency: true },
+      { label: 'Vacancy & Credit Loss', isCurrency: true },
+      { label: 'Effective Gross Income (EGI)', isCurrency: true },
+      { label: 'Total Operating Expenses', isCurrency: true },
+      { label: 'Net Operating Income (NOI)', isCurrency: true },
+      { label: 'NOI Margin (%)', isCurrency: false },
+      { label: 'Monthly NOI', isCurrency: true },
     ],
     calculate: (values) => {
-      const grossOperatingIncome = values.grossPotentialIncome * (1 - values.vacancy / 100);
-      const noi = grossOperatingIncome - values.operatingExpenses;
+      const { grossPotentialRent, otherIncome, vacancyRate, propertyTaxes, insurance, propertyManagement, repairsMaintenance, utilities, otherExpenses } = values;
+      
+      // Calculate gross potential income
+      const grossPotentialIncome = grossPotentialRent + otherIncome;
+      
+      // Calculate vacancy and credit loss
+      const vacancyLoss = grossPotentialIncome * (vacancyRate / 100);
+      
+      // Calculate effective gross income
+      const effectiveGrossIncome = grossPotentialIncome - vacancyLoss;
+      
+      // Calculate total operating expenses
+      const totalOperatingExpenses = propertyTaxes + insurance + propertyManagement + repairsMaintenance + utilities + otherExpenses;
+      
+      // Calculate NOI
+      const noi = effectiveGrossIncome - totalOperatingExpenses;
+      
+      // Calculate NOI margin
+      const noiMargin = (noi / effectiveGrossIncome) * 100;
+      
+      // Calculate monthly NOI
+      const monthlyNOI = noi / 12;
 
       return [
-        {
-          label: 'Gross Operating Income',
-          value: `$${grossOperatingIncome.toFixed(2)}`,
-        },
-        {
-          label: 'Net Operating Income (NOI)',
-          value: `$${noi.toFixed(2)}`,
-        },
+        { label: 'Gross Potential Income', value: grossPotentialIncome.toFixed(2), isCurrency: true },
+        { label: 'Vacancy & Credit Loss', value: vacancyLoss.toFixed(2), isCurrency: true },
+        { label: 'Effective Gross Income (EGI)', value: effectiveGrossIncome.toFixed(2), isCurrency: true },
+        { label: 'Total Operating Expenses', value: totalOperatingExpenses.toFixed(2), isCurrency: true },
+        { label: 'Net Operating Income (NOI)', value: noi.toFixed(2), isCurrency: true },
+        { label: 'NOI Margin (%)', value: noiMargin.toFixed(2), isCurrency: false },
+        { label: 'Monthly NOI', value: monthlyNOI.toFixed(2), isCurrency: true },
       ];
     },
   },
   article: {
-    title: 'Understanding Net Operating Income (NOI)',
+    title: 'Understanding Net Operating Income (NOI) in Real Estate',
     content: `
-  <h2>Understanding Net Operating Income (NOI)</h2>
-  <p>
-    Net Operating Income (NOI) is a calculation used to analyze the profitability of income-generating real estate investments. NOI equals all revenue from the property, minus all reasonably necessary operating expenses.
-  </p>
-  <h3>How to Calculate NOI</h3>
-  <p>
-    The formula for NOI is:
-  </p>
-  <p>
-    <strong>NOI = (Gross Operating Income + Other Income) - Operating Expenses</strong>
-  </p>
-  <p>
-    Where:
-  </p>
-  <ul>
-    <li><strong>Gross Operating Income (GOI):</strong> This is the Gross Potential Income minus vacancy losses.</li>
-    <li><strong>Other Income:</strong> This can include income from laundry facilities, parking, etc. For simplicity, our calculator combines this into the Gross Potential Income.</li>
-    <li><strong>Operating Expenses:</strong> These are the day-to-day costs of running the property. They include property taxes, insurance, maintenance, repairs, property management fees, utilities, and other recurring expenses. Operating expenses do not include mortgage payments (principal and interest), capital expenditures, or income taxes.</li>
-  </ul>
-  <h3>Why is NOI Important?</h3>
-  <p>
-    NOI is a key figure in real estate analysis for several reasons:
-  </p>
-  <ul>
-    <li>It provides a measure of a property's ability to generate positive cash flow from its operations.</li>
-    <li>It is used to calculate the capitalization rate (cap rate), which is used to compare the value of similar properties.</li>
-    <li>Lenders use NOI to determine how much debt a property can support.</li>
-  </ul>
-`,
+    <h2>What is Net Operating Income (NOI)?</h2>
+    <p>Net Operating Income (NOI) is the fundamental metric used to evaluate the profitability of income-producing real estate. It represents the annual income generated by a property after deducting all operating expenses but before accounting for debt service, income taxes, and capital expenditures.</p>
+    
+    <h3>The NOI Formula</h3>
+    <p><strong>NOI = Gross Operating Income - Operating Expenses</strong></p>
+    
+    <p><strong>Or more detailed:</strong></p>
+    <p>NOI = (Gross Potential Rent + Other Income) - Vacancy Loss - Operating Expenses</p>
+
+    <h3>Components of NOI Calculation</h3>
+    <p><strong>Income Components:</strong></p>
+    <ul>
+      <li><strong>Gross Potential Rent (GPR):</strong> Total rent if 100% occupied</li>
+      <li><strong>Other Income:</strong> Parking, laundry, storage, pet fees, late charges</li>
+      <li><strong>Less: Vacancy & Credit Loss:</strong> Expected vacancy rate (typically 5-10%)</li>
+      <li><strong>= Effective Gross Income (EGI)</strong></li>
+    </ul>
+
+    <p><strong>Operating Expense Components:</strong></p>
+    <ul>
+      <li>Property taxes</li>
+      <li>Property insurance</li>
+      <li>Property management (3-5% of revenue)</li>
+      <li>Repairs and maintenance</li>
+      <li>Utilities (common areas or landlord-paid)</li>
+      <li>Landscaping and grounds maintenance</li>
+      <li>Security</li>
+      <li>Legal and accounting fees</li>
+      <li>Marketing and advertising</li>
+      <li>Supplies</li>
+    </ul>
+
+    <h3>What's NOT Included in NOI</h3>
+    <ul>
+      <li><strong>Debt Service:</strong> Mortgage principal and interest</li>
+      <li><strong>Income Taxes:</strong> Owner's tax obligations</li>
+      <li><strong>Depreciation:</strong> Non-cash accounting expense</li>
+      <li><strong>Capital Expenditures:</strong> Major improvements (new roof, HVAC replacement)</li>
+      <li><strong>Tenant Improvements:</strong> Buildout costs for new tenants</li>
+      <li><strong>Leasing Commissions:</strong> Broker fees for new leases</li>
+    </ul>
+
+    <h3>Why NOI Matters</h3>
+    <ul>
+      <li><strong>Property Valuation:</strong> Used with cap rate to determine property value</li>
+      <li><strong>Performance Metric:</strong> Measures operating efficiency</li>
+      <li><strong>Comparison Tool:</strong> Compare properties regardless of financing</li>
+      <li><strong>Lending Decisions:</strong> Banks use NOI for loan qualification (DSCR)</li>
+      <li><strong>Investment Analysis:</strong> Foundation for cash flow projections</li>
+    </ul>
+
+    <h3>NOI and Property Valuation</h3>
+    <p><strong>Property Value = NOI ÷ Cap Rate</strong></p>
+    
+    <p>Example:</p>
+    <ul>
+      <li>NOI = $150,000</li>
+      <li>Market Cap Rate = 6%</li>
+      <li>Property Value = $150,000 ÷ 0.06 = $2,500,000</li>
+    </ul>
+
+    <h3>NOI vs. Cash Flow vs. EBITDA</h3>
+    <table>
+      <tr>
+        <th>Metric</th>
+        <th>What It Shows</th>
+        <th>Primary Use</th>
+      </tr>
+      <tr>
+        <td>NOI</td>
+        <td>Operating income before financing</td>
+        <td>Property valuation, operations</td>
+      </tr>
+      <tr>
+        <td>Cash Flow</td>
+        <td>Cash to owner after debt service</td>
+        <td>Investor returns</td>
+      </tr>
+      <tr>
+        <td>EBITDA</td>
+        <td>Similar to NOI for corporate entities</td>
+        <td>Portfolio/REIT analysis</td>
+      </tr>
+    </table>
+
+    <h3>Typical NOI Margins by Property Type</h3>
+    <ul>
+      <li><strong>Multifamily:</strong> 50-65% of EGI</li>
+      <li><strong>Office:</strong> 45-60% of EGI</li>
+      <li><strong>Retail:</strong> 40-55% of EGI</li>
+      <li><strong>Industrial:</strong> 60-75% of EGI (lower operating costs)</li>
+      <li><strong>Self-Storage:</strong> 65-80% of EGI (minimal expenses)</li>
+    </ul>
+
+    <h3>How to Use This Calculator</h3>
+    <p>Calculate NOI for property evaluation:</p>
+    <ul>
+      <li><strong>Gross Potential Rent:</strong> Annual rent at 100% occupancy</li>
+      <li><strong>Other Income:</strong> Parking, fees, amenities</li>
+      <li><strong>Vacancy Rate:</strong> Expected vacancy percentage</li>
+      <li><strong>Operating Expenses:</strong> All costs to operate property</li>
+    </ul>
+  `,
   },
 };
-
-export { NOI_CALCULATOR_CONTENT };
