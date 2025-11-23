@@ -1,8 +1,20 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application offering 637 interactive calculators and extensive educational content for real estate professionals, investors, and homebuyers. It covers a broad spectrum of real estate domains, including mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant share of the property technology market.
+Property Tools is a comprehensive Next.js web application offering 657 interactive calculators and extensive educational content for real estate professionals, investors, and homebuyers. It covers a broad spectrum of real estate domains, including mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant share of the property technology market.
 
 # Recent Changes
+
+## November 23, 2025 - Added 10 Advanced Investment Analysis Calculators
+- **Correlation Calculator (Real Estate vs. Bonds)**: Analyze the correlation between real estate and bond investments to optimize portfolio diversification strategies.
+- **Monte Carlo Simulator (Real Estate)**: Run probabilistic simulations to understand investment outcomes and risk probabilities.
+- **Sensitivity Analysis (Cap Rate)**: Analyze how cap rate changes affect property valuation and investment returns.
+- **Sensitivity Analysis (Rent Growth)**: Project future rental income and property values under different rent growth scenarios.
+- **Sensitivity Analysis (Vacancy Rate)**: Assess how vacancy rate fluctuations impact NOI and cash flow.
+- **Breakeven Vacancy Rate Calculator**: Calculate the maximum vacancy rate a property can sustain before becoming cash flow negative.
+- **Breakeven Rent Per Sq. Ft. Calculator**: Determine minimum rent per square foot needed to achieve target cash flow.
+- **Hurdle Rate Calculator (Real Estate)**: Calculate minimum acceptable return rates based on risk and opportunity cost.
+- **Equity Multiple Calculator**: Measure total investment return as a multiple of initial equity invested.
+- **Loan Constant Calculator**: Evaluate financing terms by calculating annual debt service as a percentage of loan amount.
 
 ## November 23, 2025 - Added 10 Commercial Real Estate Calculators
 - **CAM Fee Calculator**: Calculate Common Area Maintenance fees for commercial leases with pro-rata share calculations.
@@ -48,10 +60,10 @@ Preferred communication style: Simple, everyday language.
 
 ## Content Management
 - **Blog System**: Admin panel with a block-based rich text editor, supporting multimedia, draft/publish workflow, and SEO metadata.
-- **Calculator Content**: Centralized data system (`src/content/tools/`) serves as a single source of truth for all 637 calculators across various categories, including specialized tools for commercial real estate, state-specific taxes, location intelligence, estate planning, agent tools, sustainability, legal & compliance, tax strategy & entity planning, market analysis, and AI-powered content. Each entry includes title, description, icon, category, slug, article, and calculation logic.
+- **Calculator Content**: Centralized data system (`src/content/tools/`) serves as a single source of truth for all 657 calculators across various categories, including specialized tools for commercial real estate, state-specific taxes, location intelligence, estate planning, agent tools, sustainability, legal & compliance, tax strategy & entity planning, market analysis, and AI-powered content. Each entry includes title, description, icon, category, slug, article, and calculation logic.
 
 ## Core Features
-- **Calculator System**: Modular architecture supporting 637 professional tools with features like what-if analysis, real-time updates, search/filter, and responsive UI, including text-based qualitative assessments.
+- **Calculator System**: Modular architecture supporting 657 professional tools with features like what-if analysis, real-time updates, search/filter, and responsive UI, including text-based qualitative assessments.
 - **Enhancement Features**: Scenario Manager for comparisons, export utilities (CSV, JSON, PDF), shareable links, smart insights, calculation history, notes, favorites, and goals tracking.
 - **Client Storage**: Custom `StorageManager` handles localStorage with quota management (5MB limit) and usage monitoring.
 
