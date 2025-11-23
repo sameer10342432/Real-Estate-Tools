@@ -1,15 +1,6 @@
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Bunker / Survival Property Cost Estimator',
-    description: 'Calculate the cost to build an underground bunker or survival property with security features, off-grid systems, and emergency preparedness.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
-import type { Metadata } from 'next';
 import { BunkerSurvivalPropertyCostEstimatorContent } from '@/content/tools/bunker-survival-property-cost-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

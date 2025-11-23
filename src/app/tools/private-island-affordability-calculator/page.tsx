@@ -1,15 +1,6 @@
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Private Island Affordability Calculator',
-    description: 'Calculate if you can afford to buy a private island, including purchase price, development costs, maintenance, and operating expenses.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
-import type { Metadata } from 'next';
 import { PrivateIslandAffordabilityCalculatorContent } from '@/content/tools/private-island-affordability-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 

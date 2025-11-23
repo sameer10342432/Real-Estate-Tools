@@ -1,15 +1,6 @@
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Haunted House Value Calculator',
-    description: 'Calculate how paranormal activity, murder history, or stigmatized events impact property value and resale potential.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
-import type { Metadata } from 'next';
 import { HauntedHouseValueCalculatorContent } from '@/content/tools/haunted-house-value-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
