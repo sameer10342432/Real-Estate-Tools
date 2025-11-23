@@ -4575,6 +4575,76 @@ export const allTools: Tool[] = [
     category: 'Risk Assessment',
     icon: '🔗',
     path: '/tools/covariance-real-estate-stocks-calculator'
+  },
+  {
+    name: 'Correlation Calculator (Real Estate vs. Bonds)',
+    description: 'Analyze the correlation between real estate and bond investments to optimize your portfolio diversification',
+    category: 'Risk Assessment',
+    icon: '🔗',
+    path: '/tools/correlation-real-estate-vs-bonds'
+  },
+  {
+    name: 'Monte Carlo Simulator (Real Estate)',
+    description: 'Run thousands of simulations to understand the range of possible investment outcomes and risk probabilities',
+    category: 'Advanced Analytics',
+    icon: '🎲',
+    path: '/tools/monte-carlo-real-estate-simulator'
+  },
+  {
+    name: 'Sensitivity Analysis (Cap Rate)',
+    description: 'Analyze how changes in cap rate affect property valuation and investment returns',
+    category: 'Advanced Analytics',
+    icon: '📊',
+    path: '/tools/sensitivity-analysis-cap-rate'
+  },
+  {
+    name: 'Sensitivity Analysis (Rent Growth)',
+    description: 'Project future rental income and property value under different rent growth scenarios',
+    category: 'Advanced Analytics',
+    icon: '📈',
+    path: '/tools/sensitivity-analysis-rent-growth'
+  },
+  {
+    name: 'Sensitivity Analysis (Vacancy)',
+    description: 'Analyze how different vacancy rates impact net operating income and cash flow',
+    category: 'Advanced Analytics',
+    icon: '📉',
+    path: '/tools/sensitivity-analysis-vacancy'
+  },
+  {
+    name: 'Breakeven Vacancy Rate Calculator',
+    description: 'Calculate the maximum vacancy rate your property can sustain before becoming cash flow negative',
+    category: 'Risk Assessment',
+    icon: '⚖️',
+    path: '/tools/breakeven-vacancy-rate'
+  },
+  {
+    name: 'Breakeven Rent Per Sq. Ft. Calculator',
+    description: 'Calculate the minimum rent per square foot needed to achieve breakeven or target cash flow',
+    category: 'Commercial Real Estate',
+    icon: '📐',
+    path: '/tools/breakeven-rent-per-sq-ft'
+  },
+  {
+    name: 'Hurdle Rate Calculator (Real Estate)',
+    description: 'Calculate the minimum acceptable return rate for real estate investments based on risk and opportunity cost',
+    category: 'Investment Analysis',
+    icon: '🎯',
+    path: '/tools/hurdle-rate-real-estate'
+  },
+  {
+    name: 'Equity Multiple (EM) Calculator',
+    description: 'Calculate total return on investment as a multiple of initial equity invested',
+    category: 'Investment Analysis',
+    icon: '💰',
+    path: '/tools/equity-multiple-calculator'
+  },
+  {
+    name: 'Loan Constant Calculator (Mortgage)',
+    description: 'Calculate annual debt service as a percentage of loan amount to evaluate financing terms and leverage',
+    category: 'Mortgage & Financing',
+    icon: '🏦',
+    path: '/tools/loan-constant-mortgage'
   }
 ];
 
