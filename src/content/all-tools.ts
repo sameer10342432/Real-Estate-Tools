@@ -163,6 +163,16 @@ import { LAND_SURVEYOR_FEE_ESTIMATOR_CONTENT } from './tools/land-surveyor-fee-e
 import { HOME_INSPECTOR_FEE_ESTIMATOR_CONTENT } from './tools/home-inspector-fee-estimator';
 import { REAL_ESTATE_ATTORNEY_FEE_ESTIMATOR_CONTENT } from './tools/real-estate-attorney-fee-estimator';
 import { PROPERTY_MANAGER_COMMERCIAL_FEE_CALCULATOR_CONTENT } from './tools/property-manager-commercial-fee-calculator';
+import { MODIFIED_INTERNAL_RATE_OF_RETURN_CALCULATOR_CONTENT } from './tools/modified-internal-rate-of-return-calculator';
+import { NET_PRESENT_VALUE_CALCULATOR_CONTENT } from './tools/net-present-value-calculator';
+import { PROFITABILITY_INDEX_CALCULATOR_CONTENT } from './tools/profitability-index-calculator';
+import { AVERAGE_RATE_OF_RETURN_CALCULATOR_CONTENT } from './tools/average-rate-of-return-calculator';
+import { REAL_ESTATE_PORTFOLIO_RISK_CALCULATOR_CONTENT } from './tools/real-estate-portfolio-risk-calculator';
+import { SHARPE_RATIO_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/sharpe-ratio-real-estate-calculator';
+import { SORTINO_RATIO_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/sortino-ratio-real-estate-calculator';
+import { TREYNOR_RATIO_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/treynor-ratio-real-estate-calculator';
+import { STANDARD_DEVIATION_PORTFOLIO_CALCULATOR_CONTENT } from './tools/standard-deviation-portfolio-calculator';
+import { COVARIANCE_REAL_ESTATE_STOCKS_CALCULATOR_CONTENT } from './tools/covariance-real-estate-stocks-calculator';
 
 export const ALL_TOOLS = [
   MORTGAGE_CALCULATOR_CONTENT,
@@ -327,4 +337,14 @@ export const ALL_TOOLS = [
   HOME_INSPECTOR_FEE_ESTIMATOR_CONTENT,
   REAL_ESTATE_ATTORNEY_FEE_ESTIMATOR_CONTENT,
   PROPERTY_MANAGER_COMMERCIAL_FEE_CALCULATOR_CONTENT,
+  MODIFIED_INTERNAL_RATE_OF_RETURN_CALCULATOR_CONTENT,
+  NET_PRESENT_VALUE_CALCULATOR_CONTENT,
+  PROFITABILITY_INDEX_CALCULATOR_CONTENT,
+  AVERAGE_RATE_OF_RETURN_CALCULATOR_CONTENT,
+  REAL_ESTATE_PORTFOLIO_RISK_CALCULATOR_CONTENT,
+  SHARPE_RATIO_REAL_ESTATE_CALCULATOR_CONTENT,
+  SORTINO_RATIO_REAL_ESTATE_CALCULATOR_CONTENT,
+  TREYNOR_RATIO_REAL_ESTATE_CALCULATOR_CONTENT,
+  STANDARD_DEVIATION_PORTFOLIO_CALCULATOR_CONTENT,
+  COVARIANCE_REAL_ESTATE_STOCKS_CALCULATOR_CONTENT,
 ];

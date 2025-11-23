@@ -4505,6 +4505,76 @@ export const allTools: Tool[] = [
     category: 'Commercial Real Estate',
     icon: '📊',
     path: '/tools/irr-calculator'
+  },
+  {
+    name: 'Modified Internal Rate of Return (MIRR) Calculator',
+    description: 'Calculate the Modified Internal Rate of Return for real estate investments. MIRR provides a more accurate measure of investment profitability by accounting for reinvestment rates',
+    category: 'Investment Analysis',
+    icon: '📊',
+    path: '/tools/modified-internal-rate-of-return-calculator'
+  },
+  {
+    name: 'Net Present Value (NPV) Calculator',
+    description: 'Calculate the Net Present Value of your real estate investment. NPV helps you determine if an investment will be profitable by comparing present value of cash flows',
+    category: 'Investment Analysis',
+    icon: '💰',
+    path: '/tools/net-present-value-calculator'
+  },
+  {
+    name: 'Profitability Index (PI) Calculator',
+    description: 'Calculate the Profitability Index for real estate investments. PI helps you compare investment opportunities by measuring the ratio of payoff to investment',
+    category: 'Investment Analysis',
+    icon: '📈',
+    path: '/tools/profitability-index-calculator'
+  },
+  {
+    name: 'Average Rate of Return (ARR) Calculator',
+    description: 'Calculate the Average Rate of Return for real estate investments. ARR provides a simple measure of expected profitability over the investment lifetime',
+    category: 'Investment Analysis',
+    icon: '📉',
+    path: '/tools/average-rate-of-return-calculator'
+  },
+  {
+    name: 'Real Estate Portfolio Risk Calculator',
+    description: 'Assess the overall risk level of your real estate investment portfolio. Understand concentration risk, volatility, and diversification benefits',
+    category: 'Risk Assessment',
+    icon: '⚠️',
+    path: '/tools/real-estate-portfolio-risk-calculator'
+  },
+  {
+    name: 'Sharpe Ratio Calculator (Real Estate)',
+    description: 'Calculate the Sharpe Ratio for your real estate investments. Understand risk-adjusted returns and compare properties against other investment options',
+    category: 'Risk Assessment',
+    icon: '📊',
+    path: '/tools/sharpe-ratio-real-estate-calculator'
+  },
+  {
+    name: 'Sortino Ratio Calculator (Real Estate)',
+    description: 'Calculate the Sortino Ratio for real estate investments. Unlike Sharpe Ratio, Sortino only penalizes downside volatility for better real estate analysis',
+    category: 'Risk Assessment',
+    icon: '📉',
+    path: '/tools/sortino-ratio-real-estate-calculator'
+  },
+  {
+    name: 'Treynor Ratio Calculator (Real Estate)',
+    description: 'Calculate the Treynor Ratio for real estate investments. Measures returns relative to systematic market risk (beta) for portfolio diversification analysis',
+    category: 'Risk Assessment',
+    icon: '⚖️',
+    path: '/tools/treynor-ratio-real-estate-calculator'
+  },
+  {
+    name: 'Standard Deviation Calculator (Portfolio)',
+    description: 'Calculate the standard deviation of your real estate portfolio to measure volatility and risk. Essential for understanding portfolio risk and optimizing allocation',
+    category: 'Risk Assessment',
+    icon: '📊',
+    path: '/tools/standard-deviation-portfolio-calculator'
+  },
+  {
+    name: 'Covariance Calculator (Real Estate vs. Stocks)',
+    description: 'Calculate the covariance between real estate and stock investments. Understand how assets move together to optimize your diversified portfolio allocation',
+    category: 'Risk Assessment',
+    icon: '🔗',
+    path: '/tools/covariance-real-estate-stocks-calculator'
   }
 ];
 
