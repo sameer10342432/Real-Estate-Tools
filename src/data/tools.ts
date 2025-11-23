@@ -4365,6 +4365,76 @@ export const allTools: Tool[] = [
     category: 'Additional Tools',
     icon: '📦',
     path: '/tools/shipping-container-home-cost-estimator'
+  },
+  {
+    name: 'iBuyer Offer Estimator',
+    description: 'Estimate what Opendoor, Offerpad, and other iBuyers might offer for your home. Compare instant cash offers vs traditional sale prices',
+    category: 'Seller Tools',
+    icon: '🏢',
+    path: '/tools/ibuyer-offer-estimator'
+  },
+  {
+    name: 'Real Estate Scam Checker',
+    description: 'Identify common real estate scams and warning signs. Protect yourself from fraud, fake listings, wire fraud, and rental scams',
+    category: 'Risk Assessment',
+    icon: '🚨',
+    path: '/tools/real-estate-scam-checker'
+  },
+  {
+    name: 'Real Estate Agent Red Flag Checker',
+    description: 'Evaluate your real estate agent for warning signs. Check credentials, experience, reviews, and identify potential red flags before hiring',
+    category: 'Agent Tools',
+    icon: '🔍',
+    path: '/tools/real-estate-agent-red-flag-checker'
+  },
+  {
+    name: 'Contractor Red Flag Checker',
+    description: 'Vet contractors before hiring. Check licenses, insurance, reviews, and identify warning signs to avoid fraudulent or unreliable contractors',
+    category: 'Construction & Development',
+    icon: '⚠️',
+    path: '/tools/contractor-red-flag-checker'
+  },
+  {
+    name: 'Title Company Fee Estimator',
+    description: 'Estimate title company fees including title search, title insurance, settlement fees, and closing costs for your property transaction',
+    category: 'Legal & Compliance',
+    icon: '📜',
+    path: '/tools/title-company-fee-estimator'
+  },
+  {
+    name: 'Home Appraiser Fee Estimator',
+    description: 'Calculate home appraisal costs based on property type, size, location, and appraisal complexity. Compare typical fees across different markets',
+    category: 'Property Valuation',
+    icon: '📋',
+    path: '/tools/home-appraiser-fee-estimator'
+  },
+  {
+    name: 'Land Surveyor Fee Estimator',
+    description: 'Estimate land surveying costs including boundary surveys, topographic surveys, ALTA surveys, and subdivision plats based on property characteristics',
+    category: 'Legal & Compliance',
+    icon: '🗺️',
+    path: '/tools/land-surveyor-fee-estimator'
+  },
+  {
+    name: 'Home Inspector Fee Estimator',
+    description: 'Calculate home inspection costs based on property size, age, type, and additional inspections like radon, mold, or termite testing',
+    category: 'Risk Assessment',
+    icon: '🔎',
+    path: '/tools/home-inspector-fee-estimator'
+  },
+  {
+    name: 'Real Estate Attorney Fee Estimator',
+    description: 'Estimate real estate attorney fees for closings, contract reviews, title disputes, and legal consultations based on transaction complexity',
+    category: 'Legal & Compliance',
+    icon: '⚖️',
+    path: '/tools/real-estate-attorney-fee-estimator'
+  },
+  {
+    name: 'Property Manager Fee Calculator',
+    description: 'Calculate commercial property management fees including monthly management, leasing commissions, maintenance markups, and additional service costs',
+    category: 'Rental & Income',
+    icon: '🏬',
+    path: '/tools/property-manager-commercial-fee-calculator'
   }
 ];
 
