@@ -1,13 +1,6 @@
-import type { Metadata } from 'next';
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'iBuyer Offer Estimator - Opendoor, Offerpad Price Calculator',
-    description: 'Estimate what iBuyers like Opendoor and Offerpad might offer for your home. Compare instant cash offers vs traditional sale prices.',
-  };
-}
-
 'use client'
+
+
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { IBUYER_OFFER_ESTIMATOR_CONTENT } from '@/content/tools/ibuyer-offer-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

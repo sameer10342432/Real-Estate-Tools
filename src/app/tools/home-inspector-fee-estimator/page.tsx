@@ -1,13 +1,6 @@
-import type { Metadata } from 'next';
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Home Inspector Fee Estimator - Calculate Inspection Costs',
-    description: 'Calculate home inspection costs based on property size, age, type, and additional inspections like radon, mold, or termite testing.',
-  };
-}
-
 'use client'
+
+
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { HOME_INSPECTOR_FEE_ESTIMATOR_CONTENT } from '@/content/tools/home-inspector-fee-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

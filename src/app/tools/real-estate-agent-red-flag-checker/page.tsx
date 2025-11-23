@@ -1,13 +1,6 @@
-import type { Metadata } from 'next';
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Real Estate Agent Red Flag Checker - Vet Your Agent',
-    description: 'Evaluate your real estate agent for warning signs. Check credentials, experience, reviews, and identify potential red flags before hiring.',
-  };
-}
-
 'use client'
+
+
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { REAL_ESTATE_AGENT_RED_FLAG_CHECKER_CONTENT } from '@/content/tools/real-estate-agent-red-flag-checker';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

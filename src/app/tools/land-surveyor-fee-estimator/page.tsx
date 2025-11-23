@@ -1,13 +1,6 @@
-import type { Metadata } from 'next';
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Land Surveyor Fee Estimator - Calculate Survey Costs',
-    description: 'Estimate land surveying costs including boundary surveys, topographic surveys, ALTA surveys, and subdivision plats based on property characteristics.',
-  };
-}
-
 'use client'
+
+
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { LAND_SURVEYOR_FEE_ESTIMATOR_CONTENT } from '@/content/tools/land-surveyor-fee-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

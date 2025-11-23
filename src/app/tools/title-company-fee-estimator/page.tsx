@@ -1,13 +1,6 @@
-import type { Metadata } from 'next';
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Title Company Fee Estimator - Calculate Closing Costs',
-    description: 'Estimate title company fees including title search, title insurance, settlement fees, and closing costs for your property transaction.',
-  };
-}
-
 'use client'
+
+
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { TITLE_COMPANY_FEE_ESTIMATOR_CONTENT } from '@/content/tools/title-company-fee-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

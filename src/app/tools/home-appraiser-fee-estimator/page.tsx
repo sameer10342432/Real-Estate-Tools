@@ -1,13 +1,6 @@
-import type { Metadata } from 'next';
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Home Appraiser Fee Estimator - Calculate Appraisal Costs',
-    description: 'Calculate home appraisal costs based on property type, size, location, and appraisal complexity. Compare typical fees across different markets.',
-  };
-}
-
 'use client'
+
+
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { HOME_APPRAISER_FEE_ESTIMATOR_CONTENT } from '@/content/tools/home-appraiser-fee-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

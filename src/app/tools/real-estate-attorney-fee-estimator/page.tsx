@@ -1,13 +1,6 @@
-import type { Metadata } from 'next';
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Real Estate Attorney Fee Estimator - Calculate Legal Costs',
-    description: 'Estimate real estate attorney fees for closings, contract reviews, title disputes, and legal consultations based on transaction complexity.',
-  };
-}
-
 'use client'
+
+
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { REAL_ESTATE_ATTORNEY_FEE_ESTIMATOR_CONTENT } from '@/content/tools/real-estate-attorney-fee-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

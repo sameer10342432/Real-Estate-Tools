@@ -1,13 +1,6 @@
-import type { Metadata } from 'next';
-
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'Real Estate Scam Checker - Identify Fraud & Warning Signs',
-    description: 'Identify common real estate scams and warning signs. Protect yourself from fraud, fake listings, wire fraud, and rental scams.',
-  };
-}
-
 'use client'
+
+
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { REAL_ESTATE_SCAM_CHECKER_CONTENT } from '@/content/tools/real-estate-scam-checker';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
