@@ -1,8 +1,20 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application offering 667 interactive calculators and extensive educational content for real estate professionals, investors, and homebuyers. It covers a broad spectrum of real estate domains, including mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant share of the property technology market.
+Property Tools is a comprehensive Next.js web application offering 677 interactive calculators and extensive educational content for real estate professionals, investors, and homebuyers. It covers a broad spectrum of real estate domains, including mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant share of the property technology market.
 
 # Recent Changes
+
+## November 24, 2025 - Added 10 Advanced Tax Strategy Calculators
+- **Mansion Tax Calculator (NY, NJ, CT)**: Calculate luxury property transfer taxes for high-value real estate purchases in New York, New Jersey, and Connecticut with state-specific thresholds and rates.
+- **Capital Gains vs Ordinary Income Calculator**: Compare tax implications of short-term vs long-term holding periods for house flipping and determine the most tax-efficient investment strategy.
+- **Section 121 Primary Residence Exclusion Calculator**: Calculate capital gains tax exclusion on primary residence sales under IRS Section 121, determining eligibility for up to $500,000 tax-free gain.
+- **Unmarried Partners Section 121 Calculator**: Calculate individual Section 121 exclusions for unmarried couples who co-own a primary residence with separate ownership interests.
+- **Recaptured Depreciation Calculator**: Calculate depreciation recapture tax at 25% when selling rental properties, accounting for previously claimed depreciation deductions.
+- **Passive Activity Loss (PAL) Calculator**: Determine deductible passive activity losses from rental real estate based on income level and active participation status.
+- **Material Participation Test Calculator**: Evaluate whether rental activities meet one of seven IRS material participation tests to avoid passive activity loss limitations.
+- **Real Estate Professional Qualifier**: Determine if you qualify as a real estate professional under IRS rules to deduct unlimited rental losses against ordinary income.
+- **Short-Term Rental Tax Loophole Calculator**: Calculate tax benefits from the short-term rental strategy, determining if properties qualify for non-passive treatment and immediate loss deductions.
+- **Augusta Rule (14-Day Rental) Tax Calculator**: Calculate tax-free rental income under Section 280A, allowing up to 14 days of rental income without tax obligations.
 
 ## November 24, 2025 - Added 10 Financial & State-Specific Tax Calculators
 - **Debt Yield Calculator (Commercial)**: Calculate commercial real estate debt yield to assess lender risk and property performance independent of interest rates.
@@ -72,10 +84,10 @@ Preferred communication style: Simple, everyday language.
 
 ## Content Management
 - **Blog System**: Admin panel with a block-based rich text editor, supporting multimedia, draft/publish workflow, and SEO metadata.
-- **Calculator Content**: Centralized data system (`src/content/tools/`) serves as a single source of truth for all 667 calculators across various categories, including specialized tools for commercial real estate, state-specific taxes, location intelligence, estate planning, agent tools, sustainability, legal & compliance, tax strategy & entity planning, market analysis, and AI-powered content. Each entry includes title, description, icon, category, slug, article, and calculation logic.
+- **Calculator Content**: Centralized data system (`src/content/tools/`) serves as a single source of truth for all 677 calculators across various categories, including specialized tools for commercial real estate, state-specific taxes, location intelligence, estate planning, agent tools, sustainability, legal & compliance, tax strategy & entity planning, market analysis, and AI-powered content. Each entry includes title, description, icon, category, slug, article, and calculation logic.
 
 ## Core Features
-- **Calculator System**: Modular architecture supporting 667 professional tools with features like what-if analysis, real-time updates, search/filter, and responsive UI, including text-based qualitative assessments.
+- **Calculator System**: Modular architecture supporting 677 professional tools with features like what-if analysis, real-time updates, search/filter, and responsive UI, including text-based qualitative assessments.
 - **Enhancement Features**: Scenario Manager for comparisons, export utilities (CSV, JSON, PDF), shareable links, smart insights, calculation history, notes, favorites, and goals tracking.
 - **Client Storage**: Custom `StorageManager` handles localStorage with quota management (5MB limit) and usage monitoring.
 
