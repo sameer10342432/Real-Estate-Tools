@@ -4997,6 +4997,80 @@ export const allTools: Tool[] = [
     category: 'Tax Strategy & Entity Planning',
     icon: '💰',
     path: '/tools/points-deductible-amortization'
+  },
+  
+  // Easements & Rights (10 new tools)
+  {
+    name: 'Wind Rights (Turbine) Lease Calculator',
+    description: 'Calculate potential income from wind turbine leases on your property including royalty payments, upfront fees, and long-term lease revenue projections',
+    category: 'Easements & Rights',
+    icon: '🌬️',
+    path: '/tools/wind-rights-turbine-lease-calculator'
+  },
+  {
+    name: 'Solar Rights (Easement) Analyzer',
+    description: 'Analyze potential income from solar panel leases and solar easements on your property including lease payments, energy production value, and long-term revenue',
+    category: 'Easements & Rights',
+    icon: '☀️',
+    path: '/tools/solar-rights-easement-analyzer'
+  },
+  {
+    name: 'Cell Tower Lease Calculator',
+    description: 'Calculate potential income from cell tower leases on your property including monthly rent, lease escalations, and long-term revenue projections',
+    category: 'Easements & Rights',
+    icon: '📡',
+    path: '/tools/cell-tower-lease-calculator'
+  },
+  {
+    name: 'Billboard Lease Calculator',
+    description: 'Calculate potential income from billboard and outdoor advertising leases on your property including monthly rent, digital vs static revenue, and long-term projections',
+    category: 'Easements & Rights',
+    icon: '🪧',
+    path: '/tools/billboard-lease-calculator'
+  },
+  {
+    name: 'Access Easement (Landlocked) Tool',
+    description: 'Analyze access easement options for landlocked properties including easement valuation, legal costs, alternative access routes, and prescriptive easement eligibility',
+    category: 'Easements & Rights',
+    icon: '🚧',
+    path: '/tools/access-easement-landlocked-tool'
+  },
+  {
+    name: 'Utility Easement Analyzer',
+    description: 'Analyze utility easements on your property including property value impact, compensation calculations, and rights assessment for power lines, gas lines, water, and sewer easements',
+    category: 'Easements & Rights',
+    icon: '⚡',
+    path: '/tools/utility-easement-analyzer'
+  },
+  {
+    name: 'Prescriptive Easement Analyzer',
+    description: 'Analyze prescriptive easement claims based on continuous use period, state requirements, and legal eligibility for establishing property access rights through adverse use',
+    category: 'Easements & Rights',
+    icon: '⏱️',
+    path: '/tools/prescriptive-easement-analyzer'
+  },
+  {
+    name: 'View Easement Value Calculator',
+    description: 'Calculate view easement values, analyze view protection options, and assess property value impact from view preservation or obstruction',
+    category: 'Easements & Rights',
+    icon: '🏔️',
+    path: '/tools/view-easement-value-calculator'
+  },
+  
+  // HOA & Community (2 new tools)
+  {
+    name: 'HOA Architectural Review Tool',
+    description: 'Guide homeowners through HOA architectural review process including timeline estimates, approval requirements, common restrictions, and appeal procedures',
+    category: 'HOA & Community',
+    icon: '🏘️',
+    path: '/tools/hoa-architectural-review-tool'
+  },
+  {
+    name: 'HOA Special Assessment History Tracker',
+    description: 'Track and analyze HOA special assessment history, predict future assessments, evaluate reserve fund health, and calculate total HOA cost burden',
+    category: 'HOA & Community',
+    icon: '💸',
+    path: '/tools/hoa-special-assessment-history-tracker'
   }
 ];
 
@@ -5028,7 +5102,9 @@ export const categories = [
   'Green & Sustainable',
   'Legal & Compliance',
   'Construction & Development',
-  'Mortgage & Financing'
+  'Mortgage & Financing',
+  'Easements & Rights',
+  'HOA & Community'
 ];
 
 export const getToolsByCategory = (category: string): Tool[] => {
