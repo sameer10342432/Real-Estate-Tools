@@ -2256,6 +2256,78 @@ export const allTools: Tool[] = [
     icon: '💰',
     path: '/tools/rental-income-taxable-estimator'
   },
+  {
+    name: 'S-Corp vs. LLC Tax Calculator (Agent)',
+    description: 'Compare S-Corporation and LLC tax structures for real estate agents. Calculate self-employment tax savings, QBI deduction, and total tax liability to determine best entity',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🏢',
+    path: '/tools/s-corp-vs-llc-tax-calculator'
+  },
+  {
+    name: 'S-Corp Reasonable Salary Calculator',
+    description: 'Calculate IRS-compliant reasonable salary for S-Corporation real estate agents. Avoid audit risks with proper W-2 salary benchmarks based on income and experience',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '💼',
+    path: '/tools/s-corp-reasonable-salary-calculator'
+  },
+  {
+    name: 'Qualified Business Income (QBI) Deduction Calculator',
+    description: 'Calculate your Qualified Business Income deduction under Section 199A. Maximize your 20% deduction for real estate agents, investors, and rental property owners',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '📊',
+    path: '/tools/qbi-deduction-calculator'
+  },
+  {
+    name: '1099-S Proceeds from Sale Estimator',
+    description: 'Calculate 1099-S proceeds from real estate sale and estimate tax liability. Understand gross proceeds reporting requirements for property sellers and investors',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '📋',
+    path: '/tools/1099-s-proceeds-estimator'
+  },
+  {
+    name: 'Form 4797 Sale of Business Property Calculator',
+    description: 'Calculate Form 4797 tax on sale of rental property or business real estate. Determine depreciation recapture, Section 1250 gain, and total tax liability',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '📄',
+    path: '/tools/form-4797-sale-calculator'
+  },
+  
+  // State-Specific Fees & Taxes (5 tools)
+  {
+    name: 'Texas MUD Fee Estimator',
+    description: 'Calculate Texas Municipal Utility District fees and taxes. Estimate annual MUD costs for homes in Texas development districts including bond debt service',
+    category: 'State-Specific Fees',
+    icon: '🏘️',
+    path: '/tools/texas-mud-fee-estimator'
+  },
+  {
+    name: 'California HOA Fee vs. Mello-Roos Calculator',
+    description: 'Compare California HOA fees and Mello-Roos special taxes. Calculate total monthly costs and tax deductibility for California homebuyers',
+    category: 'State-Specific Fees',
+    icon: '🌴',
+    path: '/tools/california-hoa-vs-mello-roos-calculator'
+  },
+  {
+    name: 'Arizona CFD Calculator',
+    description: 'Calculate Arizona Community Facilities District fees and special assessments. Estimate annual CFD costs for Arizona new home developments',
+    category: 'State-Specific Fees',
+    icon: '🌵',
+    path: '/tools/arizona-cfd-calculator'
+  },
+  {
+    name: 'Colorado Metro District Tax Estimator',
+    description: 'Calculate Colorado Metropolitan District taxes and fees. Estimate annual metro district mill levy costs for Colorado properties in special districts',
+    category: 'State-Specific Fees',
+    icon: '⛰️',
+    path: '/tools/colorado-metro-district-tax-estimator'
+  },
+  {
+    name: 'Pennsylvania Act 319 Calculator',
+    description: 'Calculate Pennsylvania Act 319 Clean & Green preferential assessment tax savings. Estimate agricultural use assessment benefits and rollback tax liability',
+    category: 'State-Specific Fees',
+    icon: '🌾',
+    path: '/tools/pennsylvania-act-319-calculator'
+  },
   
   // Market Analysis - Location Intelligence (7 tools)
   {
