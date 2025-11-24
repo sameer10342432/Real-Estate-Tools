@@ -4785,6 +4785,76 @@ export const allTools: Tool[] = [
     category: 'State-Specific Tools',
     icon: '👴',
     path: '/tools/illinois-senior-freeze-exemption-calculator'
+  },
+  {
+    name: 'Bonus Depreciation (Real Estate) Calculator',
+    description: 'Calculate bonus depreciation deductions for real estate investments under current tax law - maximize first-year tax benefits',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '💸',
+    path: '/tools/bonus-depreciation-real-estate-calculator'
+  },
+  {
+    name: 'Section 179 (Real Estate) Deduction',
+    description: 'Calculate Section 179 deductions for qualifying real estate property improvements and equipment - instant tax savings',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '📝',
+    path: '/tools/section-179-real-estate-deduction'
+  },
+  {
+    name: 'Qualified Improvement Property (QIP) Bonus',
+    description: 'Calculate QIP bonus depreciation for interior property improvements - accelerate tax deductions on renovations',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🔨',
+    path: '/tools/qualified-improvement-property-qip-bonus'
+  },
+  {
+    name: 'Travel Deduction (Landlord) Calculator',
+    description: 'Calculate tax-deductible travel expenses for landlords and property investors - mileage, airfare, and lodging',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '✈️',
+    path: '/tools/travel-deduction-landlord-calculator'
+  },
+  {
+    name: 'Home Office (Agent/Investor) Deduction',
+    description: 'Calculate home office deductions for real estate agents and investors - simplified and regular methods',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🏢',
+    path: '/tools/home-office-agent-investor-deduction'
+  },
+  {
+    name: 'Automobile Deduction (Real Estate) Calculator',
+    description: 'Calculate vehicle deductions for real estate professionals - standard mileage vs actual expense method',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🚗',
+    path: '/tools/automobile-deduction-real-estate-calculator'
+  },
+  {
+    name: 'Meals & Entertainment (Real Estate) Deduction',
+    description: 'Calculate deductible meals and entertainment expenses for real estate business - 50% and 100% deduction rules',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🍽️',
+    path: '/tools/meals-entertainment-real-estate-deduction'
+  },
+  {
+    name: 'Gifts (Client) Tax Deduction',
+    description: 'Calculate tax-deductible client gift expenses for real estate professionals - $25 limit per person rules',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🎁',
+    path: '/tools/gifts-client-tax-deduction'
+  },
+  {
+    name: 'Closing Costs (Deductible) Calculator',
+    description: 'Calculate which closing costs are tax deductible vs capitalized - points, fees, and prepaid interest',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '📄',
+    path: '/tools/closing-costs-deductible-calculator'
+  },
+  {
+    name: 'Points (Deductible) Amortization',
+    description: 'Calculate mortgage points deduction and amortization schedule - current year vs lifetime deduction analysis',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '💰',
+    path: '/tools/points-deductible-amortization'
   }
 ];
 
