@@ -1,8 +1,20 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application offering 677 interactive calculators and extensive educational content for real estate professionals, investors, and homebuyers. It covers a broad spectrum of real estate domains, including mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant share of the property technology market.
+Property Tools is a comprehensive Next.js web application offering 687 interactive calculators and extensive educational content for real estate professionals, investors, and homebuyers. It covers a broad spectrum of real estate domains, including mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant share of the property technology market.
 
 # Recent Changes
+
+## November 24, 2025 - Added 10 Real Estate Tax Deduction Calculators
+- **Bonus Depreciation (Real Estate) Calculator**: Calculate bonus depreciation deductions for real estate investments under current tax law with first-year expensing benefits.
+- **Section 179 (Real Estate) Deduction Calculator**: Calculate Section 179 deductions for qualifying real estate property improvements and equipment purchases.
+- **Qualified Improvement Property (QIP) Bonus Calculator**: Calculate QIP bonus depreciation for interior property improvements and renovations.
+- **Travel Deduction (Landlord) Calculator**: Calculate tax-deductible travel expenses for landlords and property investors including mileage, airfare, and lodging.
+- **Home Office (Agent/Investor) Deduction Calculator**: Calculate home office deductions for real estate agents and investors using simplified or regular methods.
+- **Automobile Deduction (Real Estate) Calculator**: Calculate vehicle deductions for real estate professionals comparing standard mileage vs actual expense methods.
+- **Meals & Entertainment (Real Estate) Deduction Calculator**: Calculate deductible meals and entertainment expenses for real estate business with 50% and 100% rules.
+- **Gifts (Client) Tax Deduction Calculator**: Calculate tax-deductible client gift expenses for real estate professionals with $25 per person limit.
+- **Closing Costs (Deductible) Calculator**: Calculate which closing costs are tax deductible vs capitalized including points, fees, and prepaid interest.
+- **Points (Deductible) Amortization Calculator**: Calculate mortgage points deduction and amortization schedule comparing current year vs lifetime deduction.
 
 ## November 24, 2025 - Added 10 Advanced Tax Strategy Calculators
 - **Mansion Tax Calculator (NY, NJ, CT)**: Calculate luxury property transfer taxes for high-value real estate purchases in New York, New Jersey, and Connecticut with state-specific thresholds and rates.
@@ -84,10 +96,10 @@ Preferred communication style: Simple, everyday language.
 
 ## Content Management
 - **Blog System**: Admin panel with a block-based rich text editor, supporting multimedia, draft/publish workflow, and SEO metadata.
-- **Calculator Content**: Centralized data system (`src/content/tools/`) serves as a single source of truth for all 677 calculators across various categories, including specialized tools for commercial real estate, state-specific taxes, location intelligence, estate planning, agent tools, sustainability, legal & compliance, tax strategy & entity planning, market analysis, and AI-powered content. Each entry includes title, description, icon, category, slug, article, and calculation logic.
+- **Calculator Content**: Centralized data system (`src/content/tools/`) serves as a single source of truth for all 687 calculators across various categories, including specialized tools for commercial real estate, state-specific taxes, location intelligence, estate planning, agent tools, sustainability, legal & compliance, tax strategy & entity planning, market analysis, and AI-powered content. Each entry includes title, description, icon, category, slug, article, and calculation logic.
 
 ## Core Features
-- **Calculator System**: Modular architecture supporting 677 professional tools with features like what-if analysis, real-time updates, search/filter, and responsive UI, including text-based qualitative assessments.
+- **Calculator System**: Modular architecture supporting 687 professional tools with features like what-if analysis, real-time updates, search/filter, and responsive UI, including text-based qualitative assessments.
 - **Enhancement Features**: Scenario Manager for comparisons, export utilities (CSV, JSON, PDF), shareable links, smart insights, calculation history, notes, favorites, and goals tracking.
 - **Client Storage**: Custom `StorageManager` handles localStorage with quota management (5MB limit) and usage monitoring.
 
