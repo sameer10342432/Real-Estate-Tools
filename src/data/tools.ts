@@ -5211,6 +5211,76 @@ export const allTools: Tool[] = [
     category: 'Legal & Compliance',
     icon: '📋',
     path: '/tools/zoning-variance-cost-calculator'
+  },
+  {
+    name: 'Buyer\'s Love Letter Generator',
+    description: 'Generate personalized buyer love letters to sellers showcasing your story, connection to the property, and commitment to becoming the next homeowner',
+    category: 'Additional Tools',
+    icon: '💌',
+    path: '/tools/buyers-love-letter-generator'
+  },
+  {
+    name: 'Seller\'s Reply to Offer Generator',
+    description: 'Generate professional seller response letters to buyer offers including acceptance letters, rejection letters, and thank you responses that maintain relationships and professionalism',
+    category: 'Additional Tools',
+    icon: '📝',
+    path: '/tools/sellers-reply-to-offer-generator'
+  },
+  {
+    name: 'Highest and Best Offer Request Tool',
+    description: 'Generate professional highest and best offer requests for sellers receiving multiple offers, compare competing bids, and strategically navigate multiple offer scenarios to maximize sale price and terms',
+    category: 'Additional Tools',
+    icon: '🏆',
+    path: '/tools/highest-and-best-offer-tool'
+  },
+  {
+    name: 'Multiple Offer Strategy Tool',
+    description: 'Strategic guidance for sellers and listing agents managing multiple offer situations including timing strategy, offer comparison frameworks, negotiation tactics, and decision-making tools to maximize outcomes',
+    category: 'Additional Tools',
+    icon: '🎯',
+    path: '/tools/multiple-offer-strategy-tool'
+  },
+  {
+    name: 'Appraisal Waiver Risk Calculator',
+    description: 'Evaluate the risks and benefits of waiving appraisal contingencies for buyers and sellers, calculate potential gap coverage scenarios, and assess financial exposure in competitive real estate markets',
+    category: 'Additional Tools',
+    icon: '📊',
+    path: '/tools/appraisal-waiver-risk-calculator'
+  },
+  {
+    name: 'Inspection Waiver Risk Calculator',
+    description: 'Evaluate the risks and benefits of waiving home inspection contingencies, assess potential repair costs, understand buyer protection trade-offs, and make informed decisions in competitive real estate markets',
+    category: 'Additional Tools',
+    icon: '🔍',
+    path: '/tools/inspection-waiver-risk-calculator'
+  },
+  {
+    name: 'Financing Contingency Days Calculator',
+    description: 'Calculate optimal financing contingency periods for real estate contracts, understand lender processing timelines, manage mortgage approval deadlines, and balance buyer protection with competitive offer terms',
+    category: 'Additional Tools',
+    icon: '🏦',
+    path: '/tools/financing-contingency-days-calculator'
+  },
+  {
+    name: 'Inspection Contingency Days Calculator',
+    description: 'Calculate optimal inspection contingency periods, schedule home inspections efficiently, manage repair negotiation deadlines, and balance due diligence with competitive offer appeal in real estate transactions',
+    category: 'Additional Tools',
+    icon: '🏚️',
+    path: '/tools/inspection-contingency-days-calculator'
+  },
+  {
+    name: 'Title Contingency Days Calculator',
+    description: 'Calculate optimal title contingency periods for real estate contracts, understand title search timelines, resolve title issues efficiently, and coordinate title insurance requirements with closing deadlines',
+    category: 'Additional Tools',
+    icon: '📜',
+    path: '/tools/title-contingency-days-calculator'
+  },
+  {
+    name: 'HOA Document Contingency Tool',
+    description: 'Calculate HOA document review periods, analyze association financial health, evaluate CC&Rs and bylaws, assess special assessments and reserve funds, and make informed condo/HOA purchase decisions',
+    category: 'Additional Tools',
+    icon: '🏘️',
+    path: '/tools/hoa-document-contingency-tool'
   }
 ];
 
