@@ -222,6 +222,16 @@ import { PRESCRIPTIVE_EASEMENT_ANALYZER_CONTENT } from './tools/prescriptive-eas
 import { VIEW_EASEMENT_VALUE_CALCULATOR_CONTENT } from './tools/view-easement-value-calculator';
 import { HOA_ARCHITECTURAL_REVIEW_TOOL_CONTENT } from './tools/hoa-architectural-review-tool';
 import { HOA_SPECIAL_ASSESSMENT_HISTORY_TRACKER_CONTENT } from './tools/hoa-special-assessment-history-tracker';
+import { TIME_SHARE_VS_VACATION_HOME_CALCULATOR_CONTENT } from './tools/time-share-vs-vacation-home-calculator';
+import { TIME_SHARE_EXIT_COST_CALCULATOR_CONTENT } from './tools/time-share-exit-cost-calculator';
+import { CEMETERY_PLOT_INVESTMENT_CALCULATOR_CONTENT } from './tools/cemetery-plot-investment-calculator';
+import { PARKING_GARAGE_INVESTMENT_CALCULATOR_CONTENT } from './tools/parking-garage-investment-calculator';
+import { DOCK_SLIP_MARINA_INVESTMENT_CALCULATOR_CONTENT } from './tools/dock-slip-marina-investment-calculator';
+import { HANGAR_AIRPORT_INVESTMENT_CALCULATOR_CONTENT } from './tools/hangar-airport-investment-calculator';
+import { RIGHT_OF_FIRST_REFUSAL_CALCULATOR_CONTENT } from './tools/right-of-first-refusal-calculator';
+import { EMINENT_DOMAIN_VALUE_CALCULATOR_CONTENT } from './tools/eminent-domain-value-calculator';
+import { CONDEMNATION_VALUE_CALCULATOR_CONTENT } from './tools/condemnation-value-calculator';
+import { ZONING_VARIANCE_COST_CALCULATOR_CONTENT } from './tools/zoning-variance-cost-calculator';
 
 export const ALL_TOOLS = [
   MORTGAGE_CALCULATOR_CONTENT,
@@ -445,4 +455,14 @@ export const ALL_TOOLS = [
   VIEW_EASEMENT_VALUE_CALCULATOR_CONTENT,
   HOA_ARCHITECTURAL_REVIEW_TOOL_CONTENT,
   HOA_SPECIAL_ASSESSMENT_HISTORY_TRACKER_CONTENT,
+  TIME_SHARE_VS_VACATION_HOME_CALCULATOR_CONTENT,
+  TIME_SHARE_EXIT_COST_CALCULATOR_CONTENT,
+  CEMETERY_PLOT_INVESTMENT_CALCULATOR_CONTENT,
+  PARKING_GARAGE_INVESTMENT_CALCULATOR_CONTENT,
+  DOCK_SLIP_MARINA_INVESTMENT_CALCULATOR_CONTENT,
+  HANGAR_AIRPORT_INVESTMENT_CALCULATOR_CONTENT,
+  RIGHT_OF_FIRST_REFUSAL_CALCULATOR_CONTENT,
+  EMINENT_DOMAIN_VALUE_CALCULATOR_CONTENT,
+  CONDEMNATION_VALUE_CALCULATOR_CONTENT,
+  ZONING_VARIANCE_COST_CALCULATOR_CONTENT,
 ];

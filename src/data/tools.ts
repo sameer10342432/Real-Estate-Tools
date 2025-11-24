@@ -5141,6 +5141,76 @@ export const allTools: Tool[] = [
     category: 'HOA & Community',
     icon: '🏠',
     path: '/tools/fractional-ownership-calculator'
+  },
+  {
+    name: 'Time-Share vs. Vacation Home Calculator',
+    description: 'Compare the total costs and benefits of owning a time-share versus purchasing a vacation home',
+    category: 'Investment Analysis',
+    icon: '🏖️',
+    path: '/tools/time-share-vs-vacation-home-calculator'
+  },
+  {
+    name: 'Time-Share Exit Cost Calculator',
+    description: 'Calculate the total costs associated with exiting a time-share contract including legal fees and exit company charges',
+    category: 'Investment Analysis',
+    icon: '🚪',
+    path: '/tools/time-share-exit-cost-calculator'
+  },
+  {
+    name: 'Cemetery Plot Investment Calculator',
+    description: 'Analyze the costs and potential returns of investing in cemetery plots for resale or family planning',
+    category: 'Investment Analysis',
+    icon: '⚰️',
+    path: '/tools/cemetery-plot-investment-calculator'
+  },
+  {
+    name: 'Parking Garage Investment Calculator',
+    description: 'Calculate potential returns from investing in parking garage spaces or facilities in urban areas',
+    category: 'Commercial Real Estate',
+    icon: '🅿️',
+    path: '/tools/parking-garage-investment-calculator'
+  },
+  {
+    name: 'Dock/Slip (Marina) Investment Calculator',
+    description: 'Calculate ROI for marina slip ownership including rental income potential and appreciation in waterfront markets',
+    category: 'Investment Analysis',
+    icon: '⚓',
+    path: '/tools/dock-slip-marina-investment-calculator'
+  },
+  {
+    name: 'Hangar (Airport) Investment Calculator',
+    description: 'Analyze the investment potential of aircraft hangar ownership including rental income and operating costs',
+    category: 'Commercial Real Estate',
+    icon: '✈️',
+    path: '/tools/hangar-airport-investment-calculator'
+  },
+  {
+    name: 'Right of First Refusal (ROFR) Calculator',
+    description: 'Analyze the value and costs of right of first refusal clauses in real estate transactions',
+    category: 'Legal & Compliance',
+    icon: '📝',
+    path: '/tools/right-of-first-refusal-calculator'
+  },
+  {
+    name: 'Eminent Domain Value Calculator',
+    description: 'Estimate fair market value and just compensation for property taken through eminent domain/condemnation',
+    category: 'Legal & Compliance',
+    icon: '⚖️',
+    path: '/tools/eminent-domain-value-calculator'
+  },
+  {
+    name: 'Condemnation Value Calculator',
+    description: 'Calculate fair compensation for condemned property including building value, land value, and relocation expenses',
+    category: 'Legal & Compliance',
+    icon: '🏛️',
+    path: '/tools/condemnation-value-calculator'
+  },
+  {
+    name: 'Zoning Variance Cost Calculator',
+    description: 'Estimate the total costs of obtaining a zoning variance including fees, consultants, and timeline expenses',
+    category: 'Legal & Compliance',
+    icon: '📋',
+    path: '/tools/zoning-variance-cost-calculator'
   }
 ];
 
