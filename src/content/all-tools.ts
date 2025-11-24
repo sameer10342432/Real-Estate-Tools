@@ -183,6 +183,15 @@ import { TEXAS_HOMESTEAD_CAP_LOSS_CALCULATOR_CONTENT } from './tools/texas-homes
 import { FLORIDA_SAVE_OUR_HOMES_CALCULATOR_CONTENT } from './tools/florida-save-our-homes-calculator';
 import { NEW_YORK_CITY_421A_TAX_ABATEMENT_ESTIMATOR_CONTENT } from './tools/new-york-city-421a-tax-abatement-estimator';
 import { ILLINOIS_SENIOR_FREEZE_EXEMPTION_CALCULATOR_CONTENT } from './tools/illinois-senior-freeze-exemption-calculator';
+import { BASIS_PROPERTY_CALCULATOR_CONTENT } from './tools/basis-property-calculator';
+import { ADJUSTED_BASIS_CALCULATOR_CONTENT } from './tools/adjusted-basis-calculator';
+import { TAX_LOSS_HARVESTING_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/tax-loss-harvesting-real-estate-calculator';
+import { NET_INVESTMENT_INCOME_TAX_CALCULATOR_CONTENT } from './tools/net-investment-income-tax-calculator';
+import { SELF_DIRECTED_IRA_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/self-directed-ira-real-estate-calculator';
+import { SOLO_401K_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/solo-401k-real-estate-calculator';
+import { CHECKBOOK_CONTROL_IRA_401K_TOOL_CONTENT } from './tools/checkbook-control-ira-401k-tool';
+import { UBIT_CALCULATOR_CONTENT } from './tools/ubit-calculator';
+import { UDFI_CALCULATOR_CONTENT } from './tools/udfi-calculator';
 
 export const ALL_TOOLS = [
   MORTGAGE_CALCULATOR_CONTENT,
@@ -367,4 +376,13 @@ export const ALL_TOOLS = [
   FLORIDA_SAVE_OUR_HOMES_CALCULATOR_CONTENT,
   NEW_YORK_CITY_421A_TAX_ABATEMENT_ESTIMATOR_CONTENT,
   ILLINOIS_SENIOR_FREEZE_EXEMPTION_CALCULATOR_CONTENT,
+  BASIS_PROPERTY_CALCULATOR_CONTENT,
+  ADJUSTED_BASIS_CALCULATOR_CONTENT,
+  TAX_LOSS_HARVESTING_REAL_ESTATE_CALCULATOR_CONTENT,
+  NET_INVESTMENT_INCOME_TAX_CALCULATOR_CONTENT,
+  SELF_DIRECTED_IRA_REAL_ESTATE_CALCULATOR_CONTENT,
+  SOLO_401K_REAL_ESTATE_CALCULATOR_CONTENT,
+  CHECKBOOK_CONTROL_IRA_401K_TOOL_CONTENT,
+  UBIT_CALCULATOR_CONTENT,
+  UDFI_CALCULATOR_CONTENT,
 ];
