@@ -5057,7 +5057,7 @@ export const allTools: Tool[] = [
     path: '/tools/view-easement-value-calculator'
   },
   
-  // HOA & Community (2 new tools)
+  // HOA & Community (12 tools)
   {
     name: 'HOA Architectural Review Tool',
     description: 'Guide homeowners through HOA architectural review process including timeline estimates, approval requirements, common restrictions, and appeal procedures',
@@ -5071,6 +5071,76 @@ export const allTools: Tool[] = [
     category: 'HOA & Community',
     icon: '💸',
     path: '/tools/hoa-special-assessment-history-tracker'
+  },
+  {
+    name: 'HOA Rental Cap Analyzer',
+    description: 'Analyze HOA rental restrictions, caps, and investment impact for rental properties including FHA loan eligibility and rental slot availability',
+    category: 'HOA & Community',
+    icon: '🏢',
+    path: '/tools/hoa-rental-cap-analyzer'
+  },
+  {
+    name: 'HOA Pet Restriction Finder',
+    description: 'Analyze HOA pet policies, breed restrictions, size limits, and pet-related fees to check compliance and calculate total pet ownership costs',
+    category: 'HOA & Community',
+    icon: '🐕',
+    path: '/tools/hoa-pet-restriction-finder'
+  },
+  {
+    name: 'HOA Parking Restriction Analyzer',
+    description: 'Analyze HOA parking rules, guest parking limits, and vehicle restrictions to assess parking adequacy and calculate violation costs',
+    category: 'HOA & Community',
+    icon: '🚗',
+    path: '/tools/hoa-parking-restriction-analyzer'
+  },
+  {
+    name: 'Condo Fee vs Townhouse HOA Comparator',
+    description: 'Compare condo fees versus townhouse HOA dues and analyze true cost of ownership including maintenance reserves and owner responsibilities',
+    category: 'HOA & Community',
+    icon: '🏘️',
+    path: '/tools/condo-fee-vs-townhouse-hoa-comparator'
+  },
+  {
+    name: 'Co-op Board Approval Analyzer',
+    description: 'Analyze co-op board approval requirements, financial criteria, and application success probability including DTI and liquidity requirements',
+    category: 'HOA & Community',
+    icon: '🏛️',
+    path: '/tools/co-op-board-approval-analyzer'
+  },
+  {
+    name: 'Co-op Flip Tax Calculator',
+    description: 'Calculate co-op flip tax on resale and analyze seller closing costs including net proceeds and effective return on investment',
+    category: 'HOA & Community',
+    icon: '💰',
+    path: '/tools/co-op-flip-tax-calculator'
+  },
+  {
+    name: 'Co-op Debt-to-Income Calculator',
+    description: 'Calculate debt-to-income ratio for co-op board approval and financing qualification with detailed assessment and recommendations',
+    category: 'HOA & Community',
+    icon: '📊',
+    path: '/tools/co-op-debt-to-income-calculator'
+  },
+  {
+    name: 'Co-op Post-Closing Liquidity Calculator',
+    description: 'Calculate post-closing liquid reserves required for co-op board approval and determine months of reserves available',
+    category: 'HOA & Community',
+    icon: '💵',
+    path: '/tools/co-op-post-closing-liquidity-calculator'
+  },
+  {
+    name: 'Condo-Hotel (Condotel) ROI Calculator',
+    description: 'Calculate return on investment for condo-hotel properties with rental pool income including occupancy analysis and cash-on-cash returns',
+    category: 'HOA & Community',
+    icon: '🏨',
+    path: '/tools/condo-hotel-condotel-roi-calculator'
+  },
+  {
+    name: 'Fractional Ownership Calculator',
+    description: 'Calculate costs and benefits of fractional property ownership vs full ownership including break-even analysis and vacation home sharing',
+    category: 'HOA & Community',
+    icon: '🏠',
+    path: '/tools/fractional-ownership-calculator'
   }
 ];
 
