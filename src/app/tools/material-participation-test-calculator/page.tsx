@@ -1,10 +1,3 @@
-export async function generateMetadata() {
-  return {
-    title: 'Material Participation (Real Estate) Test Calculator | Property Tools',
-    description: 'Determine if you materially participate in your real estate rental activities. Pass one of seven IRS tests to avoid passive activity loss limitations.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

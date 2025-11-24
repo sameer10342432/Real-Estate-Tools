@@ -1,10 +1,3 @@
-export async function generateMetadata() {
-  return {
-    title: 'Recaptured Depreciation (Rental Sale) Calculator | Property Tools',
-    description: 'Calculate depreciation recapture tax when selling a rental property. Understand the 25% tax implications of previously claimed depreciation deductions.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

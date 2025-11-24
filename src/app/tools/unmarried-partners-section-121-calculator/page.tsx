@@ -1,10 +1,3 @@
-export async function generateMetadata() {
-  return {
-    title: 'Unmarried Partners Section 121 Exclusion Calculator | Property Tools',
-    description: 'Calculate Section 121 capital gains exclusion for unmarried partners who co-own a primary residence. Determine individual exclusion amounts for each partner.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

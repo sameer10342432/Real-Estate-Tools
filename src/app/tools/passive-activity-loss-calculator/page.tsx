@@ -1,10 +1,3 @@
-export async function generateMetadata() {
-  return {
-    title: 'Passive Activity Loss (PAL) Calculator | Property Tools',
-    description: 'Calculate deductible passive activity losses from rental real estate. Determine how much rental losses you can deduct against your ordinary income.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

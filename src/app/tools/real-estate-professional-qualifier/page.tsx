@@ -1,10 +1,3 @@
-export async function generateMetadata() {
-  return {
-    title: 'Real Estate Professional (Tax) Qualifier Tool | Property Tools',
-    description: 'Determine if you qualify as a real estate professional under IRS rules. Unlock the ability to deduct unlimited rental losses against ordinary income.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

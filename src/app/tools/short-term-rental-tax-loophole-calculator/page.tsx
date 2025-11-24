@@ -1,10 +1,3 @@
-export async function generateMetadata() {
-  return {
-    title: 'Short-Term Rental Tax Loophole Calculator (Airbnb) | Property Tools',
-    description: 'Calculate tax benefits from the short-term rental tax strategy. Determine if your rental qualifies for non-passive treatment and immediate loss deductions.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

@@ -1,10 +1,3 @@
-export async function generateMetadata() {
-  return {
-    title: 'Augusta Rule (14-Day Rental) Tax Calculator | Property Tools',
-    description: 'Calculate tax-free rental income using the Augusta Rule (Section 280A). Rent your home for up to 14 days per year without paying taxes on the income.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

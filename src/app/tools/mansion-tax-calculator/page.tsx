@@ -1,10 +1,3 @@
-export async function generateMetadata() {
-  return {
-    title: 'Mansion Tax Calculator (NY, NJ, CT) | Property Tools',
-    description: 'Calculate mansion tax for luxury property purchases in New York, New Jersey, and Connecticut. Get accurate state-specific mansion tax estimates.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

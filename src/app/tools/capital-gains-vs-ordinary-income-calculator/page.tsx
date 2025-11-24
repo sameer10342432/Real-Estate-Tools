@@ -1,10 +1,3 @@
-export async function generateMetadata() {
-  return {
-    title: 'Capital Gains vs Ordinary Income Calculator (Flipping) | Property Tools',
-    description: 'Compare tax implications of capital gains vs ordinary income for house flipping. Determine the most tax-efficient holding period for your real estate investments.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

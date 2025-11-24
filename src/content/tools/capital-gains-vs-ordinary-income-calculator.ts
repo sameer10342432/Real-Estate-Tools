@@ -91,7 +91,10 @@ export const CAPITAL_GAINS_VS_ORDINARY_INCOME_CALCULATOR_CONTENT: CalculatorCont
         name: 'filingStatus',
         label: 'Filing Status',
         type: 'select',
-        options: ['Single', 'Married Filing Jointly'],
+        options: [
+          { value: 'Single', label: 'Single' },
+          { value: 'Married Filing Jointly', label: 'Married Filing Jointly' }
+        ],
         defaultValue: 'Single',
       },
     ],

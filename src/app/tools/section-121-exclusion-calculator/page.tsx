@@ -1,10 +1,3 @@
-export async function generateMetadata() {
-  return {
-    title: 'Section 121 Primary Residence Exclusion Calculator | Property Tools',
-    description: 'Calculate capital gains tax exclusion on the sale of your primary residence under IRS Section 121. Determine if you qualify for up to $500,000 tax-free gain.',
-  };
-}
-
 'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

@@ -51,7 +51,11 @@ export const MANSION_TAX_CALCULATOR_CONTENT: CalculatorContent = {
         name: 'state',
         label: 'State',
         type: 'select',
-        options: ['New York (NYC)', 'New Jersey', 'Connecticut'],
+        options: [
+          { value: 'New York (NYC)', label: 'New York (NYC)' },
+          { value: 'New Jersey', label: 'New Jersey' },
+          { value: 'Connecticut', label: 'Connecticut' }
+        ],
         defaultValue: 'New York (NYC)',
       },
       {

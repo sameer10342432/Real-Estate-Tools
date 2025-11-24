@@ -111,7 +111,10 @@ export const RECAPTURED_DEPRECIATION_CALCULATOR_CONTENT: CalculatorContent = {
         name: 'filingStatus',
         label: 'Filing Status',
         type: 'select',
-        options: ['Single', 'Married Filing Jointly'],
+        options: [
+          { value: 'Single', label: 'Single' },
+          { value: 'Married Filing Jointly', label: 'Married Filing Jointly' }
+        ],
         defaultValue: 'Married Filing Jointly',
       },
     ],
