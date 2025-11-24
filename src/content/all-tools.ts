@@ -232,6 +232,16 @@ import { RIGHT_OF_FIRST_REFUSAL_CALCULATOR_CONTENT } from './tools/right-of-firs
 import { EMINENT_DOMAIN_VALUE_CALCULATOR_CONTENT } from './tools/eminent-domain-value-calculator';
 import { CONDEMNATION_VALUE_CALCULATOR_CONTENT } from './tools/condemnation-value-calculator';
 import { ZONING_VARIANCE_COST_CALCULATOR_CONTENT } from './tools/zoning-variance-cost-calculator';
+import { BuyersLoveLetterGeneratorContent } from './tools/buyers-love-letter-generator';
+import { SellersReplyToOfferGeneratorContent } from './tools/sellers-reply-to-offer-generator';
+import { HighestAndBestOfferToolContent } from './tools/highest-and-best-offer-tool';
+import { MultipleOfferStrategyToolContent } from './tools/multiple-offer-strategy-tool';
+import { AppraisalWaiverRiskCalculatorContent } from './tools/appraisal-waiver-risk-calculator';
+import { InspectionWaiverRiskCalculatorContent } from './tools/inspection-waiver-risk-calculator';
+import { FinancingContingencyDaysCalculatorContent } from './tools/financing-contingency-days-calculator';
+import { InspectionContingencyDaysCalculatorContent } from './tools/inspection-contingency-days-calculator';
+import { TitleContingencyDaysCalculatorContent } from './tools/title-contingency-days-calculator';
+import { HoaDocumentContingencyToolContent } from './tools/hoa-document-contingency-tool';
 
 export const ALL_TOOLS = [
   MORTGAGE_CALCULATOR_CONTENT,
@@ -465,4 +475,14 @@ export const ALL_TOOLS = [
   EMINENT_DOMAIN_VALUE_CALCULATOR_CONTENT,
   CONDEMNATION_VALUE_CALCULATOR_CONTENT,
   ZONING_VARIANCE_COST_CALCULATOR_CONTENT,
+  BuyersLoveLetterGeneratorContent,
+  SellersReplyToOfferGeneratorContent,
+  HighestAndBestOfferToolContent,
+  MultipleOfferStrategyToolContent,
+  AppraisalWaiverRiskCalculatorContent,
+  InspectionWaiverRiskCalculatorContent,
+  FinancingContingencyDaysCalculatorContent,
+  InspectionContingencyDaysCalculatorContent,
+  TitleContingencyDaysCalculatorContent,
+  HoaDocumentContingencyToolContent,
 ];
