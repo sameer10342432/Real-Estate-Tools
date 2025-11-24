@@ -403,6 +403,76 @@ export const allTools: Tool[] = [
     path: '/tools/capital-gain-tax-calculator'
   },
   {
+    name: 'Mansion Tax Calculator (NY, NJ, CT)',
+    description: 'Calculate mansion tax for luxury property purchases in New York, New Jersey, and Connecticut',
+    category: 'Investment Analysis',
+    icon: '🏛️',
+    path: '/tools/mansion-tax-calculator'
+  },
+  {
+    name: 'Capital Gains vs Ordinary Income Calculator',
+    description: 'Compare tax implications of capital gains vs ordinary income for house flipping',
+    category: 'Investment Analysis',
+    icon: '⚖️',
+    path: '/tools/capital-gains-vs-ordinary-income-calculator'
+  },
+  {
+    name: 'Section 121 Primary Residence Exclusion Calculator',
+    description: 'Calculate capital gains tax exclusion on the sale of your primary residence under IRS Section 121',
+    category: 'Investment Analysis',
+    icon: '🏡',
+    path: '/tools/section-121-exclusion-calculator'
+  },
+  {
+    name: 'Unmarried Partners Section 121 Calculator',
+    description: 'Calculate Section 121 capital gains exclusion for unmarried partners who co-own a primary residence',
+    category: 'Investment Analysis',
+    icon: '👥',
+    path: '/tools/unmarried-partners-section-121-calculator'
+  },
+  {
+    name: 'Recaptured Depreciation (Rental Sale) Calculator',
+    description: 'Calculate depreciation recapture tax when selling a rental property',
+    category: 'Investment Analysis',
+    icon: '📉',
+    path: '/tools/recaptured-depreciation-calculator'
+  },
+  {
+    name: 'Passive Activity Loss (PAL) Calculator',
+    description: 'Calculate deductible passive activity losses from rental real estate',
+    category: 'Investment Analysis',
+    icon: '📊',
+    path: '/tools/passive-activity-loss-calculator'
+  },
+  {
+    name: 'Material Participation Test Calculator',
+    description: 'Determine if you materially participate in your real estate rental activities',
+    category: 'Investment Analysis',
+    icon: '✅',
+    path: '/tools/material-participation-test-calculator'
+  },
+  {
+    name: 'Real Estate Professional Qualifier',
+    description: 'Determine if you qualify as a real estate professional under IRS rules',
+    category: 'Investment Analysis',
+    icon: '🏆',
+    path: '/tools/real-estate-professional-qualifier'
+  },
+  {
+    name: 'Short-Term Rental Tax Loophole Calculator',
+    description: 'Calculate tax benefits from the short-term rental tax strategy (Airbnb loophole)',
+    category: 'Investment Analysis',
+    icon: '🔑',
+    path: '/tools/short-term-rental-tax-loophole-calculator'
+  },
+  {
+    name: 'Augusta Rule (14-Day Rental) Calculator',
+    description: 'Calculate tax-free rental income using the Augusta Rule - rent your home up to 14 days tax-free',
+    category: 'Investment Analysis',
+    icon: '⛳',
+    path: '/tools/augusta-rule-calculator'
+  },
+  {
     name: 'Property ROI Calculator',
     description: 'Calculate the ROI for your property investment',
     category: 'Investment Analysis',
