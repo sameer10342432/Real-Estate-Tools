@@ -212,6 +212,16 @@ import { TIDELANDS_RIPARIAN_RIGHTS_CALCULATOR_CONTENT } from './tools/tidelands-
 import { LITTORAL_RIGHTS_LAKE_ANALYZER_CONTENT } from './tools/littoral-rights-lake-analyzer';
 import { PRIOR_APPROPRIATION_WATER_RIGHTS_CALCULATOR_CONTENT } from './tools/prior-appropriation-water-rights-calculator';
 import { OIL_GAS_SPLIT_ESTATE_ANALYZER_CONTENT } from './tools/oil-gas-split-estate-analyzer';
+import { WIND_RIGHTS_TURBINE_LEASE_CALCULATOR_CONTENT } from './tools/wind-rights-turbine-lease-calculator';
+import { SOLAR_RIGHTS_EASEMENT_ANALYZER_CONTENT } from './tools/solar-rights-easement-analyzer';
+import { CELL_TOWER_LEASE_CALCULATOR_CONTENT } from './tools/cell-tower-lease-calculator';
+import { BILLBOARD_LEASE_CALCULATOR_CONTENT } from './tools/billboard-lease-calculator';
+import { ACCESS_EASEMENT_LANDLOCKED_TOOL_CONTENT } from './tools/access-easement-landlocked-tool';
+import { UTILITY_EASEMENT_ANALYZER_CONTENT } from './tools/utility-easement-analyzer';
+import { PRESCRIPTIVE_EASEMENT_ANALYZER_CONTENT } from './tools/prescriptive-easement-analyzer';
+import { VIEW_EASEMENT_VALUE_CALCULATOR_CONTENT } from './tools/view-easement-value-calculator';
+import { HOA_ARCHITECTURAL_REVIEW_TOOL_CONTENT } from './tools/hoa-architectural-review-tool';
+import { HOA_SPECIAL_ASSESSMENT_HISTORY_TRACKER_CONTENT } from './tools/hoa-special-assessment-history-tracker';
 
 export const ALL_TOOLS = [
   MORTGAGE_CALCULATOR_CONTENT,
@@ -425,4 +435,14 @@ export const ALL_TOOLS = [
   LITTORAL_RIGHTS_LAKE_ANALYZER_CONTENT,
   PRIOR_APPROPRIATION_WATER_RIGHTS_CALCULATOR_CONTENT,
   OIL_GAS_SPLIT_ESTATE_ANALYZER_CONTENT,
+  WIND_RIGHTS_TURBINE_LEASE_CALCULATOR_CONTENT,
+  SOLAR_RIGHTS_EASEMENT_ANALYZER_CONTENT,
+  CELL_TOWER_LEASE_CALCULATOR_CONTENT,
+  BILLBOARD_LEASE_CALCULATOR_CONTENT,
+  ACCESS_EASEMENT_LANDLOCKED_TOOL_CONTENT,
+  UTILITY_EASEMENT_ANALYZER_CONTENT,
+  PRESCRIPTIVE_EASEMENT_ANALYZER_CONTENT,
+  VIEW_EASEMENT_VALUE_CALCULATOR_CONTENT,
+  HOA_ARCHITECTURAL_REVIEW_TOOL_CONTENT,
+  HOA_SPECIAL_ASSESSMENT_HISTORY_TRACKER_CONTENT,
 ];
