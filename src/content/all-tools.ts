@@ -202,6 +202,16 @@ import { PROPERTY_TAX_DEDUCTIBILITY_CAP_CALCULATOR_CONTENT } from './tools/prope
 import { MORTGAGE_INTEREST_DEDUCTIBILITY_CAP_CALCULATOR_CONTENT } from './tools/mortgage-interest-deductibility-cap-calculator';
 import { HELOC_INTEREST_DEDUCTIBILITY_CALCULATOR_CONTENT } from './tools/heloc-interest-deductibility-calculator';
 import { RENTAL_INCOME_TAXABLE_ESTIMATOR_CONTENT } from './tools/rental-income-taxable-estimator';
+import { VERMONT_ACT_250_LAND_USE_ANALYZER_CONTENT } from './tools/vermont-act-250-land-use-analyzer';
+import { NEW_HAMPSHIRE_CURRENT_USE_TAX_CALCULATOR_CONTENT } from './tools/new-hampshire-current-use-tax-calculator';
+import { MAINE_TREE_GROWTH_TAX_LAW_CALCULATOR_CONTENT } from './tools/maine-tree-growth-tax-law-calculator';
+import { NEW_JERSEY_HIGHLANDS_WATER_PROTECTION_ANALYZER_CONTENT } from './tools/new-jersey-highlands-water-protection-analyzer';
+import { NEW_YORK_ADIRONDACK_PARK_AGENCY_COMPLIANCE_CHECKER_CONTENT } from './tools/new-york-adirondack-park-agency-compliance-checker';
+import { FLORIDA_COASTAL_CONSTRUCTION_CONTROL_LINE_CALCULATOR_CONTENT } from './tools/florida-coastal-construction-control-line-calculator';
+import { TIDELANDS_RIPARIAN_RIGHTS_CALCULATOR_CONTENT } from './tools/tidelands-riparian-rights-calculator';
+import { LITTORAL_RIGHTS_LAKE_ANALYZER_CONTENT } from './tools/littoral-rights-lake-analyzer';
+import { PRIOR_APPROPRIATION_WATER_RIGHTS_CALCULATOR_CONTENT } from './tools/prior-appropriation-water-rights-calculator';
+import { OIL_GAS_SPLIT_ESTATE_ANALYZER_CONTENT } from './tools/oil-gas-split-estate-analyzer';
 
 export const ALL_TOOLS = [
   MORTGAGE_CALCULATOR_CONTENT,
@@ -405,4 +415,14 @@ export const ALL_TOOLS = [
   MORTGAGE_INTEREST_DEDUCTIBILITY_CAP_CALCULATOR_CONTENT,
   HELOC_INTEREST_DEDUCTIBILITY_CALCULATOR_CONTENT,
   RENTAL_INCOME_TAXABLE_ESTIMATOR_CONTENT,
+  VERMONT_ACT_250_LAND_USE_ANALYZER_CONTENT,
+  NEW_HAMPSHIRE_CURRENT_USE_TAX_CALCULATOR_CONTENT,
+  MAINE_TREE_GROWTH_TAX_LAW_CALCULATOR_CONTENT,
+  NEW_JERSEY_HIGHLANDS_WATER_PROTECTION_ANALYZER_CONTENT,
+  NEW_YORK_ADIRONDACK_PARK_AGENCY_COMPLIANCE_CHECKER_CONTENT,
+  FLORIDA_COASTAL_CONSTRUCTION_CONTROL_LINE_CALCULATOR_CONTENT,
+  TIDELANDS_RIPARIAN_RIGHTS_CALCULATOR_CONTENT,
+  LITTORAL_RIGHTS_LAKE_ANALYZER_CONTENT,
+  PRIOR_APPROPRIATION_WATER_RIGHTS_CALCULATOR_CONTENT,
+  OIL_GAS_SPLIT_ESTATE_ANALYZER_CONTENT,
 ];
