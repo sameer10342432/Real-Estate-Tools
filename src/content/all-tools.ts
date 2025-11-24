@@ -192,6 +192,16 @@ import { SOLO_401K_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/solo-401k-real
 import { CHECKBOOK_CONTROL_IRA_401K_TOOL_CONTENT } from './tools/checkbook-control-ira-401k-tool';
 import { UBIT_CALCULATOR_CONTENT } from './tools/ubit-calculator';
 import { UDFI_CALCULATOR_CONTENT } from './tools/udfi-calculator';
+import { ESTATE_TAX_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/estate-tax-real-estate-calculator';
+import { STEP_UP_IN_BASIS_CALCULATOR_CONTENT } from './tools/step-up-in-basis-calculator';
+import { GIFT_TAX_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/gift-tax-real-estate-calculator';
+import { GENERATION_SKIPPING_TAX_CALCULATOR_CONTENT } from './tools/generation-skipping-tax-calculator';
+import { CONSERVATION_EASEMENT_TAX_BENEFIT_CALCULATOR_CONTENT } from './tools/conservation-easement-tax-benefit-calculator';
+import { FACADE_EASEMENT_TAX_BENEFIT_CALCULATOR_CONTENT } from './tools/facade-easement-tax-benefit-calculator';
+import { PROPERTY_TAX_DEDUCTIBILITY_CAP_CALCULATOR_CONTENT } from './tools/property-tax-deductibility-cap-calculator';
+import { MORTGAGE_INTEREST_DEDUCTIBILITY_CAP_CALCULATOR_CONTENT } from './tools/mortgage-interest-deductibility-cap-calculator';
+import { HELOC_INTEREST_DEDUCTIBILITY_CALCULATOR_CONTENT } from './tools/heloc-interest-deductibility-calculator';
+import { RENTAL_INCOME_TAXABLE_ESTIMATOR_CONTENT } from './tools/rental-income-taxable-estimator';
 
 export const ALL_TOOLS = [
   MORTGAGE_CALCULATOR_CONTENT,
@@ -385,4 +395,14 @@ export const ALL_TOOLS = [
   CHECKBOOK_CONTROL_IRA_401K_TOOL_CONTENT,
   UBIT_CALCULATOR_CONTENT,
   UDFI_CALCULATOR_CONTENT,
+  ESTATE_TAX_REAL_ESTATE_CALCULATOR_CONTENT,
+  STEP_UP_IN_BASIS_CALCULATOR_CONTENT,
+  GIFT_TAX_REAL_ESTATE_CALCULATOR_CONTENT,
+  GENERATION_SKIPPING_TAX_CALCULATOR_CONTENT,
+  CONSERVATION_EASEMENT_TAX_BENEFIT_CALCULATOR_CONTENT,
+  FACADE_EASEMENT_TAX_BENEFIT_CALCULATOR_CONTENT,
+  PROPERTY_TAX_DEDUCTIBILITY_CAP_CALCULATOR_CONTENT,
+  MORTGAGE_INTEREST_DEDUCTIBILITY_CAP_CALCULATOR_CONTENT,
+  HELOC_INTEREST_DEDUCTIBILITY_CALCULATOR_CONTENT,
+  RENTAL_INCOME_TAXABLE_ESTIMATOR_CONTENT,
 ];
