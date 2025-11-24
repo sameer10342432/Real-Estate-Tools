@@ -369,7 +369,7 @@ To prospective first-time buyers: Homeownership is achievable with proper planni
 
 Just helped a savvy investor add this ${bedrooms} bed, ${bathText} bath ${propertyType.toLowerCase()} in ${location} to their portfolio! 🏡📈
 
-${specialOutcome === 'Quick Sale' ? 'We moved FAST on this off-market opportunity—listed and closed in record time!' : specialOutcome === 'Multiple Offers' ? 'Strong investor interest led to multiple offers—my client's decisive action secured the deal!' : 'After analyzing dozens of properties, we found one with the numbers that actually work!'}
+${specialOutcome === 'Quick Sale' ? 'We moved FAST on this off-market opportunity—listed and closed in record time!' : specialOutcome === 'Multiple Offers' ? "Strong investor interest led to multiple offers—my client's decisive action secured the deal!" : 'After analyzing dozens of properties, we found one with the numbers that actually work!'}
 
 Why this property made sense:
 ✅ Strong cash flow potential
@@ -417,7 +417,7 @@ Transaction Highlights:
 Investment Metrics:
 The property presented favorable fundamentals including stable rental demand, below-replacement-cost acquisition, and value-add opportunity through strategic improvements.
 
-${specialOutcome === 'Multiple Offers' ? 'Market competition reinforced the quality of this asset. Our client's decisive execution and strong terms secured the opportunity despite competing offers.' : specialOutcome === 'Quick Sale' ? 'Rapid execution was critical. Pre-qualified financing and expedited due diligence enabled closing within an accelerated timeframe.' : 'Patient analysis and disciplined underwriting led to an acquisition that meets our client's return criteria and risk tolerance.'}
+${specialOutcome === 'Multiple Offers' ? "Market competition reinforced the quality of this asset. Our client's decisive execution and strong terms secured the opportunity despite competing offers." : specialOutcome === 'Quick Sale' ? 'Rapid execution was critical. Pre-qualified financing and expedited due diligence enabled closing within an accelerated timeframe.' : "Patient analysis and disciplined underwriting led to an acquisition that meets our client's return criteria and risk tolerance."}
 
 For real estate investors, success requires:
 1. Rigorous financial analysis (cap rate, cash-on-cash, IRR projections)
@@ -510,7 +510,7 @@ Thinking about buying or selling? Your success story could be next! Drop a comme
 
 Officially closed on this stunning ${bedrooms}/${bathText} ${propertyType.toLowerCase()} in ${location}! 
 
-${specialOutcome === 'Quick Sale' ? '⚡ Lightning-fast transaction from offer to close!' : specialOutcome === 'Multiple Offers' ? '🏆 Won in a competitive multiple-offer situation!' : specialOutcome === 'Over Asking' ? '📊 OVER ASKING in today's market!' : '✨ Smooth transaction, happy clients!'}
+${specialOutcome === 'Quick Sale' ? '⚡ Lightning-fast transaction from offer to close!' : specialOutcome === 'Multiple Offers' ? '🏆 Won in a competitive multiple-offer situation!' : specialOutcome === 'Over Asking' ? "📊 OVER ASKING in today's market!" : '✨ Smooth transaction, happy clients!'}
 
 There's nothing better than helping people achieve their real estate goals. Congrats to my incredible ${clientType.toLowerCase()}s—you deserve this! 🏡❤️
 
@@ -525,7 +525,7 @@ Ready for YOUR next move? Link in bio or DM me "INFO"—let's chat about your go
 
 Successfully closed on a ${bedrooms}-bedroom, ${bathText}-bathroom ${propertyType.toLowerCase()} in ${location} for ${clientType.toLowerCase()} clients.
 
-${specialOutcome === 'Quick Sale' ? 'The transaction featured an accelerated timeline, requiring coordination among multiple stakeholders and efficient due diligence processes. Our team's preparation and systems enabled smooth execution despite compressed timeframes.' : specialOutcome === 'Multiple Offers' ? 'The property attracted significant market interest, resulting in a multiple-offer scenario. Strategic positioning and clear communication enabled our clients to successfully secure the property.' : specialOutcome === 'Over Asking' ? 'Market dynamics and competitive interest resulted in final sale price exceeding list price, validating our pricing strategy and market analysis.' : 'This transaction exemplifies the importance of thorough preparation, clear communication, and professional execution in achieving client objectives.'}
+${specialOutcome === 'Quick Sale' ? "The transaction featured an accelerated timeline, requiring coordination among multiple stakeholders and efficient due diligence processes. Our team's preparation and systems enabled smooth execution despite compressed timeframes." : specialOutcome === 'Multiple Offers' ? 'The property attracted significant market interest, resulting in a multiple-offer scenario. Strategic positioning and clear communication enabled our clients to successfully secure the property.' : specialOutcome === 'Over Asking' ? 'Market dynamics and competitive interest resulted in final sale price exceeding list price, validating our pricing strategy and market analysis.' : 'This transaction exemplifies the importance of thorough preparation, clear communication, and professional execution in achieving client objectives.'}
 
 Key Success Factors:
 • Comprehensive market analysis and pricing strategy
