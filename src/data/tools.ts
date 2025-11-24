@@ -2143,7 +2143,7 @@ export const allTools: Tool[] = [
     path: '/tools/fha-monthly-payment-calculator'
   },
   
-  // Tax Strategy & Entity Planning (3 tools)
+  // Tax Strategy & Entity Planning (16 tools)
   {
     name: 'Real Estate Professional (REPs) Status Tax Benefit Calculator',
     description: 'Calculate potential tax benefits of qualifying as a Real Estate Professional under IRS rules and how it affects rental property losses',
@@ -2185,6 +2185,76 @@ export const allTools: Tool[] = [
     category: 'Tax Strategy & Entity Planning',
     icon: '🏗️',
     path: '/tools/new-markets-tax-credit-calculator'
+  },
+  {
+    name: 'Estate Tax Calculator (Real Estate)',
+    description: 'Calculate estate tax liability on real estate holdings. Estimate federal estate tax, exemptions, and potential tax strategies for property inheritance planning',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🏛️',
+    path: '/tools/estate-tax-real-estate-calculator'
+  },
+  {
+    name: 'Step-Up in Basis Calculator',
+    description: 'Calculate step-up in basis benefits for inherited real estate. Estimate capital gains tax savings from stepped-up cost basis at inheritance',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '📈',
+    path: '/tools/step-up-in-basis-calculator'
+  },
+  {
+    name: 'Gift Tax Calculator (Real Estate)',
+    description: 'Calculate gift tax liability when transferring real estate ownership. Estimate federal gift tax, annual exclusions, and lifetime exemptions',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🎁',
+    path: '/tools/gift-tax-real-estate-calculator'
+  },
+  {
+    name: 'Generation-Skipping Transfer Tax (GSTT) Calculator',
+    description: 'Calculate generation-skipping transfer tax on real estate passed to grandchildren or later generations. Analyze GSTT liability and exemption strategies',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '👴',
+    path: '/tools/generation-skipping-tax-calculator'
+  },
+  {
+    name: 'Conservation Easement Tax Benefit Calculator',
+    description: 'Calculate tax benefits from donating conservation easements on land and real estate. Estimate charitable deductions and property tax savings',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🌲',
+    path: '/tools/conservation-easement-tax-benefit-calculator'
+  },
+  {
+    name: 'Facade Easement Tax Benefit Calculator',
+    description: 'Calculate tax deductions from donating facade easements on historic buildings. Analyze charitable contribution benefits and preservation restrictions',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🏛️',
+    path: '/tools/facade-easement-tax-benefit-calculator'
+  },
+  {
+    name: 'Property Tax Deductibility Cap Calculator (SALT)',
+    description: 'Calculate impact of $10,000 SALT deduction cap on property tax write-offs. Analyze itemized vs. standard deduction under current tax law',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🧾',
+    path: '/tools/property-tax-deductibility-cap-calculator'
+  },
+  {
+    name: 'Mortgage Interest Deductibility Cap Calculator',
+    description: 'Calculate deductible mortgage interest under $750,000 loan limit cap. Analyze tax savings on qualified residence loans',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '🏠',
+    path: '/tools/mortgage-interest-deductibility-cap-calculator'
+  },
+  {
+    name: 'HELOC Interest Deductibility Calculator',
+    description: 'Calculate tax-deductible HELOC interest for home improvements vs. non-deductible personal expenses under current IRS rules',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '💳',
+    path: '/tools/heloc-interest-deductibility-calculator'
+  },
+  {
+    name: 'Rental Income Taxable Estimator',
+    description: 'Calculate taxable rental income after deductions. Estimate federal income tax on rental properties with depreciation, expenses, and passive loss limits',
+    category: 'Tax Strategy & Entity Planning',
+    icon: '💰',
+    path: '/tools/rental-income-taxable-estimator'
   },
   
   // Market Analysis - Location Intelligence (7 tools)
