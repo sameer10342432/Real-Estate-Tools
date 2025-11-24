@@ -173,6 +173,16 @@ import { SORTINO_RATIO_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/sortino-ra
 import { TREYNOR_RATIO_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/treynor-ratio-real-estate-calculator';
 import { STANDARD_DEVIATION_PORTFOLIO_CALCULATOR_CONTENT } from './tools/standard-deviation-portfolio-calculator';
 import { COVARIANCE_REAL_ESTATE_STOCKS_CALCULATOR_CONTENT } from './tools/covariance-real-estate-stocks-calculator';
+import { DEBT_YIELD_COMMERCIAL_CALCULATOR_CONTENT } from './tools/debt-yield-commercial-calculator';
+import { FIXED_ASSET_TURNOVER_CALCULATOR_CONTENT } from './tools/fixed-asset-turnover-calculator';
+import { SOLVENCY_RATIO_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/solvency-ratio-real-estate-calculator';
+import { LIQUIDITY_RATIO_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/liquidity-ratio-real-estate-calculator';
+import { QUICK_RATIO_REAL_ESTATE_CALCULATOR_CONTENT } from './tools/quick-ratio-real-estate-calculator';
+import { CALIFORNIA_PROP_13_CALCULATOR_CONTENT } from './tools/california-prop-13-calculator';
+import { TEXAS_HOMESTEAD_CAP_LOSS_CALCULATOR_CONTENT } from './tools/texas-homestead-cap-loss-calculator';
+import { FLORIDA_SAVE_OUR_HOMES_CALCULATOR_CONTENT } from './tools/florida-save-our-homes-calculator';
+import { NEW_YORK_CITY_421A_TAX_ABATEMENT_ESTIMATOR_CONTENT } from './tools/new-york-city-421a-tax-abatement-estimator';
+import { ILLINOIS_SENIOR_FREEZE_EXEMPTION_CALCULATOR_CONTENT } from './tools/illinois-senior-freeze-exemption-calculator';
 
 export const ALL_TOOLS = [
   MORTGAGE_CALCULATOR_CONTENT,
@@ -347,4 +357,14 @@ export const ALL_TOOLS = [
   TREYNOR_RATIO_REAL_ESTATE_CALCULATOR_CONTENT,
   STANDARD_DEVIATION_PORTFOLIO_CALCULATOR_CONTENT,
   COVARIANCE_REAL_ESTATE_STOCKS_CALCULATOR_CONTENT,
+  DEBT_YIELD_COMMERCIAL_CALCULATOR_CONTENT,
+  FIXED_ASSET_TURNOVER_CALCULATOR_CONTENT,
+  SOLVENCY_RATIO_REAL_ESTATE_CALCULATOR_CONTENT,
+  LIQUIDITY_RATIO_REAL_ESTATE_CALCULATOR_CONTENT,
+  QUICK_RATIO_REAL_ESTATE_CALCULATOR_CONTENT,
+  CALIFORNIA_PROP_13_CALCULATOR_CONTENT,
+  TEXAS_HOMESTEAD_CAP_LOSS_CALCULATOR_CONTENT,
+  FLORIDA_SAVE_OUR_HOMES_CALCULATOR_CONTENT,
+  NEW_YORK_CITY_421A_TAX_ABATEMENT_ESTIMATOR_CONTENT,
+  ILLINOIS_SENIOR_FREEZE_EXEMPTION_CALCULATOR_CONTENT,
 ];
