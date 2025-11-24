@@ -1,8 +1,20 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application offering 657 interactive calculators and extensive educational content for real estate professionals, investors, and homebuyers. It covers a broad spectrum of real estate domains, including mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant share of the property technology market.
+Property Tools is a comprehensive Next.js web application offering 667 interactive calculators and extensive educational content for real estate professionals, investors, and homebuyers. It covers a broad spectrum of real estate domains, including mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, export capabilities, and smart insights. The project's vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant share of the property technology market.
 
 # Recent Changes
+
+## November 24, 2025 - Added 10 Financial & State-Specific Tax Calculators
+- **Debt Yield Calculator (Commercial)**: Calculate commercial real estate debt yield to assess lender risk and property performance independent of interest rates.
+- **Fixed Asset Turnover Calculator**: Measure how efficiently a real estate company uses its property assets to generate revenue.
+- **Solvency Ratio Calculator (Real Estate)**: Evaluate long-term financial health and ability to meet long-term debt obligations.
+- **Liquidity Ratio Calculator (Real Estate)**: Assess short-term financial health and ability to cover immediate liabilities.
+- **Quick Ratio Calculator (Real Estate)**: Calculate the most conservative liquidity measure excluding inventory and prepaid expenses.
+- **California Prop 13 Tax Calculator**: Calculate property tax under California's Proposition 13 with 2% annual cap and reassessment rules.
+- **Texas Homestead Cap Loss Calculator**: Estimate property tax savings under Texas homestead exemption with 10% cap loss limit.
+- **Florida Save Our Homes Calculator**: Calculate property tax benefits under Florida's Save Our Homes amendment with 3% cap.
+- **NYC 421-a Tax Abatement Estimator**: Estimate tax abatement benefits for new residential construction in New York City.
+- **Illinois Senior Freeze Exemption Calculator**: Calculate property tax freeze benefits for eligible Illinois seniors.
 
 ## November 23, 2025 - Added 10 Advanced Investment Analysis Calculators
 - **Correlation Calculator (Real Estate vs. Bonds)**: Analyze the correlation between real estate and bond investments to optimize portfolio diversification strategies.
@@ -60,10 +72,10 @@ Preferred communication style: Simple, everyday language.
 
 ## Content Management
 - **Blog System**: Admin panel with a block-based rich text editor, supporting multimedia, draft/publish workflow, and SEO metadata.
-- **Calculator Content**: Centralized data system (`src/content/tools/`) serves as a single source of truth for all 657 calculators across various categories, including specialized tools for commercial real estate, state-specific taxes, location intelligence, estate planning, agent tools, sustainability, legal & compliance, tax strategy & entity planning, market analysis, and AI-powered content. Each entry includes title, description, icon, category, slug, article, and calculation logic.
+- **Calculator Content**: Centralized data system (`src/content/tools/`) serves as a single source of truth for all 667 calculators across various categories, including specialized tools for commercial real estate, state-specific taxes, location intelligence, estate planning, agent tools, sustainability, legal & compliance, tax strategy & entity planning, market analysis, and AI-powered content. Each entry includes title, description, icon, category, slug, article, and calculation logic.
 
 ## Core Features
-- **Calculator System**: Modular architecture supporting 657 professional tools with features like what-if analysis, real-time updates, search/filter, and responsive UI, including text-based qualitative assessments.
+- **Calculator System**: Modular architecture supporting 667 professional tools with features like what-if analysis, real-time updates, search/filter, and responsive UI, including text-based qualitative assessments.
 - **Enhancement Features**: Scenario Manager for comparisons, export utilities (CSV, JSON, PDF), shareable links, smart insights, calculation history, notes, favorites, and goals tracking.
 - **Client Storage**: Custom `StorageManager` handles localStorage with quota management (5MB limit) and usage monitoring.
 
