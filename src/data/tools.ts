@@ -4645,6 +4645,76 @@ export const allTools: Tool[] = [
     category: 'Mortgage & Financing',
     icon: '🏦',
     path: '/tools/loan-constant-mortgage'
+  },
+  {
+    name: 'Debt Yield Calculator (Commercial)',
+    description: 'Calculate debt yield for commercial real estate investments - essential lender risk metric independent of interest rates',
+    category: 'Commercial Real Estate',
+    icon: '🏢',
+    path: '/tools/debt-yield-commercial-calculator'
+  },
+  {
+    name: 'Fixed Asset Turnover Calculator',
+    description: 'Measure how efficiently a company uses fixed assets to generate revenue - essential for property management analysis',
+    category: 'Financial Planning',
+    icon: '📊',
+    path: '/tools/fixed-asset-turnover-calculator'
+  },
+  {
+    name: 'Solvency Ratio Calculator (Real Estate)',
+    description: 'Assess real estate business financial health and long-term viability with solvency ratio analysis',
+    category: 'Financial Planning',
+    icon: '💼',
+    path: '/tools/solvency-ratio-real-estate-calculator'
+  },
+  {
+    name: 'Liquidity Ratio Calculator (Real Estate)',
+    description: 'Calculate liquidity ratio to assess ability to meet short-term obligations - essential for cash flow management',
+    category: 'Financial Planning',
+    icon: '💰',
+    path: '/tools/liquidity-ratio-real-estate-calculator'
+  },
+  {
+    name: 'Quick Ratio Calculator (Real Estate)',
+    description: 'Calculate quick ratio (acid test) for real estate to measure immediate liquidity without property sales',
+    category: 'Financial Planning',
+    icon: '⚡',
+    path: '/tools/quick-ratio-real-estate-calculator'
+  },
+  {
+    name: 'California Prop 13 Tax Calculator',
+    description: 'Calculate property tax savings under California Proposition 13 with assessment caps and annual increase limits',
+    category: 'State-Specific Tools',
+    icon: '🌴',
+    path: '/tools/california-prop-13-calculator'
+  },
+  {
+    name: 'Texas Homestead Cap Calculator',
+    description: 'Calculate property tax savings under Texas Homestead Cap with 10% annual assessment increase limit',
+    category: 'State-Specific Tools',
+    icon: '🤠',
+    path: '/tools/texas-homestead-cap-loss-calculator'
+  },
+  {
+    name: 'Florida Save Our Homes Calculator',
+    description: 'Calculate property tax benefits under Florida Save Our Homes amendment with 3% assessment cap and portability',
+    category: 'State-Specific Tools',
+    icon: '🌊',
+    path: '/tools/florida-save-our-homes-calculator'
+  },
+  {
+    name: 'NYC 421-a Tax Abatement Estimator',
+    description: 'Calculate property tax savings under New York City 421-a tax abatement program for new residential construction',
+    category: 'State-Specific Tools',
+    icon: '🗽',
+    path: '/tools/new-york-city-421a-tax-abatement-estimator'
+  },
+  {
+    name: 'Illinois Senior Freeze Calculator',
+    description: 'Calculate property tax savings under Illinois Senior Citizens Assessment Freeze Homestead Exemption',
+    category: 'State-Specific Tools',
+    icon: '👴',
+    path: '/tools/illinois-senior-freeze-exemption-calculator'
   }
 ];
 
