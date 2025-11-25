@@ -6,6 +6,15 @@ import { CLUE_INSURANCE_REPORT_CALCULATOR_CONTENT } from './tools/clue-insurance
 import { FLOOD_INSURANCE_COST_CALCULATOR_CONTENT } from './tools/flood-insurance-cost-calculator';
 import { WILDFIRE_INSURANCE_COST_CALCULATOR_CONTENT } from './tools/wildfire-insurance-cost-calculator';
 import { HURRICANE_DEDUCTIBLE_CALCULATOR_CONTENT } from './tools/hurricane-deductible-calculator';
+import { SINKHOLE_INSURANCE_COST_CALCULATOR_CONTENT } from './tools/sinkhole-insurance-cost-calculator';
+import { LANDLORD_INSURANCE_COST_CALCULATOR_CONTENT } from './tools/landlord-insurance-cost-calculator';
+import { RENTERS_INSURANCE_COST_CALCULATOR_CONTENT } from './tools/renters-insurance-cost-calculator';
+import { CONDO_HO6_INSURANCE_COST_CALCULATOR_CONTENT } from './tools/condo-ho6-insurance-cost-calculator';
+import { TITLE_INSURANCE_OWNER_COST_CALCULATOR_CONTENT } from './tools/title-insurance-owner-cost-calculator';
+import { TITLE_INSURANCE_LENDER_COST_CALCULATOR_CONTENT } from './tools/title-insurance-lender-cost-calculator';
+import { HOME_WARRANTY_SELLER_ROI_CALCULATOR_CONTENT } from './tools/home-warranty-seller-roi-calculator';
+import { NEW_BUILD_WARRANTY_CALCULATOR_CONTENT } from './tools/new-build-warranty-calculator';
+import { BUILDER_UPGRADE_ROI_CALCULATOR_CONTENT } from './tools/builder-upgrade-roi-calculator';
 
 import {
   MORTGAGE_CALCULATOR_CONTENT,
@@ -502,4 +511,13 @@ export const ALL_TOOLS = [
   FLOOD_INSURANCE_COST_CALCULATOR_CONTENT,
   WILDFIRE_INSURANCE_COST_CALCULATOR_CONTENT,
   HURRICANE_DEDUCTIBLE_CALCULATOR_CONTENT,
+  SINKHOLE_INSURANCE_COST_CALCULATOR_CONTENT,
+  LANDLORD_INSURANCE_COST_CALCULATOR_CONTENT,
+  RENTERS_INSURANCE_COST_CALCULATOR_CONTENT,
+  CONDO_HO6_INSURANCE_COST_CALCULATOR_CONTENT,
+  TITLE_INSURANCE_OWNER_COST_CALCULATOR_CONTENT,
+  TITLE_INSURANCE_LENDER_COST_CALCULATOR_CONTENT,
+  HOME_WARRANTY_SELLER_ROI_CALCULATOR_CONTENT,
+  NEW_BUILD_WARRANTY_CALCULATOR_CONTENT,
+  BUILDER_UPGRADE_ROI_CALCULATOR_CONTENT,
 ];

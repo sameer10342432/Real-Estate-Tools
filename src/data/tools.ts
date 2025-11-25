@@ -3383,6 +3383,69 @@ export const allTools: Tool[] = [
     path: '/tools/hurricane-deductible-calculator'
   },
   {
+    name: 'Sinkhole Insurance Cost Calculator',
+    description: 'Calculate sinkhole insurance premiums based on property location, coverage type, and risk factors for comprehensive property protection',
+    category: 'Insurance & Protection',
+    icon: '⚠️',
+    path: '/tools/sinkhole-insurance-cost-calculator'
+  },
+  {
+    name: 'Landlord Insurance Cost Calculator',
+    description: 'Calculate landlord insurance premiums for rental properties including property damage, liability coverage, and loss of rental income protection',
+    category: 'Insurance & Protection',
+    icon: '🏘️',
+    path: '/tools/landlord-insurance-cost-calculator'
+  },
+  {
+    name: "Renter's Insurance Cost Calculator",
+    description: "Calculate renter's insurance premiums based on personal property value, liability coverage, and location to protect your belongings",
+    category: 'Insurance & Protection',
+    icon: '🏢',
+    path: '/tools/renters-insurance-cost-calculator'
+  },
+  {
+    name: 'Condo (HO6) Insurance Cost Calculator',
+    description: 'Calculate condo insurance premiums including dwelling coverage, personal property, liability, and loss assessment protection',
+    category: 'Insurance & Protection',
+    icon: '🏬',
+    path: '/tools/condo-ho6-insurance-cost-calculator'
+  },
+  {
+    name: "Title Insurance (Owner's) Cost Calculator",
+    description: "Calculate owner's title insurance premiums based on property value with standard and enhanced coverage options",
+    category: 'Insurance & Protection',
+    icon: '📜',
+    path: '/tools/title-insurance-owner-cost-calculator'
+  },
+  {
+    name: "Title Insurance (Lender's) Cost Calculator",
+    description: "Calculate lender's title insurance costs for purchase and refinance transactions based on loan amount",
+    category: 'Insurance & Protection',
+    icon: '🏦',
+    path: '/tools/title-insurance-lender-cost-calculator'
+  },
+  {
+    name: 'Home Warranty (Seller-Paid) ROI Calculator',
+    description: 'Calculate ROI for seller-paid home warranties including faster sale benefits and repair credit savings',
+    category: 'Insurance & Protection',
+    icon: '🏡',
+    path: '/tools/home-warranty-seller-roi-calculator'
+  },
+  {
+    name: 'New Build Warranty Calculator',
+    description: 'Analyze new construction warranty coverage including builder warranties and extended protection options',
+    category: 'Insurance & Protection',
+    icon: '🏗️',
+    path: '/tools/new-build-warranty-calculator'
+  },
+  {
+    name: 'Builder Upgrade ROI Calculator',
+    description: 'Calculate return on investment for builder upgrades in new construction including resale value impact',
+    category: 'Insurance & Protection',
+    icon: '⚒️',
+    path: '/tools/builder-upgrade-roi-calculator'
+  },
+  {
     name: 'New York "STAR" Exemption Calculator',
     description: 'Calculate New York School Tax Relief (STAR) exemption benefits for Basic and Enhanced STAR programs by county',
     category: 'Tax Strategy & Entity Planning',
