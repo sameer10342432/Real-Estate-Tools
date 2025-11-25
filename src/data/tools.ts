@@ -5281,6 +5281,76 @@ export const allTools: Tool[] = [
     category: 'Additional Tools',
     icon: '🏘️',
     path: '/tools/hoa-document-contingency-tool'
+  },
+  {
+    name: 'Sale of Home Contingency Calculator',
+    description: 'Calculate timelines, risks, and financial implications of including a home sale contingency in your purchase offer. Analyze net proceeds, down payment needs, and offer acceptance probability.',
+    category: 'Buyer Tools',
+    icon: '🏠',
+    path: '/tools/sale-of-home-contingency-calculator'
+  },
+  {
+    name: 'Rent-Back (Seller) Calculator',
+    description: 'Calculate costs, daily rates, and financial implications of post-closing rent-back agreements for sellers who need time to move out after closing.',
+    category: 'Seller Tools',
+    icon: '🔄',
+    path: '/tools/rent-back-seller-calculator'
+  },
+  {
+    name: 'Post-Closing Occupancy Calculator',
+    description: 'Calculate costs, risks, and legal implications of post-closing occupancy agreements for both buyers and sellers. Analyze daily rates, security deposits, and timeline risks.',
+    category: 'Additional Tools',
+    icon: '📅',
+    path: '/tools/post-closing-occupancy-calculator'
+  },
+  {
+    name: 'Earnest Money Deposit Risk Calculator',
+    description: 'Calculate earnest money deposit amounts, analyze risk of forfeiture, and understand contingency protection for your home purchase offer. Evaluate market-appropriate deposit levels.',
+    category: 'Buyer Tools',
+    icon: '💵',
+    path: '/tools/earnest-money-deposit-risk-calculator'
+  },
+  {
+    name: 'Escrow Holdback (Repairs) Calculator',
+    description: 'Calculate escrow holdback amounts for repairs, analyze costs, timelines, and risks of closing with incomplete repairs or defects. Understand lender approval requirements.',
+    category: 'Additional Tools',
+    icon: '🔧',
+    path: '/tools/escrow-holdback-repairs-calculator'
+  },
+  {
+    name: 'Seller Assist (Closing Costs) Calculator',
+    description: 'Calculate seller-paid closing cost assistance, analyze impact on seller net proceeds, and understand lender limits by loan type. Evaluate tax implications and strategic considerations.',
+    category: 'Seller Tools',
+    icon: '💰',
+    path: '/tools/seller-assist-closing-costs-calculator'
+  },
+  {
+    name: 'Seller Concession (Repairs) Calculator',
+    description: 'Calculate seller repair concessions, compare credit vs. actual repairs, and analyze impact on net proceeds and offer competitiveness based on market conditions.',
+    category: 'Seller Tools',
+    icon: '🛠️',
+    path: '/tools/seller-concession-repairs-calculator'
+  },
+  {
+    name: 'Property Survey (Boundary) Calculator',
+    description: 'Calculate property survey costs, analyze boundary dispute risks, and understand when surveys are required for real estate transactions. Estimate costs by property size and terrain.',
+    category: 'Additional Tools',
+    icon: '📐',
+    path: '/tools/property-survey-boundary-calculator'
+  },
+  {
+    name: 'Elevation Certificate (Flood) Calculator',
+    description: 'Calculate elevation certificate costs, analyze flood insurance savings, and understand FEMA flood zone requirements. Evaluate ROI and LOMA application benefits.',
+    category: 'Additional Tools',
+    icon: '🌊',
+    path: '/tools/elevation-certificate-flood-calculator'
+  },
+  {
+    name: 'Percolation (Perc) Test Calculator',
+    description: 'Calculate percolation test costs, analyze septic system requirements, and understand soil absorption rates for land development. Estimate septic installation expenses.',
+    category: 'Additional Tools',
+    icon: '🌱',
+    path: '/tools/percolation-perc-test-calculator'
   }
 ];
 
