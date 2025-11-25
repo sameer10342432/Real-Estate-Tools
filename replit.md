@@ -1,8 +1,8 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application designed for real estate professionals, investors, and homebuyers. It provides 746 interactive calculators and extensive educational content spanning mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, and export capabilities. The vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant market share.
+Property Tools is a comprehensive Next.js web application designed for real estate professionals, investors, and homebuyers. It provides 757 interactive calculators and extensive educational content spanning mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, home inspections & disclosures, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, and export capabilities. The vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant market share.
 
-**Recent Addition (November 2025)**: Added 9 specialized zoning and real estate agent/broker tools (Non-Conforming Use (Grandfather) Calculator, Spot Zoning Analyzer, Inclusionary Zoning Calculator, Exclusionary Zoning Analyzer, Agent vs. Broker Career Calculator, Discount Broker vs. Full Service Comparison, Flat Fee MLS (FSBO) Savings Calculator, Pocket Listing (Off-Market) Analyzer, Coming Soon Marketing Calculator) expanding total tools to 746. Previously added 10 specialized HOA/Condo/Co-op calculator tools and 10 specialized regulatory and legal analysis tools.
+**Recent Addition (November 2025)**: Added 11 specialized home inspection and disclosure calculators (Septic System Design vs Repair, Well Water Test Cost, Lead Paint Disclosure, Asbestos Disclosure, Radon Test Cost, Mold Test & Inspection, Termite/WDO Inspection, Foundation Inspection, Roof Inspection, HVAC Inspection, Plumbing Inspection) expanding total tools to 757. Previously added 9 specialized zoning and real estate agent/broker tools, 10 specialized HOA/Condo/Co-op calculator tools, and 10 specialized regulatory and legal analysis tools.
 
 # User Preferences
 
@@ -24,10 +24,10 @@ Preferred communication style: Simple, everyday language.
 
 ## Content Management
 - **Blog System**: Admin panel with a block-based rich text editor, supporting multimedia, draft/publish workflow, and SEO.
-- **Calculator Content**: Dual data system with `src/content/tools/` for detailed calculator configurations (382 full-featured calculators) and `src/data/tools.ts` for all 746 tools metadata used across the platform. Each calculator entry includes title, description, icon, category, slug, article, and calculation logic.
+- **Calculator Content**: Dual data system with `src/content/tools/` for detailed calculator configurations (393 full-featured calculators) and `src/data/tools.ts` for all 757 tools metadata used across the platform. Each calculator entry includes title, description, icon, category, slug, article, and calculation logic.
 
 ## Core Features
-- **Calculator System**: Modular architecture supporting 746 professional tools with features like what-if analysis, real-time updates, search/filter, responsive UI, and text-based qualitative assessments.
+- **Calculator System**: Modular architecture supporting 757 professional tools with features like what-if analysis, real-time updates, search/filter, responsive UI, and text-based qualitative assessments.
 - **Enhancement Features**: Scenario Manager for comparisons, export utilities (CSV, JSON, PDF), shareable links, smart insights, calculation history, notes, favorites, and goals tracking.
 - **Client Storage**: Custom `StorageManager` handles localStorage with quota management.
 
