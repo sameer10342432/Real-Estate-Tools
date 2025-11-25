@@ -1,3 +1,12 @@
+import { ELECTRICAL_INSPECTION_CALCULATOR_CONTENT } from './tools/electrical-inspection-calculator';
+import { POOL_INSPECTION_CALCULATOR_CONTENT } from './tools/pool-inspection-calculator';
+import { FOUR_POINT_INSURANCE_INSPECTION_CALCULATOR_CONTENT } from './tools/4-point-insurance-inspection-calculator';
+import { WIND_MITIGATION_INSPECTION_CALCULATOR_CONTENT } from './tools/wind-mitigation-inspection-calculator';
+import { CLUE_INSURANCE_REPORT_CALCULATOR_CONTENT } from './tools/clue-insurance-report-calculator';
+import { FLOOD_INSURANCE_COST_CALCULATOR_CONTENT } from './tools/flood-insurance-cost-calculator';
+import { WILDFIRE_INSURANCE_COST_CALCULATOR_CONTENT } from './tools/wildfire-insurance-cost-calculator';
+import { HURRICANE_DEDUCTIBLE_CALCULATOR_CONTENT } from './tools/hurricane-deductible-calculator';
+
 import {
   MORTGAGE_CALCULATOR_CONTENT,
   LOAN_AMORTIZATION_CALCULATOR_CONTENT,
@@ -485,4 +494,12 @@ export const ALL_TOOLS = [
   InspectionContingencyDaysCalculatorContent,
   TitleContingencyDaysCalculatorContent,
   HoaDocumentContingencyToolContent,
+  ELECTRICAL_INSPECTION_CALCULATOR_CONTENT,
+  POOL_INSPECTION_CALCULATOR_CONTENT,
+  FOUR_POINT_INSURANCE_INSPECTION_CALCULATOR_CONTENT,
+  WIND_MITIGATION_INSPECTION_CALCULATOR_CONTENT,
+  CLUE_INSURANCE_REPORT_CALCULATOR_CONTENT,
+  FLOOD_INSURANCE_COST_CALCULATOR_CONTENT,
+  WILDFIRE_INSURANCE_COST_CALCULATOR_CONTENT,
+  HURRICANE_DEDUCTIBLE_CALCULATOR_CONTENT,
 ];
