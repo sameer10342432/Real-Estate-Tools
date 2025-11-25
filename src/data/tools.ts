@@ -3327,6 +3327,62 @@ export const allTools: Tool[] = [
     path: '/tools/california-earthquake-insurance-estimator'
   },
   {
+    name: 'Electrical Inspection Calculator',
+    description: 'Calculate electrical inspection costs and understand code requirements for your property',
+    category: 'Insurance Tools',
+    icon: '⚡',
+    path: '/tools/electrical-inspection-calculator'
+  },
+  {
+    name: 'Pool Inspection Calculator',
+    description: 'Calculate pool inspection costs and safety compliance requirements',
+    category: 'Insurance Tools',
+    icon: '🏊',
+    path: '/tools/pool-inspection-calculator'
+  },
+  {
+    name: '4-Point Insurance Inspection Calculator',
+    description: 'Calculate 4-point inspection costs and understand HVAC, electrical, plumbing, and roof requirements',
+    category: 'Insurance Tools',
+    icon: '🔍',
+    path: '/tools/4-point-insurance-inspection-calculator'
+  },
+  {
+    name: 'Wind Mitigation Inspection Calculator',
+    description: 'Calculate wind mitigation inspection costs and potential insurance discounts in hurricane zones',
+    category: 'Insurance Tools',
+    icon: '🌪️',
+    path: '/tools/wind-mitigation-inspection-calculator'
+  },
+  {
+    name: 'CLUE Insurance Report Calculator',
+    description: 'Understand CLUE reports and calculate impact of claims history on insurance rates',
+    category: 'Insurance Tools',
+    icon: '📋',
+    path: '/tools/clue-insurance-report-calculator'
+  },
+  {
+    name: 'Flood Insurance Cost Calculator',
+    description: 'Calculate NFIP and private flood insurance costs based on flood zone and elevation',
+    category: 'Insurance Tools',
+    icon: '🌊',
+    path: '/tools/flood-insurance-cost-calculator'
+  },
+  {
+    name: 'Wildfire Insurance Cost Calculator',
+    description: 'Calculate wildfire insurance costs and understand fire risk premiums in high-risk areas',
+    category: 'Insurance Tools',
+    icon: '🔥',
+    path: '/tools/wildfire-insurance-cost-calculator'
+  },
+  {
+    name: 'Hurricane Deductible Calculator',
+    description: 'Calculate hurricane deductible amounts and understand percentage-based deductibles in coastal states',
+    category: 'Insurance Tools',
+    icon: '🌀',
+    path: '/tools/hurricane-deductible-calculator'
+  },
+  {
     name: 'New York "STAR" Exemption Calculator',
     description: 'Calculate New York School Tax Relief (STAR) exemption benefits for Basic and Enhanced STAR programs by county',
     category: 'Tax Strategy & Entity Planning',
