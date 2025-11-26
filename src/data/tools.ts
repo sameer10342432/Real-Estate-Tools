@@ -5612,6 +5612,69 @@ export const allTools: Tool[] = [
     category: 'Financial Planning',
     icon: '📈',
     path: '/tools/credit-repair-timeline-calculator'
+  },
+  {
+    name: 'Seasoned Funds Calculator',
+    description: 'Verify if your down payment funds meet the 60-day seasoning requirement for mortgage approval.',
+    category: 'Mortgage Qualification',
+    icon: '💰',
+    path: '/tools/seasoned-funds-calculator'
+  },
+  {
+    name: 'Fund Sourcing Calculator',
+    description: 'Track and document the sources of your down payment funds for mortgage approval compliance.',
+    category: 'Mortgage Qualification',
+    icon: '📋',
+    path: '/tools/fund-sourcing-calculator'
+  },
+  {
+    name: 'VOD Calculator (Verification of Deposit)',
+    description: 'Prepare for Verification of Deposit requirements and identify potential red flags before applying for a mortgage.',
+    category: 'Mortgage Qualification',
+    icon: '🏦',
+    path: '/tools/verification-of-deposit-calculator'
+  },
+  {
+    name: 'VOE Calculator (Verification of Employment)',
+    description: 'Calculate your qualifying income and prepare for employment verification during the mortgage process.',
+    category: 'Mortgage Qualification',
+    icon: '💼',
+    path: '/tools/verification-of-employment-calculator'
+  },
+  {
+    name: 'VOR Calculator (Verification of Rent)',
+    description: 'Track your rental payment history and prepare for rent verification as alternative credit documentation.',
+    category: 'Mortgage Qualification',
+    icon: '🏠',
+    path: '/tools/verification-of-rent-calculator'
+  },
+  {
+    name: 'Tax Return Analyzer (Self-Employed)',
+    description: 'Analyze self-employed tax returns to calculate qualifying income with add-backs for mortgage approval.',
+    category: 'Self-Employed Loans',
+    icon: '📊',
+    path: '/tools/tax-return-analyzer-self-employed'
+  },
+  {
+    name: 'P&L Statement Calculator',
+    description: 'Create and analyze profit & loss statements for self-employed mortgage qualification.',
+    category: 'Self-Employed Loans',
+    icon: '📈',
+    path: '/tools/profit-loss-statement-calculator'
+  },
+  {
+    name: 'Asset Depletion Loan Calculator',
+    description: 'Calculate mortgage qualification using the asset depletion method for retirees and high-net-worth borrowers.',
+    category: 'Non-QM Loans',
+    icon: '💎',
+    path: '/tools/asset-depletion-loan-calculator'
+  },
+  {
+    name: 'Asset-Based Loan Calculator',
+    description: 'Calculate loan qualification based on total assets with loan-to-asset ratio analysis.',
+    category: 'Non-QM Loans',
+    icon: '🏆',
+    path: '/tools/asset-based-loan-calculator'
   }
 ];
 
@@ -5645,7 +5708,10 @@ export const categories = [
   'Construction & Development',
   'Mortgage & Financing',
   'Easements & Rights',
-  'HOA & Community'
+  'HOA & Community',
+  'Mortgage Qualification',
+  'Self-Employed Loans',
+  'Non-QM Loans'
 ];
 
 export const getToolsByCategory = (category: string): Tool[] => {

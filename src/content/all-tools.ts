@@ -261,6 +261,16 @@ import { InspectionContingencyDaysCalculatorContent } from './tools/inspection-c
 import { TitleContingencyDaysCalculatorContent } from './tools/title-contingency-days-calculator';
 import { HoaDocumentContingencyToolContent } from './tools/hoa-document-contingency-tool';
 
+import { SEASONED_FUNDS_CALCULATOR_CONTENT } from './tools/seasoned-funds-calculator';
+import { FUND_SOURCING_CALCULATOR_CONTENT } from './tools/fund-sourcing-calculator';
+import { VERIFICATION_OF_DEPOSIT_CALCULATOR_CONTENT } from './tools/verification-of-deposit-calculator';
+import { VERIFICATION_OF_EMPLOYMENT_CALCULATOR_CONTENT } from './tools/verification-of-employment-calculator';
+import { VERIFICATION_OF_RENT_CALCULATOR_CONTENT } from './tools/verification-of-rent-calculator';
+import { TAX_RETURN_ANALYZER_SELF_EMPLOYED_CONTENT } from './tools/tax-return-analyzer-self-employed';
+import { PROFIT_LOSS_STATEMENT_CALCULATOR_CONTENT } from './tools/profit-loss-statement-calculator';
+import { ASSET_DEPLETION_LOAN_CALCULATOR_CONTENT } from './tools/asset-depletion-loan-calculator';
+import { ASSET_BASED_LOAN_CALCULATOR_CONTENT } from './tools/asset-based-loan-calculator';
+
 export const ALL_TOOLS = [
   MORTGAGE_CALCULATOR_CONTENT,
   LOAN_AMORTIZATION_CALCULATOR_CONTENT,
@@ -520,4 +530,13 @@ export const ALL_TOOLS = [
   HOME_WARRANTY_SELLER_ROI_CALCULATOR_CONTENT,
   NEW_BUILD_WARRANTY_CALCULATOR_CONTENT,
   BUILDER_UPGRADE_ROI_CALCULATOR_CONTENT,
+  SEASONED_FUNDS_CALCULATOR_CONTENT,
+  FUND_SOURCING_CALCULATOR_CONTENT,
+  VERIFICATION_OF_DEPOSIT_CALCULATOR_CONTENT,
+  VERIFICATION_OF_EMPLOYMENT_CALCULATOR_CONTENT,
+  VERIFICATION_OF_RENT_CALCULATOR_CONTENT,
+  TAX_RETURN_ANALYZER_SELF_EMPLOYED_CONTENT,
+  PROFIT_LOSS_STATEMENT_CALCULATOR_CONTENT,
+  ASSET_DEPLETION_LOAN_CALCULATOR_CONTENT,
+  ASSET_BASED_LOAN_CALCULATOR_CONTENT,
 ];
