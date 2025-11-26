@@ -270,6 +270,16 @@ import { TAX_RETURN_ANALYZER_SELF_EMPLOYED_CONTENT } from './tools/tax-return-an
 import { PROFIT_LOSS_STATEMENT_CALCULATOR_CONTENT } from './tools/profit-loss-statement-calculator';
 import { ASSET_DEPLETION_LOAN_CALCULATOR_CONTENT } from './tools/asset-depletion-loan-calculator';
 import { ASSET_BASED_LOAN_CALCULATOR_CONTENT } from './tools/asset-based-loan-calculator';
+import { HARD_MONEY_LTV_CALCULATOR_CONTENT } from './tools/hard-money-ltv-calculator';
+import { HARD_MONEY_INTEREST_CALCULATOR_CONTENT } from './tools/hard-money-interest-calculator';
+import { HARD_MONEY_POINTS_CALCULATOR_CONTENT } from './tools/hard-money-points-calculator';
+import { DSCR_LOAN_CALCULATOR_CONTENT } from './tools/dscr-loan-calculator';
+import { EXIT_STRATEGY_FLIPPER_CALCULATOR_CONTENT } from './tools/exit-strategy-flipper-calculator';
+import { AI_PROPERTY_DESCRIPTION_SPANISH_CONTENT } from './tools/ai-property-description-spanish';
+import { AI_PROPERTY_DESCRIPTION_MANDARIN_CONTENT } from './tools/ai-property-description-mandarin';
+import { AI_PROPERTY_DESCRIPTION_TAGALOG_CONTENT } from './tools/ai-property-description-tagalog';
+import { AI_PROPERTY_DESCRIPTION_VIETNAMESE_CONTENT } from './tools/ai-property-description-vietnamese';
+import { AI_PROPERTY_DESCRIPTION_FRENCH_CONTENT } from './tools/ai-property-description-french';
 
 export const ALL_TOOLS = [
   MORTGAGE_CALCULATOR_CONTENT,
@@ -539,4 +549,14 @@ export const ALL_TOOLS = [
   PROFIT_LOSS_STATEMENT_CALCULATOR_CONTENT,
   ASSET_DEPLETION_LOAN_CALCULATOR_CONTENT,
   ASSET_BASED_LOAN_CALCULATOR_CONTENT,
+  HARD_MONEY_LTV_CALCULATOR_CONTENT,
+  HARD_MONEY_INTEREST_CALCULATOR_CONTENT,
+  HARD_MONEY_POINTS_CALCULATOR_CONTENT,
+  DSCR_LOAN_CALCULATOR_CONTENT,
+  EXIT_STRATEGY_FLIPPER_CALCULATOR_CONTENT,
+  AI_PROPERTY_DESCRIPTION_SPANISH_CONTENT,
+  AI_PROPERTY_DESCRIPTION_MANDARIN_CONTENT,
+  AI_PROPERTY_DESCRIPTION_TAGALOG_CONTENT,
+  AI_PROPERTY_DESCRIPTION_VIETNAMESE_CONTENT,
+  AI_PROPERTY_DESCRIPTION_FRENCH_CONTENT,
 ];

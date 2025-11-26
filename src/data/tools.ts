@@ -5682,6 +5682,69 @@ export const allTools: Tool[] = [
     category: 'Non-QM Loans',
     icon: '🏆',
     path: '/tools/asset-based-loan-calculator'
+  },
+  {
+    name: 'Hard Money LTV Calculator',
+    description: 'Calculate maximum loan amount based on loan-to-value ratio for hard money loans.',
+    category: 'Investment Analysis',
+    icon: '📊',
+    path: '/tools/hard-money-ltv-calculator'
+  },
+  {
+    name: 'Hard Money Interest Calculator',
+    description: 'Calculate interest costs, monthly payments, and effective APR for hard money loans.',
+    category: 'Investment Analysis',
+    icon: '💰',
+    path: '/tools/hard-money-interest-calculator'
+  },
+  {
+    name: 'Hard Money Points Calculator',
+    description: 'Calculate origination points, lender fees, broker fees, and total upfront costs.',
+    category: 'Investment Analysis',
+    icon: '📈',
+    path: '/tools/hard-money-points-calculator'
+  },
+  {
+    name: 'Exit Strategy Flipper Calculator',
+    description: 'Compare exit strategies for house flips: quick sale, market sale, rental conversion, or wholesale.',
+    category: 'Investment Analysis',
+    icon: '🏠',
+    path: '/tools/exit-strategy-flipper-calculator'
+  },
+  {
+    name: 'AI Property Description Generator (Spanish)',
+    description: 'Generate professional property descriptions in Spanish for the Hispanic real estate market.',
+    category: 'AI Tools',
+    icon: '🤖',
+    path: '/tools/ai-property-description-spanish'
+  },
+  {
+    name: 'AI Property Description Generator (Mandarin)',
+    description: 'Generate professional property descriptions in Mandarin for Chinese buyers.',
+    category: 'AI Tools',
+    icon: '🤖',
+    path: '/tools/ai-property-description-mandarin'
+  },
+  {
+    name: 'AI Property Description Generator (Tagalog)',
+    description: 'Generate professional property descriptions in Tagalog for Filipino-American buyers.',
+    category: 'AI Tools',
+    icon: '🤖',
+    path: '/tools/ai-property-description-tagalog'
+  },
+  {
+    name: 'AI Property Description Generator (Vietnamese)',
+    description: 'Generate professional property descriptions in Vietnamese for Vietnamese-American buyers.',
+    category: 'AI Tools',
+    icon: '🤖',
+    path: '/tools/ai-property-description-vietnamese'
+  },
+  {
+    name: 'AI Property Description Generator (French)',
+    description: 'Generate professional property descriptions in French for Francophone buyers.',
+    category: 'AI Tools',
+    icon: '🤖',
+    path: '/tools/ai-property-description-french'
   }
 ];
 
@@ -5718,7 +5781,8 @@ export const categories = [
   'HOA & Community',
   'Mortgage Qualification',
   'Self-Employed Loans',
-  'Non-QM Loans'
+  'Non-QM Loans',
+  'AI Tools'
 ];
 
 export const getToolsByCategory = (category: string): Tool[] => {
