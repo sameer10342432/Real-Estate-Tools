@@ -1,8 +1,13 @@
 # Overview
 
-Property Tools is a comprehensive Next.js web application designed for real estate professionals, investors, and homebuyers. It provides 803 interactive calculators and extensive educational content spanning mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, home inspections & disclosures, insurance & protection, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, and export capabilities. The vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant market share.
+Property Tools is a comprehensive Next.js web application designed for real estate professionals, investors, and homebuyers. It provides 813 interactive calculators and extensive educational content spanning mortgage analysis, investment evaluation, tax calculations, seller and agent tools, land development, opportunity zones, market analysis, closing costs, estate planning, lifestyle & housing, location-specific insights, sustainability, legal & compliance, construction, home inspections & disclosures, insurance & protection, and AI-powered content. The platform features an admin panel for content management, a centralized tools data system, client-side calculation storage, scenario comparison, and export capabilities. The vision is to become a leading resource in real estate analytics, empowering informed decisions and capturing a significant market share.
 
-**Recent Addition (November 2025)**: Added 9 specialized mortgage documentation and verification tools (Seasoned Funds Calculator, Fund Sourcing Calculator, Verification of Deposit Calculator, Verification of Employment Calculator, Verification of Rent Calculator, Tax Return Analyzer for Self-Employed, P&L Statement Calculator for Self-Employed, Asset Depletion Loan Calculator, Asset-Based Loan Calculator) expanding total tools to 803. Organized into three new categories: Mortgage Qualification, Self-Employed Loans, and Non-QM Loans. Previously added 10 specialized financial/loan calculators, 10 specialized construction and building tools, 9 specialized insurance and warranty calculators, 11 specialized home inspection and disclosure calculators, 9 specialized zoning and real estate agent/broker tools, 10 specialized HOA/Condo/Co-op calculator tools, and 10 specialized regulatory and legal analysis tools.
+**Recent Addition (November 2025)**: Added 10 new specialized tools expanding total to 813:
+- **Hard Money Calculators**: Hard Money LTV Calculator, Hard Money Interest Calculator, Hard Money Points Calculator
+- **Investment Analysis**: DSCR Loan Calculator, Exit Strategy Flipper Calculator
+- **AI Property Description Generators**: Spanish, Mandarin, Tagalog, Vietnamese, and French language versions (requires OPENAI_API_KEY)
+
+Previously added 9 specialized mortgage documentation and verification tools (Seasoned Funds Calculator, Fund Sourcing Calculator, Verification of Deposit Calculator, Verification of Employment Calculator, Verification of Rent Calculator, Tax Return Analyzer for Self-Employed, P&L Statement Calculator for Self-Employed, Asset Depletion Loan Calculator, Asset-Based Loan Calculator). Previously added 10 specialized financial/loan calculators, 10 specialized construction and building tools, 9 specialized insurance and warranty calculators, 11 specialized home inspection and disclosure calculators, 9 specialized zoning and real estate agent/broker tools, 10 specialized HOA/Condo/Co-op calculator tools, and 10 specialized regulatory and legal analysis tools.
 
 # User Preferences
 
@@ -24,10 +29,10 @@ Preferred communication style: Simple, everyday language.
 
 ## Content Management
 - **Blog System**: Admin panel with a block-based rich text editor, supporting multimedia, draft/publish workflow, and SEO.
-- **Calculator Content**: Dual data system with `src/content/tools/` for detailed calculator configurations (431 full-featured calculators) and `src/data/tools.ts` for all 803 tools metadata used across the platform. Each calculator entry includes title, description, icon, category, slug, article, and calculation logic.
+- **Calculator Content**: Dual data system with `src/content/tools/` for detailed calculator configurations (431 full-featured calculators) and `src/data/tools.ts` for all 813 tools metadata used across the platform. Each calculator entry includes title, description, icon, category, slug, article, and calculation logic.
 
 ## Core Features
-- **Calculator System**: Modular architecture supporting 803 professional tools with features like what-if analysis, real-time updates, search/filter, responsive UI, and text-based qualitative assessments.
+- **Calculator System**: Modular architecture supporting 813 professional tools with features like what-if analysis, real-time updates, search/filter, responsive UI, and text-based qualitative assessments.
 - **Enhancement Features**: Scenario Manager for comparisons, export utilities (CSV, JSON, PDF), shareable links, smart insights, calculation history, notes, favorites, and goals tracking.
 - **Client Storage**: Custom `StorageManager` handles localStorage with quota management.
 
