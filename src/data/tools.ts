@@ -5542,6 +5542,76 @@ export const allTools: Tool[] = [
     category: 'Investment Analysis',
     icon: '🤝',
     path: '/tools/real-estate-partnership-calculator'
+  },
+  {
+    name: 'Commercial Loan Calculator',
+    description: 'Calculate commercial real estate loan payments, rates, and amortization schedules for business property investments with DSCR analysis.',
+    category: 'Commercial Real Estate',
+    icon: '🏢',
+    path: '/tools/commercial-loan-calculator'
+  },
+  {
+    name: 'SBA 504 Loan Calculator',
+    description: 'Calculate SBA 504 loan payments for commercial real estate with low down payments (10%) and fixed interest rates through CDC financing.',
+    category: 'Commercial Real Estate',
+    icon: '🏛️',
+    path: '/tools/sba-504-loan-calculator'
+  },
+  {
+    name: 'SBA 7(a) Loan Calculator',
+    description: 'Calculate SBA 7(a) loan payments for business acquisitions, real estate, working capital, and equipment financing up to $5 million.',
+    category: 'Commercial Real Estate',
+    icon: '🏦',
+    path: '/tools/sba-7a-loan-calculator'
+  },
+  {
+    name: 'USDA Business & Industry Loan Calculator',
+    description: 'Calculate USDA B&I loan payments for rural business development, real estate, equipment, and working capital financing up to $25 million.',
+    category: 'Commercial Real Estate',
+    icon: '🌾',
+    path: '/tools/usda-business-industry-loan-calculator'
+  },
+  {
+    name: 'Credit Union Mortgage Calculator',
+    description: 'Calculate and compare credit union mortgage rates, fees, and savings versus traditional banks for home loans.',
+    category: 'Basic Calculators',
+    icon: '🏪',
+    path: '/tools/credit-union-mortgage-calculator'
+  },
+  {
+    name: 'Mortgage Broker vs. Bank Comparison',
+    description: 'Compare mortgage offers from brokers and banks to find the best home loan deal with lowest rates and fees.',
+    category: 'Basic Calculators',
+    icon: '⚖️',
+    path: '/tools/mortgage-broker-vs-bank-calculator'
+  },
+  {
+    name: 'Rate Lock-In Calculator',
+    description: 'Calculate the cost and benefits of locking in your mortgage rate versus floating to make the best timing decision.',
+    category: 'Mortgage & Financing',
+    icon: '🔒',
+    path: '/tools/rate-lock-in-calculator'
+  },
+  {
+    name: 'Float Down Rate Calculator',
+    description: 'Calculate the value of a float-down option on your mortgage to capture lower rates while staying protected from increases.',
+    category: 'Mortgage & Financing',
+    icon: '📉',
+    path: '/tools/float-down-rate-calculator'
+  },
+  {
+    name: 'Credit Re-Age Calculator',
+    description: 'Calculate when delinquent accounts will fall off your credit report and understand the re-aging timeline for credit improvement.',
+    category: 'Financial Planning',
+    icon: '📅',
+    path: '/tools/credit-re-age-calculator'
+  },
+  {
+    name: 'Credit Repair Timeline Calculator',
+    description: 'Estimate how long it will take to repair your credit score and create a personalized credit improvement roadmap.',
+    category: 'Financial Planning',
+    icon: '📈',
+    path: '/tools/credit-repair-timeline-calculator'
   }
 ];
 
