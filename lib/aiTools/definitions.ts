@@ -172,6 +172,21 @@ export const LegalDocumentSummarizerSchema = z.object({
   focusAreas: z.string().optional(),
 });
 
+export const PropertyDescriptionMultilingualSchema = z.object({
+  propertyType: z.string(),
+  bedrooms: z.number().int().min(0),
+  bathrooms: z.number().min(0),
+  squareFeet: z.number().positive(),
+  lotSize: z.string(),
+  yearBuilt: z.number().int().min(1800),
+  location: z.string(),
+  keyFeatures: z.string(),
+  price: z.number().positive(),
+  propertyHighlights: z.string(),
+  targetAudience: z.string(),
+  tone: z.string(),
+});
+
 export const aiToolDefinitions: Record<string, AIToolDefinition> = {
   'ai-buyer-lead-scoring-tool': {
     slug: 'ai-buyer-lead-scoring-tool',
@@ -898,6 +913,171 @@ ${input.focusAreas ? `Focus Areas: ${input.focusAreas}` : ''}
 
 Provide a clear summary in plain language with key terms, obligations, and potential concerns highlighted.`,
     inputSchema: LegalDocumentSummarizerSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-property-description-spanish': {
+    slug: 'ai-property-description-spanish',
+    name: 'AI Property Description Generator (Spanish)',
+    systemPrompt: `You are an expert real estate copywriter fluent in Spanish, specializing in creating compelling property descriptions for the Spanish-speaking market in the United States and Latin America. Generate a professional, engaging property description entirely in Spanish that appeals to Spanish-speaking homebuyers. Return your response as a JSON object with:
+{
+  "description": string (professional property description in Spanish, 3-4 paragraphs),
+  "headline": string (attention-grabbing headline in Spanish),
+  "seoKeywords": string[] (10-15 SEO-optimized keywords in Spanish),
+  "callToActions": string[] (3-5 compelling call-to-action phrases in Spanish),
+  "highlights": string[] (key property highlights in Spanish),
+  "translationNote": string (brief note about cultural adaptations made)
+}`,
+    buildUserPrompt: (input: z.infer<typeof PropertyDescriptionMultilingualSchema>) => `
+Create a professional property description in SPANISH for this listing:
+- Property Type: ${input.propertyType}
+- Bedrooms: ${input.bedrooms}
+- Bathrooms: ${input.bathrooms}
+- Square Feet: ${input.squareFeet.toLocaleString()}
+- Lot Size: ${input.lotSize}
+- Year Built: ${input.yearBuilt}
+- Location/Neighborhood: ${input.location}
+- Key Features: ${input.keyFeatures}
+- Price: $${input.price.toLocaleString()}
+- Property Highlights: ${input.propertyHighlights}
+- Target Audience: ${input.targetAudience}
+- Tone: ${input.tone}
+
+Generate an engaging, culturally-appropriate property description entirely in Spanish with SEO keywords and calls-to-action also in Spanish.`,
+    inputSchema: PropertyDescriptionMultilingualSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-property-description-mandarin': {
+    slug: 'ai-property-description-mandarin',
+    name: 'AI Property Description Generator (Mandarin)',
+    systemPrompt: `You are an expert real estate copywriter fluent in Mandarin Chinese, specializing in creating compelling property descriptions for Chinese-speaking buyers. Generate a professional, engaging property description entirely in Simplified Mandarin Chinese that appeals to Chinese homebuyers and investors. Return your response as a JSON object with:
+{
+  "description": string (professional property description in Mandarin Chinese, 3-4 paragraphs),
+  "headline": string (attention-grabbing headline in Mandarin Chinese),
+  "seoKeywords": string[] (10-15 SEO-optimized keywords in Mandarin Chinese),
+  "callToActions": string[] (3-5 compelling call-to-action phrases in Mandarin Chinese),
+  "highlights": string[] (key property highlights in Mandarin Chinese),
+  "translationNote": string (brief note about cultural adaptations made, including feng shui or lucky number considerations if applicable)
+}`,
+    buildUserPrompt: (input: z.infer<typeof PropertyDescriptionMultilingualSchema>) => `
+Create a professional property description in MANDARIN CHINESE for this listing:
+- Property Type: ${input.propertyType}
+- Bedrooms: ${input.bedrooms}
+- Bathrooms: ${input.bathrooms}
+- Square Feet: ${input.squareFeet.toLocaleString()}
+- Lot Size: ${input.lotSize}
+- Year Built: ${input.yearBuilt}
+- Location/Neighborhood: ${input.location}
+- Key Features: ${input.keyFeatures}
+- Price: $${input.price.toLocaleString()}
+- Property Highlights: ${input.propertyHighlights}
+- Target Audience: ${input.targetAudience}
+- Tone: ${input.tone}
+
+Generate an engaging, culturally-appropriate property description entirely in Simplified Mandarin Chinese with SEO keywords and calls-to-action also in Mandarin Chinese. Consider cultural elements important to Chinese buyers.`,
+    inputSchema: PropertyDescriptionMultilingualSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-property-description-tagalog': {
+    slug: 'ai-property-description-tagalog',
+    name: 'AI Property Description Generator (Tagalog)',
+    systemPrompt: `You are an expert real estate copywriter fluent in Tagalog/Filipino, specializing in creating compelling property descriptions for Filipino-American homebuyers and the Philippine diaspora. Generate a professional, engaging property description entirely in Tagalog that appeals to Filipino families. Return your response as a JSON object with:
+{
+  "description": string (professional property description in Tagalog, 3-4 paragraphs),
+  "headline": string (attention-grabbing headline in Tagalog),
+  "seoKeywords": string[] (10-15 SEO-optimized keywords in Tagalog),
+  "callToActions": string[] (3-5 compelling call-to-action phrases in Tagalog),
+  "highlights": string[] (key property highlights in Tagalog),
+  "translationNote": string (brief note about cultural adaptations made for Filipino buyers)
+}`,
+    buildUserPrompt: (input: z.infer<typeof PropertyDescriptionMultilingualSchema>) => `
+Create a professional property description in TAGALOG/FILIPINO for this listing:
+- Property Type: ${input.propertyType}
+- Bedrooms: ${input.bedrooms}
+- Bathrooms: ${input.bathrooms}
+- Square Feet: ${input.squareFeet.toLocaleString()}
+- Lot Size: ${input.lotSize}
+- Year Built: ${input.yearBuilt}
+- Location/Neighborhood: ${input.location}
+- Key Features: ${input.keyFeatures}
+- Price: $${input.price.toLocaleString()}
+- Property Highlights: ${input.propertyHighlights}
+- Target Audience: ${input.targetAudience}
+- Tone: ${input.tone}
+
+Generate an engaging, culturally-appropriate property description entirely in Tagalog with SEO keywords and calls-to-action also in Tagalog. Consider cultural values important to Filipino families.`,
+    inputSchema: PropertyDescriptionMultilingualSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-property-description-vietnamese': {
+    slug: 'ai-property-description-vietnamese',
+    name: 'AI Property Description Generator (Vietnamese)',
+    systemPrompt: `You are an expert real estate copywriter fluent in Vietnamese, specializing in creating compelling property descriptions for Vietnamese-American homebuyers and investors. Generate a professional, engaging property description entirely in Vietnamese that appeals to the Vietnamese community. Return your response as a JSON object with:
+{
+  "description": string (professional property description in Vietnamese, 3-4 paragraphs),
+  "headline": string (attention-grabbing headline in Vietnamese),
+  "seoKeywords": string[] (10-15 SEO-optimized keywords in Vietnamese),
+  "callToActions": string[] (3-5 compelling call-to-action phrases in Vietnamese),
+  "highlights": string[] (key property highlights in Vietnamese),
+  "translationNote": string (brief note about cultural adaptations made for Vietnamese buyers)
+}`,
+    buildUserPrompt: (input: z.infer<typeof PropertyDescriptionMultilingualSchema>) => `
+Create a professional property description in VIETNAMESE for this listing:
+- Property Type: ${input.propertyType}
+- Bedrooms: ${input.bedrooms}
+- Bathrooms: ${input.bathrooms}
+- Square Feet: ${input.squareFeet.toLocaleString()}
+- Lot Size: ${input.lotSize}
+- Year Built: ${input.yearBuilt}
+- Location/Neighborhood: ${input.location}
+- Key Features: ${input.keyFeatures}
+- Price: $${input.price.toLocaleString()}
+- Property Highlights: ${input.propertyHighlights}
+- Target Audience: ${input.targetAudience}
+- Tone: ${input.tone}
+
+Generate an engaging, culturally-appropriate property description entirely in Vietnamese with SEO keywords and calls-to-action also in Vietnamese. Consider cultural values important to Vietnamese families and investors.`,
+    inputSchema: PropertyDescriptionMultilingualSchema,
+    responseFormat: 'json_object',
+    maxTokens: 2048,
+  },
+
+  'ai-property-description-french': {
+    slug: 'ai-property-description-french',
+    name: 'AI Property Description Generator (French)',
+    systemPrompt: `You are an expert real estate copywriter fluent in French, specializing in creating compelling property descriptions for French-speaking buyers including French Canadians, Haitian-Americans, and European French speakers. Generate a professional, engaging property description entirely in French that appeals to Francophone homebuyers. Return your response as a JSON object with:
+{
+  "description": string (professional property description in French, 3-4 paragraphs),
+  "headline": string (attention-grabbing headline in French),
+  "seoKeywords": string[] (10-15 SEO-optimized keywords in French),
+  "callToActions": string[] (3-5 compelling call-to-action phrases in French),
+  "highlights": string[] (key property highlights in French),
+  "translationNote": string (brief note about cultural adaptations made for French-speaking buyers)
+}`,
+    buildUserPrompt: (input: z.infer<typeof PropertyDescriptionMultilingualSchema>) => `
+Create a professional property description in FRENCH for this listing:
+- Property Type: ${input.propertyType}
+- Bedrooms: ${input.bedrooms}
+- Bathrooms: ${input.bathrooms}
+- Square Feet: ${input.squareFeet.toLocaleString()}
+- Lot Size: ${input.lotSize}
+- Year Built: ${input.yearBuilt}
+- Location/Neighborhood: ${input.location}
+- Key Features: ${input.keyFeatures}
+- Price: $${input.price.toLocaleString()}
+- Property Highlights: ${input.propertyHighlights}
+- Target Audience: ${input.targetAudience}
+- Tone: ${input.tone}
+
+Generate an engaging, culturally-appropriate property description entirely in French with SEO keywords and calls-to-action also in French. Consider the elegant and sophisticated French real estate market conventions.`,
+    inputSchema: PropertyDescriptionMultilingualSchema,
     responseFormat: 'json_object',
     maxTokens: 2048,
   },

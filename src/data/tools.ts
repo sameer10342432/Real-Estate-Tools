@@ -354,6 +354,13 @@ export const allTools: Tool[] = [
 
   // Investment Analysis (50 tools)
   {
+    name: 'DSCR Loan Calculator',
+    description: 'Calculate Debt Service Coverage Ratio for investment property loans and determine DSCR loan qualification',
+    category: 'Investment Analysis',
+    icon: '📊',
+    path: '/tools/dscr-loan-calculator'
+  },
+  {
     name: 'BRRRR Calculator',
     description: 'Analyze Buy, Rehab, Rent, Refinance, and Repeat (BRRRR) deals',
     category: 'Investment Analysis',
