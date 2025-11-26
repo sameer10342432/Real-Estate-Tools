@@ -5470,6 +5470,78 @@ export const allTools: Tool[] = [
     category: 'Additional Tools',
     icon: '🌱',
     path: '/tools/percolation-perc-test-calculator'
+  },
+
+  // Construction & Building Tools (10 new tools)
+  {
+    name: 'Lot Premium Value Calculator',
+    description: 'Calculate the added value of premium lots including corner lots, cul-de-sac positions, waterfront views, and other location premiums. Analyze how lot characteristics affect home value and builder pricing.',
+    category: 'Construction & Development',
+    icon: '🏞️',
+    path: '/tools/lot-premium-value-calculator'
+  },
+  {
+    name: 'Spec Home vs Custom Home Comparison',
+    description: 'Compare spec homes (builder-ready) versus custom-built homes. Analyze costs, timelines, customization options, financing differences, and determine which building approach suits your needs.',
+    category: 'Construction & Development',
+    icon: '🏗️',
+    path: '/tools/spec-home-vs-custom-home-comparison'
+  },
+  {
+    name: 'Tract Home Builder Analysis',
+    description: 'Analyze tract home builders, compare base prices, upgrade costs, included features, and community amenities. Evaluate builder reputation, warranty coverage, and total cost to purchase.',
+    category: 'Construction & Development',
+    icon: '🏘️',
+    path: '/tools/tract-home-builder-analysis'
+  },
+  {
+    name: 'Modular vs Manufactured Home Comparison',
+    description: 'Compare modular homes vs manufactured homes including construction quality, financing options, appreciation potential, building codes, and total ownership costs. Understand the key differences.',
+    category: 'Construction & Development',
+    icon: '🏠',
+    path: '/tools/modular-vs-manufactured-home-comparison'
+  },
+  {
+    name: 'Construction Draw Schedule Calculator',
+    description: 'Calculate construction loan draw schedules, track disbursement milestones, and manage builder payments. Plan payment timing based on construction phases from foundation to final completion.',
+    category: 'Construction & Development',
+    icon: '📋',
+    path: '/tools/construction-draw-schedule-calculator'
+  },
+  {
+    name: 'Change Order Cost Calculator',
+    description: 'Calculate and track construction change order costs, analyze impact on total project budget, and understand markup structures. Manage upgrade requests and scope modifications effectively.',
+    category: 'Construction & Development',
+    icon: '📝',
+    path: '/tools/change-order-cost-calculator'
+  },
+  {
+    name: 'Lien Waiver Generator',
+    description: 'Generate conditional and unconditional lien waivers for construction projects. Create legally compliant waiver documents for contractors, subcontractors, and material suppliers.',
+    category: 'Construction & Development',
+    icon: '📄',
+    path: '/tools/lien-waiver-generator'
+  },
+  {
+    name: 'New Home Punch List Generator',
+    description: 'Generate comprehensive punch lists for new home construction. Track defects, incomplete items, and warranty issues during final walkthrough. Ensure builder addresses all concerns before closing.',
+    category: 'Construction & Development',
+    icon: '✅',
+    path: '/tools/new-home-punch-list-generator'
+  },
+  {
+    name: 'Certificate of Occupancy Checklist',
+    description: 'Complete checklist for obtaining Certificate of Occupancy (CO). Track required inspections, documentation, code compliance, and municipal requirements for new construction or renovation projects.',
+    category: 'Construction & Development',
+    icon: '🏛️',
+    path: '/tools/certificate-of-occupancy-checklist'
+  },
+  {
+    name: 'Real Estate Partnership Calculator',
+    description: 'Calculate real estate partnership splits, equity distributions, profit sharing, and capital contributions. Analyze different partnership structures including LP, LLC, and joint venture arrangements.',
+    category: 'Investment Analysis',
+    icon: '🤝',
+    path: '/tools/real-estate-partnership-calculator'
   }
 ];
 
