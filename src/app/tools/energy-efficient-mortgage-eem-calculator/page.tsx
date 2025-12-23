@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { ENERGY_EFFICIENT_MORTGAGE_EEM_CALCULATOR_CONTENT } from '@/content/tools/energy-efficient-mortgage-eem-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

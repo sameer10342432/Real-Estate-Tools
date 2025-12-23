@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { jointVsSeparatePropertyMaritalCalculator } from '@/content/tools/joint-vs-separate-property-marital-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

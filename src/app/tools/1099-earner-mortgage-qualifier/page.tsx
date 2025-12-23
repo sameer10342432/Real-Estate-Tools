@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { EARNER_1099_MORTGAGE_QUALIFIER_CONTENT } from '@/content/tools/1099-earner-mortgage-qualifier';

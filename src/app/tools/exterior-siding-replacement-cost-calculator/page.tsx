@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Exterior Siding Replacement Cost Calculator | Property Tools',
     description: 'Calculate the cost of replacing your home\'s siding with different materials including vinyl, fiber cement, wood, and more. Get accurate estimates for your project.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

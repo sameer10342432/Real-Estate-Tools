@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { FREDDIE_MAC_FHLMC_CALCULATOR_CONTENT } from '@/content/tools/freddie-mac-fhlmc-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

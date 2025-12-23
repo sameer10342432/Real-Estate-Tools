@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { firstTimeHomebuyerSavingsPlan } from '@/content/tools/first-time-homebuyer-savings-plan';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

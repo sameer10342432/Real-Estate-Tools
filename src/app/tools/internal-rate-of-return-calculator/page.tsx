@@ -1,5 +1,6 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Internal Rate of Return Calculator',
     description: 'Calculate IRR for investment properties. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
@@ -7,7 +8,6 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 
-"use client";
 
 import React, { useState } from 'react';
 import type { Metadata } from 'next';

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { HAWAII_LEASEHOLD_VS_FEE_SIMPLE_CALCULATOR_CONTENT } from '@/content/tools/hawaii-leasehold-vs-fee-simple-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

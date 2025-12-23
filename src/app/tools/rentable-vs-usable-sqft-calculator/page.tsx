@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { RENTABLE_VS_USABLE_SQFT_CALCULATOR_CONTENT } from '@/content/tools/rentable-vs-usable-sqft-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

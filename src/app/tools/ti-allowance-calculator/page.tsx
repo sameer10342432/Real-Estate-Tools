@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { TI_ALLOWANCE_CALCULATOR_CONTENT } from '@/content/tools/ti-allowance-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

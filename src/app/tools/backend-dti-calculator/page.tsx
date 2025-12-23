@@ -170,7 +170,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Back-End DTI Calculator',
     description: 'Calculate back-end debt-to-income ratio (total debt ratio) - target 43% or lower. Free online tool for real estate professionals, investors, and homebuyers.',

@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { HELOC_INTEREST_DEDUCTIBILITY_CALCULATOR_CONTENT } from '@/content/tools/heloc-interest-deductibility-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

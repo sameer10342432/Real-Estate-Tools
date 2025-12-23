@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Deconstruction vs Demolition Value Calculator - Salvage Analysis',
     description: 'Compare costs and benefits of deconstructing vs demolishing a building. Calculate material salvage value and tax deductions for sustainable building removal.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { DECONSTRUCTION_VS_DEMOLITION_VALUE_CONTENT } from '@/content/tools/deconstruction-vs-demolition-value';

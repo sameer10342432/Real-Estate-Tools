@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'DIY vs Pro Contractor Cost Calculator - Compare Savings & Value',
     description: 'Calculate the cost comparison between DIY and hiring a professional contractor including materials, labor, time value, and quality considerations.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { DIY_VS_PRO_CONTRACTOR_COST_CALCULATOR_CONTENT } from '@/content/tools/diy-vs-pro-contractor-cost-calculator';

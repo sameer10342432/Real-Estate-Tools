@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Discounted Note (Mortgage) Calculator - Calculate Note Investment Returns | Property Tools',
     description: 'Calculate returns when purchasing mortgage notes at a discount, including yield, profit potential, and break-even analysis.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { DISCOUNTED_NOTE_MORTGAGE_CALCULATOR_CONTENT } from '@/content/tools/discounted-note-mortgage-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

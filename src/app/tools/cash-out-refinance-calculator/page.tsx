@@ -225,7 +225,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Cash-Out Refinance Calculator',
     description: 'Calculate how much cash you can extract from home equity and new payment. Free online tool for real estate professionals, investors, and homebuyers.',

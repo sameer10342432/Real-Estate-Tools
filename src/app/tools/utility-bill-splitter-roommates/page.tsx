@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { utilityBillSplitterRoommates } from '@/content/tools/utility-bill-splitter-roommates';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

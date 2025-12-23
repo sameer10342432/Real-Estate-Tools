@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { ASSET_DEPLETION_LOAN_CALCULATOR_CONTENT } from '@/content/tools/asset-depletion-loan-calculator';

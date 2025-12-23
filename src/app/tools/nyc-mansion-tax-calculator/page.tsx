@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { NYC_MANSION_TAX_CALCULATOR_CONTENT } from '@/content/tools/nyc-mansion-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

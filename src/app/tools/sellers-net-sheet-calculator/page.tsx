@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Seller\'s Net Sheet Calculator',
     description: 'Generate a comprehensive breakdown of all costs associated with selling your property. Free online tool for real estate professionals, investors, and homebuy...',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

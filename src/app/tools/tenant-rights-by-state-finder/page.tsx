@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: "Tenant's Rights by State Finder | Renter Protection Laws & Security Deposit Rules",
     description: 'Find your tenant rights, security deposit limits, eviction protections, and renter laws specific to your state. Know your rights as a renter in all 50 states.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Live for Free Calculator',
     description: 'Calculate how to eliminate housing costs by renting out extra space in your home. Free online tool for real estate professionals, investors, and homebuyers.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { LIVE_FOR_FREE_CALCULATOR_CONTENT } from '@/content/tools/live-for-free-calculator';

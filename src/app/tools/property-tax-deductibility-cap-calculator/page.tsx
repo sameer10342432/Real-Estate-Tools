@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { PROPERTY_TAX_DEDUCTIBILITY_CAP_CALCULATOR_CONTENT } from '@/content/tools/property-tax-deductibility-cap-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

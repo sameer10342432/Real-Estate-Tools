@@ -54,7 +54,7 @@ interface DisasterRiskCalculation {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Natural Disaster Risk Score (by Address) Calculator',
     description: 'Assess comprehensive natural disaster risks for any property including flood zones, earthquake risk, wildfire hazard, hurricane exposure, and tornado probabi...',

@@ -36,7 +36,7 @@ interface SurveyCostCalculation {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Survey Cost Estimator',
     description: 'Estimate property survey costs based on lot size, terrain, survey type (boundary, ALTA, topographic), and access difficulty Make informed property decisions with accurate calculations.',

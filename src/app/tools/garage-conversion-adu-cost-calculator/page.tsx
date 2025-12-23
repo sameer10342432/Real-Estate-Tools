@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Garage Conversion (ADU) Cost Calculator | Property Tools',
     description: 'Estimate the cost of converting your garage into an Accessory Dwelling Unit (ADU) or additional living space. Calculate rental income potential and ROI.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

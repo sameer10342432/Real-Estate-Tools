@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { NYC_COOP_VS_CONDO_ANALYZER_CONTENT } from '@/content/tools/nyc-coop-vs-condo-analyzer';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

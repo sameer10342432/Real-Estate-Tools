@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Xeriscaping (Low-Water) ROI Calculator - Drought-Tolerant Landscaping',
     description: 'Calculate the cost and water savings of converting your lawn to xeriscape with drought-tolerant plants, reducing irrigation needs by 50-75% and lowering bills.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { XERISCAPING_LOW_WATER_ROI_CALCULATOR_CONTENT } from '@/content/tools/xeriscaping-low-water-roi-calculator';

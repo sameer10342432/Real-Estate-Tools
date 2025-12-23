@@ -1,13 +1,13 @@
+'use client';
 import type { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Gifts (Client) Tax Deduction Calculator | Property Tools',
     description: 'Calculate tax-deductible client gift expenses for real estate professionals. Understand the $25 limit per person rules with our free calculator.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { GIFTS_CLIENT_TAX_DEDUCTION_CONTENT } from '@/content/tools/gifts-client-tax-deduction';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

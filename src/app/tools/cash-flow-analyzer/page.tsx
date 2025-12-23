@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState, useCallback, useEffect } from 'react'
 import type { Metadata } from 'next';
@@ -54,7 +54,7 @@ interface CashFlowResults {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Cash Flow Analyzer',
     description: 'Analyze monthly cash flow from rental properties. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

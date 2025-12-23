@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Inflate-Proof Home (Energy) Calculator - Long-Term Energy Savings',
     description: 'Calculate long-term energy savings and protection against rising utility costs with energy-efficient home improvements. Plan your inflation-proof home upgrades.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { INFLATE_PROOF_HOME_ENERGY_CALCULATOR_CONTENT } from '@/content/tools/inflate-proof-home-energy-calculator';

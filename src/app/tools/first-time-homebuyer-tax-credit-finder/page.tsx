@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { firstTimeHomebuyerTaxCreditFinder } from '@/content/tools/first-time-homebuyer-tax-credit-finder';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

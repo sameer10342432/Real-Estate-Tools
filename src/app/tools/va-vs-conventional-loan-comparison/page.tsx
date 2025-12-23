@@ -88,7 +88,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'VA vs. Conventional Loan Comparison Calculator',
     description: 'Compare VA and Conventional loans side-by-side to find the best mortgage option. Free online tool for real estate professionals, investors, and homebuyers.',

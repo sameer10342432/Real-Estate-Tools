@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Pool Solar Heater ROI Calculator',
     description: 'Calculate the return on investment for solar pool heating systems including installation costs, energy savings, and extended swimming season value. Free online tool for real estate professionals, investors, and homeowners.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { POOL_SOLAR_HEATER_ROI_CALCULATOR_CONTENT } from '@/content/tools/pool-solar-heater-roi-calculator';

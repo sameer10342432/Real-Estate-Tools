@@ -1,9 +1,9 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { CALIFORNIA_WILDFIRE_RISK_CAL_FIRE_SCORE_CONTENT } from '@/content/tools/california-wildfire-risk-cal-fire-score';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export const metadata = {
+const _metadata = {
   title: 'California Wildfire Risk (CAL FIRE) Score Calculator | Property Tools',
   description: 'Calculate California wildfire risk score for your property using CAL FIRE methodology and FHSZ classifications. Estimate insurance costs and get mitigation recommendations.',
 };

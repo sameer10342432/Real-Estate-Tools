@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Kitchen Countertop Cost Estimator - Compare Granite, Quartz, Marble & More',
     description: 'Estimate kitchen countertop costs for granite, quartz, marble, laminate, and other materials including installation.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { KITCHEN_COUNTERTOP_COST_ESTIMATOR_CONTENT } from '@/content/tools/kitchen-countertop-cost-estimator';

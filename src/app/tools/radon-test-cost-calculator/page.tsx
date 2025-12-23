@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Radon Test Cost Calculator | Property Tools',
     description: 'Calculate radon testing and mitigation costs for homes. Essential for health safety and property transactions in radon-prone areas.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

@@ -1,13 +1,13 @@
+'use client';
 import type { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Adverse Possession (Squatter\'s Rights) Checker | Free Legal Tool',
     description: 'Analyze adverse possession claims and squatter\'s rights laws by state. Understand statutory periods, requirements, and protect your property from adverse possession. Free legal compliance tool for property owners.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { ADVERSE_POSSESSION_CHECKER_CONTENT } from '@/content/tools/adverse-possession-checker';

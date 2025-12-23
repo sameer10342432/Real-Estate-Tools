@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Houseboat vs Condo Cost Calculator - Compare Waterfront Living | Property Tools',
     description: 'Compare the costs of houseboat living vs condo ownership. Analyze purchase price, moorage fees, maintenance, utilities, insurance, and unique considerations.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { HouseboatVsCondoCostContent } from '@/content/tools/houseboat-vs-condo-cost';

@@ -1,13 +1,13 @@
+'use client';
 import type { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Points (Deductible) Amortization Calculator | Property Tools',
     description: 'Calculate mortgage points deduction and amortization schedule. Compare current year vs lifetime deduction with our free points calculator.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { POINTS_DEDUCTIBLE_AMORTIZATION_CONTENT } from '@/content/tools/points-deductible-amortization';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

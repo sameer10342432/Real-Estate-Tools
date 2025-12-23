@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Home Demolition Cost Estimator | Property Tools',
     description: 'Estimate the cost of demolishing a house or structure including permits, labor, and disposal fees. Calculate demolition costs for residential and commercial properties.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

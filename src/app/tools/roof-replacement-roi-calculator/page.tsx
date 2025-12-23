@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Roof Replacement ROI Calculator - Calculate Return on New Roof',
     description: 'Calculate the return on investment for roof replacement including home value increase, insurance savings, and resale impact.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { ROOF_REPLACEMENT_ROI_CALCULATOR_CONTENT } from '@/content/tools/roof-replacement-roi-calculator';

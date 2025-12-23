@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { FLORIDA_HURRICANE_INSURANCE_ESTIMATOR_CONTENT } from '@/content/tools/florida-hurricane-insurance-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

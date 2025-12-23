@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { NOI_CALCULATOR_CONTENT } from '@/content/tools/noi-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

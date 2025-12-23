@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
  
@@ -124,7 +124,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Property Valuation Calculator',
     description: 'Get accurate property valuations using multiple methods. Free online tool for real estate professionals, investors, and homebuyers.',

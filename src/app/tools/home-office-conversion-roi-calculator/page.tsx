@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Home Office Conversion ROI Calculator | Property Tools',
     description: 'Calculate the return on investment for converting a spare room or space into a functional home office. Includes tax benefits, value increase, and productivity gains analysis.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

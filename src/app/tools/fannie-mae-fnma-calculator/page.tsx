@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { FANNIE_MAE_FNMA_CALCULATOR_CONTENT } from '@/content/tools/fannie-mae-fnma-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

@@ -130,7 +130,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Front-End DTI Calculator',
     description: 'Calculate front-end debt-to-income ratio (housing ratio) - target 28% or lower. Free online tool for real estate professionals, investors, and homebuyers.',

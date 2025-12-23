@@ -105,7 +105,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Mortgage Rate by Credit Score Estimator',
     description: 'Estimate mortgage interest rates based on your credit score. Free online tool for real estate professionals, investors, and homebuyers.',

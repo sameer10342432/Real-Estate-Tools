@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Aging in Place Green Renovation Calculator - Accessible Home Upgrades',
     description: 'Calculate costs and benefits of eco-friendly home modifications for aging in place. Compare renovation costs vs assisted living expenses.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { AGING_IN_PLACE_GREEN_RENOVATION_CONTENT } from '@/content/tools/aging-in-place-green-renovation';

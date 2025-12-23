@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { downPaymentAssistanceFinder } from '@/content/tools/down-payment-assistance-finder';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

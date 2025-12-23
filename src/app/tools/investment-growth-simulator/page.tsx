@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -86,7 +86,7 @@ interface InvestmentSummary {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Investment Growth Simulator Calculator',
     description: 'Simulate long-term investment growth scenarios. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

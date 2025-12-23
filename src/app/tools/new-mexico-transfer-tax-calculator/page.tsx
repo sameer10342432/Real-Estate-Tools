@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'New Mexico Transfer Tax Calculator - Real Estate Recording Fees',
     description: 'Calculate New Mexico real estate costs. No state transfer tax - only county recording fees. Learn actual NM closing costs',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { NEW_MEXICO_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/new-mexico-transfer-tax-calculator';

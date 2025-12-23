@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { EBITDA_CALCULATOR_CONTENT } from '@/content/tools/ebitda-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

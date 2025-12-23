@@ -23,7 +23,7 @@ import {
 import { useState } from "react";
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Market Trend Analyzer',
     description: 'Analyze local real estate market trends and data. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

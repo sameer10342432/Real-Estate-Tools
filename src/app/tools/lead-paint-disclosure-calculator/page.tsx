@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Lead Paint Disclosure Calculator | Property Tools',
     description: 'Calculate lead paint testing and disclosure requirements for homes built before 1978. Essential tool for buyers, sellers, and landlords to ensure compliance with federal law.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Well Water Test Cost Calculator | Property Tools',
     description: 'Calculate the cost of well water testing for bacteria, contaminants, and water quality. Essential for home buyers, sellers, and homeowners with private wells.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

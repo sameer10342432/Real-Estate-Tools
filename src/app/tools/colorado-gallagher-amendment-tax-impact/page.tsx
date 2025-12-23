@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { COLORADO_GALLAGHER_AMENDMENT_TAX_IMPACT_CONTENT } from '@/content/tools/colorado-gallagher-amendment-tax-impact';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

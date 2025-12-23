@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Home Appraisal Value Calculator',
     description: 'Estimate your home\'s market value using multiple appraisal methods including comparable sales and square footage. Free online tool for real estate profession...',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

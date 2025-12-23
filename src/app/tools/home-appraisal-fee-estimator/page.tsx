@@ -47,7 +47,7 @@ interface AppraisalEstimate {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Home Appraisal Fee Estimator',
     description: 'Estimate home appraisal costs based on property type, size, location, and loan program (FHA, VA, conventional, jumbo). Free online tool for real estate profe...',

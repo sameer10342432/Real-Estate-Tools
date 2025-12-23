@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Structural Engineer Fee Estimator | Property Tools',
     description: 'Calculate structural engineering fees for residential and commercial projects including inspections and calculations. Get accurate cost estimates for engineering services.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

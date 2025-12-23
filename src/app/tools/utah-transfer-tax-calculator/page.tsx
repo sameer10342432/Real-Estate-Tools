@@ -1,10 +1,10 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { UTAH_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/utah-transfer-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Utah Transfer Tax Calculator - NO Transfer Tax',
     description: 'Calculate Utah recording fees. Utah has NO state transfer tax - one of 13 states with $0 transfer tax...',

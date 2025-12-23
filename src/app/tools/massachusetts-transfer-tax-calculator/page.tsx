@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { MASSACHUSETTS_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/massachusetts-transfer-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

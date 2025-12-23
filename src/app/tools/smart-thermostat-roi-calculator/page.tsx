@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Smart Thermostat ROI Calculator - Energy Savings & Payback Period',
     description: 'Calculate the cost and energy savings of installing a smart thermostat, reducing HVAC costs by 10-23% annually and earning utility rebates up to $125.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { SMART_THERMOSTAT_ROI_CALCULATOR_CONTENT } from '@/content/tools/smart-thermostat-roi-calculator';

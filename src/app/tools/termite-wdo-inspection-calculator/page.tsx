@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Termite (WDO) Inspection Calculator | Property Tools',
     description: 'Calculate termite and wood-destroying organism inspection costs. Required for most mortgage loans and essential for property protection.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

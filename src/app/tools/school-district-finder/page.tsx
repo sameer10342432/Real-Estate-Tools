@@ -1,5 +1,5 @@
+'use client';
 
-"use client";
 
 import { useState, useMemo } from 'react';
 import type { Metadata } from 'next';
@@ -38,7 +38,7 @@ interface School {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'School District Finder',
     description: 'Find and compare school districts for property locations. Free online tool for real estate professionals, investors, and homebuyers.',

@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Subcontractor Markup Calculator | Property Tools',
     description: 'Calculate appropriate markup on subcontractor labor and materials for general contractors and construction managers. Estimate fair pricing and profit margins.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

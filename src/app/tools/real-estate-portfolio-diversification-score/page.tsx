@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import { REAL_ESTATE_PORTFOLIO_DIVERSIFICATION_SCORE_CONTENT } from '@/content/tools/real-estate-portfolio-diversification-score';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Real Estate Portfolio Diversification Calculator - Analyze Investment Risk & Balance',
     description: 'Calculate your real estate portfolio diversification score. Assess risk across property types, geographic locations, tenant classes, and price ranges. Get recommendations to improve portfolio balance.',

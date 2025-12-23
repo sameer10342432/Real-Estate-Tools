@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -11,7 +11,7 @@ import { Badge } from '@/components/ui/badge'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Calculator, Shield, Home, TrendingUp, AlertCircle, FileText, DollarSign } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Landlord vs Homeowner Insurance Calculator - Coverage & Cost Comparison | Property Tools',
     description: 'Compare landlord insurance vs homeowner insurance coverage, costs, and benefits. Calculate premium differences and understand what each policy covers for rental properties.',

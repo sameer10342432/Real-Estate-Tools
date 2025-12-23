@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { MIAMI_FL_FLOOD_ZONE_IMPACT_CALCULATOR_CONTENT } from '@/content/tools/miami-fl-flood-zone-impact-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
@@ -21,7 +21,7 @@ const MiamiFlFloodZoneImpactCalculatorPage = () => {
 
 export default MiamiFlFloodZoneImpactCalculatorPage;
 
-export const metadata = {
+const _metadata = {
   title: 'Miami FL Flood Zone Impact Calculator | Property Tools',
   description: 'Calculate flood insurance costs and property value impacts for different FEMA flood zones in Miami',
 };

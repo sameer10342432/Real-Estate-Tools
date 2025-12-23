@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Nebraska Transfer Tax Calculator - Documentary Stamp Tax',
     description: 'Calculate Nebraska documentary stamp tax ($2.25-$2.32 per $1,000) effective through 2025. Free calculator for NE real estate transfer costs',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { NEBRASKA_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/nebraska-transfer-tax-calculator';

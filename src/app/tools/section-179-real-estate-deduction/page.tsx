@@ -1,13 +1,13 @@
+'use client';
 import type { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Section 179 (Real Estate) Deduction Calculator | Property Tools',
     description: 'Calculate Section 179 deductions for qualifying real estate property improvements and equipment. Get instant tax savings with our free Section 179 calculator.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { SECTION_179_REAL_ESTATE_DEDUCTION_CONTENT } from '@/content/tools/section-179-real-estate-deduction';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

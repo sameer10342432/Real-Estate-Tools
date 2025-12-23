@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'South Carolina Transfer Tax (Deed Recording Fee) Calculator',
     description: 'Calculate South Carolina deed recording fees, transfer tax, and closing costs. Free online tool for real estate professionals...',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { SOUTH_CAROLINA_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/south-carolina-transfer-tax-calculator';

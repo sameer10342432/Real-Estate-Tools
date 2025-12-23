@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Cabinet Refinishing vs Replacement Calculator - Compare Costs & ROI',
     description: 'Compare the cost and return on investment of cabinet refinishing versus full cabinet replacement for kitchen and bathroom renovations.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { CABINET_REFINISHING_VS_REPLACEMENT_CALCULATOR_CONTENT } from '@/content/tools/cabinet-refinishing-vs-replacement-calculator';

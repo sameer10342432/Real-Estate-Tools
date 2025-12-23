@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Home Air Quality (IAQ) Improvement ROI Calculator',
     description: 'Calculate the return on investment for improving indoor air quality with air purifiers, HVAC upgrades, and ventilation systems. Free online tool for real estate professionals, investors, and homeowners.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { HOME_AIR_QUALITY_IAQ_IMPROVEMENT_ROI_CONTENT } from '@/content/tools/home-air-quality-iaq-improvement-roi';

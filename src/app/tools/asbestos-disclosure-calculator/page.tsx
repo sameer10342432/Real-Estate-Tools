@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Asbestos Disclosure Calculator | Property Tools',
     description: 'Calculate asbestos testing and abatement costs for homes built before 1980. Essential for property transactions, renovations, and compliance with EPA regulations.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

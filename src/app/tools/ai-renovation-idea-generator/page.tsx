@@ -28,12 +28,7 @@ interface RenovationIdea {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-    title: 'AI Renovation Idea Generator (by Photo)',
-    description: 'Get AI-powered renovation ideas and design suggestions based on room type, style preferences, and budget constraints. Free online tool for real estate profes...',
-  };
-}
+
 
 export default function AIRenovationIdeaGenerator() {
   const [roomType, setRoomType] = useState<string>('kitchen');
@@ -242,7 +237,7 @@ export default function AIRenovationIdeaGenerator() {
 
   const generateRenovationIdeas = () => {
     const ideas: RenovationIdea[] = [];
-    
+
     const roomData = renovationDatabase[roomType] || renovationDatabase['kitchen'];
     const styleData = roomData[desiredStyle] || roomData['modern'];
     const ideaTemplates = styleData.ideas || [];
@@ -261,7 +256,7 @@ export default function AIRenovationIdeaGenerator() {
     ideaTemplates.forEach((template, index) => {
       const baseLowCost = budget * 0.6;
       const baseHighCost = budget * 1.2;
-      
+
       let estimatedLow = baseLowCost * baseMultiplier * sqftFactor;
       let estimatedHigh = baseHighCost * baseMultiplier * sqftFactor;
 
@@ -377,7 +372,7 @@ export default function AIRenovationIdeaGenerator() {
             AI Renovation Idea Generator
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Get personalized renovation ideas based on your room type, style preferences, and budget. 
+            Get personalized renovation ideas based on your room type, style preferences, and budget.
             Discover design concepts with cost estimates, ROI projections, and expert recommendations.
           </p>
         </div>
@@ -572,8 +567,8 @@ export default function AIRenovationIdeaGenerator() {
 
                     <Separator className="my-6" />
 
-                    <Button 
-                      onClick={generateRenovationIdeas} 
+                    <Button
+                      onClick={generateRenovationIdeas}
                       className="w-full bg-amber-600 hover:bg-amber-700"
                       size="lg"
                     >
@@ -585,135 +580,135 @@ export default function AIRenovationIdeaGenerator() {
                   <TabsContent value="article" className="space-y-4">
                     <div className="prose max-w-none">
                       <h2 className="text-2xl font-bold text-gray-900 mb-4">Smart Home Renovation Planning</h2>
-                      
+
                       <p className="text-gray-700 mb-4">
-                        Planning a home renovation requires balancing aesthetics, functionality, budget, and return on investment. 
-                        Whether you're updating for personal enjoyment or preparing to sell, strategic renovation decisions can 
+                        Planning a home renovation requires balancing aesthetics, functionality, budget, and return on investment.
+                        Whether you're updating for personal enjoyment or preparing to sell, strategic renovation decisions can
                         dramatically improve your home's value and livability while avoiding costly mistakes.
                       </p>
 
                       <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Prioritizing Renovation Projects</h3>
-                      
+
                       <p className="text-gray-700 mb-3">
-                        <strong>Kitchen Renovations:</strong> Consistently deliver among the highest returns on investment, 
-                        typically 60-80% for mid-range updates and 50-60% for upscale remodels. Focus on functional improvements 
-                        like updated appliances, quality countertops, and efficient layouts rather than luxury finishes that may 
+                        <strong>Kitchen Renovations:</strong> Consistently deliver among the highest returns on investment,
+                        typically 60-80% for mid-range updates and 50-60% for upscale remodels. Focus on functional improvements
+                        like updated appliances, quality countertops, and efficient layouts rather than luxury finishes that may
                         not appeal to future buyers. Modern, neutral aesthetics have broader appeal than trendy designs.
                       </p>
 
                       <p className="text-gray-700 mb-3">
-                        <strong>Bathroom Updates:</strong> Second only to kitchens in ROI potential, bathroom renovations typically 
-                        return 60-70% of costs. Mid-range updates focusing on fixtures, vanities, tile, and lighting provide better 
-                        returns than luxury spa bathrooms. Adding a bathroom where one is needed (homes with only one bathroom) 
+                        <strong>Bathroom Updates:</strong> Second only to kitchens in ROI potential, bathroom renovations typically
+                        return 60-70% of costs. Mid-range updates focusing on fixtures, vanities, tile, and lighting provide better
+                        returns than luxury spa bathrooms. Adding a bathroom where one is needed (homes with only one bathroom)
                         provides exceptional value.
                       </p>
 
                       <p className="text-gray-700 mb-3">
-                        <strong>Curb Appeal Projects:</strong> Entry doors, garage doors, and exterior improvements often return 
-                        90-100% of costs. These projects create crucial first impressions and are relatively affordable. Consider 
+                        <strong>Curb Appeal Projects:</strong> Entry doors, garage doors, and exterior improvements often return
+                        90-100% of costs. These projects create crucial first impressions and are relatively affordable. Consider
                         fresh exterior paint, updated landscaping, new front door, and improved outdoor lighting.
                       </p>
 
                       <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Understanding Renovation Costs</h3>
 
                       <p className="text-gray-700 mb-3">
-                        Budget realistically by understanding typical cost ranges for your area. National averages provide guidelines, 
-                        but local labor rates, material costs, and permit requirements vary significantly. Major kitchen renovations 
-                        average $25,000-75,000, bathrooms $10,000-35,000, and basement finishing $30,000-75,000. Always budget an 
+                        Budget realistically by understanding typical cost ranges for your area. National averages provide guidelines,
+                        but local labor rates, material costs, and permit requirements vary significantly. Major kitchen renovations
+                        average $25,000-75,000, bathrooms $10,000-35,000, and basement finishing $30,000-75,000. Always budget an
                         additional 10-20% for unexpected issues that emerge during demolition.
                       </p>
 
                       <p className="text-gray-700 mb-3">
-                        Labor typically represents 60-70% of total renovation costs, with materials comprising the remainder. 
-                        Quality contractors charge premium rates but provide better workmanship, proper permitting, and warranties. 
+                        Labor typically represents 60-70% of total renovation costs, with materials comprising the remainder.
+                        Quality contractors charge premium rates but provide better workmanship, proper permitting, and warranties.
                         Extremely low bids often indicate corner-cutting, unlicensed work, or incomplete scope understanding.
                       </p>
 
                       <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Selecting Design Styles</h3>
 
                       <p className="text-gray-700 mb-3">
-                        <strong>Modern/Contemporary:</strong> Characterized by clean lines, minimal ornamentation, neutral color 
-                        palettes, and functional design. Popular materials include stainless steel, glass, concrete, and engineered 
-                        products. This style appeals to younger buyers and urban markets but may feel cold or impersonal if not 
+                        <strong>Modern/Contemporary:</strong> Characterized by clean lines, minimal ornamentation, neutral color
+                        palettes, and functional design. Popular materials include stainless steel, glass, concrete, and engineered
+                        products. This style appeals to younger buyers and urban markets but may feel cold or impersonal if not
                         executed thoughtfully.
                       </p>
 
                       <p className="text-gray-700 mb-3">
-                        <strong>Farmhouse/Rustic:</strong> Features natural materials, reclaimed wood, vintage-inspired fixtures, 
-                        and warm, inviting aesthetics. Shiplap, barn doors, farmhouse sinks, and open shelving are signature 
+                        <strong>Farmhouse/Rustic:</strong> Features natural materials, reclaimed wood, vintage-inspired fixtures,
+                        and warm, inviting aesthetics. Shiplap, barn doors, farmhouse sinks, and open shelving are signature
                         elements. This style has broad appeal but can look dated if too trendy or poorly executed.
                       </p>
 
                       <p className="text-gray-700 mb-3">
-                        <strong>Transitional:</strong> Blends traditional and contemporary elements for timeless, versatile spaces. 
-                        This style offers the widest market appeal, combining classic architecture with modern amenities. Neutral 
+                        <strong>Transitional:</strong> Blends traditional and contemporary elements for timeless, versatile spaces.
+                        This style offers the widest market appeal, combining classic architecture with modern amenities. Neutral
                         colors, quality materials, and balanced design elements characterize successful transitional renovations.
                       </p>
 
                       <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">DIY vs. Professional Installation</h3>
 
                       <p className="text-gray-700 mb-3">
-                        Assess your skills honestly before attempting DIY renovations. Painting, installing new hardware, minor 
-                        landscaping, and simple demolition are reasonable DIY projects that can save 20-40% on costs. However, 
-                        electrical work, plumbing, structural changes, and precision finish work generally require licensed 
+                        Assess your skills honestly before attempting DIY renovations. Painting, installing new hardware, minor
+                        landscaping, and simple demolition are reasonable DIY projects that can save 20-40% on costs. However,
+                        electrical work, plumbing, structural changes, and precision finish work generally require licensed
                         professionals.
                       </p>
 
                       <p className="text-gray-700 mb-3">
-                        Consider the cost of mistakes when evaluating DIY potential. Poor tile installation, incorrect electrical 
-                        work, or improper plumbing can create expensive problems requiring professional correction. Your time 
-                        also has value - complex DIY projects that take weeks may not justify modest savings compared to professional 
+                        Consider the cost of mistakes when evaluating DIY potential. Poor tile installation, incorrect electrical
+                        work, or improper plumbing can create expensive problems requiring professional correction. Your time
+                        also has value - complex DIY projects that take weeks may not justify modest savings compared to professional
                         completion in days.
                       </p>
 
                       <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Sustainable and Energy-Efficient Renovations</h3>
 
                       <p className="text-gray-700 mb-4">
-                        Eco-friendly renovations typically cost 10-20% more upfront but provide ongoing energy savings and appeal 
-                        to environmentally conscious buyers. LED lighting, Energy Star appliances, low-flow fixtures, improved 
-                        insulation, and high-efficiency HVAC systems reduce utility costs while increasing home value. Some 
+                        Eco-friendly renovations typically cost 10-20% more upfront but provide ongoing energy savings and appeal
+                        to environmentally conscious buyers. LED lighting, Energy Star appliances, low-flow fixtures, improved
+                        insulation, and high-efficiency HVAC systems reduce utility costs while increasing home value. Some
                         improvements qualify for tax credits or utility rebates, reducing effective costs.
                       </p>
 
                       <p className="text-gray-700 mb-4">
-                        Choose sustainable materials like bamboo flooring, recycled glass countertops, reclaimed wood, and 
-                        low-VOC paints. These materials often match or exceed conventional options in durability while reducing 
+                        Choose sustainable materials like bamboo flooring, recycled glass countertops, reclaimed wood, and
+                        low-VOC paints. These materials often match or exceed conventional options in durability while reducing
                         environmental impact. Document eco-friendly features for future buyers who increasingly value sustainability.
                       </p>
 
                       <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Avoiding Common Renovation Mistakes</h3>
 
                       <p className="text-gray-700 mb-3">
-                        <strong>Over-Improving for the Neighborhood:</strong> Avoid renovations that make your home the most 
-                        expensive on the block. Buyers rarely pay premium prices for homes significantly nicer than surrounding 
+                        <strong>Over-Improving for the Neighborhood:</strong> Avoid renovations that make your home the most
+                        expensive on the block. Buyers rarely pay premium prices for homes significantly nicer than surrounding
                         properties. Align renovation budgets with neighborhood values to ensure you can recoup investments.
                       </p>
 
                       <p className="text-gray-700 mb-3">
-                        <strong>Ignoring Permits:</strong> Required permits exist for safety and code compliance. Unpermitted work 
-                        creates liability, can prevent home sales, and may require expensive corrections or removal. Always verify 
+                        <strong>Ignoring Permits:</strong> Required permits exist for safety and code compliance. Unpermitted work
+                        creates liability, can prevent home sales, and may require expensive corrections or removal. Always verify
                         permit requirements with local building departments before starting work.
                       </p>
 
                       <p className="text-gray-700 mb-3">
-                        <strong>Trendy Over Timeless:</strong> Ultra-trendy finishes and colors date quickly and limit buyer appeal. 
-                        Choose classic, neutral foundations with personality added through easily changed elements like paint colors, 
+                        <strong>Trendy Over Timeless:</strong> Ultra-trendy finishes and colors date quickly and limit buyer appeal.
+                        Choose classic, neutral foundations with personality added through easily changed elements like paint colors,
                         hardware, and accessories. This approach maintains broader market appeal while allowing personal expression.
                       </p>
 
                       <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Maximizing Return on Investment</h3>
 
                       <p className="text-gray-700 mb-4">
-                        Focus on visible improvements that affect daily living or create strong first impressions. Updated kitchens 
-                        and bathrooms, fresh paint, new flooring, improved lighting, and enhanced curb appeal provide the best returns. 
-                        Luxury upgrades like swimming pools, high-end appliances, or elaborate landscaping typically return less than 
+                        Focus on visible improvements that affect daily living or create strong first impressions. Updated kitchens
+                        and bathrooms, fresh paint, new flooring, improved lighting, and enhanced curb appeal provide the best returns.
+                        Luxury upgrades like swimming pools, high-end appliances, or elaborate landscaping typically return less than
                         50% of costs unless standard for the neighborhood.
                       </p>
 
                       <p className="text-gray-700">
-                        Time renovations strategically. Complete major updates before listing properties for sale, but avoid renovating 
-                        immediately before moving if you won't enjoy the improvements. For long-term residences, prioritize projects 
-                        that enhance daily living, with resale value as a secondary consideration. Quality renovations performed 
+                        Time renovations strategically. Complete major updates before listing properties for sale, but avoid renovating
+                        immediately before moving if you won't enjoy the improvements. For long-term residences, prioritize projects
+                        that enhance daily living, with resale value as a secondary consideration. Quality renovations performed
                         thoughtfully create beautiful, functional spaces while protecting and enhancing property values.
                       </p>
                     </div>
@@ -801,8 +796,8 @@ export default function AIRenovationIdeaGenerator() {
                   </Card>
                 ))}
 
-                <Button 
-                  onClick={generateRenovationIdeas} 
+                <Button
+                  onClick={generateRenovationIdeas}
                   variant="outline"
                   className="w-full"
                 >

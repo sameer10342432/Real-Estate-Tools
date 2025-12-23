@@ -1,13 +1,13 @@
+'use client';
 import type { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Qualified Improvement Property (QIP) Bonus Calculator | Property Tools',
     description: 'Calculate QIP bonus depreciation for interior property improvements. Accelerate tax deductions on renovations with our free QIP calculator.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { QUALIFIED_IMPROVEMENT_PROPERTY_QIP_BONUS_CONTENT } from '@/content/tools/qualified-improvement-property-qip-bonus';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

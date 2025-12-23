@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Loan-to-Value (LTV) Calculator',
     description: 'Calculate your LTV ratio to determine equity and PMI requirements. Free online tool for real estate professionals, investors, and homebuyers.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

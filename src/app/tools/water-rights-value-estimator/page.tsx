@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Water Rights Value Estimator - Calculate Water Rights Valuation | Property Tools',
     description: 'Estimate the value of water rights for agricultural, commercial, or municipal use based on acre-feet, priority date, and market conditions.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { WATER_RIGHTS_VALUE_ESTIMATOR_CONTENT } from '@/content/tools/water-rights-value-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

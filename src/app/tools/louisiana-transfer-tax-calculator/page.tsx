@@ -1,10 +1,10 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { LOUISIANA_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/louisiana-transfer-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Louisiana Transfer Tax & Recording Fee Calculator',
     description: 'Calculate Louisiana parish recording fees and Orleans Parish transfer tax. Free online tool for real estate professionals...',

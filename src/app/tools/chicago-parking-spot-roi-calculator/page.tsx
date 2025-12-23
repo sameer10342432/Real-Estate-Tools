@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { CHICAGO_PARKING_SPOT_ROI_CALCULATOR_CONTENT } from '@/content/tools/chicago-parking-spot-roi-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

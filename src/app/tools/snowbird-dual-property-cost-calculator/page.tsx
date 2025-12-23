@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { snowbirdDualPropertyCostCalculator } from '@/content/tools/snowbird-dual-property-cost-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { AUSTIN_TX_MCMANSION_ORDINANCE_CHECKER_CONTENT } from '@/content/tools/austin-tx-mcmansion-ordinance-checker';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
@@ -21,7 +21,7 @@ const AustinTxMcmansionOrdinanceCheckerPage = () => {
 
 export default AustinTxMcmansionOrdinanceCheckerPage;
 
-export const metadata = {
+const _metadata = {
   title: 'Austin TX McMansion Ordinance Checker | Property Tools',
   description: 'Check if your Austin property complies with residential design standards and FAR (floor area ratio) limits',
 };

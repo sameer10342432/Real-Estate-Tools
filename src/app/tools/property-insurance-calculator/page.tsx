@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -106,7 +106,7 @@ interface InsuranceQuote {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Property Insurance Calculator',
     description: 'Calculate property insurance costs and coverage. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

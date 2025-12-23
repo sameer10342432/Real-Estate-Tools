@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { SOUTH_CAROLINA_PROPERTY_TAX_CALCULATOR_CONTENT } from '@/content/tools/south-carolina-property-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

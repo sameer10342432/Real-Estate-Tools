@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { W2_EARNER_MORTGAGE_QUALIFIER_CONTENT } from '@/content/tools/w2-earner-mortgage-qualifier';

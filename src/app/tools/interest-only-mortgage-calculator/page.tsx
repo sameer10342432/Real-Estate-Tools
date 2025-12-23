@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { INTEREST_ONLY_MORTGAGE_CALCULATOR_CONTENT } from '@/content/tools/interest-only-mortgage-calculator';

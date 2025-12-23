@@ -1,10 +1,10 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { OREGON_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/oregon-transfer-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Oregon Transfer Tax & Recording Fee Calculator',
     description: 'Calculate Oregon recording fees and Washington County transfer tax. Free online tool for real estate professionals...',

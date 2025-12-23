@@ -101,7 +101,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Credit Score Improvement Simulator (for Mortgage) Calculator',
     description: 'Simulate credit score improvements and see how different actions impact your mortgage. Free online tool for real estate professionals, investors, and homebuy...',

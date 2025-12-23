@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Real Estate Agent Commission Split Calculator',
     description: 'Calculate commission splits between listing and buyer\'s agents, brokerages, and team members. Free online tool for real estate professionals, investors, and ...',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

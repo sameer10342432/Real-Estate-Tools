@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { HOME_OFFICE_TAX_DEDUCTION_CALCULATOR_CONTENT } from '@/content/tools/home-office-tax-deduction-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

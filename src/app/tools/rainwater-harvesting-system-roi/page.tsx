@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Rainwater Harvesting System ROI Calculator - Water Collection Investment',
     description: 'Calculate the cost and ROI of installing a rainwater harvesting system including tanks, filtration, plumbing, water bill savings, and utility rebates.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { RAINWATER_HARVESTING_SYSTEM_ROI_CONTENT } from '@/content/tools/rainwater-harvesting-system-roi';

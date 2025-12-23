@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import { BARISTA_FIRE_REAL_ESTATE_CALCULATOR_CONTENT } from '@/content/tools/barista-fire-real-estate-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Barista FIRE with Real Estate Calculator - Semi-Retirement with Rental Income + Part-Time Work',
     description: 'Calculate Barista FIRE using rental property income plus part-time work. Determine how many properties needed to semi-retire early with flexible work schedule.',

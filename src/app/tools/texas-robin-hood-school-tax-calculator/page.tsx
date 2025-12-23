@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { TEXAS_ROBIN_HOOD_SCHOOL_TAX_CALCULATOR_CONTENT } from '@/content/tools/texas-robin-hood-school-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

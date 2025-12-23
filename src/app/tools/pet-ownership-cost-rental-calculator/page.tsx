@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { PET_OWNERSHIP_COST_RENTAL_CALCULATOR_CONTENT } from '@/content/tools/pet-ownership-cost-rental-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

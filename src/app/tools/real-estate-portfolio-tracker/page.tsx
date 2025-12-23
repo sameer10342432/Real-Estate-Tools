@@ -12,7 +12,7 @@ import { initialProperties } from './data';
 import { Property } from "./components/types";
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Real Estate Portfolio Tracker Calculator',
     description: 'Track and manage your entire real estate portfolio. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

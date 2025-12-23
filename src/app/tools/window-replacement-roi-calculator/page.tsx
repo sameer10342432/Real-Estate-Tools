@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Window Replacement ROI Calculator - Calculate Return on New Windows',
     description: 'Calculate the return on investment for window replacement including energy savings, home value increase, and payback period.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { WINDOW_REPLACEMENT_ROI_CALCULATOR_CONTENT } from '@/content/tools/window-replacement-roi-calculator';

@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Sustainable Home Feature Value-Add Calculator',
     description: 'Calculate how much green and sustainable home features add to your property value including solar, smart tech, and energy-efficient upgrades. Free online tool for real estate professionals, investors, and homeowners.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { SUSTAINABLE_HOME_FEATURE_VALUE_ADD_CONTENT } from '@/content/tools/sustainable-home-feature-value-add';

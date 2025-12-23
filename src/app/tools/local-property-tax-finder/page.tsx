@@ -54,7 +54,7 @@ const stateTaxData = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Local Property Tax Rate Finder (by County)',
     description: 'Find and compare local property tax rates by county across the United States. Research county, city, and school district tax rates before buying property',

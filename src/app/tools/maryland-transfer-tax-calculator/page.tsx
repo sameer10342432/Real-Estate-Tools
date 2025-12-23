@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Maryland Transfer Tax Calculator',
     description: 'Calculate Maryland state (0.5%) and county (1.5%) transfer tax plus recordation tax for Baltimore and all MD counties. Free online tool for real estate profe...',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { MARYLAND_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/maryland-transfer-tax-calculator';

@@ -150,7 +150,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'DTI Calculator for Conventional Loans',
     description: 'Calculate DTI ratio for conventional loans with 43% standard limit. Free online tool for real estate professionals, investors, and homebuyers.',

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Badge } from '@/components/ui/badge'
 import { Calculator, DollarSign, TrendingUp, AlertCircle, FileText, PawPrint } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Pet Rent vs. Pet Deposit Calculator - Long-Term Comparison | Property Tools',
     description: 'Compare pet rent vs. pet deposit revenue over time. Calculate which pet fee structure generates more income for landlords while remaining competitive for tenants.',

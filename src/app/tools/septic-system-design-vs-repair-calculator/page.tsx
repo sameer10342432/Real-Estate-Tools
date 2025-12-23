@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Septic System Design vs Repair Calculator | Property Tools',
     description: 'Calculate and compare costs for designing a new septic system versus repairing your existing system. Get detailed breakdowns for installation, permits, and maintenance.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

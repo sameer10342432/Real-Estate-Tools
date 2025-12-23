@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Zoning Variance Feasibility Checker - Analyze Variance Approval Probability | Property Tools',
     description: 'Analyze the feasibility and financial impact of pursuing zoning variances for real estate development projects including costs, timeline, and approval probability.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { ZONING_VARIANCE_FEASIBILITY_CHECKER_CONTENT } from '@/content/tools/zoning-variance-feasibility-checker';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

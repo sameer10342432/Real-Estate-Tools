@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Which Renovation Adds Most Value? ROI Quiz | Property Tools',
     description: 'Find out which home improvements deliver the best ROI based on your home type, location, budget, and market - from kitchen remodels to landscaping.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { WhichRenovationAddsMostValueQuizContent } from '@/content/tools/which-renovation-adds-most-value-quiz';

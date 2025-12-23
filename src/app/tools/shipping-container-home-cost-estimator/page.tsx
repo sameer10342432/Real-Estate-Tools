@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Shipping Container Home Cost Estimator - Build Budget Calculator | Property Tools',
     description: 'Estimate the total cost to build a shipping container home. Calculate container purchase, modifications, foundation, utilities, permits, and finishing costs.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { ShippingContainerHomeCostEstimatorContent } from '@/content/tools/shipping-container-home-cost-estimator';

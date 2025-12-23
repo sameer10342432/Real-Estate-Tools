@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Arkansas Transfer Tax Calculator - Real Estate Transfer Costs',
     description: 'Calculate Arkansas documentary stamp tax ($3.30 per $1,000) and recording fees for real estate transactions',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { ARKANSAS_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/arkansas-transfer-tax-calculator';

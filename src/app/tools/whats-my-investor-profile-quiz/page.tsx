@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'What\'s My Investor Profile? Real Estate Risk Assessment Quiz | Property Tools',
     description: 'Identify your real estate investor profile based on risk tolerance, capital, experience, goals, and time horizon. Get personalized investment strategy recommendations.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { WhatIsMyInvestorProfileQuizContent } from '@/content/tools/whats-my-investor-profile-quiz';

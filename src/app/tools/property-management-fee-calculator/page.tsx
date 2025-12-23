@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -11,7 +11,7 @@ import { Badge } from '@/components/ui/badge'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Calculator, DollarSign, TrendingUp, AlertCircle, FileText, Users } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Property Management Fee Calculator - Compare Management Pricing Structures | Property Tools',
     description: 'Calculate property management fees with different pricing structures including flat fees, percentage-based, and hybrid models. Compare costs and services.',

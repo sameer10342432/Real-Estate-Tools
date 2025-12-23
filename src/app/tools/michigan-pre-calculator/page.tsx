@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { michiganPRECalculator } from '@/content/tools/michigan-pre-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

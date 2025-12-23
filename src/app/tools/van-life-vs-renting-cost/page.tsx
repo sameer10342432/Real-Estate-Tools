@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Van Life vs Renting Cost Calculator - Compare Living Expenses | Property Tools',
     description: 'Compare the total costs of van life vs traditional renting. Analyze vehicle costs, gas, insurance, gym memberships, rent, utilities, and lifestyle factors.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { VanLifeVsRentingCostContent } from '@/content/tools/van-life-vs-renting-cost';

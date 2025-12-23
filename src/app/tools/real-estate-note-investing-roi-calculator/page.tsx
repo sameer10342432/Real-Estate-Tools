@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Real Estate Note Investing ROI Calculator - Calculate Mortgage Note Returns | Property Tools',
     description: 'Calculate returns on mortgage note investments including yield, cash flow, and total ROI for performing and non-performing notes.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { REAL_ESTATE_NOTE_INVESTING_ROI_CALCULATOR_CONTENT } from '@/content/tools/real-estate-note-investing-roi-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

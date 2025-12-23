@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React, { useState, useEffect, useCallback } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -62,7 +62,7 @@ interface CostBreakdown {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Construction Cost Estimator',
     description: 'Estimate construction and renovation costs. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

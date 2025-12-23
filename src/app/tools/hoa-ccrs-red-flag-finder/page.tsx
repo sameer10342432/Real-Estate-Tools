@@ -1,13 +1,13 @@
+'use client';
 import type { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'HOA CC&Rs Red Flag Finder | Free HOA Document Analysis Tool',
     description: 'Identify red flags in HOA CC&Rs and governing documents. Check for rental restrictions, transfer fees, and restrictive covenants before buying. Free tool for homebuyers.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { HOA_CCRS_RED_FLAG_FINDER_CONTENT } from '@/content/tools/hoa-ccrs-red-flag-finder';

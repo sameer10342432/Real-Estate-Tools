@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Preferred Equity vs. Common Equity Analyzer - Compare Real Estate Equity Returns | Property Tools',
     description: 'Compare preferred equity and common equity returns to determine the best investment structure for your real estate deal. Analyze IRR, equity multiples, and cash flow distributions.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { PREFERRED_EQUITY_VS_COMMON_EQUITY_ANALYZER_CONTENT } from '@/content/tools/preferred-equity-vs-common-equity-analyzer';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

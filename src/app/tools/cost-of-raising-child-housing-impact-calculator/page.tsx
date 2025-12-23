@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { COST_OF_RAISING_CHILD_HOUSING_IMPACT_CALCULATOR_CONTENT } from '@/content/tools/cost-of-raising-child-housing-impact-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

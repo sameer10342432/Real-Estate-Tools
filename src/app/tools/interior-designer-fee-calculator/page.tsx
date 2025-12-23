@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Interior Designer Fee Calculator | Property Tools',
     description: 'Calculate interior designer fees based on project scope, fee structure, and design complexity. Estimate costs for design services and furniture procurement.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

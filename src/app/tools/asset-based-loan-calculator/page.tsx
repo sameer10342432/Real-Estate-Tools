@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { ASSET_BASED_LOAN_CALCULATOR_CONTENT } from '@/content/tools/asset-based-loan-calculator';

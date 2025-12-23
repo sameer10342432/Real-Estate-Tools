@@ -8,7 +8,7 @@ import { Label } from '@/components/ui/label';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Home, TrendingDown, DollarSign, AlertCircle } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Rental Vacancy Rate Calculator | Property Tools',
     description: 'Calculate rental property vacancy rates, analyze market conditions, and optimize pricing strategies to minimize vacant periods. Free calculator for landlords.',

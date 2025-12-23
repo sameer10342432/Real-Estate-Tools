@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Greywater System Cost Estimator - Water Reuse System ROI',
     description: 'Calculate the cost and savings of installing a greywater recycling system for landscape irrigation using shower, sink, and laundry water with rebates.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { GREYWATER_SYSTEM_COST_ESTIMATOR_CONTENT } from '@/content/tools/greywater-system-cost-estimator';

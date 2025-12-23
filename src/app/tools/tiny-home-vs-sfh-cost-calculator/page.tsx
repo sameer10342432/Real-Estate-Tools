@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Tiny Home vs Single Family Home Cost Calculator - Compare Total Costs | Property Tools',
     description: 'Compare the total costs of tiny home living vs traditional single-family homes. Analyze purchase price, utilities, maintenance, insurance, and lifestyle trade-offs.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { TinyHomeVsSFHCostCalculatorContent } from '@/content/tools/tiny-home-vs-sfh-cost-calculator';

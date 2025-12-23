@@ -32,7 +32,7 @@ interface PropertyTaxCalculation {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Property Tax Estimator',
     description: 'Estimate annual property taxes for any location. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

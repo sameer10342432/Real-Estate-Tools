@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Colorado Transfer Tax Calculator',
     description: 'Calculate Colorado county transfer fees. No state tax but varies by city. Includes Denver, Boulder, Aspen, Vail rates. Free online tool for real estate profe...',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { COLORADO_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/colorado-transfer-tax-calculator';

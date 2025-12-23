@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Land Development Cost Calculator',
     description: 'Calculate subdivision, infrastructure, and development costs for raw land projects. Free online tool for real estate professionals, investors, and homebuyers.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { LAND_DEVELOPMENT_COST_CALCULATOR_CONTENT } from '@/content/tools/land-development-cost-calculator';

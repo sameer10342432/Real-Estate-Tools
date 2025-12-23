@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { FUND_SOURCING_CALCULATOR_CONTENT } from '@/content/tools/fund-sourcing-calculator';

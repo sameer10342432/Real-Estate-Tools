@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { mortgageCreditCertificateCalculator } from '@/content/tools/mortgage-credit-certificate-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

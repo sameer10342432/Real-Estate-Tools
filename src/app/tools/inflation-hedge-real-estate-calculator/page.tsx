@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import { INFLATION_HEDGE_REAL_ESTATE_CALCULATOR_CONTENT } from '@/content/tools/inflation-hedge-real-estate-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Real Estate Inflation Hedge Calculator - Protect Wealth from Inflation',
     description: 'Calculate how real estate investments protect against inflation. Compare purchasing power erosion of cash versus appreciation and rental income growth of property investments.',

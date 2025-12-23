@@ -216,7 +216,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Rate-and-Term Refinance Calculator',
     description: 'Calculate refinance savings, breakeven period, and monthly payment reduction. Free online tool for real estate professionals, investors, and homebuyers.',

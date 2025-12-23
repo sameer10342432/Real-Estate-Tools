@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Medical Office Building (MOB) Investment Calculator - Healthcare Real Estate ROI | Property Tools',
     description: 'Calculate ROI and cash flow for medical office building investments. Analyze MOB returns with specialized tenant considerations, cap rates, DSCR, and healthcare market dynamics.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { MEDICAL_OFFICE_BUILDING_MOB_INVESTMENT_CALCULATOR_CONTENT } from '@/content/tools/medical-office-building-mob-investment-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

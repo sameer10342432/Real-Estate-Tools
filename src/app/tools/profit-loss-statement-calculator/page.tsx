@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { PROFIT_LOSS_STATEMENT_CALCULATOR_CONTENT } from '@/content/tools/profit-loss-statement-calculator';

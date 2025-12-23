@@ -182,7 +182,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Points vs. No-Points Mortgage Calculator',
     description: 'Compare paying mortgage points upfront vs taking zero-points loan. Free online tool for real estate professionals, investors, and homebuyers.',

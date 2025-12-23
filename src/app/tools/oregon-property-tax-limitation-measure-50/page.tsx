@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { OREGON_PROPERTY_TAX_LIMITATION_MEASURE_50_CONTENT } from '@/content/tools/oregon-property-tax-limitation-measure-50';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

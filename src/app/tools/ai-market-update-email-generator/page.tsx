@@ -26,7 +26,7 @@ interface GeneratedEmail {
   fullEmail: string;
 }
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'AI Market Update Email Generator | Real Estate Marketing Tool',
     description: 'Generate professional market update emails for your real estate database. Create engaging content with local market statistics, trends, and opportunities to stay top-of-mind with clients.',

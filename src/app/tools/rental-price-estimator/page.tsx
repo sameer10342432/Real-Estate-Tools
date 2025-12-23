@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Rental Price Estimator',
     description: 'Estimate optimal rental prices for your property. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
   };
 }
 
-'use client'
 import { useState } from 'react'
 import type { Metadata } from 'next';
 import { NextPage } from 'next'

@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Home, DollarSign, Users, TrendingUp } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Section 8 Housing Rent Calculator (FMR) | Property Tools',
     description: 'Calculate Section 8 housing rent based on Fair Market Rent. Determine payment standards and optimize rental income for subsidized housing. Free HUD calculator.',

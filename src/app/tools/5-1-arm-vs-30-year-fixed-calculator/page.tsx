@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { ARM_5_1_VS_30_YEAR_FIXED_CALCULATOR_CONTENT } from '@/content/tools/5-1-arm-vs-30-year-fixed-calculator';

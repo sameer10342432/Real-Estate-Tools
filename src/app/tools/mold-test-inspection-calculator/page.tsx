@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Mold Test & Inspection Calculator | Property Tools',
     description: 'Calculate mold inspection, testing, and remediation costs. Essential for water damage, health concerns, and property transactions.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

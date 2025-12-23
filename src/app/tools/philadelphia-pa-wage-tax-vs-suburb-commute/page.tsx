@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { PHILADELPHIA_PA_WAGE_TAX_VS_SUBURB_COMMUTE_CONTENT } from '@/content/tools/philadelphia-pa-wage-tax-vs-suburb-commute';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

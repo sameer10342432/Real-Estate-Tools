@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'What if Prices Drop (LTV) Calculator - Price Protection Analysis | Property Tools',
     description: 'Calculate how falling home prices affect your loan-to-value ratio, equity, and potential underwater mortgage risk. Protect yourself from market downturns.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { WhatIfPricesDropLtvToolContent } from '@/content/tools/what-if-prices-drop-ltv-tool';

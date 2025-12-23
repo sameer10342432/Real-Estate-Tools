@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'How Much is This Famous House? Iconic Property Price Quiz | Property Tools',
     description: 'Test your real estate knowledge! Guess the value of famous houses from movies, TV shows, and history. Learn about iconic properties and their market values.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { FamousHousePriceQuizContent } from '@/content/tools/famous-house-price-quiz';

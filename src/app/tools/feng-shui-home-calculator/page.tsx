@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Feng Shui (Home) Calculator - Energy Flow Analysis | Property Tools',
     description: 'Analyze your home\'s feng shui energy flow using the Bagua map, determine your Kua number, and get personalized recommendations for harmony and prosperity.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { FengShuiHomeCalculatorContent } from '@/content/tools/feng-shui-home-calculator';

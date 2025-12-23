@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Curb Appeal ROI Calculator',
     description: 'Calculate the return on investment for exterior home improvements to boost curb appeal and sale price. Free online tool for real estate professionals, invest...',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Walk Score vs Driving Cost Calculator - Walkability Savings Analysis',
     description: 'Compare the financial impact of walkable neighborhoods vs car-dependent locations. Calculate transportation savings and total cost of living.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { WALK_SCORE_VS_DRIVING_COST_CALCULATOR_CONTENT } from '@/content/tools/walk-score-vs-driving-cost-calculator';

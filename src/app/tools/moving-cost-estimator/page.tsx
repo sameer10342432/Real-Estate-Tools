@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React, { useState } from 'react'
 import type { Metadata } from 'next';
@@ -90,7 +90,7 @@ interface MovingEstimate {
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8', '#82CA9D', '#FFC658', '#FF7C7C']
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Moving Cost Estimator',
     description: 'Estimate costs for relocating to a new property. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

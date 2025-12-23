@@ -1,13 +1,13 @@
+'use client';
 import type { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Travel Deduction (Landlord) Calculator | Property Tools',
     description: 'Calculate tax-deductible travel expenses for landlords and property investors. Track mileage, airfare, and lodging deductions with our free travel calculator.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { TRAVEL_DEDUCTION_LANDLORD_CALCULATOR_CONTENT } from '@/content/tools/travel-deduction-landlord-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { LOSS_FACTOR_CALCULATOR_CONTENT } from '@/content/tools/loss-factor-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

@@ -38,7 +38,7 @@ interface RentalYieldResults {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Rental Yield Calculator',
     description: 'Calculate gross and net rental yields. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

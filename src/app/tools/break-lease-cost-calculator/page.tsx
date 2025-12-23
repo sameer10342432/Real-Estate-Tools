@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Should I Break My Lease? Cost Calculator | Breaking Lease Penalty Calculator',
     description: 'Calculate the total cost of breaking your lease early including penalties, remaining rent, forfeited deposits, and relocation costs. Make an informed decision about lease termination.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

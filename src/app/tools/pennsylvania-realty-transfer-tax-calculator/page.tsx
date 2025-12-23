@@ -1,9 +1,9 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { PENNSYLVANIA_REALTY_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/pennsylvania-realty-transfer-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export const metadata = {
+const _metadata = {
   title: 'Pennsylvania Realty Transfer Tax Calculator | PA Transfer Tax Rates',
   description: 'Calculate Pennsylvania realty transfer tax on property sales. Estimate state, county, and local transfer taxes by location - Philadelphia, Pittsburgh, and more.',
 };

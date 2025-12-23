@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Offer Strength Calculator | Home Offer Competitiveness Score',
     description: 'Calculate how competitive your home offer is by weighing price, contingencies, closing timeline, and other terms. Win in multiple offer situations with strategic offers.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

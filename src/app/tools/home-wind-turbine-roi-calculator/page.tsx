@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Home Wind Turbine ROI Calculator - Residential Wind Power Investment',
     description: 'Calculate the cost and ROI of installing a residential wind turbine including equipment, tower, installation, energy production, and 30% federal tax credit.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { HOME_WIND_TURBINE_ROI_CALCULATOR_CONTENT } from '@/content/tools/home-wind-turbine-roi-calculator';

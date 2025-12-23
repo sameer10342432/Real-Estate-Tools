@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Paint Job Cost Estimator - Calculate Interior & Exterior Painting Costs',
     description: 'Estimate professional painting costs for interior and exterior projects including labor, materials, and preparation work.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { PAINT_JOB_COST_ESTIMATOR_CONTENT } from '@/content/tools/paint-job-cost-estimator';

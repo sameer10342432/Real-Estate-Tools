@@ -1,5 +1,6 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Cap Rate Calculator',
     description: 'Calculate capitalization rates for investment properties. Free online tool for real estate professionals, investors, and homebuyers.',
@@ -7,7 +8,6 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { CAP_RATE_CALCULATOR_CONTENT } from '@/content/tools/cap-rate-calculator';

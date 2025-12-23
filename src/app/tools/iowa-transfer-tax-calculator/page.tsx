@@ -1,10 +1,10 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { IOWA_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/iowa-transfer-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Iowa Transfer Tax Calculator - First $500 Exempt',
     description: 'Calculate Iowa real estate transfer tax with $500 exemption. Free online tool for real estate professionals...',

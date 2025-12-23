@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState, useEffect, useCallback } from 'react'
 import type { Metadata } from 'next';
@@ -30,7 +30,7 @@ interface CashOnCashAnalysis {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Cash-on-Cash Return Calculator',
     description: 'Calculate cash-on-cash returns for leveraged investments. Free online tool for real estate professionals, investors, and homebuyers.',

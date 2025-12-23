@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Home Electrification Cost Calculator - Gas to Electric Conversion ROI',
     description: 'Calculate the cost and ROI of converting your home from gas to all-electric appliances including HVAC, water heater, stove, and dryer with rebates and incentives.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { HOME_ELECTRIFICATION_COST_CALCULATOR_CONTENT } from '@/content/tools/home-electrification-cost-calculator';

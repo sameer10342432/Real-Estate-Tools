@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { CAM_FEE_CALCULATOR_CONTENT } from '@/content/tools/cam-fee-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

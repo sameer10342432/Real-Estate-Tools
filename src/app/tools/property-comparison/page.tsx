@@ -46,7 +46,7 @@ const initialProperty: Property = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Property Comparison Calculator',
     description: 'Advanced property comparison with detailed metrics. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

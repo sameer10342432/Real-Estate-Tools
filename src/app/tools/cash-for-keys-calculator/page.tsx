@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Badge } from '@/components/ui/badge'
 import { Calculator, DollarSign, Home, AlertCircle, FileText, TrendingDown, Clock } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Cash for Keys Calculator - Eviction Alternative Cost-Benefit Analysis | Property Tools',
     description: 'Calculate whether offering cash for keys is more cost-effective than formal eviction. Compare costs, timeline, and stress levels for this eviction alternative strategy.',

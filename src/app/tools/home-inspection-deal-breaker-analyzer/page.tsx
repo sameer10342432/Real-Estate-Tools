@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Home Inspection Deal Breaker Analyzer | Should I Walk Away or Negotiate?',
     description: 'Analyze home inspection findings to determine if issues are deal-breakers or negotiable. Calculate repair costs and decide whether to walk away, negotiate, or proceed with purchase.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

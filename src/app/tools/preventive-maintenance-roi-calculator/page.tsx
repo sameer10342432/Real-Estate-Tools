@@ -9,7 +9,7 @@ import { Label } from '@/components/ui/label';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Wrench, DollarSign, TrendingUp, AlertTriangle } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Preventive Maintenance ROI Calculator - Calculate Maintenance Program Returns | Property Tools',
     description: 'Calculate ROI on preventive maintenance programs for rental properties. Compare costs vs emergency repairs, optimize maintenance schedules, and maximize property value. Free calculator for landlords and property managers.',

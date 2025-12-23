@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -11,7 +11,7 @@ import { Badge } from '@/components/ui/badge'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Calculator, UserCheck, TrendingUp, AlertCircle, FileText, CheckCircle2 } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Tenant Screening Scorecard - Evaluate Rental Applicants | Property Tools',
     description: 'Comprehensive tenant screening scorecard with weighted scoring system for credit, income, rental history, background checks, and references. Make data-driven rental decisions.',

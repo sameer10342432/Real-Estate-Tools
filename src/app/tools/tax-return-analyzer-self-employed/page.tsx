@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { TAX_RETURN_ANALYZER_SELF_EMPLOYED_CONTENT } from '@/content/tools/tax-return-analyzer-self-employed';

@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Subject-To (Sub-To) Deal Cash Flow Analyzer - Creative Real Estate Investing | Property Tools',
     description: 'Analyze cash flow and profitability of subject-to real estate deals where you take over existing mortgage payments.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { SUBJECT_TO_DEAL_CASH_FLOW_ANALYZER_CONTENT } from '@/content/tools/subject-to-deal-cash-flow-analyzer';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

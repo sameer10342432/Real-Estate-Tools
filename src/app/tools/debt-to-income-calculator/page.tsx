@@ -81,7 +81,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Debt-to-Income (DTI) Ratio Calculator',
     description: 'Calculate your DTI ratio to determine mortgage eligibility. Free online tool for real estate professionals, investors, and homebuyers.',

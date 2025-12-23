@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Payback Period Calculator',
     description: 'Determine how long it will take to recover your initial investment. Free online tool for real estate professionals, investors, and homebuyers.',
   };
 }
 
-'use client';
 
 import { useState } from 'react';
 import type { Metadata } from 'next';

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { PARKING_RATIO_CALCULATOR_CONTENT } from '@/content/tools/parking-ratio-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

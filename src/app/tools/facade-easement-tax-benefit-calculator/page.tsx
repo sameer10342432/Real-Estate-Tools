@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { FACADE_EASEMENT_TAX_BENEFIT_CALCULATOR_CONTENT } from '@/content/tools/facade-easement-tax-benefit-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

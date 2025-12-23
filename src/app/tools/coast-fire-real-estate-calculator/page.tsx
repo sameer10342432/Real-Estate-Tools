@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import { COAST_FIRE_REAL_ESTATE_CALCULATOR_CONTENT } from '@/content/tools/coast-fire-real-estate-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Coast FIRE with Real Estate Calculator - Let Properties Grow to Retirement',
     description: 'Calculate Coast FIRE with rental properties. Determine when your real estate portfolio will grow enough through appreciation and equity paydown to support full retirement.',

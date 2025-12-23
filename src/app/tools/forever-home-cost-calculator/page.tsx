@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { FOREVER_HOME_COST_CALCULATOR_CONTENT } from '@/content/tools/forever-home-cost-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

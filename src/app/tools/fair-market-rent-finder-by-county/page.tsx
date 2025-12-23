@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { MapPin, DollarSign, Home, TrendingUp } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Fair Market Rent (FMR) Finder by County | Property Tools',
     description: 'Find Fair Market Rent rates by county. Compare HUD FMR data and analyze rental pricing for Section 8 and market-rate properties. Free FMR calculator.',

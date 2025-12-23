@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Celebrity Home Price Guesser - Famous House Price Quiz Game | Property Tools',
     description: 'Test your knowledge of celebrity real estate! Guess the prices of famous mansions, estates, and luxury homes owned by celebrities. Fun property valuation game.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { CelebrityHomePriceGuesserContent } from '@/content/tools/celebrity-home-price-guesser';

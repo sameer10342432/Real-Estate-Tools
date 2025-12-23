@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { BRIDGE_LOAN_CALCULATOR_CONTENT } from '@/content/tools/bridge-loan-calculator';

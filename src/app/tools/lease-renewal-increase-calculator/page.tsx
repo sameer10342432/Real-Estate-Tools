@@ -8,7 +8,7 @@ import { Label } from '@/components/ui/label';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { TrendingUp, DollarSign, Users, Home } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Lease Renewal Increase Calculator | Property Tools',
     description: 'Calculate optimal lease renewal rent increases. Analyze market rates, tenant retention costs, and maximize rental income while minimizing turnover. Free landlord calculator.',

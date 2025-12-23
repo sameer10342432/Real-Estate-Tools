@@ -12,7 +12,7 @@ import { Separator } from '@/components/ui/separator';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Mail, Users, Copy, CheckCircle, Info, Sparkles, BookOpen } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'AI Client Follow-up Email Generator | Real Estate CRM Tool',
     description: 'Generate personalized follow-up emails for real estate clients. Stay in touch after showings, closings, and consultations with professional, engaging communication.',

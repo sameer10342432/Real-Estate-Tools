@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -76,7 +76,7 @@ const STATE_LAWS: StateApplicationFeeLaws = {
   'WY': { allowed: true, maxFee: null, perAdult: false, refundable: false, limitations: 'No state cap', notes: 'No specific restrictions' },
 };
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Rental Application Fee Checker by State - Legal Fee Limits & Rules | Property Tools',
     description: 'Check state-by-state rental application fee limits, legality, and requirements. Ensure compliance with application fee caps and refund rules across all 50 states.',

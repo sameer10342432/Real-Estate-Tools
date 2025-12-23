@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Water-Efficient Fixture ROI Calculator',
     description: 'Calculate savings from installing water-efficient toilets, faucets, and showerheads with payback period and environmental impact. Free online tool for real estate professionals, investors, and homeowners.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { WATER_EFFICIENT_FIXTURE_ROI_CONTENT } from '@/content/tools/water-efficient-fixture-roi';

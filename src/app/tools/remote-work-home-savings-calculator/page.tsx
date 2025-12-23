@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { remoteWorkHomeSavingsCalculator } from '@/content/tools/remote-work-home-savings-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState, useEffect, useCallback } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -36,7 +36,7 @@ interface CrimeData {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Neighborhood Safety Score Calculator',
     description: 'Analyze neighborhood safety and crime statistics. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

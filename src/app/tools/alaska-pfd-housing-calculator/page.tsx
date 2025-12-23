@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { ALASKA_PFD_HOUSING_CALCULATOR_CONTENT } from '@/content/tools/alaska-pfd-housing-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

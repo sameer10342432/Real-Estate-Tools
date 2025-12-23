@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { IRR_CALCULATOR_CONTENT } from '@/content/tools/irr-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Bike Score Health Savings Calculator - Biking Benefits Analysis',
     description: 'Calculate health and financial benefits from living in bike-friendly neighborhoods. Estimate healthcare savings, transportation costs, and environmental impact.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { BIKE_SCORE_HEALTH_SAVINGS_CALCULATOR_CONTENT } from '@/content/tools/bike-score-health-savings-calculator';

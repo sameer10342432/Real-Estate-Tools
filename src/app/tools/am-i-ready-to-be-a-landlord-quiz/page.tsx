@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Am I Ready to Be a Landlord? Real Estate Investor Readiness Quiz | Property Tools',
     description: 'Assess if you\'re financially and emotionally prepared for landlord responsibilities. Evaluate your capital, risk tolerance, time commitment, and property management readiness.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { AmIReadyToBeALandlordQuizContent } from '@/content/tools/am-i-ready-to-be-a-landlord-quiz';

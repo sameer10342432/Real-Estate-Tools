@@ -12,7 +12,7 @@ import { Separator } from '@/components/ui/separator';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Phone, TrendingDown, Copy, CheckCircle, Info, Sparkles, BookOpen } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'AI Expired Listing Outreach Script Generator | Real Estate Lead Tool',
     description: 'Generate empathetic, effective scripts for calling expired listing sellers. Convert frustrated homeowners into clients with proven prospecting strategies and differentiation tactics.',

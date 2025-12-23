@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Mezzanine Debt Calculator - Calculate Commercial Real Estate Financing Costs | Property Tools',
     description: 'Calculate returns and analyze mezzanine debt financing for commercial real estate deals including interest rates, fees, and total costs.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { MEZZANINE_DEBT_CALCULATOR_CONTENT } from '@/content/tools/mezzanine-debt-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

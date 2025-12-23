@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { NET_EFFECTIVE_RENT_CALCULATOR_CONTENT } from '@/content/tools/net-effective-rent-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

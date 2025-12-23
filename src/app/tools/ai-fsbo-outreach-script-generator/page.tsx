@@ -12,7 +12,7 @@ import { Separator } from '@/components/ui/separator';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Phone, Home, Copy, CheckCircle, Info, Sparkles, BookOpen } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'AI FSBO Outreach Script Generator | Real Estate Prospecting Tool',
     description: 'Generate professional scripts for calling For-Sale-By-Owner (FSBO) sellers. Convert FSBO leads with proven prospecting strategies and value-driven messaging.',

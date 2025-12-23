@@ -1,9 +1,9 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { CALIFORNIA_EARTHQUAKE_INSURANCE_ESTIMATOR_CONTENT } from '@/content/tools/california-earthquake-insurance-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export const metadata = {
+const _metadata = {
   title: 'California Earthquake Insurance Estimator | Calculate Premium Costs',
   description: 'Estimate California earthquake insurance costs based on location, construction type, and coverage. Calculate CEA premiums and deductibles for your home.',
 };

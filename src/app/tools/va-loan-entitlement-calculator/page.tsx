@@ -66,7 +66,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'VA Loan Entitlement Calculator',
     description: 'Calculate your available VA loan entitlement and maximum purchase price. Free online tool for real estate professionals, investors, and homebuyers.',

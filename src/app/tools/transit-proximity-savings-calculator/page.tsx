@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Transit Proximity Savings Calculator - Public Transportation Benefits',
     description: 'Calculate financial benefits of living near quality public transportation. Analyze property premiums, transportation savings, and total cost of living.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { TRANSIT_PROXIMITY_SAVINGS_CALCULATOR_CONTENT } from '@/content/tools/transit-proximity-savings-calculator';

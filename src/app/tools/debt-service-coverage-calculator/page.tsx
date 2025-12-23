@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -38,7 +38,7 @@ interface DSCRResults {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Debt Service Coverage Calculator',
     description: 'Calculate debt service coverage ratios for commercial properties. Free online tool for real estate professionals, investors, and homebuyers.',

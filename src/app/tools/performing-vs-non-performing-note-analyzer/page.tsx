@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Performing vs. Non-Performing Note Analyzer - Compare Note Investment Returns | Property Tools',
     description: 'Compare returns between performing and non-performing mortgage notes to make informed investment decisions.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { PERFORMING_VS_NON_PERFORMING_NOTE_ANALYZER_CONTENT } from '@/content/tools/performing-vs-non-performing-note-analyzer';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

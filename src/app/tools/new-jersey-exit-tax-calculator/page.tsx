@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { NEW_JERSEY_EXIT_TAX_CALCULATOR_CONTENT } from '@/content/tools/new-jersey-exit-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

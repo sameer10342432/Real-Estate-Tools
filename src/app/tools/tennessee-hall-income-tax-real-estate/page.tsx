@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { TENNESSEE_HALL_INCOME_TAX_REAL_ESTATE_CONTENT } from '@/content/tools/tennessee-hall-income-tax-real-estate';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
@@ -21,7 +21,7 @@ const TennesseeHallIncomeTaxRealEstatePage = () => {
 
 export default TennesseeHallIncomeTaxRealEstatePage;
 
-export const metadata = {
+const _metadata = {
   title: 'Tennessee Hall Income Tax (Real Estate) Calculator | Property Tools',
   description: 'Calculate the former Tennessee Hall Income Tax on real estate investment income before its 2021 repeal',
 };

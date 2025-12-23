@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Cloud on Title Risk Calculator',
     description: 'Assess the financial and legal risk of purchasing property with a "cloud on title" - defects that impair clear ownership. Free online tool for real estate professionals, investors, and homebuyers.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { CLOUD_ON_TITLE_RISK_CALCULATOR_CONTENT } from '@/content/tools/cloud-on-title-risk-calculator';

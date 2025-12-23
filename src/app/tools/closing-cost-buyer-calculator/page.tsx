@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Buyer Closing Cost Calculator | Complete Homebuyer Closing Costs Breakdown',
     description: 'Calculate all closing costs for home buyers including loan fees, title insurance, escrow, taxes, and hidden fees. Know exactly how much cash you need to close on your home purchase.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

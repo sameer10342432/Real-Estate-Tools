@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { renterAffordabilityCalculator } from '@/content/tools/renter-affordability-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

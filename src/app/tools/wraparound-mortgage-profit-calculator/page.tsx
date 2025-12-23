@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Wraparound Mortgage Profit Calculator - AITD Returns Analysis | Property Tools',
     description: 'Calculate profit potential from wraparound mortgages (All-Inclusive Trust Deeds) including interest rate spreads and cash flow analysis.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { WRAPAROUND_MORTGAGE_PROFIT_CALCULATOR_CONTENT } from '@/content/tools/wraparound-mortgage-profit-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

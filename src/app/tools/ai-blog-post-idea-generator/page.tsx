@@ -24,7 +24,7 @@ interface BlogPostIdea {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'AI Real Estate Blog Post Idea Generator',
     description: 'Generate creative real estate blog post ideas and content topics tailored to your market, audience, and expertise using AI assistance',

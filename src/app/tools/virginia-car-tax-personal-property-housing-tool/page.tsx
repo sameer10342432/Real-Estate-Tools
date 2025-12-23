@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { VIRGINIA_CAR_TAX_PERSONAL_PROPERTY_HOUSING_TOOL_CONTENT } from '@/content/tools/virginia-car-tax-personal-property-housing-tool';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

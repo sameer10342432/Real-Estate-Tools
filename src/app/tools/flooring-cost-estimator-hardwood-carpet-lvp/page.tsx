@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Flooring Cost Estimator - Compare Hardwood vs Carpet vs LVP Costs',
     description: 'Compare costs for hardwood, carpet, and luxury vinyl plank (LVP) flooring including materials, installation, and long-term value.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { FLOORING_COST_ESTIMATOR_CONTENT } from '@/content/tools/flooring-cost-estimator-hardwood-carpet-lvp';

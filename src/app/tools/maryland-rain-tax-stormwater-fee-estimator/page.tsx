@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { MARYLAND_RAIN_TAX_STORMWATER_FEE_ESTIMATOR_CONTENT } from '@/content/tools/maryland-rain-tax-stormwater-fee-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

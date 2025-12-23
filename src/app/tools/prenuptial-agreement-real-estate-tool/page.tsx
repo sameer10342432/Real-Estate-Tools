@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { prenuptialAgreementRealEstateTool } from '@/content/tools/prenuptial-agreement-real-estate-tool';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

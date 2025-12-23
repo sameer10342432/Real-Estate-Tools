@@ -8,7 +8,7 @@ import { Label } from '@/components/ui/label';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Calculator, Home, DollarSign, TrendingUp } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: '5/10 Rule for Rental Property Maintenance Calculator | Property Tools',
     description: 'Apply the 5/10 maintenance rule to budget rental property upkeep. Estimate annual costs, plan for repairs and replacements. Free calculator for landlords.',

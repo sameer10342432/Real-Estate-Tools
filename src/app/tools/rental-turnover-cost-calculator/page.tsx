@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Badge } from '@/components/ui/badge'
 import { Calculator, DollarSign, TrendingDown, AlertCircle, FileText, Home, Clock } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Rental Turnover Cost Calculator - Complete Vacancy & Turnover Analysis | Property Tools',
     description: 'Calculate all costs of tenant turnover including cleaning, repairs, marketing, vacancy loss, and utilities. Understand the true cost of rental property turnover.',

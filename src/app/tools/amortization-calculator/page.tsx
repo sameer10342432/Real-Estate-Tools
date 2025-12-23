@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { amortizationCalculator } from '@/content/tools/amortization-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

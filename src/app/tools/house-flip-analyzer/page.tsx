@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -50,7 +50,7 @@ interface FlipResults {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'House Flip Analyzer',
     description: 'Analyze profitability and risks of house flipping. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

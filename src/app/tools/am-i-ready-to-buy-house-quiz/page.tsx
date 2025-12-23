@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Am I Ready to Buy a House? Homebuyer Readiness Quiz | Property Tools',
     description: 'Find out if you\'re financially and emotionally ready to buy a home. Assess your credit, savings, debt, income stability, and long-term commitment.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { AmIReadyToBuyHouseQuizContent } from '@/content/tools/am-i-ready-to-buy-house-quiz';

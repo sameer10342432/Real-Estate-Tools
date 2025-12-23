@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import { FAT_FIRE_REAL_ESTATE_CALCULATOR_CONTENT } from '@/content/tools/fat-fire-real-estate-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Fat FIRE with Real Estate Calculator - Luxury Early Retirement with Rental Properties',
     description: 'Calculate Fat FIRE using real estate investments. Determine how many high-end rental properties needed to support a luxury lifestyle and retire early with premium income.',

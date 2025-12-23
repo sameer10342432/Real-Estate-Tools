@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Building Permit Fee Estimator - Calculate Permit Costs by City & Project',
     description: 'Estimate building permit fees for construction, renovation, and home improvement projects based on project value and location.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { BUILDING_PERMIT_FEE_ESTIMATOR_CONTENT } from '@/content/tools/building-permit-fee-estimator';

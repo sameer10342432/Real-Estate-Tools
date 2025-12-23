@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Idaho Transfer Tax Calculator - Real Estate Recording Fees',
     description: 'Calculate Idaho real estate costs. No state transfer tax - only county recording fees ($15-$30). Learn actual ID closing costs',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { IDAHO_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/idaho-transfer-tax-calculator';

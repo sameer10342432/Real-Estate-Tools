@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { montanaBiennialReappraisal } from '@/content/tools/montana-biennial-reappraisal-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

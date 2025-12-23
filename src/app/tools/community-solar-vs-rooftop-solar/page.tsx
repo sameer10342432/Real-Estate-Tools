@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Community Solar vs Rooftop Solar Calculator - Solar Options Comparison',
     description: 'Compare costs and benefits of community solar programs vs installing rooftop solar panels. Analyze payback periods, savings, and environmental impact.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { COMMUNITY_SOLAR_VS_ROOFTOP_SOLAR_CONTENT } from '@/content/tools/community-solar-vs-rooftop-solar';

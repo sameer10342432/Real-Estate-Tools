@@ -212,7 +212,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Mortgage Discount Points Calculator',
     description: 'Calculate mortgage discount points cost, rate reduction, and breakeven period. Free online tool for real estate professionals, investors, and homebuyers.',

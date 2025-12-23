@@ -9,7 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { DollarSign, TrendingUp, Home, Wrench } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'CapEx Reserve Calculator - Plan Capital Expenditure Reserves | Property Tools',
     description: 'Calculate capital expenditure reserves for rental properties. Plan for major repairs, roof replacement, HVAC, and property improvements. Free CapEx calculator for landlords and investors.',

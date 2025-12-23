@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'How Much House Can I Afford Calculator | PITI + Utilities + Real Costs',
     description: 'Calculate how much house you can really afford including PITI (Principal, Interest, Taxes, Insurance), HOA fees, utilities, maintenance, and all hidden homeownership costs.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

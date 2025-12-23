@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Solar Panel Installation ROI Calculator - Calculate Solar Return on Investment',
     description: 'Calculate the return on investment for solar panel installation including energy savings, tax credits, home value increase, and payback period.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { SOLAR_PANEL_INSTALLATION_ROI_CALCULATOR_CONTENT } from '@/content/tools/solar-panel-installation-roi-calculator';

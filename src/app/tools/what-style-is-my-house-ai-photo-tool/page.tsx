@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'What Style is My House? (AI Photo Tool) - Identify Architecture | Property Tools',
     description: 'Upload a photo and let AI identify your home\'s architectural style - from Victorian to Mid-Century Modern, Colonial to Contemporary. Instant results.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { WhatStyleIsMyHouseAiPhotoToolContent } from '@/content/tools/what-style-is-my-house-ai-photo-tool';

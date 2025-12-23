@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { LOS_ANGELES_CA_RENT_STABILIZATION_RSO_TOOL_CONTENT } from '@/content/tools/los-angeles-ca-rent-stabilization-rso-tool';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
@@ -21,7 +21,7 @@ const LosAngelesCaRentStabilizationRsoToolPage = () => {
 
 export default LosAngelesCaRentStabilizationRsoToolPage;
 
-export const metadata = {
+const _metadata = {
   title: 'Los Angeles RSO Rent Stabilization Calculator | Property Tools',
   description: 'Calculate maximum allowable rent increases for Los Angeles Rent Stabilization Ordinance (RSO) properties',
 };

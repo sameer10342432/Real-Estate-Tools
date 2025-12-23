@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Mineral Rights Value Estimator - Calculate Subsurface Resource Value | Property Tools',
     description: 'Estimate the value of mineral rights including oil, gas, coal, and other subsurface resources based on reserves, production, and royalty rates.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { MINERAL_RIGHTS_VALUE_ESTIMATOR_CONTENT } from '@/content/tools/mineral-rights-value-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

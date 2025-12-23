@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { VERIFICATION_OF_EMPLOYMENT_CALCULATOR_CONTENT } from '@/content/tools/verification-of-employment-calculator';

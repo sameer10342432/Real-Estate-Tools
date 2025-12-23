@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'FHA MIP Calculator',
     description: 'Calculate FHA mortgage insurance premium - upfront and annual costs. Free online tool for real estate professionals, investors, and homebuyers.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { FHA_MIP_CALCULATOR_CONTENT } from '@/content/tools/fha-mip-calculator';

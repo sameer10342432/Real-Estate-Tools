@@ -1,5 +1,6 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Investment Property Calculator',
     description: 'Analyze the financial performance of an investment property. Free online tool for real estate professionals, investors, and homebuyers.',
@@ -7,7 +8,6 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { INVESTMENT_PROPERTY_CALCULATOR_CONTENT } from '@/content/tools/investment-property-calculator';

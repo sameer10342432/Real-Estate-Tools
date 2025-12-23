@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Appraisal Gap Coverage Calculator | Low Appraisal Strategy Tool',
     description: 'Calculate how much appraisal gap coverage to offer when buying a home. Protect yourself from low appraisals while making competitive offers in hot markets.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

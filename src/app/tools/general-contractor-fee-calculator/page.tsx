@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'General Contractor Fee Calculator | Property Tools',
     description: 'Calculate general contractor fees and markup for construction projects including overhead and profit margins. Estimate GC costs for residential and commercial projects.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

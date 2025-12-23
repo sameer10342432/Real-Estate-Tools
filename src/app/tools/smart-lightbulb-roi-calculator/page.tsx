@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Smart Lightbulb ROI Calculator - LED Smart Bulb Savings & Payback',
     description: 'Calculate the cost and energy savings of replacing traditional bulbs with smart LED bulbs, reducing lighting costs by 75-92% with automation features.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { SMART_LIGHTBULB_ROI_CALCULATOR_CONTENT } from '@/content/tools/smart-lightbulb-roi-calculator';

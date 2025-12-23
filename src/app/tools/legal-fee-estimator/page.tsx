@@ -37,7 +37,7 @@ interface LegalFeeCalculation {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Legal Fee Estimator (Real Estate)',
     description: 'Estimate real estate attorney fees for property transactions including purchase, sale, refinance, contract review, and title work Make informed property decisions with accurate calculations.',

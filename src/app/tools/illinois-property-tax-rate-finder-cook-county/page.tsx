@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { ILLINOIS_PROPERTY_TAX_RATE_FINDER_COOK_COUNTY_CONTENT } from '@/content/tools/illinois-property-tax-rate-finder-cook-county';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

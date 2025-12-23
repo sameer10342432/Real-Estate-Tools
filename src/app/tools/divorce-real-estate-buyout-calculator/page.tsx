@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { divorceRealEstateBuyoutCalculator } from '@/content/tools/divorce-real-estate-buyout-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

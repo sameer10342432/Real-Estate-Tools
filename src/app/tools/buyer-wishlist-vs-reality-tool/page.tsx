@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Home Buyer Wish List vs Reality Tool | Budget vs Expectations Calculator',
     description: 'Compare your dream home wish list with what you can actually afford. Prioritize must-have features vs nice-to-haves and make realistic buying decisions within your budget.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

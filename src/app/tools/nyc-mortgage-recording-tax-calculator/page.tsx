@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { NYC_MORTGAGE_RECORDING_TAX_CALCULATOR_CONTENT } from '@/content/tools/nyc-mortgage-recording-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

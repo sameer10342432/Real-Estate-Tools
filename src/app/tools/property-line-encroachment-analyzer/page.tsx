@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Property Line (Encroachment) Analyzer',
     description: 'Identify and assess potential property line encroachment issues including fences, structures, driveways, and trees that cross boundary lines. Free online tool for real estate professionals, investors, and homeowners.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { PROPERTY_LINE_ENCROACHMENT_ANALYZER_CONTENT } from '@/content/tools/property-line-encroachment-analyzer';

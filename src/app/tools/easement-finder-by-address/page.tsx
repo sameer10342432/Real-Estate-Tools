@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Easement Finder (by Address)',
     description: 'Discover potential easements affecting your property and understand their impact on ownership rights, land use, and property value. Free online tool for real estate professionals, investors, and homeowners.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { EASEMENT_FINDER_BY_ADDRESS_CONTENT } from '@/content/tools/easement-finder-by-address';

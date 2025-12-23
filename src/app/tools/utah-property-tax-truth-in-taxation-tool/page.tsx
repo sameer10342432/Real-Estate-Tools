@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { UTAH_PROPERTY_TAX_TRUTH_IN_TAXATION_TOOL_CONTENT } from '@/content/tools/utah-property-tax-truth-in-taxation-tool';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

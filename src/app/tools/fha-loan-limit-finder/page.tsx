@@ -76,7 +76,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'FHA Loan Limit Finder',
     description: 'Find current FHA loan limits for your county and property type. Free online tool for real estate professionals, investors, and homebuyers.',

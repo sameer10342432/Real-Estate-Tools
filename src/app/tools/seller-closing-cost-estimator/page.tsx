@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Seller Closing Cost Estimator',
     description: 'Estimate all closing costs you\'ll pay as a seller, including agent commissions, title fees, and transfer taxes. Free online tool for real estate professional...',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

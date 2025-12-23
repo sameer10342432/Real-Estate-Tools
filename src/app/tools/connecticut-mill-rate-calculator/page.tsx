@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { connecticutMillRateCalculator } from '@/content/tools/connecticut-mill-rate-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

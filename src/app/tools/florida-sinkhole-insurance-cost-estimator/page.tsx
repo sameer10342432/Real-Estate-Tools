@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { FLORIDA_SINKHOLE_INSURANCE_COST_ESTIMATOR_CONTENT } from '@/content/tools/florida-sinkhole-insurance-cost-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

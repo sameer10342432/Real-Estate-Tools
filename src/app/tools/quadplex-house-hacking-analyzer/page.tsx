@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Quadplex House Hacking Analyzer',
     description: 'Analyze fourplex deals - maximum rental income from 4-unit house hacking. Free online tool for real estate professionals, investors, and homebuyers.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { QUADPLEX_HOUSE_HACKING_ANALYZER_CONTENT } from '@/content/tools/quadplex-house-hacking-analyzer';

@@ -1,13 +1,13 @@
+'use client';
 import type { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Meals & Entertainment (Real Estate) Deduction Calculator | Property Tools',
     description: 'Calculate deductible meals and entertainment expenses for real estate business. Understand 50% and 100% deduction rules with our free calculator.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { MEALS_ENTERTAINMENT_REAL_ESTATE_DEDUCTION_CONTENT } from '@/content/tools/meals-entertainment-real-estate-deduction';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { SEASONED_FUNDS_CALCULATOR_CONTENT } from '@/content/tools/seasoned-funds-calculator';

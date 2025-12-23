@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { SPEC_HOME_VS_CUSTOM_HOME_COMPARISON_CONTENT } from '@/content/tools/spec-home-vs-custom-home-comparison';

@@ -168,7 +168,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Rapid Rescore ROI Calculator',
     description: 'Calculate ROI on rapid credit rescoring - see if boosting score saves money. Free online tool for real estate professionals, investors, and homebuyers.',

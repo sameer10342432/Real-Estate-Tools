@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'HVAC Replacement ROI Calculator - Calculate Return on New HVAC System',
     description: 'Calculate the return on investment for HVAC replacement including energy savings, comfort improvements, and home value increase.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { HVAC_REPLACEMENT_ROI_CALCULATOR_CONTENT } from '@/content/tools/hvac-replacement-roi-calculator';

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState, useEffect, useCallback } from 'react'
 import type { Metadata } from 'next';
@@ -51,7 +51,7 @@ interface MarketData {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Real Estate Market Analysis Tool',
     description: 'Comprehensive market analysis and reporting. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

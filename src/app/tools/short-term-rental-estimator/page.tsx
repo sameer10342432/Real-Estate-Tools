@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState, useEffect, useCallback } from 'react'
 import type { Metadata } from 'next';
@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Calculator, Home, TrendingUp, Calendar, BarChart3, AlertTriangle, CheckCircle, Info, BookOpen } from 'lucide-react'
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Short-Term Rental Estimator',
     description: 'Estimate Airbnb and vacation rental income. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

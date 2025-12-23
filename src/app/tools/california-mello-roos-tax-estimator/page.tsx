@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { CALIFORNIA_MELLO_ROOS_TAX_ESTIMATOR_CONTENT } from '@/content/tools/california-mello-roos-tax-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

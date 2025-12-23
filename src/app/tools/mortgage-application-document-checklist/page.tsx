@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Mortgage Application Document Checklist - Complete Guide | Property Tools',
     description: 'Complete checklist of all documents needed for mortgage application - tailored by loan type, employment status, and property type. Never miss a required document.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { MortgageApplicationDocumentChecklistContent } from '@/content/tools/mortgage-application-document-checklist';

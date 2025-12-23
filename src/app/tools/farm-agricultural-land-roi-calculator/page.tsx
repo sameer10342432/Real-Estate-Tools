@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Farm/Agricultural Land ROI Calculator - Calculate Farmland Investment Returns | Property Tools',
     description: 'Calculate returns on farmland investments including crop income, land appreciation, government payments, and tax benefits.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { FARM_AGRICULTURAL_LAND_ROI_CALCULATOR_CONTENT } from '@/content/tools/farm-agricultural-land-roi-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

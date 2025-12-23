@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import { HOME_EQUITY_TO_INVEST_CALCULATOR_CONTENT } from '@/content/tools/home-equity-to-invest-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Home Equity to Invest Calculator - Should You Leverage Home Equity for Investments?',
     description: 'Calculate potential returns, risks, and monthly costs of using home equity (HELOC or cash-out refinance) to invest in stocks, real estate, or business. Compare leveraged vs unleveraged investment scenarios.',

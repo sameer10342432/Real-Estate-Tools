@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Homestead Exemption Calculator',
     description: 'Calculate property tax savings from homestead exemptions across different states. Free online tool for real estate professionals, investors, and homebuyers.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { HOMESTEAD_EXEMPTION_CALCULATOR_CONTENT } from '@/content/tools/homestead-exemption-calculator';

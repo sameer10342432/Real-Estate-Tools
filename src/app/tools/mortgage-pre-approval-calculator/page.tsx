@@ -92,7 +92,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Mortgage Pre-Approval Calculator',
     description: 'Estimate your pre-approval amount based on income, debts, and credit. Free online tool for real estate professionals, investors, and homebuyers.',

@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'New Hampshire Transfer Tax Calculator - Real Estate Transfer Tax',
     description: 'Calculate New Hampshire transfer tax ($0.75 per $100 each for buyer and seller = 1.5% total). Free NH real estate transfer cost calculator',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { NEW_HAMPSHIRE_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/new-hampshire-transfer-tax-calculator';

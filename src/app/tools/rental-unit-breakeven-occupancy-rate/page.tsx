@@ -8,7 +8,7 @@ import { Label } from '@/components/ui/label';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { TrendingUp, DollarSign, Home, AlertCircle } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Rental Unit Breakeven Occupancy Rate Calculator | Property Tools',
     description: 'Calculate breakeven occupancy rate for rental properties. Determine minimum occupancy needed for profitability and optimize pricing strategies. Free landlord calculator.',

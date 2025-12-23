@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Lease Agreement Generator',
     description: 'Generate comprehensive lease agreements for rental properties. Free online tool for real estate professionals, investors, and homebuyers.',
   };
 }
 
-'use client';
 
 import { useState } from 'react';
 import type { Metadata } from 'next';

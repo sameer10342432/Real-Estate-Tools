@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react';
 import type { Metadata } from 'next';
@@ -13,7 +13,7 @@ import { TrendingUp, TrendingDown, DollarSign, Home, Target, AlertCircle, CheckC
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8']
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Property Equity Calculator',
     description: 'Track and analyze your property equity over time. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

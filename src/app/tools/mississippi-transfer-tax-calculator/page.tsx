@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Mississippi Transfer Tax Calculator - Real Estate Recording Fees',
     description: 'Calculate Mississippi real estate transfer costs. Mississippi has no state transfer tax - learn actual closing costs and recording fees',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { MISSISSIPPI_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/mississippi-transfer-tax-calculator';

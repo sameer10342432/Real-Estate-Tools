@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'PMI Removal Calculator',
     description: 'Find out when you can cancel PMI and how much you will save. Free online tool for real estate professionals, investors, and homebuyers.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { PMI_REMOVAL_CALCULATOR_CONTENT } from '@/content/tools/pmi-removal-calculator';

@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Data Center Investment Calculator - Cloud Infrastructure ROI & Returns | Property Tools',
     description: 'Analyze data center investment returns including power density, connectivity premiums, colocation revenue, and technology infrastructure costs. Calculate IRR, NOI, and cash flow.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { DATA_CENTER_INVESTMENT_CALCULATOR_CONTENT } from '@/content/tools/data-center-investment-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

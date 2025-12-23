@@ -70,7 +70,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'USDA Loan Eligibility Checker',
     description: 'Check your eligibility for USDA rural development home loans. Free online tool for real estate professionals, investors, and homebuyers.',

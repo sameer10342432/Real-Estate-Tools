@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -150,7 +150,7 @@ const defaultRooms: RoomRenovation[] = [
 ]
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Renovation Cost Estimator',
     description: 'Estimate costs for property renovations and improvements. Free online tool for real estate professionals, investors, and homebuyers.',

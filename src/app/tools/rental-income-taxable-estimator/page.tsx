@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { RENTAL_INCOME_TAXABLE_ESTIMATOR_CONTENT } from '@/content/tools/rental-income-taxable-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

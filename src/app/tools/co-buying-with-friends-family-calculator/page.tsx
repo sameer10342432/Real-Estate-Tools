@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { coBuyingWithFriendsFamilyCalculator } from '@/content/tools/co-buying-with-friends-family-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

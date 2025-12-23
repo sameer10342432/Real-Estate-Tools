@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { ESTATE_TAX_REAL_ESTATE_CALCULATOR_CONTENT } from '@/content/tools/estate-tax-real-estate-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

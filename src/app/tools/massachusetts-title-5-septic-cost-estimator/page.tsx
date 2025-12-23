@@ -1,9 +1,9 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { MASSACHUSETTS_TITLE_5_SEPTIC_COST_ESTIMATOR_CONTENT } from '@/content/tools/massachusetts-title-5-septic-cost-estimator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export const metadata = {
+const _metadata = {
   title: 'Massachusetts Title 5 Septic Cost Estimator | Inspection & Repair Costs',
   description: 'Calculate MA Title 5 septic inspection and repair costs. Estimate compliance expenses for your septic system - inspection, repairs, and replacement costs.',
 };

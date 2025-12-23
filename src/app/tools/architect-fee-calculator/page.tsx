@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Architect Fee Calculator | Property Tools',
     description: 'Calculate architectural fees for residential and commercial projects based on project scope and fee structure. Estimate costs for design services and construction administration.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

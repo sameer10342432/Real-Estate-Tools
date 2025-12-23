@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { GENERATION_SKIPPING_TAX_CALCULATOR_CONTENT } from '@/content/tools/generation-skipping-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

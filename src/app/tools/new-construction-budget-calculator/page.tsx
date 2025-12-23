@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'New Construction Budget Calculator',
     description: 'Estimate total construction costs including materials, labor, permits, and contingency. Free online tool for real estate professionals, investors, and homebu...',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { NEW_CONSTRUCTION_BUDGET_CALCULATOR_CONTENT } from '@/content/tools/new-construction-budget-calculator';

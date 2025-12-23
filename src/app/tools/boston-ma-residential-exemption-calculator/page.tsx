@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { BOSTON_MA_RESIDENTIAL_EXEMPTION_CALCULATOR_CONTENT } from '@/content/tools/boston-ma-residential-exemption-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

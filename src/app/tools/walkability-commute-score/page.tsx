@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState, useEffect, useCallback } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -54,7 +54,7 @@ interface Amenity {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Walkability & Commute Score Calculator',
     description: 'Evaluate walkability and commute options. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

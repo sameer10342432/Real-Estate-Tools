@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Real Estate Glossary & Jargon Buster - 500+ Terms Explained | Property Tools',
     description: 'Comprehensive dictionary of 500+ real estate terms, definitions, and jargon explained in plain English for buyers, sellers, and investors. Never be confused again.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { RealEstateGlossaryJargonBusterContent } from '@/content/tools/real-estate-glossary-jargon-buster';

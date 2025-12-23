@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'FSBO vs Agent Savings Calculator',
     description: 'Compare the costs and benefits of selling your home yourself (For Sale By Owner) versus using a real estate agent. Free online tool for real estate professio...',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

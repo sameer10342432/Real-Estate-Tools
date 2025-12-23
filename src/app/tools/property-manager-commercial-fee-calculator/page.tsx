@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

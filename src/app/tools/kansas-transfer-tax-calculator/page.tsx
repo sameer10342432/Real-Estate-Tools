@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Kansas Transfer Tax Calculator - Real Estate Recording Fees',
     description: 'Calculate Kansas real estate costs. No state transfer tax since 2019 - only county recording fees. Learn actual KS closing costs',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { KANSAS_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/kansas-transfer-tax-calculator';

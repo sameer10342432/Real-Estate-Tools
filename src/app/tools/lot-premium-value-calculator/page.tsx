@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { LOT_PREMIUM_VALUE_CALCULATOR_CONTENT } from '@/content/tools/lot-premium-value-calculator';

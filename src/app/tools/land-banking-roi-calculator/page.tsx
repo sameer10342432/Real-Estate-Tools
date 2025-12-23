@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Land Banking ROI Calculator - Calculate Raw Land Investment Returns | Property Tools',
     description: 'Calculate returns on land banking investments including appreciation, holding costs, and exit strategies for raw land speculation.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { LAND_BANKING_ROI_CALCULATOR_CONTENT } from '@/content/tools/land-banking-roi-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

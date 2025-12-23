@@ -277,7 +277,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'HELOC vs. Cash-Out Refinance Calculator',
     description: 'Compare HELOC and cash-out refinance side-by-side to determine best option. Free online tool for real estate professionals, investors, and homebuyers.',

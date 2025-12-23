@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'West Virginia Transfer Tax Calculator - Real Estate Excise Tax',
     description: 'Calculate West Virginia transfer tax ($1.10 per $500 state + county add-ons). Includes Berkeley, Harrison, Marion county rates',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { WEST_VIRGINIA_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/west-virginia-transfer-tax-calculator';

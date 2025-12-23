@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Timber Land Investment Calculator - Calculate Forest Real Estate Returns | Property Tools',
     description: 'Calculate returns on timberland investments including timber growth, harvest revenue, land appreciation, and recreational income.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { TIMBER_LAND_INVESTMENT_CALCULATOR_CONTENT } from '@/content/tools/timber-land-investment-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

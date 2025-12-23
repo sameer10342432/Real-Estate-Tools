@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { SAN_FRANCISCO_CA_RENT_CONTROL_CALCULATOR_CONTENT } from '@/content/tools/san-francisco-ca-rent-control-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
@@ -21,7 +21,7 @@ const SanFranciscoCaRentControlCalculatorPage = () => {
 
 export default SanFranciscoCaRentControlCalculatorPage;
 
-export const metadata = {
+const _metadata = {
   title: 'San Francisco Rent Control Calculator | Property Tools',
   description: 'Calculate maximum allowable rent increases under San Francisco rent control ordinance',
 };

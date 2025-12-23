@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Seller Closing Cost Calculator | How Much Will I Net From Home Sale?',
     description: 'Calculate seller closing costs including realtor commissions, title fees, taxes, and payoffs. Find out your net proceeds from selling your home after all expenses.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

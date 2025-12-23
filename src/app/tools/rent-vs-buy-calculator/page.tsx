@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Rent vs Buy Calculator',
     description: 'Compare the costs of renting versus buying. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

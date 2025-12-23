@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Radon Mitigation System Cost Calculator',
     description: 'Estimate the cost of installing a radon mitigation system and calculate long-term health benefits and home value impact. Free online tool for real estate professionals, investors, and homeowners.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { RADON_MITIGATION_SYSTEM_COST_CONTENT } from '@/content/tools/radon-mitigation-system-cost';

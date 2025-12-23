@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'New York Transfer Tax Calculator',
     description: 'Calculate New York State transfer tax, NYC transfer tax, mansion tax, and mortgage recording tax. Free online tool for real estate professionals, investors, ...',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { NEW_YORK_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/new-york-transfer-tax-calculator';

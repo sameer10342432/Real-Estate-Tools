@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Home, Calculator, DollarSign, TrendingDown } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Appliance Depreciation Calculator for Landlords | Property Tools',
     description: 'Calculate appliance depreciation for rental properties. Track useful life, plan replacements, optimize tax deductions. Free calculator for landlords.',

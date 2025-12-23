@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { houseHackingRoommateRentShareCalculator } from '@/content/tools/house-hacking-roommate-rent-share-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

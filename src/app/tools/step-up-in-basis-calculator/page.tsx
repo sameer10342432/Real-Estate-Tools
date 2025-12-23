@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { STEP_UP_IN_BASIS_CALCULATOR_CONTENT } from '@/content/tools/step-up-in-basis-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

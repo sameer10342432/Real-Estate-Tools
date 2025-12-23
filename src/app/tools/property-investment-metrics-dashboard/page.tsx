@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState, useEffect, useCallback } from 'react'
 import type { Metadata } from 'next';
@@ -62,7 +62,7 @@ interface PropertyMetrics {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Property Investment Metrics Dashboard Calculator',
     description: 'Comprehensive dashboard for investment property metrics. Free online tool for real estate professionals, investors, and homebuyers.',

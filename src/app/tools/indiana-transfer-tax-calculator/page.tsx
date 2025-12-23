@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Indiana Transfer Tax Calculator',
     description: 'Calculate Indiana real estate costs. No state transfer tax - only county recording fees. Learn actual Indiana closing costs Make informed property decisions with accurate calculations.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { INDIANA_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/indiana-transfer-tax-calculator';

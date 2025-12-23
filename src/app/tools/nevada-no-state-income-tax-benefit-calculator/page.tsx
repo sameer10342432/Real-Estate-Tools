@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { NEVADA_NO_STATE_INCOME_TAX_BENEFIT_CALCULATOR_CONTENT } from '@/content/tools/nevada-no-state-income-tax-benefit-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
@@ -21,7 +21,7 @@ const NevadaNoStateIncomeTaxBenefitCalculatorPage = () => {
 
 export default NevadaNoStateIncomeTaxBenefitCalculatorPage;
 
-export const metadata = {
+const _metadata = {
   title: 'Nevada No State Income Tax Benefit Calculator | Property Tools',
   description: 'Calculate tax savings from Nevada\'s no-income-tax status compared to high-tax states for real estate investors',
 };

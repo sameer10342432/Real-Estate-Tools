@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { GUARANTOR_MORTGAGE_CALCULATOR_CONTENT } from '@/content/tools/guarantor-mortgage-calculator';

@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Eviction Cost & Timeline Estimator',
     description: 'Estimate eviction costs, legal fees, and timeline for tenant removal by state. Free online tool for real estate professionals, investors, and homebuyers.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { EVICTION_COST_CALCULATOR_CONTENT } from '@/content/tools/eviction-cost-calculator';

@@ -8,7 +8,7 @@ import { Label } from '@/components/ui/label';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { DollarSign, Home, TrendingUp, Users } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Tenant Buyout Calculator (Rent Stabilized) | Property Tools',
     description: 'Calculate tenant buyout offers for rent-stabilized apartments. Analyze costs vs benefits, negotiate fair buyout agreements. Free calculator for NYC landlords.',

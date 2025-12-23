@@ -12,7 +12,7 @@ import { Separator } from '@/components/ui/separator';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { MapPin, Target, Copy, CheckCircle, Info, Sparkles, BookOpen } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'AI Circle Prospecting Script Generator | Neighborhood Farming Tool',
     description: 'Generate professional scripts for calling neighbors around recent listings and sales. Build your geographic farm with effective circle prospecting and local market expertise.',

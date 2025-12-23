@@ -1,13 +1,13 @@
+'use client';
 import type { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Closing Costs (Deductible) Calculator | Property Tools',
     description: 'Calculate which closing costs are tax deductible vs capitalized. Understand points, fees, and prepaid interest with our free closing costs calculator.',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { CLOSING_COSTS_DEDUCTIBLE_CALCULATOR_CONTENT } from '@/content/tools/closing-costs-deductible-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

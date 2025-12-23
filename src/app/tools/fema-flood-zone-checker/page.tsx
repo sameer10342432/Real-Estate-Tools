@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'FEMA Flood Zone Checker (by Address)',
     description: 'Check FEMA flood zone designation for any property address to assess flood risk and insurance requirements. Free online tool for real estate professionals, i...',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

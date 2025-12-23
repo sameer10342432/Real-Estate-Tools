@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Badge } from '@/components/ui/badge'
 import { Calculator, DollarSign, TrendingUp, AlertCircle, FileText, UserCheck } from 'lucide-react';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Rent-to-Income Ratio Calculator - 3x Rent Rule Checker | Property Tools',
     description: 'Calculate rent-to-income ratios to determine if tenant income meets the 3x rent rule. Analyze affordability and tenant qualification with detailed breakdowns.',

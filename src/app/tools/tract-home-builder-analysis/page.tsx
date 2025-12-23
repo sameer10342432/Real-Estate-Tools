@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { TRACT_HOME_BUILDER_ANALYSIS_CONTENT } from '@/content/tools/tract-home-builder-analysis';

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react'
 import type { Metadata } from 'next';
@@ -73,7 +73,7 @@ const STATE_LAWS: StateLateFeeLaws = {
   'DC': { maxPercentage: 5, maxFlatFee: null, gracePeriod: 5, notes: 'Max 5% after 5-day grace period', limitations: '5-day grace period; max 5% of rent' },
 };
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Tenant Late Fee Calculator by State Law - Legal Late Fee Limits | Property Tools',
     description: 'Calculate legal late fees for rental properties based on state-specific regulations. Ensure compliance with late fee caps, grace periods, and landlord-tenant laws across all 50 states.',

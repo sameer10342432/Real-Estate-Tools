@@ -1,10 +1,10 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { CONNECTICUT_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/connecticut-transfer-tax-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Connecticut Conveyance Tax Calculator - Tiered Transfer Tax',
     description: 'Calculate Connecticut tiered conveyance tax and municipal transfer tax. Free online tool for real estate professionals...',

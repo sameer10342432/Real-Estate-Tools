@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import { FIRE_WITH_REAL_ESTATE_CALCULATOR_CONTENT } from '@/content/tools/fire-with-real-estate-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'FIRE with Real Estate Calculator - Achieve Financial Independence with Rental Properties',
     description: 'Calculate your path to Financial Independence Retire Early (FIRE) using real estate investments. Determine how many rental properties needed to replace your income and achieve FIRE.',

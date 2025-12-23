@@ -1,13 +1,13 @@
+'use client';
 import type { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'HOA Special Assessment Risk Calculator | Free HOA Tool',
     description: 'Calculate the risk of unexpected HOA special assessments. Evaluate reserve funds, building age, and maintenance to estimate potential surprise costs. Free tool for homeowners and buyers.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { HOA_SPECIAL_ASSESSMENT_RISK_CALCULATOR_CONTENT } from '@/content/tools/hoa-special-assessment-risk-calculator';

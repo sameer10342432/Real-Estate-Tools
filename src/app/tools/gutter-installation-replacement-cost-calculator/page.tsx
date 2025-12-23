@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Gutter Installation/Replacement Cost Calculator | Property Tools',
     description: 'Calculate the cost of installing or replacing gutters and downspouts for your home with various material options including aluminum, vinyl, and copper.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';

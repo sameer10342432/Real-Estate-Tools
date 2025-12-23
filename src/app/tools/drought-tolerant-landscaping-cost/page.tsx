@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Drought-Tolerant Landscaping Cost Calculator - Water Savings & ROI',
     description: 'Calculate costs and water savings from drought-resistant landscaping and xeriscaping. Estimate payback period and environmental benefits.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { DROUGHT_TOLERANT_LANDSCAPING_COST_CONTENT } from '@/content/tools/drought-tolerant-landscaping-cost';

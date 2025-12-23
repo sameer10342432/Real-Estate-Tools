@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { WASHINGTON_STATE_REET_CALCULATOR_CONTENT } from '@/content/tools/washington-state-reet-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState, useCallback, useEffect } from 'react'
 import type { Metadata } from 'next';
@@ -40,7 +40,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Rental Income Tax Calculator',
     description: 'Calculate taxes on rental income and deductions. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

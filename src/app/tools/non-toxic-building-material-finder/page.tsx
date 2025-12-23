@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Non-Toxic Building Material Finder - Healthy Home Material Costs',
     description: 'Find and compare costs of healthy, non-toxic building materials vs conventional options. Calculate health benefits and payback periods.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { NON_TOXIC_BUILDING_MATERIAL_FINDER_CONTENT } from '@/content/tools/non-toxic-building-material-finder';

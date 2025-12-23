@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import { REIT_VS_DIRECT_OWNERSHIP_CALCULATOR_CONTENT } from '@/content/tools/reit-vs-direct-ownership-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'REIT vs Direct Property Ownership Calculator - Which Real Estate Investment is Better?',
     description: 'Compare REIT (Real Estate Investment Trust) investments versus directly owning rental property. Analyze returns, liquidity, taxes, time commitment, and passive income potential.',

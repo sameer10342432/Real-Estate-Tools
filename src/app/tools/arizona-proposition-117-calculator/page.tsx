@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { arizonaProposition117Calculator } from '@/content/tools/arizona-proposition-117-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { wisconsinUseValueAssessment } from '@/content/tools/wisconsin-use-value-assessment-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';

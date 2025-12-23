@@ -114,7 +114,7 @@ const CONTENT = {
 };
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'DTI Calculator for FHA Loans',
     description: 'Calculate DTI ratio specifically for FHA loan qualification. Free online tool for real estate professionals, investors, and homebuyers.',

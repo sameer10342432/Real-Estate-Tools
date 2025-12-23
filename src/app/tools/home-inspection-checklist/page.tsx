@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React, { useState } from 'react'
 import type { Metadata } from 'next';
@@ -97,7 +97,7 @@ const defaultChecklist: Omit<ChecklistItem, 'id' | 'status' | 'notes'>[] = [
 ]
 
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Home Inspection Checklist Calculator',
     description: 'Comprehensive home inspection checklist and guide. Free online tool for real estate professionals, investors, and homebuyers. Make informed property decisions with accurate calculations.',

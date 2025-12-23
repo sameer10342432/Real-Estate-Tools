@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { GIFT_OF_EQUITY_CALCULATOR_CONTENT } from '@/content/tools/gift-of-equity-calculator';
 import { EnhancedCalculator } from '@/components/calculators/EnhancedCalculator';

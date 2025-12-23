@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Reclaimed Materials Value Estimator - Salvage Material Pricing',
     description: 'Estimate the market value of reclaimed building materials including lumber, flooring, bricks, and architectural elements for renovation or resale.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { RECLAIMED_MATERIALS_VALUE_ESTIMATOR_CONTENT } from '@/content/tools/reclaimed-materials-value-estimator';

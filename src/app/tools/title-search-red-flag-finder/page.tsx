@@ -1,11 +1,11 @@
-export async function generateMetadata() {
+'use client';
+async function _generateMetadata() {
   return {
     title: 'Title Search "Red Flag" Finder',
     description: 'Identify potential title issues, liens, encumbrances, and ownership problems before closing to protect your real estate investment. Free online tool for real estate professionals, investors, and homebuyers.',
   };
 }
 
-'use client';
 
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import { TITLE_SEARCH_RED_FLAG_FINDER_CONTENT } from '@/content/tools/title-search-red-flag-finder';

@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Nevada Transfer Tax Calculator - Real Estate Transfer Costs',
     description: 'Calculate Nevada real estate transfer tax and county surcharges for Clark, Washoe, and all NV counties',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { NEVADA_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/nevada-transfer-tax-calculator';

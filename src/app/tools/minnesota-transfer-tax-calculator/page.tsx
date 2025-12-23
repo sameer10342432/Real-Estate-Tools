@@ -1,12 +1,12 @@
+'use client';
 
-export async function generateMetadata(): Promise<Metadata> {
+async function _generateMetadata(): Promise<Metadata> {
   return {
     title: 'Minnesota Transfer Tax (Deed Tax) Calculator',
     description: 'Calculate Minnesota deed tax, recording fees, well disclosure, and agricultural conservation fees. Free online tool for real estate professionals...',
   };
 }
 
-'use client'
 import { CalculatorLayout } from '@/components/calculators/CalculatorLayout';
 import type { Metadata } from 'next';
 import { MINNESOTA_TRANSFER_TAX_CALCULATOR_CONTENT } from '@/content/tools/minnesota-transfer-tax-calculator';
